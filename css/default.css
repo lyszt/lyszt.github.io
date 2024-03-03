@@ -51,7 +51,8 @@
 }
 #landing-prettytitle {
   margin-top: -0.5vw;
-  background: -webkit-linear-gradient(cyan, cadetblue);
+  -webkit-text-stroke: 1px #222222;
+  background: -webkit-linear-gradient(#888888, white);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: bold;
