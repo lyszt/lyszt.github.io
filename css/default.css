@@ -1,0 +1,19 @@
+/* Header & Nav */
+
+
+.navigator-design{
+  width: 100%;
+  height: 4vw;
+  background-color: white;
+  border-bottom: #cccccc 1px solid;
+}
+.navigator-design li {
+  margin-top: 1vw;
+  margin-left: 2vw;
+  margin-right: 10vw;
+  font-size: 1.3vw;
+}
+.contact {
+  color: #7e9eff;
+
+}
