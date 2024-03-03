@@ -1,9 +1,16 @@
-/* Header & Nav */
+/* Special Elements */
+.horizontal-line {
+  width: 30vw;
+  height: 0.5vw;
+  border-bottom: #cccccc 1px solid;
+  margin-bottom: 1vw;
+}
 
+/* Header & Nav */
 
 .navigator-design{
   width: 100%;
-  height: 4vw;
+  height: 4.5vw;
   background-color: white;
   border-bottom: #cccccc 1px solid;
 }
@@ -14,6 +21,57 @@
   font-size: 1.3vw;
 }
 .contact {
-  color: #7e9eff;
+}
 
+.logo {
+  margin-top: 0.4vw !important;
+  font-size: 2vw !important;
+}
+.logo img {
+  margin-right: 1vw;
+  width: 2.2vw;
+  height: 2.2vw;
+}
+
+/* Landing Page */
+
+#landing-div {
+  margin: 1vw;
+  margin-top: 3vw;
+}
+#landing-text {
+  width: 40%;
+  margin-left: 5vw;
+  float: left;
+}
+#landing-text p {
+  margin-top: 2vw;
+  font-size: 1.5vw;
+  margin-bottom: 2vw;
+}
+#landing-prettytitle {
+  margin-top: -0.5vw;
+  background: -webkit-linear-gradient(cyan, cadetblue);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  font-size: 2.5vw;
+}
+.btn {
+  margin-right: 0.5vw;
+  padding: 0.5vw;
+  font-size: 1vw;
+  background-color: black !important;
+  font-size: 1.5vw;
+}
+.btn *{
+  margin: auto;
+}
+.btn img {
+  width: 1.5vw;
+  margin-right: 0.6vw;
+  margin-bottom: 0.2vw;
+}
+#landing-distractor {
+  float: left;
 }
