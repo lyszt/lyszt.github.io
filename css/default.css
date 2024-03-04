@@ -35,6 +35,9 @@
 
 /* Landing Page */
 
+body {
+  background-color: #131313;
+}
 #landing-div {
   margin: 1vw;
   margin-top: 3vw;
@@ -48,15 +51,16 @@
   margin-top: 2vw;
   font-size: 1.5vw;
   margin-bottom: 2vw;
+  color: #cccccc;
 }
-#landing-prettytitle {
-  margin-top: -0.5vw;
-  -webkit-text-stroke: 1px #222222;
-  background: -webkit-linear-gradient(#888888, white);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+#landing-text h1 {
+  color: blueviolet;
   font-weight: bold;
-  font-size: 2.5vw;
+  font-size: 2.3vw;
+}
+#landing-text h3 {
+  color: #cccccc;
+  font-size: 2vw;
 }
 .btn {
   margin-right: 0.5vw;
