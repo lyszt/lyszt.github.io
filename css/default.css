@@ -1,9 +1,25 @@
+/* Basic */
+body {
+  background-color: #131313;
+  font-family: 'Inter', serif;
+  font-weight: 200;
+}
+a {
+  color: white;
+}
+a:hover {
+  color: goldenrod;
+  text-decoration: none;
+
+}
+
 /* Special Elements */
 .horizontal-line {
   width: 30vw;
   height: 0.5vw;
   border-bottom: #cccccc 1px solid;
   margin-bottom: 1vw;
+
 }
 
 /* Header & Nav */
@@ -11,17 +27,22 @@
 .navigator-design{
   width: 100%;
   height: 4.5vw;
-  background-color: white;
-  border-bottom: #cccccc 1px solid;
+  background-color: #131313;
 }
 .navigator-design li {
   margin-top: 1vw;
   margin-left: 2vw;
   margin-right: 10vw;
   font-size: 1.3vw;
+  color: white;
+  padding: 0.3vw;
+}
+.navigator-design li:active{
+  border-bottom: 0.2vw solid #cccccc;
 }
 .contact {
 }
+
 
 .logo {
   margin-top: 0.4vw !important;
@@ -35,9 +56,7 @@
 
 /* Landing Page */
 
-body {
-  background-color: #131313;
-}
+
 #landing-div {
   margin: 1vw;
   margin-top: 3vw;
@@ -54,13 +73,14 @@ body {
   color: #cccccc;
 }
 #landing-text h1 {
-  color: blueviolet;
-  font-weight: bold;
+  color: goldenrod;
+  font-weight: bolder;
   font-size: 2.3vw;
 }
 #landing-text h3 {
   color: #cccccc;
   font-size: 2vw;
+  font-weight: lighter;
 }
 .btn {
   margin-right: 0.5vw;
