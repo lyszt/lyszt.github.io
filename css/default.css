@@ -16,9 +16,9 @@ a:hover {
 /* Special Elements */
 .horizontal-line {
   margin-top: 2vw;
-  width: 100%;
+  width: 30%;
   height: 0.5vw;
-  border-bottom: crimson 0.2vw solid;
+  border-bottom: black 0.2vw solid;
   margin-bottom: 1vw;
 
 }
