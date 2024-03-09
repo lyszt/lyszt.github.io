@@ -33,10 +33,13 @@ a:hover {
 .navigator-design li {
   margin-top: 1vw;
   margin-left: 2vw;
-  margin-right: 10vw;
+  margin-right: 8vw;
   font-size: 1.3vw;
   color: white;
   padding: 0.3vw;
+}
+.navigator-design li:hover {
+  border-bottom: 0.2vw solid goldenrod;
 }
 .navigator-design li:active{
   border-bottom: 0.2vw solid #cccccc;
@@ -47,6 +50,7 @@ a:hover {
 
 .logo {
   margin-top: 0.4vw !important;
+  margin-right: 44% !important;
   font-size: 2vw !important;
 }
 .logo img {
@@ -60,7 +64,8 @@ a:hover {
 
 #landing-div {
   margin: 1vw;
-  margin-top: 3vw;
+  padding-top: 4vw;
+  margin-top: 4vw;
 }
 #landing-text {
   width: 32%;
@@ -76,13 +81,13 @@ a:hover {
 }
 #landing-text h1 {
   color: goldenrod;
-  font-weight: 500;
-  font-size: 2.3vw;
+  font-weight: 800;
+  font-size: 1.4vw;
 }
 #landing-text h3 {
   color: #cccccc;
   font-size: 2vw;
-  font-weight: lighter;
+  font-weight: 600;
 }
 .btn {
   margin-right: 0.5vw;
