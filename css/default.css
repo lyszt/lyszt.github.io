@@ -17,6 +17,7 @@ a:hover {
   from{margin-left: -10%; opacity: 0}
   to {margin-left: 0; opacity: 1}
 }
+
 /* Special Elements */
 .horizontal-line {
   margin-top: 2vw;
@@ -27,13 +28,15 @@ a:hover {
 
 }
 .background-rectangle {
-  margin-left: -10vw;
+  margin-top: -17%;
   position: absolute;
   z-index: -1;
-  width: 200%;
-  height: 80vh;
+  width: 90%;
+  left: 46vw;
+  height: 90vh;
   background-color: #000000;
-  rotate: -30deg;
+  rotate: -60deg;
+  overflow: hidden;
 }
 /* Header & Nav */
 
@@ -77,6 +80,7 @@ a:hover {
   height: 80vh;
   display: block;
   margin-bottom: 1vw;
+  overflow: hidden;
 }
 #landing-div {
   margin: 1vw;
@@ -138,5 +142,5 @@ a:hover {
 
 .services-offered {
   background-color: black;
-  height: 40vh;
+  height: 50vh;
 }
