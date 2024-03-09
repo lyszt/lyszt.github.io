@@ -15,9 +15,10 @@ a:hover {
 
 /* Special Elements */
 .horizontal-line {
-  width: 30vw;
+  margin-top: 2vw;
+  width: 80%;
   height: 0.5vw;
-  border-bottom: #cccccc 1px solid;
+  border-bottom: goldenrod 0.2vw solid;
   margin-bottom: 1vw;
 
 }
@@ -62,19 +63,20 @@ a:hover {
   margin-top: 3vw;
 }
 #landing-text {
-  width: 40%;
+  width: 32%;
   margin-left: 5vw;
   float: left;
 }
 #landing-text p {
   margin-top: 2vw;
   font-size: 1.5vw;
+  line-height: 2.8vw;
   margin-bottom: 2vw;
   color: #cccccc;
 }
 #landing-text h1 {
   color: goldenrod;
-  font-weight: bolder;
+  font-weight: 500;
   font-size: 2.3vw;
 }
 #landing-text h3 {
@@ -88,9 +90,10 @@ a:hover {
   font-size: 1vw;
   background-color: black !important;
   font-size: 1.5vw;
+  border: none;
 }
 .btn:hover {
-  background-color: #555555 !important;
+  background-color: darkgoldenrod !important;
 }
 .btn *{
   margin: auto;
