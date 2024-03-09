@@ -18,7 +18,7 @@ a:hover {
   margin-top: 2vw;
   width: 30%;
   height: 0.5vw;
-  border-bottom: black 0.2vw solid;
+  border-bottom: crimson 0.2vw solid;
   margin-bottom: 1vw;
 
 }
@@ -28,7 +28,7 @@ a:hover {
   z-index: -1;
   width: 200%;
   height: 80vh;
-  background-color: crimson;
+  background-color: #000000;
   rotate: -30deg;
 }
 /* Header & Nav */
