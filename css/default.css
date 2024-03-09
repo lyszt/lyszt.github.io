@@ -1,6 +1,6 @@
 /* Basic */
 body {
-  background-color: #131313;
+  background: #131313;
   font-family: 'Inter', serif;
   font-weight: 200;
 }
@@ -8,7 +8,7 @@ a {
   color: white;
 }
 a:hover {
-  color: goldenrod;
+  color: crimson;
   text-decoration: none;
 
 }
@@ -18,7 +18,7 @@ a:hover {
   margin-top: 2vw;
   width: 100%;
   height: 0.5vw;
-  border-bottom: goldenrod 0.2vw solid;
+  border-bottom: crimson 0.2vw solid;
   margin-bottom: 1vw;
 
 }
@@ -39,7 +39,7 @@ a:hover {
   padding: 0.3vw;
 }
 .navigator-design li:hover {
-  border-bottom: 0.2vw solid goldenrod;
+  border-bottom: 0.2vw solid crimson;
 }
 .navigator-design li:active{
   border-bottom: 0.2vw solid #cccccc;
@@ -61,15 +61,19 @@ a:hover {
 
 /* Landing Page */
 
-
+.landing-page {
+  height: 80vh;
+  display: block;
+  margin-bottom: 1vw;
+}
 #landing-div {
   margin: 1vw;
   padding-top: 4vw;
   margin-top: 4vw;
 }
 #landing-text {
-  width: 32%;
-  margin-left: 5vw;
+  width: 35%;
+  margin-left: 2vw;
   float: left;
 }
 #landing-text p {
@@ -80,25 +84,30 @@ a:hover {
   color: #cccccc;
 }
 #landing-text h1 {
-  color: goldenrod;
+  color: crimson;
   font-weight: 800;
   font-size: 1.4vw;
 }
 #landing-text h3 {
   color: #cccccc;
-  font-size: 2vw;
+  font-size: 2.6vw;
   font-weight: 600;
 }
+.btn img {
+  margin: auto;
+  height: 10%;
+  margin-left: 0.5vw;
+}
 .btn {
-  margin-right: 0.5vw;
-  padding: 0.5vw;
+  margin: auto;
+  padding: 0.8vw;
   font-size: 1vw;
   background-color: black !important;
-  font-size: 1.5vw;
   border: none;
+  border-radius: 0;
 }
 .btn:hover {
-  background-color: darkgoldenrod !important;
+  background-color: crimson !important;
 }
 .btn *{
   margin: auto;
@@ -110,4 +119,11 @@ a:hover {
 }
 #landing-distractor {
   float: left;
+}
+
+/* Services Section */
+
+.services-offered {
+  background-color: black;
+  height: 40vh;
 }
