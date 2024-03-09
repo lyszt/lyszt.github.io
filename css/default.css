@@ -22,7 +22,15 @@ a:hover {
   margin-bottom: 1vw;
 
 }
-
+.background-rectangle {
+  margin-left: -10vw;
+  position: absolute;
+  z-index: -1;
+  width: 200%;
+  height: 80vh;
+  background-color: crimson;
+  rotate: -30deg;
+}
 /* Header & Nav */
 
 .navigator-design{
