@@ -12,7 +12,11 @@ a:hover {
   text-decoration: none;
 
 }
-
+/* Keyframes */
+@keyframes opacity-increase {
+  from{margin-left: -10%; opacity: 0}
+  to {margin-left: 0; opacity: 1}
+}
 /* Special Elements */
 .horizontal-line {
   margin-top: 2vw;
@@ -127,6 +131,7 @@ a:hover {
 }
 #landing-distractor {
   float: left;
+  animation: opacity-increase ease-out 3s;
 }
 
 /* Services Section */
