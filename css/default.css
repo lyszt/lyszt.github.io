@@ -1,8 +1,36 @@
-/* Basic */
+/* Video stuff */
+.video-wrapper{
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  min-width: 100%;
+  max-width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.landing-video {
+  min-width: 110%;
+  min-height: 110%;
+  object-fit: cover;
+}
+.overlapper-landingvideo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  min-width: 100%;
+  min-height: 100%;
+  background-color: rgb(0,0,0, 0.5)
+
+}
+
+  /* Basic */
 body {
   background: #131313;
   font-family: 'Inter', serif;
   font-weight: 200;
+  max-width: 100%;
+  margin: auto;
 }
 a {
   color: white;
@@ -33,7 +61,6 @@ a:hover {
   z-index: -1;
   width: 90%;
   left: 46vw;
-  height: 90vh;
   background-color: #000000;
   rotate: -60deg;
   overflow: hidden;
@@ -141,6 +168,27 @@ a:hover {
 /* Services Section */
 
 .services-offered {
-  background-color: black;
-  height: 50vh;
+  max-width: 100%;
+  overflow: hidden;
+  position: relative;
+  display: block;
+}
+.services-offered h1 {
+  padding: 2vw;
+  text-align: center;
+  display: block;
+  color: white;
+  font-weight: bold;
+  font-size: 2.5vw;
+}
+.highlights-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.highlights-area > .highlights-items {
+  margin-left: 1vw;
+  height: 25vw;
+  width: 20vw;
+  background-color: rgba(1,1,1,0.5)
 }
