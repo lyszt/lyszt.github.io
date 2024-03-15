@@ -26,6 +26,7 @@
 
   /* Basic */
 body {
+  overflow-x: hidden;
   background: #131313;
   font-family: 'Inter', serif;
   font-weight: 200;
@@ -161,8 +162,11 @@ a:hover {
   margin-bottom: 0.2vw;
 }
 #landing-distractor {
-  float: left;
-  animation: opacity-increase ease-out 3s;
+  position: absolute;
+  top: 5vw;
+  right: 13vw;
+  z-index: -1;
+  margin: auto;
 }
 
 /* Services Section */
