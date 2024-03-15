@@ -110,10 +110,13 @@ nav {
 }
 .navigator-design {
   position: fixed;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
   top: 5vw;
   left: -100vw;
   background-color: black;
-  width: 10vw;
+  width: 15vw;
   height: 100%;
   z-index: 0;
   transition: 0.5s;
@@ -127,6 +130,9 @@ nav {
   font-size: 1.3vw;
   color: white;
   display: inline-block;
+}
+.navigator-design img {
+  width: 10%;
 }
 
 .navigator-design li:hover {
