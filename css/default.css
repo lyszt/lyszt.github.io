@@ -104,7 +104,7 @@ a:hover {
 /* Landing Page */
 
 .landing-page {
-  height: 80vh;
+  height: 85vh;
   display: block;
   margin-bottom: 1vw;
   overflow: hidden;
@@ -190,5 +190,23 @@ a:hover {
   margin-left: 1vw;
   height: 25vw;
   width: 20vw;
-  background-color: rgba(1,1,1,0.5)
+  background-color: rgba(1,1,1,0.8);
+  margin-bottom: 5vw;
+}
+.highlights-items > img {
+  height: 8vw;
+  width: 8vw;
+  margin: 1vw;
+}
+.highlights-items > h1 {
+  text-align: left;
+  color: white;
+  font-size: 2vw;
+  margin-left: -1vw;
+}
+.highlights-items > p {
+  color: white;
+  margin: 1vw;
+  margin-top: -1vw;
+  font-size: 1vw;
 }
