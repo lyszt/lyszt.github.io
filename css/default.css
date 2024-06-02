@@ -298,6 +298,14 @@ nav {
   margin-top: -1vw;
   font-size: 1vw;
 }
+
+/* Aesthetical Distraction Video */
+.aesthetical-distraction {
+  background-color: crimson;
+  width: 100%;
+  height: 1vh;
+  overflow: hidden;
+}
 /* Skills */
 
 .skills {
@@ -339,13 +347,39 @@ nav {
 }
 .skill-item:hover {
   background-color: white;
-  transition: 1s;
+  transition: .5s;
 }
 .skill-item:hover * {
   border-color: black;
   color: black;
   font-weight: bold;
-  transition: 1s;
+  transition: .5s;
+}
+
+.skills > .skill-advert {
+  background-color: white;
+  margin: 1vw;
+  width: 20vw;
+  height: 13vw;
+  overflow: hidden;
+}
+.skill-advert > h2 {
+  margin: 1vw;
+  text-align: left;
+  color: black;
+  font-size: 1.3vw;
+  font-weight: bold;
+  border-bottom: 2px crimson solid;
+  padding-bottom: 1vw;
+}
+.skill-advert > p {
+  font-weight: bold;
+  color: black;
+  font-size: 0.9vw;
+  margin: 1vw;
+}
+.skill-advert a {
+  color: crimson;
 }
 
 /* Footer */
