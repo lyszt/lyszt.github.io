@@ -279,6 +279,7 @@ nav {
   width: 20vw;
   background-color: rgba(1,1,1,0.8);
   margin-bottom: 5vw;
+  border-radius: 5px;
 }
 .highlights-items > img {
   height: 8vw;
@@ -296,6 +297,55 @@ nav {
   margin: 1vw;
   margin-top: -1vw;
   font-size: 1vw;
+}
+/* Skills */
+
+.skills {
+  background-color: #0e0e0e;
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  height: 85vh;
+}
+.skills > h1 {
+  color: white;
+  text-align: center;
+  display: block;
+  width: 100%;
+  margin: 1vw;
+}
+.skills > .skill-item {
+  background-color: #222222;
+  margin: 1vw;
+  width: 20vw;
+  height: 13vw;
+  overflow: hidden;
+}
+.skill-item > h2 {
+  margin: 1vw;
+  text-align: left;
+  color: white;
+  font-size: 1.3vw;
+  font-weight: bolder;
+  border-bottom: 2px crimson solid;
+  padding-bottom: 1vw;
+}
+.skill-item > p {
+  color: white;
+  font-size: 0.9vw;
+  margin: 1vw;
+}
+.skill-item:hover {
+  background-color: white;
+  transition: 1s;
+}
+.skill-item:hover * {
+  border-color: black;
+  color: black;
+  font-weight: bold;
+  transition: 1s;
 }
 
 /* Footer */
