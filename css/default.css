@@ -42,6 +42,12 @@ a:hover {
   transition: 0.5s;
 
 }
+hr {
+  border-color: #222222;
+  width: 70%;
+  margin: auto;
+  padding: 2vw;
+}
 /* Keyframes */
 @keyframes opacity-increase {
   from{margin-left: -10%; opacity: 0}
@@ -290,4 +296,36 @@ nav {
   margin: 1vw;
   margin-top: -1vw;
   font-size: 1vw;
+}
+
+/* Footer */
+
+footer {
+  height: 10vw;
+}
+#sitemap {
+  display: table-cell;
+  margin-top: 1%;
+  width: 40%;
+  margin-left: 10%;
+  height: 100%;
+}
+#sitemap > #sitemap-links{
+  display: table-cell;
+}
+#sitemap-links > li {
+  font-weight: bolder;
+  margin-top: 1vw;
+  list-style: none;
+  font-size: 1vw;
+}
+#inspiring-quote-footer {
+  display: table-cell;
+  width: 60%;
+  height: 100%;
+}
+#inspiring-quote-footer > p {
+  text-align: right;
+  color: white;
+  margin: 10%;
 }
