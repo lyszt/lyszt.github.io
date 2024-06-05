@@ -1,0 +1,76 @@
+@media screen and (max-width: 480px){
+
+  .horizontal-line {
+    width: 90%;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+  }
+
+  /*  NAV */
+  .undernav {
+    width: 100%;
+    height: 12vw;
+  }
+  .hamburger {
+    margin-top: 2vw;
+    width: 83.91%;
+  }
+  .hamburger > .bar {
+    width: 1.4vw;
+    height: 1.4vw;
+    margin: 0.63vw;
+  }
+  .navigator-design {
+    width: 100%;
+    margin-top: 10vw;
+
+  }
+  .navigator-design img {
+    display: none;
+  }
+  .navigator-design li {
+    font-size: 6vw;
+    margin-left: 0;
+  }
+  /*  LANDING PAGE */
+  .landing-page {
+    height: 70vh;
+  }
+  #landing-distractor {
+    display: none;
+  }
+  #landing-text {
+    margin-top: 15vw;
+  }
+  #landing-text h1{
+    font-size: 5vw;
+  }
+  #landing-text h3 {
+    font-size: 6vw;
+  }
+  #landing-text {
+    width: 100%;
+  }
+  #landing-text p {
+    font-size: 5vw;
+    line-height: 7vw;
+  }
+}
+
+/*  BUTTONS */
+
+#landing-text .btn img {
+  width: 6vw;
+  height: 6vw;
+  margin-top: 1vw;
+;
+}
+#landing-text .btn {
+  width: 90%;
+  height: 10vw;
+  margin-top: 2vw;
+}
+/*  SERVICES OFFERED */
+
+.highlights-items {
+}
