@@ -124,7 +124,7 @@
 
   /*  SKILLS */
   .skills {
-    background-color: #ededed;
+    background-color: white;
     flex-direction: column;
     height: fit-content;
   }
