@@ -221,7 +221,9 @@ nav {
 
 #landing-text .btn {
   margin: auto;
-  padding: 1vw;
+  padding: 0.8vw;
+  padding-left: 1vw;
+  padding-right: 1vw;
   font-size: 1vw;
   background-color: black !important;
   border: none;
@@ -235,8 +237,8 @@ nav {
 }
 #landing-text .btn img {
   width: 1vw;
-  margin-right: 0.6vw;
-  margin-bottom: 0.2vw;
+  height: 1vw;
+
 }
 #landing-distractor {
   top: 5vw;
