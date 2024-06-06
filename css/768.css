@@ -1,3 +1,175 @@
 @media screen and (min-width: 481px) and (max-width: 768px){
+    body {
+      width: 90%;
+      background-color: white;
+    }
+    .horizontal-line {
+      display: none;
+    }
 
+    /*  NAV */
+    .undernav {
+      width: 100%;
+      height: 12vw;
+      background-color: #eaeaea;
+    }
+    .hamburger {
+      margin-top: 2vw;
+      width: 83.91%;
+    }
+    .hamburger > .bar {
+      background-color: black;
+      width: 1.4vw;
+      height: 1.4vw;
+      margin: 0.63vw;
+    }
+    .navigator-design {
+      background-color: white;
+      width: 100%;
+      margin-top: 0;
+      z-index: -2;
+
+    }
+    .navigator-design img {
+      display: none;
+    }
+    .navigator-design li a {
+      color: black !important;
+      font-size: 6vw;
+      margin-left: 0;
+    }
+
+    /*  LANDING PAGE */
+    .landing-page {
+      height: fit-content;
+    }
+    #landing-distractor {
+      display: none;
+    }
+    #landing-text {
+      margin-top: 15vw;
+    }
+    #landing-text h1{
+      font-size: 5vw;
+    }
+    #landing-text h3 {
+      color: #303030;
+      font-size: 6vw;
+    }
+    #landing-text {
+      width: 100%;
+    }
+    #landing-text p {
+      color: black;
+      font-size: 5vw;
+      line-height: 7vw;
+    }
+
+  /*  BUTTONS */
+
+  #landing-text .btn img {
+    width: 6vw;
+    height: 6vw;
+    margin: auto;
+    margin-top: 2vw;
+  ;
+  }
+  #landing-text .btn {
+    background-color: #9f9f9f !important;
+    border-radius: 10vw;
+    width: 90%;
+    height: 12vw;
+    margin-top: 2vw;
+  }
+  /*  SERVICES OFFERED */
+
+  .services-offered h1 {
+    font-size: 5vw;
+  }
+  .highlights-area {
+    flex-flow: column;
+  }
+  .highlights-area > .highlights-items {
+    background-color: #eaeaea;
+    margin-top: 2vw;
+    width: 85vw;
+    height: 65vw;
+    padding: 2vw;
+
+  }
+
+  .highlights-items > h1 {
+    color: black;
+    font-size: 5vw;
+  }
+  .highlights-items > p {
+    color: black;
+    font-size: 5vw;
+  }
+  /*  SKILLS */
+  .skills {
+    background-color: #ededed;
+    flex-direction: column;
+    height: fit-content;
+  }
+  .skills h1 {
+    color: black;
+  }
+  .skills > .skill-item {
+    background-color: white;
+    margin: auto;
+    width: 90vw;
+    height: 55vw;
+    margin-bottom: 6vw;
+  }
+  .skill-item > h2 {
+    color: black !important;
+    font-size: 5vw;
+  }
+  .skill-item:hover * {
+    font-weight: normal;
+  }
+  .skill-item > p {
+    color: black !important;
+    font-size: 5vw;
+  }
+  .skills > .skill-advert {
+    margin: auto;
+    width: 90vw;
+    height: 55vw;
+    margin-bottom: 6vw;
+  }
+  .skill-advert > h2 {
+    font-size: 5vw;
+  }
+  .skill-advert > p {
+    font-size: 5vw;
+  }
+  /*  FOOTER */
+  footer * {
+    background-color: white !important;
+    display: block;
+    color: black;
+    font-size: 3vw !important;
+  }
+  #sitemap {
+    overflow: hidden;
+    width: 100%;
+    height: fit-content;
+    display: block;
+    text-align: center;
+    margin: auto;
+  }
+  #sitemap > #sitemap-links {
+    margin: auto;
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  footer hr {
+    display: none;
+  }
+  #text-footer {
+    display: none;
+  }
 }
