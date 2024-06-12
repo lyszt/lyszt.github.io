@@ -121,6 +121,10 @@
     width: 90vw;
     height: 55vw;
     margin-bottom: 6vw;
+    border: none;
+  }
+  .skill-item img {
+    display: none;
   }
   .skill-item > h2 {
     color: black !important;
@@ -128,6 +132,7 @@
   }
   .skill-item:hover * {
     font-weight: normal;
+    transition: 0.5s;
   }
   .skill-item > p {
     color: black !important;

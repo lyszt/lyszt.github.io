@@ -315,7 +315,7 @@ nav {
   flex-wrap: wrap;
   justify-content: center;
   width: 100%;
-  height: 85vh;
+  height: fit-content;
 }
 .skills > h1 {
   color: #101010;
@@ -325,15 +325,24 @@ nav {
   margin: 1vw;
 }
 .skills > .skill-item {
+  transition: all 1s ease;
   border-radius: 10px;
   background-image: linear-gradient(60deg, white, #fbfbfb);
   margin: 1vw;
-  width: 20vw;
-  height: 13vw;
+  width: 15vw;
+  height: 20vw;
   overflow: hidden;
   border: 1px #f1f1f1 solid;
+
+}
+.skill-item img {
+  filter: saturate(0%);
+  width: 20%;
+  height: 20%;
+  margin-left: 0.7vw;
 }
 .skill-item > h2 {
+  padding: 0;
   margin: 1vw;
   text-align: left;
   color: black;
@@ -351,12 +360,17 @@ nav {
 .skill-item:hover * {
   border-color: crimson;
   color: black;
-  transition: 1.5s;
+  transition: all 1s ease-out;
 }
 .skill-item:hover h2 {
   color: crimson;
 }
+.skill-item:hover img {
+  width: 19%;
+  height: 19%;
+  filter: none;
 
+}
 .skills > .skill-advert {
   background-color: white;
   margin: 1vw;

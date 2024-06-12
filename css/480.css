@@ -134,12 +134,17 @@
 
   .skills > .skill-item {
     background-color: white;
+    background-image: none;
     margin: auto;
     width: 90vw;
-    height: 55vw;
+    height: fit-content;
     margin-bottom: 6vw;
+    border: none;
+    margin-top: 1vw;
   }
-
+  .skill-item img {
+    display: none;
+  }
   .skill-item > h2 {
     color: black !important;
     font-size: 5vw;
@@ -147,6 +152,7 @@
 
   .skill-item:hover * {
     font-weight: normal;
+    transition: none;
   }
 
   .skill-item > p {
