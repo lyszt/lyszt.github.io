@@ -257,14 +257,15 @@ nav {
   overflow: hidden;
   position: relative;
   display: block;
+  background-color: #f6f6f6;
 }
 .services-offered h1 {
   padding: 2vw;
   text-align: center;
   display: block;
-  color: white;
+  color: black;
   font-weight: bold;
-  font-size: 2.5vw;
+  font-size: 2.5rem;
 }
 .highlights-area {
   display: flex;
@@ -275,7 +276,7 @@ nav {
   margin-left: 1vw;
   height: 25vw;
   width: 20vw;
-  background-color: rgba(1,1,1,0.8);
+  background-color: white;
   margin-bottom: 5vw;
   border-radius: 5px;
 }
@@ -286,12 +287,12 @@ nav {
 }
 .highlights-items > h1 {
   text-align: left;
-  color: white;
+  color: #232323;
   font-size: 2vw;
   margin-left: -1vw;
 }
 .highlights-items > p {
-  color: white;
+  color: black;
   margin: 1vw;
   margin-top: -1vw;
   font-size: 1vw;
@@ -307,7 +308,8 @@ nav {
 /* Skills */
 
 .skills {
-  background-color: #0e0e0e;
+
+  background-color: white;
   display: inline-flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -316,42 +318,43 @@ nav {
   height: 85vh;
 }
 .skills > h1 {
-  color: white;
+  color: #101010;
   text-align: center;
   display: block;
   width: 100%;
   margin: 1vw;
 }
 .skills > .skill-item {
-  background-color: #222222;
+  border-radius: 10px;
+  background-image: linear-gradient(60deg, white, #fbfbfb);
   margin: 1vw;
   width: 20vw;
   height: 13vw;
   overflow: hidden;
+  border: 1px #f1f1f1 solid;
 }
 .skill-item > h2 {
   margin: 1vw;
   text-align: left;
-  color: white;
+  color: black;
   font-size: 1.3vw;
   font-weight: bolder;
-  border-bottom: 2px crimson solid;
+  border-bottom: 2px black solid;
   padding-bottom: 1vw;
 }
 .skill-item > p {
-  color: white;
+  color: black;
   font-size: 0.9vw;
   margin: 1vw;
 }
-.skill-item:hover {
-  background-color: white;
-  transition: .5s;
-}
+
 .skill-item:hover * {
-  border-color: black;
+  border-color: crimson;
   color: black;
-  font-weight: bold;
-  transition: .5s;
+  transition: 1.5s;
+}
+.skill-item:hover h2 {
+  color: crimson;
 }
 
 .skills > .skill-advert {
