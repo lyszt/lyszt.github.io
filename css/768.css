@@ -81,30 +81,20 @@
     height: 12vw;
     margin-top: 2vw;
   }
+
   /*  SERVICES OFFERED */
-
+  .services-offered {
+    background-color: white;
+  }
   .services-offered h1 {
+    margin-top: 15vw;
     font-size: 5vw;
   }
-  .highlights-area {
-    flex-flow: column;
-  }
-  .highlights-area > .highlights-items {
-    background-color: #eaeaea;
-    margin-top: 2vw;
-    width: 85vw;
-    height: 65vw;
-    padding: 2vw;
-
-  }
-
-  .highlights-items > h1 {
-    color: black;
+  .services-offered p{
+    margin: 1%;
+    margin-top: 5vw;
     font-size: 5vw;
-  }
-  .highlights-items > p {
-    color: black;
-    font-size: 5vw;
+    margin-bottom: 15vw;
   }
   /*  SKILLS */
   .skills {

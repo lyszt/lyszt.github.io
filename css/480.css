@@ -95,8 +95,18 @@
   }
 
   /*  SERVICES OFFERED */
+  .services-offered {
+    background-color: white;
+  }
   .services-offered h1 {
+    margin-top: 15vw;
     font-size: 5vw;
+  }
+  .services-offered p{
+    margin: 1%;
+    margin-top: 5vw;
+    font-size: 5vw;
+    margin-bottom: 15vw;
   }
 
   .highlights-area {
