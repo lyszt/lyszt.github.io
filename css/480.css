@@ -9,12 +9,9 @@
     margin-top: 10%
   
   }
-  .loading-simulation {
-    width: 100% !important;
-    margin-left: -5vw;
-  }
+
   body {
-    width: 90%;
+    width: 100%;
     background-color: white;
   }
 
@@ -25,12 +22,11 @@
   /*  NAV */
   .undernav {
     width: 100%;
-    height: 12vw;
+    height: 14vw;
     background-color: #eaeaea;
   }
 
   .hamburger {
-    margin-top: 2vw;
     width: 83.91%;
   }
 
@@ -38,7 +34,7 @@
     background-color: black;
     width: 1.4vw;
     height: 1.4vw;
-    margin: 0.63vw;
+    margin: 0.53vw;
   }
 
   .navigator-design {
@@ -62,6 +58,7 @@
   /*  LANDING PAGE */
   .landing-page {
     height: fit-content;
+    margin: 4vw;
   }
 
   #landing-distractor {
@@ -70,6 +67,7 @@
 
   #landing-text {
     margin-top: 15vw;
+    
   }
 
   #landing-text h1 {
@@ -89,6 +87,7 @@
     color: black;
     font-size: 5vw;
     line-height: 7vw;
+    
   }
 
   /*  BUTTONS */
@@ -106,7 +105,10 @@
     height: 12vw;
     margin-top: 2vw;
   }
-
+ /*  DEC */
+ .decorating-section {
+  height: fit-content;
+}
   /*  SERVICES OFFERED */
   .services-offered {
     background-color: white;
@@ -116,7 +118,7 @@
     font-size: 5vw;
   }
   .services-offered p{
-    margin: 1%;
+    margin: 5vw;
     margin-top: 5vw;
     font-size: 5vw;
     margin-bottom: 15vw;
@@ -152,6 +154,8 @@
     height: fit-content;
   }
   .skills h1 {
+    font-size: 7vw;
+    margin-bottom: 4vw;
     color: black;
   }
 
