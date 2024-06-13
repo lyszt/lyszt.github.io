@@ -25,6 +25,14 @@
 }
 
   /* Basic */
+::selection {
+  background-color: crimson;
+  color: white;
+}
+::-moz-selection{
+  background-color: crimson;
+  color: white;
+}
 body {
   overflow-x: hidden;
   background: #131313;
