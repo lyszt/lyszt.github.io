@@ -50,12 +50,12 @@ hr {
 }
 /* Keyframes */
 @keyframes loadingFade {
-  from{opacity: 1;}
-  to {opacity: 0;}
+  from{opacity: 1; visibility: visible;}
+  to {opacity: 0; visibility: hidden;} 
 }
 @keyframes opacity-increase {
   from{margin-left: -10%; opacity: 0}
-  to {margin-left: 0; opacity: 1}
+  to {margin-left: 0; opacity: 1;}
 }
 
 /* Special Elements */
@@ -68,7 +68,9 @@ hr {
   position: fixed;
   animation: 3s ease-in loadingFade;
   opacity: 0;
+  visibility: hidden;
 }
+
 .loading-simulation img {
   display: block;
   width: 20vw;
