@@ -9,7 +9,10 @@
     margin-top: 10%
   
   }
-
+  .loading-simulation {
+    width: 100% !important;
+    margin-left: -5vw;
+  }
   body {
     width: 90%;
     background-color: white;
