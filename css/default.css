@@ -270,6 +270,12 @@ nav {
 #landing-text .btn:hover {
   background-color: crimson !important;
 }
+#landing-text .btn:hover img {
+  filter: invert(100%);
+}
+.btn:hover * {
+  transition: 1s;
+}
 #landing-text .btn *{
   margin: auto;
 }
@@ -401,7 +407,7 @@ nav {
 
 }
 .skills > .skill-advert {
-  background-color: white;
+  background-color: #e4e4e4;
   margin: 1vw;
   width: 20vw;
   height: 13vw;
@@ -412,12 +418,10 @@ nav {
   text-align: left;
   color: black;
   font-size: 1.3vw;
-  font-weight: bold;
   border-bottom: 2px crimson solid;
   padding-bottom: 1vw;
 }
 .skill-advert > p {
-  font-weight: bold;
   color: black;
   font-size: 0.9vw;
   margin: 1vw;
