@@ -5,7 +5,7 @@
     width: 50vw;
     margin: auto;
     margin-top: 10%
-  
+
   }
 
     body {
@@ -149,6 +149,37 @@
   .skill-advert > p {
     font-size: 5vw;
   }
+
+  /* My Photography */
+  .my-photography {
+    flex-direction: column;
+    text-align: left;
+  }
+  .my-photography .photography-text {
+    width: 100%;
+    height: 90%;
+    background: none;
+    color: black;
+    font-size: 5vw;
+  }
+  .photography-text h1 {
+    font-size: 5vw;
+  }
+  #photographyCarousel {
+    width: 80%;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
   /*  FOOTER */
   footer * {
     background-color: white !important;

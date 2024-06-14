@@ -33,6 +33,10 @@
   background-color: crimson;
   color: white;
 }
+.btn:hover {
+  background-color: crimson;
+  color: white;
+}
 body {
   overflow-x: hidden;
   background: #131313;
@@ -439,6 +443,32 @@ nav {
 .skill-advert a {
   color: crimson;
 }
+
+/* My Photography */
+.my-photography {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  text-align: right;
+}
+.my-photography .photography-text {
+  width: 30%;
+  height: 20%;
+  background: none;
+  color: black;
+  font-size: 1.2vw;
+}
+.photography-text h1 {
+  font-size: 1.5vw;
+}
+#photographyCarousel {
+  margin: 3vw;
+  padding: 2vw;
+  width: 40%;
+  overflow: hidden;
+}
+
 
 /* Footer */
 
