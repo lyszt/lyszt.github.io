@@ -210,7 +210,6 @@
 
   }
   .my-photography .photography-text {
-
     width: 90%;
     height: 90%;
     background: none;
@@ -222,6 +221,7 @@
   }
   #photographyCarousel {
     width: 80%;
+    height: fit-content;
   }
 
 
