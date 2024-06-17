@@ -15,7 +15,9 @@
   }
 
   body {
-    width: 100%;
+    margin-right: 0;
+    width: 90%;
+    max-width: 100%;
     background-color: white;
   }
 
@@ -69,6 +71,7 @@
     display: none;
   }
 
+
   #landing-text {
     margin-top: 15vw;
 
@@ -111,8 +114,12 @@
   }
  /*  DEC */
  .decorating-section {
+   object-fit: contain;
   height: fit-content;
+   width: 100%;
 }
+
+
   /*  SERVICES OFFERED */
   .services-offered {
     background-color: white;
