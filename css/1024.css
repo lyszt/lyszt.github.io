@@ -1,3 +1,11 @@
 @media screen and (min-width: 769px) and (max-width: 1024px){
-
+  body * {
+    font-size: 1.3vw !important;
+  }
+  .pick-portfolio .port-option {
+    margin: 1vw;
+  }
+  .skills > .skill-item {
+    width: 18vw;
+  }
 }

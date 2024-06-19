@@ -62,7 +62,7 @@
 
   /*  LANDING PAGE */
   .landing-page {
-    height: fit-content;
+    height: 100vh;
     margin: 4vw;
   }
 
@@ -93,7 +93,7 @@
     color: black;
     font-size: 5vw;
     line-height: 7vw;
-
+    padding-bottom: 30vw;
   }
 
   /*  BUTTONS */
@@ -125,13 +125,16 @@
   }
   .services-offered h1 {
     margin-top: 15vw;
+    margin-left: 5vw;
     font-size: 5vw;
+    text-align: left;
   }
   .services-offered p{
     margin: 5vw;
     margin-top: 5vw;
     font-size: 5vw;
     margin-bottom: 15vw;
+    text-align: left;
   }
 
   .highlights-area {
@@ -159,6 +162,7 @@
 
   /*  SKILLS */
   .skills {
+    display: grid;
     background-color: white;
     flex-direction: column;
     height: fit-content;
@@ -212,28 +216,38 @@
     font-size: 5vw;
   }
 
-  /* My Photography */
-  .my-photography {
-    flex-direction: column;
-    margin: 1vw;
-    text-align: left;
 
+  /* Pick your poison - Pick Portfolio section */
+
+  .pick-portfolio {
+    background-color: white;
+    grid-auto-flow: column;
+    overflow: scroll;
   }
-  .my-photography .photography-text {
-    width: 90%;
-    height: 90%;
+  .pick-portfolio .port-option {
+    min-width: 50vw;
+    max-height: 15vh;
+    overflow: hidden;
+  }
+  .port-option a {
+    display: grid;
     background: none;
-    color: black;
-    font-size: 5vw;
-  }
-  .photography-text h1 {
-    font-size: 5vw;
-  }
-  #photographyCarousel {
-    width: 80%;
-    height: fit-content;
-  }
+    justify-content: center;
 
+  }
+  .port-option a h3 {
+    background-color: #b8b8b8;
+    margin: auto;
+    font-size: 4.2vw;
+    width: 100%;
+    padding: 10vw;
+  }
+  .port-option a h3:hover {
+    background-color: black;
+  }
+  .port-option img {
+    display: none;
+  }
 
   /*  FOOTER */
   footer * {
