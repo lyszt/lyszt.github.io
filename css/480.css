@@ -217,35 +217,7 @@
   }
 
 
-  /* Pick your poison - Pick Portfolio section */
-
   .pick-portfolio {
-    background-color: white;
-    grid-auto-flow: column;
-    overflow: scroll;
-  }
-  .pick-portfolio .port-option {
-    min-width: 50vw;
-    max-height: 15vh;
-    overflow: hidden;
-  }
-  .port-option a {
-    display: grid;
-    background: none;
-    justify-content: center;
-
-  }
-  .port-option a h3 {
-    background-color: #b8b8b8;
-    margin: auto;
-    font-size: 4.2vw;
-    width: 100%;
-    padding: 10vw;
-  }
-  .port-option a h3:hover {
-    background-color: black;
-  }
-  .port-option img {
     display: none;
   }
 

@@ -357,63 +357,71 @@ nav {
 }
 /* Pick your poison - Pick Portfolio section */
 .pick-portfolio {
+  display: block;
+  background-color: #F0F0F0;
   height: fit-content;
-  background-color: #1c1c1c;
-  display: grid;
-  grid-auto-flow: column;
-  justify-content: start;
-  align-content: space-evenly;
+  padding-bottom: 2vh;
 }
-.pick-portfolio a {
-  width: 100%;
-  height: 100%;
-  padding: 1vw;
-  color: white;
-  margin: auto;
-  text-align: center;
-  background-color: #202020;
-  z-index: 1;
+.portfolio-picker {
+  display: table-cell;
+  height: 6vw;
+  width: 100vw;
+  background-color: white;
 }
-.pick-portfolio a h3 {
-  position: relative;
-  font-size: 0.7vw;
-  padding: 1vw;
-  background-color: crimson;
-  color: white;
-  margin-top: 95%;
-  z-index: 1;
+.pick-portfolio .widgets {
+  width: 90vw;
+  height: 40vh;
+  margin: 5vh auto 5vh auto;
+  background-color: #F8F8F8;
+  display: flex;
 }
-.pick-portfolio a h3:hover {
-  background-color: crimson;
-  color: white;
-}
-.pick-portfolio a:active {
-  filter: brightness(0%);
+.port-option {
+  border-radius: 100px;
+  border: none;
+  width: 4vw;
+  height: 4vw;
 }
 
-.pick-portfolio .port-option {
-  position: relative;
-  width: 15%;
-  min-width: 18vw;
-  margin: 2vw;
+.portfolio-picker .contents {
   display: flex;
   align-items: center;
-  object-fit: contain;
-  overflow: hidden;
+  height: 100%;
+}
+.port-option {
+  margin-left: 1vw;
 }
 .port-option img {
-  position: absolute;
-  top: 0;
-  left: -5vw ;
-  min-width: 110%;
-  max-width: 170%;
-  z-index: 0;
-  filter: blur(10px) saturate(0%);
+  width: 50%;
+  height: 50%;
 }
-.port-option img:hover {
-  filter: none;
-  transition: all 2s;
+.port-option:hover {
+  background-color: black;
+  transition: all 1s;
 }
+.port-option:hover img {
+  filter: invert(100%);
+}
+.port-folder {
+  display: flex;
+  width: 90%;
+  height: 90%;
+  margin: auto;
+  overflow: scroll;
+}
+/* Pastas do Portfolio */
+.port-folder .project {
+  background-color: #e1e1e1;
+  width: 16vw;
+  height: 15vw;
+  object-fit: contain;
+  margin-left: 2vw;
+}
+.port-folder .project img {
+  width: 100%;
+  height: 100%;
+  filter: brightness(60%);
+}
+
 /* Aesthetical Distraction */
 .aesthetical-distraction {
   background-color: crimson;
