@@ -172,7 +172,9 @@
   .portfolio-picker {
     padding-bottom: 3vw;
   }
- 
+  .project .hover-setup {
+    opacity: 1;
+  }
   .pick-portfolio {
     background-color: #fbfbfb;
   }

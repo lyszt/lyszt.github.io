@@ -95,6 +95,7 @@
     line-height: 7vw;
     padding-bottom: 5vw;
   }
+  
 
   /*  BUTTONS */
   #landing-text .btn img {
@@ -142,8 +143,9 @@
   .port-folder {
     padding: 3vw;
   }
-
-
+  .project .hover-setup {
+    opacity: 1;
+  }
   /*  SERVICES OFFERED */
   .services-offered {
     background-color: white;
