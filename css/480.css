@@ -62,7 +62,7 @@
 
   /*  LANDING PAGE */
   .landing-page {
-    height: 100vh;
+    height: fit-content;
     margin: 4vw;
   }
 
@@ -93,7 +93,7 @@
     color: black;
     font-size: 5vw;
     line-height: 7vw;
-    padding-bottom: 30vw;
+    padding-bottom: 5vw;
   }
 
   /*  BUTTONS */
