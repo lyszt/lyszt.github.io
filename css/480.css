@@ -118,6 +118,31 @@
    width: 100%;
 }
 
+  /* Pick your poison - Pick Portfolio section */
+
+  .pick-portfolio {
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+  }
+  .port-option {
+    width: 20vw;
+    height: 20vw;
+  }
+  .port-folder .project {
+    width: 45vw;
+    height: 45vw;
+  }
+  .portfolio-picker {
+    padding-bottom: 3vw;
+  }
+ 
+  .pick-portfolio {
+    background-color: #fbfbfb;
+  }
+  .port-folder {
+    padding: 3vw;
+  }
+
 
   /*  SERVICES OFFERED */
   .services-offered {
@@ -216,10 +241,6 @@
     font-size: 5vw;
   }
 
-
-  .pick-portfolio {
-    display: none;
-  }
 
   /*  FOOTER */
   footer * {

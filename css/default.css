@@ -26,12 +26,21 @@
 
   /* Basic */
 .hidden {
-  transition: all 1s;
+  visibility: hidden;
+  display: block !important;
+  opacity: 0;
+  animation: slideFromLeft 0.5s;
 }
 .show {
-  transition: all 1s;
+  visibility: visible;
+  display: block !important;
+  opacity: 1;
+  animation: slideFromLeft 0.5s;
 }
-
+@keyframes slideFromLeft {
+  from {margin-right:-200vw;}
+  to {margin-right:0;}
+}
 ::selection {
   background-color: crimson;
   color: white;
@@ -46,7 +55,7 @@
 }
 body {
   overflow-x: hidden;
-  background: #131313;
+  background: white;
   font-family: 'Inter', serif;
   font-weight: 200;
   max-width: 100%;
@@ -273,7 +282,7 @@ nav {
   font-size: 1.5vw;
   line-height: 2.8vw;
   margin-bottom: 2vw;
-  color: #cccccc;
+  color: #000000;
 }
 #landing-text h1 {
   color: crimson;
@@ -281,7 +290,7 @@ nav {
   font-size: 1.4vw;
 }
 #landing-text h3 {
-  color: #cccccc;
+  color: #a1a1a1;
   font-size: 2.6vw;
   font-weight: 600;
 }
@@ -364,7 +373,6 @@ nav {
 /* Pick your poison - Pick Portfolio section */
 .pick-portfolio {
   display: block;
-  background-color: #F0F0F0;
   height: fit-content;
   padding-bottom: 2vh;
 }
@@ -379,7 +387,8 @@ nav {
   height: 40vh;
   margin: 5vh auto 5vh auto;
   background-color: #F8F8F8;
-  display: flex;
+  display: block;
+  position: relative;
 }
 .port-option {
   border-radius: 100px;
@@ -408,11 +417,16 @@ nav {
   filter: invert(100%);
 }
 .port-folder {
+  position: absolute;
+  left: 0;
+  top: 0;
   display: flex;
-  width: 90%;
+  width: 100%;
   height: 90%;
   margin: auto;
-  overflow: scroll;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  flex-wrap:wrap;
 }
 /* Pastas do Portfolio */
 .port-folder .project {
@@ -422,14 +436,13 @@ nav {
   height: 15vw;
   object-fit: contain;
   margin-left: 2vw;
+  margin: 1vw;
 }
 .project:hover .hover-setup {
   opacity: 1;
   transition: 1s;
 }
-.project:hover img {
-  filter: blur(10px);
-}
+
 .project:active .hover-setup {
   transition: 0;
   background-color: rgba(255,255,255,0.8);

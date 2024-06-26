@@ -1,4 +1,5 @@
 
+
 // Hamburger menu stuff
 
 const hamburger = document.querySelector(".hamburger");
@@ -48,4 +49,9 @@ art_button.addEventListener("click", () => {
   design_folder.classList.add("hidden")
 })
 
+
+// On document read make preparations
+addEventListener("DOMContentLoaded", () => {
+  photo_folder.classList.remove("hidden");
+})
 
