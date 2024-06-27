@@ -111,6 +111,7 @@
     margin-top: 5vw;
     font-size: 5vw;
     margin-bottom: 15vw;
+    width: 100%;
   }
   /*  SKILLS */
   .skills {
@@ -162,6 +163,12 @@
   .pick-portfolio {
     margin-top: 5vw;
     margin-bottom: 5vw;
+  }
+  .pick-portfolio h1 {
+    font-size: 5.3vw;
+  }
+  .pick-portfolio p {
+    font-size: 3vw;
   }
   .port-option {
     width: 10vw;
