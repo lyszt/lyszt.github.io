@@ -131,15 +131,15 @@
     font-size: 5.3vw;
   }
   .pick-portfolio p {
-    font-size: 3vw;
+    font-size: 4vw;
   }
   .port-option {
     width: 20vw;
     height: 20vw;
   }
   .port-folder .project {
-    width: 45vw;
-    height: 45vw;
+    width: 50vw;
+    height: 50vw;
   }
   .portfolio-picker {
     padding-bottom: 3vw;

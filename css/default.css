@@ -461,7 +461,6 @@ nav {
 }
 
 .project:active .hover-setup {
-  transition: 0;
   background-color: rgba(255,255,255,0.8);
 }
 .port-folder .project img {
@@ -478,8 +477,12 @@ nav {
   position: absolute;
   z-index: 1;
 }
+.hover-setup p {
+  color: white;
+  text-align: left;
+}
 .hover-setup * {
-  margin: 1vw;
+  margin: 2vw;
 }
 /* Aesthetical Distraction */
 .aesthetical-distraction {
