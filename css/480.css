@@ -79,7 +79,7 @@
   }
 
   #landing-text h1 {
-    font-size: 5vw;
+    font-size: 4vw;
   }
 
   #landing-text h3 {
@@ -93,7 +93,7 @@
 
   #landing-text p {
     color: black;
-    font-size: 5vw;
+    font-size: 4vw;
     line-height: 7vw;
     padding-bottom: 5vw;
   }
@@ -161,16 +161,16 @@
   .services-offered h1 {
     margin-top: 15vw;
     margin-left: 5vw;
-    font-size: 5vw;
+    font-size: 4vw;
     text-align: left;
   }
   .services-offered p{
     margin: 5vw;
     margin-top: 5vw;
-    font-size: 5vw;
+    font-size: 4vw;
     margin-bottom: 15vw;
     text-align: left;
-    width: 100%;
+    width: 90%;
   }
 
   .highlights-area {
@@ -188,12 +188,12 @@
 
   .highlights-items > h1 {
     color: black;
-    font-size: 5vw;
+    font-size: 4vw;
   }
 
   .highlights-items > p {
     color: black;
-    font-size: 5vw;
+    font-size: 4vw;
   }
 
   /*  SKILLS */
@@ -224,7 +224,7 @@
   }
   .skill-item > h2 {
     color: black !important;
-    font-size: 5vw;
+    font-size: 4vw;
   }
 
   .skill-item:hover * {
@@ -234,7 +234,7 @@
 
   .skill-item > p {
     color: black !important;
-    font-size: 5vw;
+    font-size: 4vw;
   }
 
   .skills > .skill-advert {
@@ -245,11 +245,11 @@
   }
 
   .skill-advert > h2 {
-    font-size: 5vw;
+    font-size: 4vw;
   }
 
   .skill-advert > p {
-    font-size: 5vw;
+    font-size: 4vw;
   }
 
 
