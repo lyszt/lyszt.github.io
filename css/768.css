@@ -51,6 +51,8 @@
     /*  LANDING PAGE */
     .landing-page {
       height: fit-content;
+      background: none;
+      padding-bottom: 2vw;
     }
     #landing-distractor {
       display: none;

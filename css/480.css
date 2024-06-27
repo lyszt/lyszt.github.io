@@ -64,6 +64,8 @@
   .landing-page {
     height: fit-content;
     margin: 4vw;
+    background: none;
+    padding-bottom: 1vw;
   }
 
   #landing-distractor {
@@ -95,7 +97,7 @@
     line-height: 7vw;
     padding-bottom: 5vw;
   }
-  
+
 
   /*  BUTTONS */
   #landing-text .btn img {
@@ -136,7 +138,7 @@
   .portfolio-picker {
     padding-bottom: 3vw;
   }
- 
+
   .pick-portfolio {
     background-color: #fbfbfb;
   }
