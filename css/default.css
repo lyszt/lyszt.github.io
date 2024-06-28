@@ -621,6 +621,7 @@ nav {
 /* Footer */
 
 footer {
+  background-color: black;
   height: 10vw;
 }
 #sitemap {
@@ -643,6 +644,7 @@ footer {
   display: table-cell;
   width: 60%;
   height: 90%;
+  background-color: black;
 }
 #text-footer > p {
   font-size: 1.2vw;
@@ -651,6 +653,7 @@ footer {
   margin: 10%;
 }
 footer > #bottom {
+  border-top: 1px solid crimson;
   padding: 1vw;
   width: 100%;
   background-color: #000000;
