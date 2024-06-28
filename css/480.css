@@ -62,7 +62,6 @@
 
   /*  LANDING PAGE */
   .landing-page {
-    height: fit-content;
     margin: 4vw;
     background: none;
     padding-bottom: 1vw;
@@ -100,14 +99,14 @@
 
 
   /*  BUTTONS */
-  #landing-text .btn img {
+  #landing-buttons .btn img {
     width: 6vw;
     height: 6vw;
     margin: auto;
     margin-top: 2vw;;
   }
 
-  #landing-text .btn {
+  #landing-buttons .btn {
     background-color: #dddddd !important;
     border-radius: 10vw;
     width: 90%;

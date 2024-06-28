@@ -25,6 +25,9 @@
 }
 
   /* Basic */
+b {
+  color: crimson;
+}
 .hidden {
   visibility: hidden;
   display: block !important;
@@ -262,28 +265,34 @@ nav {
 /* Landing Page */
 
 .landing-page {
-  height: fit-content;
-  display: block;
+  height: 100vh;
+  display: grid;
+  justify-content: center;
+  align-items: center;
   overflow: hidden;
   position: relative;
-  background: linear-gradient(30deg, #c8c8c8, #b3b3b3);
+  background-color: white;
 }
 #landing-div {
+  display: grid;
+  justify-items: center;
   margin: 1vw;
   padding-top: 4vw;
   margin-top: 4vw;
 }
 #landing-text {
-  width: 35%;
+  width: 100%;
   margin-left: 2vw;
   float: left;
 }
 #landing-text p {
-  margin-top: 2vw;
-  font-size: 1.5vw;
-  line-height: 2.8vw;
-  margin-bottom: 2vw;
-  color: #000000;
+  text-align: center;
+  width: 60%;
+  margin: auto;
+  line-height: 3.5vw;
+  font-size: 4vw;
+  color: #474747;
+  font-weight: 600;
 }
 #landing-text h1 {
   color: crimson;
@@ -295,8 +304,10 @@ nav {
   font-size: 2.6vw;
   font-weight: 600;
 }
-
-#landing-text .btn {
+#landing-buttons {
+  margin-top: 2vw;
+}
+#landing-buttons .btn {
   margin: auto;
   padding: 0.8vw;
   padding-left: 1vw;
@@ -306,19 +317,19 @@ nav {
   border: none;
   border-radius: 0;
 }
-#landing-text .btn:hover {
+#landing-buttons .btn:hover {
   background-color: crimson !important;
 }
-#landing-text .btn:hover img {
+#landing-buttons .btn:hover img {
   filter: invert(100%);
 }
 .btn:hover * {
   transition: 1s;
 }
-#landing-text .btn *{
+#landing-buttons .btn *{
   margin: auto;
 }
-#landing-text .btn img {
+#landing-buttons .btn img {
   width: 1vw;
   height: 1vw;
 
