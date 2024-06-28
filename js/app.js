@@ -52,6 +52,6 @@ art_button.addEventListener("click", () => {
 
 // On document read make preparations
 addEventListener("DOMContentLoaded", () => {
-  photo_folder.classList.remove("hidden");
+  design_folder.classList.remove("hidden");
 })
 
