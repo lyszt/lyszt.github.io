@@ -25,6 +25,9 @@
 }
 
   /* Basic */
+html {
+  scroll-behavior: smooth;
+}
 b {
   color: crimson;
 }
@@ -41,8 +44,12 @@ b {
   animation: slideFromLeft 0.5s;
 }
 @keyframes slideFromLeft {
-  from {margin-right:-200vw;}
+  from {margin-right:-100vw;}
   to {margin-right:0;}
+}
+@keyframes slideIn {
+  from {margin-left:-100vw; opacity:  0;}
+  to {margin-right:0; opacity: 1}
 }
 ::selection {
   background-color: crimson;
@@ -93,6 +100,10 @@ hr {
 @keyframes opacity-increase {
   from{margin-left: -10%; opacity: 0}
   to {margin-left: 0; opacity: 1;}
+}
+@keyframes fadeIn  {
+  from { opacity: 0}
+  to { opacity: 1}
 }
 
 /* Special Elements */
@@ -284,6 +295,9 @@ nav {
   width: 100%;
   margin-left: 2vw;
   float: left;
+  opacity: 0;
+  animation: forwards fadeIn 3s;
+  animation-delay: 3s;
 }
 #landing-text p {
   text-align: center;
@@ -306,6 +320,9 @@ nav {
 }
 #landing-buttons {
   margin-top: 2vw;
+  animation: slideIn forwards 2s;
+  opacity: 0;
+  animation-delay: 3.5s;
 }
 #landing-buttons .btn {
   margin: auto;
@@ -334,13 +351,16 @@ nav {
   height: 1vw;
 
 }
-#landing-distractor {
-  top: 5vw;
-  width: 35%;
-  position: absolute;
-  right: 13vw;
-  z-index: -1;
-  margin: auto;
+#arrow-down img {
+  margin-top: 3vw;
+  width: 5vw;
+  height: 5vw;
+  opacity: 0;
+  animation: forwards fadeIn 2s;
+  animation-delay: 3s;
+}
+#arrow-down:hover {
+  opacity: 0.8;
 }
 
 

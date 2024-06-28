@@ -55,3 +55,10 @@ addEventListener("DOMContentLoaded", () => {
   design_folder.classList.remove("hidden");
 })
 
+// Anchors
+
+const arrow_down_landing = document.querySelector("#arrow-down");
+const portfolio_section = document.querySelector(".pick-portfolio")
+addEventListener("click", () => {
+  portfolio_section.scrollIntoView()
+})
