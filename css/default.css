@@ -423,6 +423,9 @@ nav {
   font-size: 1vw;
 
 }
+.pick-portfolio h3{
+  font-size: 1vw;
+}
 .portfolio-picker {
   display: table-cell;
   height: 6vw;
@@ -513,7 +516,8 @@ nav {
   text-align: left;
 }
 .hover-setup * {
-  margin: 2vw;
+  margin: 1vw;
+  margin-bottom: 0;
 }
 /* Aesthetical Distraction */
 .aesthetical-distraction {

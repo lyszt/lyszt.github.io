@@ -133,6 +133,9 @@
   .pick-portfolio p {
     font-size: 4vw;
   }
+  .pick-portfolio h3{
+    font-size: 4vw;
+  }
   .port-option {
     width: 20vw;
     height: 20vw;
