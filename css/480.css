@@ -92,9 +92,10 @@
 
   #landing-text p {
     color: black;
-    font-size: 4vw;
+    font-size: 5vw;
     line-height: 7vw;
     padding-bottom: 5vw;
+    width: 70%;
   }
 
 
