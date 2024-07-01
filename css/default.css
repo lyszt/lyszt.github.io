@@ -464,6 +464,13 @@ nav {
   background-color: black;
   transition: all 1s;
 }
+.port-option:focus{
+  background-color: crimson;
+  transition: none;
+}
+.port-option:focus img {
+  filter: invert(100%);
+}
 .port-option:hover img {
   filter: invert(100%);
 }

@@ -29,24 +29,28 @@ photography_button.addEventListener("click", () => {
   video_folder.classList.add("hidden")
   design_folder.classList.add("hidden")
   code_folder.classList.add("hidden")
+  photography_button.classList.toggle("focus")
 })
 videography_button.addEventListener("click", () => {
   video_folder.classList.remove("hidden")
   photo_folder.classList.add("hidden")
   design_folder.classList.add("hidden")
   code_folder.classList.add("hidden")
+  photography_button.classList.toggle("focus")
 })
 design_button.addEventListener("click", () => {
   design_folder.classList.remove("hidden")
   photo_folder.classList.add("hidden")
   video_folder.classList.add("hidden")
   code_folder.classList.add("hidden")
+  photography_button.classList.toggle("focus")
 })
 code_button.addEventListener("click", () => {
   code_folder.classList.remove("hidden")
   photo_folder.classList.add("hidden")
   video_folder.classList.add("hidden")
   design_folder.classList.add("hidden")
+  photography_button.classList.toggle("focus")
 })
 
 
