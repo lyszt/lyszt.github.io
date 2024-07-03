@@ -76,27 +76,6 @@ layout: default
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-54T6RHWN"
                   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
-  <header>
-    <nav>
-
-      <div class="hamburger">
-        <span class="bar"></span> <span class="bar"></span> <span class="bar"></span>
-        <span class="bar"></span> <span class="bar"></span> <span class="bar"></span>
-        <span class="bar"></span> <span class="bar"></span> <span class="bar"></span>
-      </div>
-      <div class="undernav">
-      </div>
-      <ul class="navigator-design">
-        <li class="nav-item"><a href="index.html"><img src="img/trianglewhite.svg" alt="White triangle"> home</a></li>
-        <li class="nav-item"><a href="# "><img src="img/circlewhite.svg" alt="White circle"> about me</a></li>
-        <li class="nav-item contact"><a href="#"><img src="img/hexagonwhite.svg" alt="White hexagon"> contact</a></li>
-      </ul>
-
-    </nav>
-
-  </header>
-
-  <main>
     <section class="landing-page">
       <div id="landing-div">
         <div class="background-rectangle"></div>
@@ -113,21 +92,6 @@ layout: default
         <div id="arrow-down">
           <img src="img/arrowdown.svg" alt="Read more down below">
         </div>
-      </div>
-    </section>
-    <section class="posts">
-        {% for post in site.posts %}
-          <article class="post">
-
-            <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-
-            <div class="entry">
-              {{ post.excerpt }}
-            </div>
-
-            <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-          </article>
-        {% endfor %}
       </div>
     </section>
     <section class="services-offered">
@@ -263,8 +227,25 @@ layout: default
         <h2>For more technical details...</h2>
         <p>If you wish to see my programming projects, click here to see my <a href="https://github.com/lyszt" target="_blank">GitHub profile.</a></p>
       </div>
-
     </section>
+    <section class="posts">
+      {% for post in site.posts %}
+        <article class="post">
+          <div class="intro">
+            <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+            <h2>{{ post.subtitle }}</h2>
+            <p>{{ post.intro }}</p>
+            <a href="{{ site.baseurl }}{{ post.url }}" class="btn call-to-action">Read More</a>
+          </div>
+          <div class="image">
+            <img src="{{post.cover}}" alt="{{post.alt}}">
+          </div>
+
+          
+        </article>
+      {% endfor %}
+    </div>
+  </section>
 
 
 

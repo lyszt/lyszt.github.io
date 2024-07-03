@@ -3,6 +3,15 @@ layout: post
 title: You're up and running!
 subtitle: subtitle
 author: João Luís Almeida Santos
+intro: Here, you'll find a collection of thoughts, insights, and reflections on various topics that pique my interest. This space is a laid-back corner of the internet where I share my experiences and ideas.
+img: _posts/images/cozy.jpg
+alt: Coffee, glasses and candle in cozy setting.
+
+
+
+
+
+
 ---
 
 Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).

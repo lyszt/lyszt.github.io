@@ -624,6 +624,28 @@ nav {
   color: crimson;
 }
 
+/* Blog post behaviour */
+.posts {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 50%);
+  padding-bottom: 4vw;
+  justify-items: center;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+.posts .post {
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  grid-auto-flow: column;
+}
+.posts .post .intro {
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+}
+
 
 /* Footer */
 
