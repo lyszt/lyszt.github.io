@@ -1,0 +1,27 @@
+body {
+  margin: 10vw;
+  font-family: 'Inter', serif;
+
+}
+
+.post .header {
+  width: 100%;
+  display: grid;
+  grid-auto-flow: column;
+}
+.header .author {
+  padding: 1vw;
+  background-color: black;
+  color: white;
+}
+/* TITLE */
+h1 {
+  font-size: 3vw;
+  font-weight: bold;
+}
+/* SUBTITLE */
+h2 {
+  font-size: 2vw;
+  color: #101010;
+
+}

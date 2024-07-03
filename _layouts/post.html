@@ -1,17 +1,29 @@
 ---
 layout: default
 ---
-
+<head>
+  <link rel="stylesheet" href="/css/style.css">
+  <!-- Default and responsive CSS -->
+  <link rel="stylesheet" href="/css/blogs/default.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+</head>
 <article class="post">
-  <h1>{{ page.title }}</h1>
-
-  <div class="entry">
-    {{ content }}
-  </div>
+  <div class="header">
+      {% if page.author %}<div class="author">{{page.author}}</div>{% endif %}
 
   <div class="date">
     Written on {{ page.date | date: "%B %e, %Y" }}
   </div>
+  </div>
+  <h1>{{ page.title }}</h1>
+  <h2>{{page.subtitle}}</h2>
+  <div class="entry">
+    {{ content }}
+  </div>
+
+
 
   {% include disqus.html %}
 </article>
