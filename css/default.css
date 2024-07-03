@@ -641,9 +641,18 @@ nav {
   grid-auto-flow: column;
 }
 .posts .post .intro {
+  font-size: 1.5vw;
+  text-align: left;
+}
+.post .image {
   display: grid;
-  justify-content: center;
+  width: 20vw;
+  height: 20vw;
+  overflow: hidden;
+  object-fit: contain;
   justify-items: center;
+  justify-content: center;
+  align-content: center;
 }
 
 
