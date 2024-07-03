@@ -1,3 +1,6 @@
+---
+layout: default
+---
 <!doctype html>
 <html class="no-js" lang="en">
 
@@ -112,8 +115,20 @@
         </div>
       </div>
     </section>
-    <section class="decorating-section">
-      <img src="img/gradient-3d-fluid-background.jpg" alt="Abstract image of glass, symbolizing minimalism and modernity.">
+    <section class="posts">
+        {% for post in site.posts %}
+          <article class="post">
+
+            <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+
+            <div class="entry">
+              {{ post.excerpt }}
+            </div>
+
+            <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+          </article>
+        {% endfor %}
+      </div>
     </section>
     <section class="services-offered">
       <h1>ABOUT ME</h1>
@@ -256,19 +271,7 @@
   </main>
   <script src="js/app.js"></script>
 
-  <footer>
-    <section id="text-footer">
-      <p>The only verdict is vengeance; <b>a vendetta</b>, held as a votive not in vain, for the value and veracity of such shall one day vindicate the vigilant and the virtuous.
-        <br> - <b>V</b>
-      </p>
-    </section>
-    <section id="bottom">
-      <p id="copyright">
-        © 2024 João Luis Almeida (Lyszt Kaldwin, Deestad, Aldynor, Ryujinni). All Rights Reserved.
-        Powered by Lygon Xin. Stock images from <a href="https://www.freepik.com">Freepik.</a>
-      </p>
-    </section>
-  </footer>
+  
 </body>
 
 </html>
