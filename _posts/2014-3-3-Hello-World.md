@@ -4,7 +4,7 @@ title: You're up and running!
 subtitle: subtitle
 author: João Luís Almeida Santos
 intro: Here, you'll find a collection of thoughts, insights, and reflections on various topics that pique my interest. This space is a laid-back corner of the internet where I share my experiences and ideas.
-cover: /_posts/images/cozy.jpg
+cover: img/cozy.jpg
 alt: Coffee, glasses and candle in cozy setting.
 
 
