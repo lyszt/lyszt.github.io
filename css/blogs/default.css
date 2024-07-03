@@ -3,7 +3,11 @@ body {
   font-family: 'Inter', serif;
 
 }
-
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
 .post .header {
   width: 100%;
   display: grid;
