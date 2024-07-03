@@ -32,13 +32,13 @@
   <!-- Latest compiled JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
-  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="css/style.css">
   <!-- Default and responsive CSS -->
-  <link rel="stylesheet" href="/css/default.css">
-  <link rel="stylesheet" href="/css/480.css">
-  <link rel="stylesheet" href="/css/768.css">
-  <link rel="stylesheet" href="/css/1024.css">
-  <link rel="stylesheet" href="/css/1200.css">
+  <link rel="stylesheet" href="css/default.css">
+  <link rel="stylesheet" href="css/480.css">
+  <link rel="stylesheet" href="css/768.css">
+  <link rel="stylesheet" href="css/1024.css">
+  <link rel="stylesheet" href="css/1200.css">
 
   <link rel="icon" href="/favicon.ico" sizes="any">
   <link rel="apple-touch-icon" href="icon.png">
@@ -84,8 +84,8 @@
       <div class="undernav">
       </div>
       <ul class="navigator-design">
-        <li class="nav-item"><a href="/index.html"><img src="img/trianglewhite.svg" alt="White triangle"> home</a></li>
-        <li class="nav-item"><a href="#"><img src="img/circlewhite.svg" alt="White circle"> about me</a></li>
+        <li class="nav-item"><a href="index.html"><img src="img/trianglewhite.svg" alt="White triangle"> home</a></li>
+        <li class="nav-item"><a href="# "><img src="img/circlewhite.svg" alt="White circle"> about me</a></li>
         <li class="nav-item contact"><a href="#"><img src="img/hexagonwhite.svg" alt="White hexagon"> contact</a></li>
       </ul>
 
@@ -112,8 +112,14 @@
         </div>
       </div>
     </section>
-    <section class="decorating-section">
-      <img src="img/gradient-3d-fluid-background.jpg" alt="Abstract image of glass, symbolizing minimalism and modernity.">
+    <section class="blog-feed">
+      <ul>
+        {% for post in site.posts %}
+          <li>
+            <a href="{{ post.url }}">{{ post.title }}</a>
+          </li>
+        {% endfor %}
+      </ul>
     </section>
     <section class="services-offered">
       <h1>ABOUT ME</h1>
