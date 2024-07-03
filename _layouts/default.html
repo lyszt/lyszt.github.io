@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
 
@@ -18,26 +18,26 @@
 
     <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
   </head>
+  <header>
+    <nav>
 
+      <div class="hamburger">
+        <span class="bar"></span> <span class="bar"></span> <span class="bar"></span>
+        <span class="bar"></span> <span class="bar"></span> <span class="bar"></span>
+        <span class="bar"></span> <span class="bar"></span> <span class="bar"></span>
+      </div>
+      <div class="undernav">
+      </div>
+      <ul class="navigator-design">
+        <li class="nav-item"><a href="/index.html"><img src="/img/trianglewhite.svg" alt="White triangle"> home</a></li>
+        <li class="nav-item"><a href="#"><img src="/img/circlewhite.svg" alt="White circle"> about me</a></li>
+        <li class="nav-item contact"><a href="#"><img src="/img/hexagonwhite.svg" alt="White hexagon"> contact</a></li>
+      </ul>
+
+    </nav>
+  </header>
   <body>
-        <header>
-          <nav>
 
-            <div class="hamburger">
-              <span class="bar"></span> <span class="bar"></span> <span class="bar"></span>
-              <span class="bar"></span> <span class="bar"></span> <span class="bar"></span>
-              <span class="bar"></span> <span class="bar"></span> <span class="bar"></span>
-            </div>
-            <div class="undernav">
-            </div>
-            <ul class="navigator-design">
-              <li class="nav-item"><a href="/index.html"><img src="/img/trianglewhite.svg" alt="White triangle"> home</a></li>
-              <li class="nav-item"><a href="#"><img src="/img/circlewhite.svg" alt="White circle"> about me</a></li>
-              <li class="nav-item contact"><a href="#"><img src="/img/hexagonwhite.svg" alt="White hexagon"> contact</a></li>
-            </ul>
-
-          </nav>
-        </header>
     <div id="main" role="main" class="container">
       {{ content }}
     </div>
