@@ -646,8 +646,19 @@ nav {
   font-size: 1.5vw;
   text-align: left;
 }
+.post .intro * {
+  margin-bottom: 1vw;
+}
 .post .intro a {
   color: rgb(37, 37, 37);
+}
+.post .intro h1 {
+  margin: 0;
+  font-size: 1.5vw;
+}
+.post .intro h2 {
+  margin: 0;
+  font-size: 1vw;
 }
 .post .intro a:hover {
   color: crimson;
