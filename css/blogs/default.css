@@ -6,7 +6,9 @@ a {
 }
 body {
   font-family: 'Inter', serif;
-
+  display: grid;
+  justify-items: center;
+  justify-content: center;
 }
 #main {
   margin: 10vw

@@ -693,8 +693,7 @@ nav {
 footer {
   background-color: black;
   height: 10vw;
-  margin-left: -10vw;
-  margin-right: -10vw;
+  width: 100%;
 }
 #sitemap {
   display: table-cell;
