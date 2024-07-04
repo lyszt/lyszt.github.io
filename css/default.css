@@ -654,6 +654,9 @@ nav {
   justify-content: center;
   align-content: center;
 }
+.post .image img {
+  width: 100%;
+}
 
 
 /* Footer */
