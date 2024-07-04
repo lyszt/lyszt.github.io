@@ -650,9 +650,13 @@ nav {
   margin: 2vw;
 }
 .posts .post .intro {
+  margin-right: 2vw;
   color: black;
   font-size: 1.2vw;
   text-align: left;
+}
+.post .intro p {
+  line-height: 3vw;
 }
 .post .intro a {
   color: rgb(37, 37, 37);
