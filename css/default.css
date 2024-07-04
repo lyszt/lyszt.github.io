@@ -551,7 +551,14 @@ nav {
   text-align: center;
   display: block;
   width: 100%;
-  margin: 5vw;
+  margin: 1vw;
+}
+.skills > p {
+  font-size: 1vw;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 4vw;
+  color: #6e6e6e;
 }
 .skills > .skill-item {
   transition: all 0.5s ease;
