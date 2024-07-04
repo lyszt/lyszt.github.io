@@ -639,10 +639,18 @@ nav {
   justify-content: center;
   justify-items: center;
   grid-auto-flow: column;
+  align-items: center;
 }
 .posts .post .intro {
+  color: black;
   font-size: 1.5vw;
   text-align: left;
+}
+.post .intro a {
+  color: rgb(37, 37, 37);
+}
+.post .intro a:hover {
+  color: crimson;
 }
 .post .image {
   display: grid;
