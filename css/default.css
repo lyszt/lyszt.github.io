@@ -627,7 +627,6 @@ nav {
 /* Blog post behaviour */
 .posts {
   display: grid;
-  grid-template-columns: repeat(auto-fill, 50%);
   padding-bottom: 4vw;
   justify-items: center;
   justify-content: center;
@@ -639,11 +638,11 @@ nav {
   justify-content: center;
   justify-items: center;
   grid-auto-flow: column;
-  align-items: center;
+  align-items: start;
 }
 .posts .post .intro {
   color: black;
-  font-size: 1.5vw;
+  font-size: 1.2vw;
   text-align: left;
 }
 .post .intro * {
@@ -658,7 +657,7 @@ nav {
 }
 .post .intro h2 {
   margin: 0;
-  font-size: 1vw;
+  font-size: 2vw !important;
 }
 .post .intro a:hover {
   color: crimson;
