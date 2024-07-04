@@ -5,9 +5,11 @@ a {
   background-color: crimson;
 }
 body {
-  margin: 10vw;
   font-family: 'Inter', serif;
 
+}
+main {
+  margin: 10vw
 }
 header {
   position: fixed;
