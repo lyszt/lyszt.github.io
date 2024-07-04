@@ -46,6 +46,9 @@ h2 {
   line-height: 2.5vw;
   text-align: left;
 }
+.post .entry a {
+  color: black;
+}
 
 /* Header & Nav */
 nav {
