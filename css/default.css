@@ -632,6 +632,7 @@ nav {
   justify-content: center;
   align-content: center;
   align-items: center;
+  grid-template-columns: repeat(auto-fit,50%);
 }
 .posts .post {
   display: grid;
@@ -639,20 +640,19 @@ nav {
   justify-items: center;
   grid-auto-flow: column;
   align-items: start;
+  margin: 2vw;
 }
 .posts .post .intro {
   color: black;
   font-size: 1.2vw;
   text-align: left;
 }
-.post .intro * {
-  margin-bottom: 1vw;
-}
 .post .intro a {
   color: rgb(37, 37, 37);
 }
 .post .intro h1 {
   margin: 0;
+  margin-bottom: 1vw;
   font-size: 1.5vw;
 }
 .post .intro h2 {

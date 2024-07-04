@@ -221,22 +221,23 @@ layout: default
         <p>If you wish to see my programming projects, click here to see my <a href="https://github.com/lyszt" target="_blank">GitHub profile.</a></p>
       </div>
     </section>
-    <section class="posts"> 
-      {% for post in site.posts %}
-        <article class="post">
-          <div class="intro">
-            <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-            <p>{{ post.intro }}</p>
-          </div>
-          <div class="image">
-            <img src="{{post.cover}}" alt="{{post.alt}}">
-          </div>
+    <section class="">
+      <div class="posts"> 
+        {% for post in site.posts %}
+          <article class="post">
+            <div class="intro">
+              <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+              <p>{{ post.intro }}</p>
+            </div>
+            <div class="image">
+              <img src="{{post.cover}}" alt="{{post.alt}}">
+            </div>
 
-          
-        </article>
-      {% endfor %}
-    </div>
-  </section>
+            
+          </article>
+        {% endfor %}
+      </div>
+    </section>
 
 
 
