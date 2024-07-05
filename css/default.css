@@ -180,7 +180,7 @@ div.hamburger.active img{
   position: fixed;
   top: 0;
   left: 0;
-  height: 5vw;
+  height: 10%;
   background-color: #222222;
   z-index: -1;
 }
