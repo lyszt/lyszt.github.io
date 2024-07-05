@@ -74,7 +74,7 @@ nav {
 
 @media screen and (max-width: 480px){
   #main {
-    margin: 20% 0 0;
+    margin: 30% 20% 0 10vw
   }
   h1 {
     font-size: 5vw;
@@ -94,7 +94,7 @@ nav {
 }
 @media screen and (min-width: 481px) and (max-width: 768px){
   #main {
-    margin: 20% 0 0;
+    margin: 30% 20% 0 10vw
   }
   h1 {
     font-size: 5vw;
@@ -117,7 +117,7 @@ nav {
 }
 @media screen and (min-width: 769px) and (max-width: 1024px){
   #main {
-    margin: 20% 0 0;
+    margin: 30% 20% 0 10vw
   }
   h1 {
     font-size: 5vw;
