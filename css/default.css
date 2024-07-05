@@ -345,7 +345,7 @@ div.hamburger.active img {
   border-radius: 0;
 }
 #landing-buttons .btn:hover {
-  background-color: rgb(36, 36, 36) !important;
+  background-color: rgb(218, 218, 218) !important;
 }
 #landing-buttons .btn:hover img {
   filter: invert(100%);
