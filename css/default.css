@@ -340,12 +340,12 @@ div.hamburger.active img {
   padding-left: 1vw;
   padding-right: 1vw;
   font-size: 1vw;
-  background-color: black !important;
+  background-color: crimson !important;
   border: none;
   border-radius: 0;
 }
 #landing-buttons .btn:hover {
-  background-color: crimson !important;
+  background-color: rgb(36, 36, 36) !important;
 }
 #landing-buttons .btn:hover img {
   filter: invert(100%);
