@@ -205,7 +205,9 @@
     margin-bottom: 4vw;
     color: black;
   }
-
+  .skills > p {
+    font-size: 4vw;
+  }
   .skills > .skill-item {
     background-color: white;
     background-image: none;
@@ -249,7 +251,20 @@
     font-size: 4vw;
   }
 
-
+  /* Blog */
+  .posts .post .intro {
+    font-size: 4vw;
+  }
+  .post .intro p {
+    line-height: 4vw;
+  }
+  .post .intro h1 {
+    font-size: 4vw;
+  }
+  .post .intro h2 {
+    margin: 0;
+    font-size: 4vw !important;
+  }
   /*  FOOTER */
   footer * {
     background-color: white !important;
