@@ -10,6 +10,8 @@ hamburger.addEventListener("click", () => {
   navMenu.classList.toggle("active");
 
 })
+// Reveal hamburger on scroll
+addEventListener("scroll"
 
 // Menu item interactions on portfolio pick
 
