@@ -252,6 +252,9 @@
   }
 
   /* Blog */
+  .posts {
+    grid-template-columns: none;
+  }
   .posts .post .intro {
     font-size: 4vw;
   }
