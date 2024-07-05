@@ -72,3 +72,65 @@ nav {
   max-width: 100%;
 }
 
+@media screen and (max-width: 480px){
+  #main {
+    margin: 20% 0 0;
+  }
+  h1 {
+    font-size: 5vw;
+    font-weight: bold;
+  }
+  /* SUBTITLE */
+  h2 {
+    font-size: 4vw;
+    color: #101010;
+
+  }
+  .post .entry {
+    font-size: 4vw;
+    line-height: normal;
+  }
+
+}
+@media screen and (min-width: 481px) and (max-width: 768px){
+  #main {
+    margin: 20% 0 0;
+  }
+  h1 {
+    font-size: 5vw;
+    font-weight: bold;
+  }
+  h2 {
+    font-size: 4vw;
+    color: #101010;
+
+  }
+  .post .entry {
+    font-size: 4vw;
+    line-height: normal;
+  }
+
+
+
+
+
+}
+@media screen and (min-width: 769px) and (max-width: 1024px){
+  #main {
+    margin: 20% 0 0;
+  }
+  h1 {
+    font-size: 5vw;
+    font-weight: bold;
+    line-height: normal;
+  }
+  h2 {
+    font-size: 4vw;
+    color: #101010;
+  }
+  .post .entry {
+    font-size: 4vw;
+    line-height: normal;
+  }
+
+}
