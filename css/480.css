@@ -27,21 +27,19 @@
   /*  NAV */
   .undernav {
     width: 100%;
-    height: 14vw;
-    background-color: #eaeaea;
+    height: 12vw;
+    background-color: crimson;
   }
-
   .hamburger {
+    margin-top: 2vw;
     width: 83.91%;
   }
-
-  .hamburger > .bar {
-    background-color: black;
-    width: 1.4vw;
-    height: 1.4vw;
-    margin: 0.53vw;
+  div.hamburger img {
+    filter: saturate(0)brightness(0)invert(1);
   }
-
+  div.hamburger.active img {
+    filter: saturate(0)brightness(0);
+  }
   .navigator-design {
     background-color: white;
     width: 100%;
@@ -49,16 +47,15 @@
     z-index: -2;
 
   }
-
   .navigator-design img {
     display: none;
   }
-
   .navigator-design li a {
     color: black !important;
     font-size: 6vw;
     margin-left: 0;
   }
+
 
   /*  LANDING PAGE */
   .landing-page {

@@ -19,7 +19,6 @@
     .undernav {
       width: 100%;
       height: 12vw;
-      background-color: #eaeaea;
     }
     .hamburger {
       margin-top: 2vw;
@@ -32,7 +31,6 @@
       margin: 0.63vw;
     }
     .navigator-design {
-      background-color: white;
       width: 100%;
       margin-top: 0;
       z-index: -2;
@@ -42,8 +40,7 @@
       display: none;
     }
     .navigator-design li a {
-      color: black !important;
-      font-size: 6vw;
+      font-size: 2.6vw;
       margin-left: 0;
     }
 
