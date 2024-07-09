@@ -1,7 +1,7 @@
 ---
 layout: post
 title: La semplicità, è l'ultima sofisticazione
-subtitle: Simplicity, to me, is not just a design choice; it is a philosophy. It brings a sense of peace, of order, it muffles the chaos from everyday life away.
+subtitle: Simplicity and the sense of order.
 author: João Luís Almeida Santos
 intro: This is apparently the first post of my blog. This space is a laid-back corner of the internet where I share my experiences and ideas.
 cover: img/cozy.jpg
