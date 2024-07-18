@@ -25,6 +25,21 @@
 }
 
   /* Basic */
+::-webkit-scrollbar {
+  background: white;
+}
+::-webkit-scrollbar-button {
+  background: white;
+}
+::-webkit-scrollbar-thumb {
+  background: crimson;
+}
+::-webkit-scrollbar-track {
+  background: white;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: black;
+}
 html {
   scroll-behavior: smooth;
 }
@@ -439,7 +454,6 @@ div.hamburger.active img {
 .portfolio-picker {
   display: table-cell;
   height: 6vw;
-  width: 100vw;
   background-color: white;
 }
 .pick-portfolio .widgets {
@@ -447,7 +461,7 @@ div.hamburger.active img {
   height: 40vh;
   margin: 5vh auto 5vh auto;
   background-color: #F8F8F8;
-  display: block;
+  display: table-cell;
   position: relative;
 }
 .port-option {
@@ -455,16 +469,16 @@ div.hamburger.active img {
   border: none;
   width: 4vw;
   height: 4vw;
+  margin-left: 1vw;
+  margin-bottom: 2vw;
 }
 
 .portfolio-picker .contents {
+  flex-direction: column;
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100%;
-}
-.port-option {
-  margin-left: 1vw;
 }
 .port-option img {
   width: 50%;
