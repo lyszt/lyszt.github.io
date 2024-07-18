@@ -38,7 +38,7 @@
   background: white;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: black;
+  background: #b6b6b6;
 }
 html {
   scroll-behavior: smooth;
