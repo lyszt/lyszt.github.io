@@ -430,6 +430,7 @@ div.hamburger.active img {
 /* Pick your poison - Pick Portfolio section */
 .pick-portfolio {
   display: block;
+  position: relative;
   height: fit-content;
   padding-bottom: 2vh;
 }
@@ -452,13 +453,12 @@ div.hamburger.active img {
   font-size: 1vw;
 }
 .portfolio-picker {
-  display: table-cell;
-  height: 6vw;
+  width: 100%;
   background-color: white;
 }
 .pick-portfolio .widgets {
   width: 90vw;
-  height: 40vh;
+  height: 43vh;
   padding-left: 2vw;
   margin: 5vh 1vw 5vh auto;
   background-color: #F8F8F8;
@@ -466,46 +466,61 @@ div.hamburger.active img {
   position: relative;
 }
 .port-option {
-  border-radius: 100px;
+  width: 20%;
+  padding: 2vw;
+  display: flex;
+  color: #333333;
+  align-items: center;
+  justify-content: center;
+  background: none;
   border: none;
-  width: 4vw;
-  height: 4vw;
   margin-left: 1vw;
-  margin-bottom: 2vw;
+  border-bottom: 3px solid #d1d1d1;
+}
+.port-option a{
+  display: block;
+  margin-left: 1vw;
+  color: inherit;
+  white-space: nowrap;
+  font-weight: bolder;
 }
 
 .portfolio-picker .contents {
-  flex-direction: column;
+  flex-direction: row;
   display: flex;
   align-items: center;
-  justify-content: center;
-  height: 100%;
+  justify-content: flex-start;
 }
 .port-option img {
-  width: 50%;
-  height: 50%;
+  display: block;
+  width: 10%;
+  filter: saturate(0);
 }
 .port-option:hover {
-  background-color: black;
-  transition: all 1s;
+  border-bottom: 3px solid #d1d1d1;
+}
+.port-option:hover img{
+  filter: invert(50%);
+  transition: all 0.5s;
 }
 .port-option:focus{
-  background-color: crimson;
+  background-color: #ededed;
+  border-radius: 3px;
+  border-bottom: 3px solid crimson;
   transition: none;
 }
 .port-option:focus img {
-  filter: invert(100%);
+  filter: saturate(100%);
+  transition: 0.5s;
 }
-.port-option:hover img {
-  filter: invert(100%);
-}
+
 .port-folder {
   position: absolute;
   left: 0;
   top: 0;
   display: flex;
   width: 100%;
-  height: 90%;
+  height: 80%;
   margin: auto;
   overflow-x: hidden;
   overflow-y: scroll;
@@ -523,7 +538,7 @@ div.hamburger.active img {
 }
 .project:hover .hover-setup {
   opacity: 1;
-  transition: 1s;
+  transition: 0.5s;
 }
 
 .project:active .hover-setup {
@@ -587,13 +602,11 @@ div.hamburger.active img {
 }
 .skills > .skill-item {
   transition: all 0.5s ease;
-  border-radius: 10px;
   background-image: linear-gradient(60deg, white, #fbfbfb);
   margin: 1vw;
   width: 15vw;
   height: 20vw;
   overflow: hidden;
-  border: 1px #f1f1f1 solid;
 
 }
 .skill-item img {
@@ -609,8 +622,6 @@ div.hamburger.active img {
   color: black;
   font-size: 1.3vw;
   font-weight: bolder;
-  border-bottom: 2px black solid;
-  padding-bottom: 1vw;
 }
 .skill-item > p {
   color: black;

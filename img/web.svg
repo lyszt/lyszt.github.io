@@ -1,3 +1,7 @@
-<svg width="87" height="69" viewBox="0 0 87 69" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M78.3 0H8.7C3.915 0 0.0435 3.88125 0.0435 8.625L0 60.375C0 65.1187 3.915 69 8.7 69H78.3C83.085 69 87 65.1187 87 60.375V8.625C87 3.88125 83.085 0 78.3 0ZM56.55 60.375H8.7V43.125H56.55V60.375ZM56.55 38.8125H8.7V21.5625H56.55V38.8125ZM78.3 60.375H60.9V21.5625H78.3V60.375Z" fill="black"/>
-</svg>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Transformed by: SVG Repo Mixer Tools -->
+<svg width="800px" height="800px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="SVGRepo_bgCarrier" stroke-width="0"/>
+<g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
+<g id="SVGRepo_iconCarrier"> <path d="M4 9V18C4 19.1046 4.89543 20 6 20H18C19.1046 20 20 19.1046 20 18V9M4 9V6C4 4.89543 4.89543 4 6 4H18C19.1046 4 20 4.89543 20 6V9M4 9H20" stroke="#DC143C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> </g>
+</svg>

@@ -130,9 +130,11 @@
   .pick-portfolio h3{
     font-size: 4vw;
   }
-  .port-option {
-    width: 20vw;
-    height: 20vw;
+  .port-option img {
+    width: 50%;
+  }
+  .port-option a {
+    display: none;
   }
   .port-folder .project {
     width: 50vw;
