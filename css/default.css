@@ -132,7 +132,7 @@ hr {
   min-height: 100%;
   height: 100vh;
   position: fixed;
-  animation: 2s forwards ease-out loadingFade;
+  animation: 1s forwards ease-out loadingFade;
   animation-delay: 1s;
 }
 .loading-simulation::before {
@@ -321,8 +321,8 @@ div.hamburger.active img {
   margin-left: 2vw;
   float: left;
   opacity: 0;
-  animation: forwards fadeIn 3s;
-  animation-delay: 3s;
+  animation: forwards fadeIn 2s;
+  animation-delay: 2s;
 }
 #landing-text p {
   text-align: center;
