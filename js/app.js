@@ -31,28 +31,44 @@ photography_button.addEventListener("click", () => {
   video_folder.classList.add("hidden")
   design_folder.classList.add("hidden")
   code_folder.classList.add("hidden")
-  photography_button.classList.toggle("focus")
+
+  code_button.classList.remove("focus")
+  photography_button.classList.add("focus")
+  design_button.classList.remove("focus")
+  videography_button.classList.remove("focus")
 })
 videography_button.addEventListener("click", () => {
   video_folder.classList.remove("hidden")
   photo_folder.classList.add("hidden")
   design_folder.classList.add("hidden")
   code_folder.classList.add("hidden")
-  videography_button.classList.toggle("focus")
+
+  code_button.classList.remove("focus")
+  photography_button.classList.remove("focus")
+  design_button.classList.remove("focus")
+  videography_button.classList.add("focus")
 })
 design_button.addEventListener("click", () => {
   design_folder.classList.remove("hidden")
   photo_folder.classList.add("hidden")
   video_folder.classList.add("hidden")
   code_folder.classList.add("hidden")
-  design_button.classList.toggle("focus")
+
+  code_button.classList.remove("focus")
+  photography_button.classList.remove("focus")
+  design_button.classList.add("focus")
+  videography_button.classList.remove("focus")
 })
 code_button.addEventListener("click", () => {
   code_folder.classList.remove("hidden")
   photo_folder.classList.add("hidden")
   video_folder.classList.add("hidden")
   design_folder.classList.add("hidden")
-  code_button.classList.toggle("focus")
+
+  code_button.classList.add("focus")
+  photography_button.classList.remove("focus")
+  design_button.classList.remove("focus")
+  videography_button.classList.remove("focus")
 })
 
 
