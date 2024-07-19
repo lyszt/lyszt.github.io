@@ -59,7 +59,7 @@ code_button.addEventListener("click", () => {
 // On document read make preparations
 addEventListener("DOMContentLoaded", () => {
   design_folder.classList.remove("hidden");
-  design_button.classList.toggle("focus")
+  design_button.classList.add("focus")
 })
 
 // Anchors
