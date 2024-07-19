@@ -509,6 +509,12 @@ div.hamburger.active img {
   border-bottom: 3px solid crimson;
   transition: none;
 }
+.port-option.focus{
+  background-color: #ededed;
+  border-radius: 3px;
+  border-bottom: 3px solid crimson;
+  transition: none;
+}
 .port-option:focus img {
   filter: saturate(100%);
   transition: 0.5s;
