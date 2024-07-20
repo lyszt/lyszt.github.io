@@ -331,10 +331,9 @@ div.hamburger.active img {
   filter: invert(100%);
 }
 .altered .btn:hover {
-  background-color: #232323 !important;
+  background-color: #d0d0d0 !important;
 }
 .altered .btn:hover img {
-  filter: invert(100%) !important;
 }
 #landing-div {
   display: grid;
