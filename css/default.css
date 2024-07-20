@@ -307,10 +307,11 @@ div.hamburger.active img {
   overflow: hidden;
   position: relative;
   background-color: white;
+  transition: 2s;
 }
-.altered * { transition: all 1s;}
 .altered {
   background-color: crimson !important;
+  transition: 2s;
 }
 .altered p {
   color: white !important;
