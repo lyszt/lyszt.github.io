@@ -567,7 +567,7 @@ div.hamburger.active img {
   z-index: 1;
 }
 .hover-setup p {
-  color: white;
+  color: #383838;
   text-align: left;
 }
 .hover-setup * {
