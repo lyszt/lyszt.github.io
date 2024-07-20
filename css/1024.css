@@ -62,51 +62,7 @@
       margin-bottom: 15vw;
       width: 100%;
     }
-    /*  SKILLS */
-    .skills {
-      display: grid;
-      background-color: white;
-      flex-direction: column;
-      height: fit-content;
-    }
-    .skills h1 {
-      color: black;
-    }
-    .skills > .skill-item {
-      background-color: white;
-      margin: auto;
-      width: 90vw;
-      height: 55vw;
-      margin-bottom: 6vw;
-      border: none;
-    }
-    .skill-item img {
-      display: none;
-    }
-    .skill-item > h2 {
-      color: black !important;
-      font-size: 3vw;
-    }
-    .skill-item:hover * {
-      font-weight: normal;
-      transition: 0.5s;
-    }
-    .skill-item > p {
-      color: black !important;
-      font-size: 3vw;
-    }
-    .skills > .skill-advert {
-      margin: auto;
-      width: 90vw;
-      height: 55vw;
-      margin-bottom: 6vw;
-    }
-    .skill-advert > h2 {
-      font-size: 3vw;
-    }
-    .skill-advert > p {
-      font-size: 3vw;
-    }
+
     /* Pick your poison - Pick Portfolio section */
 
     .pick-portfolio {
