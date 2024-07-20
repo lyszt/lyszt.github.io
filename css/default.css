@@ -308,6 +308,28 @@ div.hamburger.active img {
   position: relative;
   background-color: white;
 }
+.altered * { transition: all 1s;}
+.landing-page .altered {
+  background-color: crimson !important;
+}
+.landing-page .altered p {
+  color: white !important;
+}
+.landing-page .altered b {
+  color: #222222 !important;
+}
+.landing-page .altered .btn {
+  background-color: rgb(218, 218, 218) !important;
+}
+.landing-page .altered .btn img {
+  filter: invert(100%);
+}
+.landing-page .altered .btn:hover {
+  background-color: crimson !important;
+}
+.landing-page .altered .btn:hover img {
+  filter: none;
+}
 #landing-div {
   display: grid;
   justify-items: center;

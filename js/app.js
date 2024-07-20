@@ -76,6 +76,18 @@ code_button.addEventListener("click", () => {
 addEventListener("DOMContentLoaded", () => {
   design_folder.classList.remove("hidden");
   design_button.classList.add("focus")
+
+  // Landing page loop animations
+  const background = document.querySelector(".landing-page");
+  setInterval(InvertLandingColours,1000)
+  function InvertLandingColours() {
+    background.classList.add("altered")
+    setInterval(NormalLandingColours,1000)
+  }
+  function NormalLandingColours(){
+    background.classList.remove("altered")
+    setInterval(InvertLandingColours,1000)
+  }
 })
 
 // Anchors
