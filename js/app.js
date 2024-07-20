@@ -83,15 +83,13 @@ addEventListener("DOMContentLoaded", () => {
   setInterval(InvertLandingColours,1000) // Leave it at 1000 so user can see transition
   function InvertLandingColours() {
     background.classList.add("altered")
-    clearInterval(InvertLandingColours)
-    clearInterval(NormalLandingColours)
-    setInterval(NormalLandingColours,timer)
+    clearInterval(interval)
+    let interval = setInterval(NormalLandingColours,timer)
   }
   function NormalLandingColours(){
     background.classList.remove("altered")
-    clearInterval(NormalLandingColours)
-    clearInterval(InvertLandingColours)
-    setInterval(InvertLandingColours,timer)
+    clearInterval(interval)
+    let interval = setInterval(InvertLandingColours,timer)
   }
 })
 
