@@ -41,49 +41,6 @@
       margin-left: 0;
     }
 
-    /*  LANDING PAGE */
-    .landing-page {
-      background: none;
-      padding-bottom: 2vw;
-    }
-    #landing-distractor {
-      display: none;
-    }
-    #landing-text {
-      margin-top: 15vw;
-    }
-    #landing-text h1{
-      font-size: 3vw;
-    }
-    #landing-text h3 {
-      color: #303030;
-      font-size: 6vw;
-    }
-    #landing-text {
-      width: 100%;
-    }
-    #landing-text p {
-      color: black;
-      font-size: 3vw;
-      line-height: 7vw;
-      padding-bottom: 5vw;
-      width: 70%;
-    }
-
-    /*  BUTTONS */
-
-    #landing-buttons .btn img {
-      width: 3.5vw;
-      height: 3.5vw;
-      margin: auto;
-      margin-top: 2vw;
-    ;
-    }
-    #landing-buttons .btn {
-      width: 9vw;
-      height: 9vw;
-      margin-top: 2vw;
-    }
 
     /*  SERVICES OFFERED */
     hr {
