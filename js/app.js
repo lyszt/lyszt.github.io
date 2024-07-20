@@ -78,15 +78,20 @@ addEventListener("DOMContentLoaded", () => {
   design_button.classList.add("focus")
 
   // Landing page loop animations
+  let timer = 10.000
   const background = document.querySelector(".landing-page");
   setInterval(InvertLandingColours,1000) // Leave it at 1000 so user can see transition
   function InvertLandingColours() {
     background.classList.add("altered")
-    setInterval(NormalLandingColours,10.000)
+    clearInterval(InvertLandingColours)
+    clearInterval(NormalLandingColours)
+    setInterval(NormalLandingColours,timer)
   }
   function NormalLandingColours(){
     background.classList.remove("altered")
-    setInterval(InvertLandingColours,10.000)
+    clearInterval(NormalLandingColours)
+    clearInterval(InvertLandingColours)
+    setInterval(InvertLandingColours,timer)
   }
 })
 
