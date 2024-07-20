@@ -82,12 +82,12 @@ addEventListener("DOMContentLoaded", () => {
   const background = document.querySelector(".landing-page");
   function InvertLandingColours() {
     background.classList.add("altered")
-    clearInterval(interval)
+    clearTimeout(interval)
     interval = setTimeout(NormalLandingColours,timer)
   }
   function NormalLandingColours(){
     background.classList.remove("altered")
-    clearInterval(interval)
+    clearTimeout(interval)
     interval = setTimeout(InvertLandingColours,timer)
   }
   let interval = setTimeout(InvertLandingColours,1000) // Leave it at 1000 so user can see transition
