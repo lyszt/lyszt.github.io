@@ -307,11 +307,12 @@ div.hamburger.active img {
   align-items: center;
   overflow: hidden;
   position: relative;
-  background-color: white;
+  background: linear-gradient(to left,white 50%, crimson 50%) right;
+  background-size: 200% 100%;
   transition: 2s;
 }
 .altered {
-  background-color: crimson !important;
+  background-size: 100% 200% !important;
   transition: 2s;
 }
 .altered ::selection {
