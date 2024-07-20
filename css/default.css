@@ -233,7 +233,6 @@ div.hamburger.active img {
 .navigator-design.active {
   left: 0;
   display: grid;
-  left: 0;
   justify-content: center;
   align-content: center;
   align-items: center;
@@ -497,17 +496,20 @@ div.hamburger.active img {
   filter: saturate(0);
 }
 .port-option:hover {
+  background-color: #f8f8f8;
   border-bottom: 3px solid #d1d1d1;
+  transition: 0.5s;
 }
 .port-option:hover img{
   filter: invert(50%);
   transition: all 0.5s;
 }
+
 .port-option:focus{
   background-color: #ededed;
   border-radius: 3px;
   border-bottom: 3px solid crimson;
-  transition: none;
+  transition: 1s;
 }
 .port-option.focus{
   background-color: #ededed;
