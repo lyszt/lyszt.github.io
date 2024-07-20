@@ -560,6 +560,7 @@ div.hamburger.active img {
   background-color: white;
   color: black;
   opacity: 0;
+  font-weight: bolder;
   width: 100%;
   height: 100%;
   position: absolute;
