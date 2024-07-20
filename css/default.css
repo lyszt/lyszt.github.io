@@ -472,7 +472,7 @@ div.hamburger.active img {
   background-color: white;
 }
 .pick-portfolio .widgets {
-  width: 90vw;
+  width: 100vw;
   height: 43vh;
   padding-left: 2vw;
   margin: 5vh 1vw 5vh auto;
@@ -504,7 +504,7 @@ div.hamburger.active img {
   flex-direction: row;
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
 }
 .port-option img {
   display: block;
