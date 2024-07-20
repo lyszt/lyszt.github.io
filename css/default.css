@@ -399,17 +399,7 @@ div.hamburger.active img {
   height: 1vw;
 
 }
-#arrow-down img {
-  margin-top: 3vw;
-  width: 5vw;
-  height: 5vw;
-  opacity: 0;
-  animation: forwards fadeIn 2s;
-  animation-delay: 3s;
-}
-#arrow-down:hover {
-  opacity: 0.8;
-}
+
 
 
 /* Services Section */

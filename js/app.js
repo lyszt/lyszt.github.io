@@ -93,10 +93,3 @@ addEventListener("DOMContentLoaded", () => {
   }
 })
 
-// Anchors
-
-const arrow_down_landing = document.querySelector("#arrow-down");
-const portfolio_section = document.querySelector(".pick-portfolio")
-arrow_down_landing.addEventListener("click", () => {
-  portfolio_section.scrollIntoView()
-})
