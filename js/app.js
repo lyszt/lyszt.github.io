@@ -78,7 +78,7 @@ addEventListener("DOMContentLoaded", () => {
   design_button.classList.add("focus")
 
   // Landing page loop animations
-  let timer = 10.000
+  let timer = 10000
   const background = document.querySelector(".landing-page");
   let interval;
   function InvertLandingColours() {
