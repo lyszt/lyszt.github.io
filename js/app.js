@@ -84,12 +84,12 @@ addEventListener("DOMContentLoaded", () => {
   function InvertLandingColours() {
     background.classList.add("altered")
     clearInterval(interval)
-    let interval = setInterval(NormalLandingColours,timer)
+    interval = setInterval(NormalLandingColours,timer)
   }
   function NormalLandingColours(){
     background.classList.remove("altered")
     clearInterval(interval)
-    let interval = setInterval(InvertLandingColours,timer)
+    interval = setInterval(InvertLandingColours,timer)
   }
 })
 
