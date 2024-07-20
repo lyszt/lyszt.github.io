@@ -312,8 +312,8 @@ div.hamburger.active img {
   transition: 2s;
 }
 .altered {
-  background-size: 100% 200% !important;
-  transition: 2s;
+  background-position: left;
+  transition: all 2s linear;
 }
 .altered ::selection {
   background-color: white;
