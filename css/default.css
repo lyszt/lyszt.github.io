@@ -314,6 +314,9 @@ div.hamburger.active img {
   background-color: crimson !important;
   transition: 2s;
 }
+.altered ::selection {
+  background-color: white;
+}
 .altered p {
   color: white !important;
 }
