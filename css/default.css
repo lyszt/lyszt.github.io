@@ -334,7 +334,7 @@ div.hamburger.active img {
   background-color: #232323 !important;
 }
 .altered .btn:hover img {
-  filter: invert(100%);
+  filter: invert(100%) !important;
 }
 #landing-div {
   display: grid;
