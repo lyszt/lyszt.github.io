@@ -91,7 +91,7 @@ addEventListener("DOMContentLoaded", () => {
     clearTimeout(interval)
     interval = setTimeout(InvertLandingColours,timer)
   }
-  interval = setTimeout(InvertLandingColours,1000) // Leave it at 1000 so user can see transition
+  interval = setTimeout(InvertLandingColours,timer) // Leave it at 1000 so user can see transition
 
 })
 
