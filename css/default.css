@@ -378,7 +378,7 @@ div.hamburger.active img {
   padding-left: 1vw;
   padding-right: 1vw;
   font-size: 1vw;
-  background-color: crimson !important;
+  background-color: crimson;
   border: none;
   border-radius: 0;
 }
