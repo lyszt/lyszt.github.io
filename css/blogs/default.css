@@ -140,7 +140,6 @@ nav {
   }
   h1 {
     font-size: 5vw;
-    font-weight: bold;
     line-height: normal;
   }
   h2 {
@@ -149,7 +148,11 @@ nav {
   }
   .post .entry {
     font-size: 4vw;
+    font-weight: normal;
     line-height: normal;
+  }
+  .post.entry img{
+    margin-left: 1px;
   }
 
 }
