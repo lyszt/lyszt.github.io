@@ -219,23 +219,6 @@ layout: default
         <p>Adobe Premiere Pro and After Effects, combining them with other Adobe tools like Illustrator to create animations, motion graphics and video productions.</p>
       </div>
     </section>
-    <section class="blog">
-      <div class="posts">
-        {% for post in site.posts %}
-          <article class="post">
-            <div class="intro">
-              <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-              <p>{{ post.intro }}</p>
-            </div>
-            <div class="image">
-              <img src="{{post.cover}}" alt="{{post.alt}}">
-            </div>
-
-
-          </article>
-        {% endfor %}
-      </div>
-    </section>
 <script src="js/app.js"></script>
 
 
