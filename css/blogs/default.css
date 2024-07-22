@@ -125,8 +125,8 @@ nav {
   .post {
     text-align: center;
   }
-  .post img {
-    width: 50%;
+  .post > img {
+    width: 85%;
   }
 
 
@@ -141,10 +141,13 @@ nav {
   h1 {
     font-size: 5vw;
     line-height: normal;
+    margin-bottom: 0;
   }
   h2 {
-    font-size: 4vw;
-    color: #101010;
+    font-weight: normal;
+    font-size: 1.5vw;
+    color: #7d7d7d;
+    margin-top: 0;
   }
   .post .entry {
     font-size: 4vw;
@@ -152,6 +155,7 @@ nav {
     line-height: normal;
   }
   .post.entry img{
+    width: 30%;
     margin-left: 1px;
   }
 
