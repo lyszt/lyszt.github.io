@@ -173,7 +173,9 @@ nav {
   width: 10%;
   height: 10%;
 }
-
+.nav-item a {
+  color: black;
+}
 .navigator-design:active li {
   opacity: 1;
   display: block;
