@@ -62,6 +62,9 @@ h2 {
   width: 30%;
   margin-left: 1px;
 }
+.entry > p > img {
+  width: 30% !important;
+}
 /* Header & Nav */
 nav {
   position: fixed;
