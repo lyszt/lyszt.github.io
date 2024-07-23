@@ -36,14 +36,15 @@ header {
 }
 /* TITLE */
 h1 {
-  font-size: 3vw;
-  font-weight: bold;
+  font-size: 2em;
+  line-height: normal;
+  margin-bottom: 0;
 }
-/* SUBTITLE */
 h2 {
-  font-size: 2vw;
-  color: #101010;
-
+  font-weight: normal;
+  font-size: 1.5em;
+  color: #7d7d7d;
+  margin-top: 0;
 }
 .post .entry {
   font-size: 1.5vw;
@@ -53,10 +54,13 @@ h2 {
 .post .entry a {
   color: black;
 }
-.post img {
-  width: 30%;
+.post > img {
+  width: 80%;
 }
-
+.post.entry img{
+  width: 30%;
+  margin-left: 1px;
+}
 /* Header & Nav */
 nav {
   position: fixed;
@@ -125,9 +129,7 @@ nav {
   .post {
     text-align: center;
   }
-  .post > img {
-    width: 85%;
-  }
+
 
 
 
@@ -139,13 +141,13 @@ nav {
     margin: 30% 20% 0 10vw
   }
   h1 {
-    font-size: 5vw;
+    font-size: 1.5em;
     line-height: normal;
     margin-bottom: 0;
   }
   h2 {
     font-weight: normal;
-    font-size: 1.5vw;
+    font-size: 1.5em;
     color: #7d7d7d;
     margin-top: 0;
   }
@@ -154,9 +156,6 @@ nav {
     font-weight: normal;
     line-height: normal;
   }
-  .post.entry img{
-    width: 30%;
-    margin-left: 1px;
-  }
+
 
 }
