@@ -25,6 +25,7 @@ header {
   justify-items: start;
   align-items: center;
   justify-content: start;
+  margin-top: 10px;
 }
 .post {
   text-align: center;
@@ -39,11 +40,11 @@ header {
 }
 /* TITLE */
 h1 {
-  font-size: 2em;
+  font-size: 4em;
   line-height: normal;
-  letter-spacing: .1em;
+  letter-spacing: .2em;
   margin-bottom: 0;
-  color: #222;
+  color: #0c0c0c;
 }
 h2 {
   font-weight: normal;
