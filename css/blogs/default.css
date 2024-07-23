@@ -26,6 +26,9 @@ header {
   align-items: center;
   justify-content: start;
 }
+.post {
+  text-align: center;
+}
 .header * {
   margin-right: 2vw;
 }
@@ -38,7 +41,9 @@ header {
 h1 {
   font-size: 2em;
   line-height: normal;
+  letter-spacing: .1em;
   margin-bottom: 0;
+  color: #222;
 }
 h2 {
   font-weight: normal;
@@ -85,10 +90,6 @@ nav {
 @media screen and (max-width: 480px) {
   #main {
     margin: 30% 3vw 0 3vw;
-  }
-
-  .post {
-    text-align: center;
   }
 
   h1 {
@@ -144,9 +145,6 @@ nav {
 
     }
 
-    .post {
-      text-align: center;
-    }
 
     .post > img {
       width: 40%;
