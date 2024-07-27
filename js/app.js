@@ -98,8 +98,10 @@ addEventListener("DOMContentLoaded", () => {
   console.log(user_lang)
   const landing_text = document.querySelector("#landing-text p");
   const flag = document.querySelector(".flag");
+  const cv_link = document.querySelector(".cv");
   if(user_lang.startsWith("fr")){
     landing_text.innerHTML =  "<b>Soyez le bienvenu!</b> Je vous offre ce que vous recherchez."
+    cv_link.href = "https://drive.google.com/file/d/1UJTMjMxV83N_CFwpVpyr34CVuklIPgcJ/view?usp=sharing"
     if(user_lang === "fr-CA"){
       flag.src = "https://upload.wikimedia.org/wikipedia/commons/5/5f/Flag_of_Quebec.svg"
       flag.alt = "French-Canadian Flag - Quebec"
@@ -111,6 +113,7 @@ addEventListener("DOMContentLoaded", () => {
     landing_text.innerHTML =  "<b>A simplicidade</b> é o mais alto grau da sofisticação."
   }
   else {
+    cv_link.href = "https://drive.google.com/file/d/1FK_yAh3cft7x2CrK-GnOr5fbjv-heKwg/view?usp=sharing"
     flag.classList.add("hidden")
   }
 })
