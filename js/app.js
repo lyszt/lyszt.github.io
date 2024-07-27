@@ -105,9 +105,17 @@ addEventListener("DOMContentLoaded", () => {
       flag.alt = "French-Canadian Flag - Quebec"
     }
   }
-  else if(user_lang === "pt-BR"){
-    landing_text.innerHTML =  "<b>À l'ennemi je ne tends pas la main.</b> Gardez votre or, je garde ma puissance."
+  else if(user_lang.startsWith("pt")){
+    flag.src = "https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_Portugal.svg"
+    flag.alt = "Portuguese Flag - Portugal"
+    if(user_lang === "pt-BR"){
+      landing_text.innerHTML =  "<b>À l'ennemi je ne tends pas la main.</b> Gardez votre or, je garde ma puissance."
+      else{
+        landing_text.innerHTML =  "<b>A simplicidade</b> é o mais alto grau da sofisticação."
+      }
+    }
   }
+
   else {
     flag.classList.add("hidden")
   }
