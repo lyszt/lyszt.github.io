@@ -72,7 +72,7 @@ code_button.addEventListener("click", () => {
 })
 
 
-// On document read make preparations
+// On document load make preparations for Portfolio
 addEventListener("DOMContentLoaded", () => {
   design_folder.classList.remove("hidden");
   design_button.classList.add("focus")
@@ -93,6 +93,13 @@ addEventListener("DOMContentLoaded", () => {
   }
   interval = setTimeout(InvertLandingColours,timer) // Leave it at 1000 so user can see transition
 
+  // GeoLocation interactions
+  let userLang = navigator.language
+  console.log(userLang)
+  if(userLang == "fr-FR" || userLang == "fr-CA" || userLang == "en-US"){
+    const landing_text = document.querySelector("#landing-text.p");
+    landing_text.innerHTML = "<b>Soit bienvenu.</b> Je vous offre ce que vous recherchez."
+  }
 })
 
 
