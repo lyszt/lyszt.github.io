@@ -279,7 +279,7 @@ div.hamburger.active img {
 }
 .hamburger {
   margin: auto;
-  width: 33.3%;
+  width: 50%;
   display: flex;
   flex-wrap: wrap;
 
