@@ -102,6 +102,7 @@ addEventListener("DOMContentLoaded", () => {
     landing_text.innerHTML =  "<b>Soit bienvenu!</b> Je vous offre ce que vous recherchez."
     if(user_lang === "fr-CA"){
       flag.src = "https://upload.wikimedia.org/wikipedia/commons/5/5f/Flag_of_Quebec.svg"
+      flag.alt = "French-Canadian Flag - Quebec"
     }
   }
   else if(user_lang === "pt-BR"){
