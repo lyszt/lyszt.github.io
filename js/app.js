@@ -97,11 +97,18 @@ addEventListener("DOMContentLoaded", () => {
   let user_lang = navigator.language
   console.log(user_lang)
   const landing_text = document.querySelector("#landing-text p");
+  const flag = document.querySelector(".flag");
   if(user_lang.startsWith("fr")){
     landing_text.innerHTML =  "<b>Soit bienvenu!</b> Je vous offre ce que vous recherchez."
+    if(user_lang === "fr-CA"){
+      flag.src = "https://upload.wikimedia.org/wikipedia/commons/5/5f/Flag_of_Quebec.svg"
+    }
   }
   else if(user_lang === "pt-BR"){
     landing_text.innerHTML =  "<b>À l'ennemi je ne tends pas la main.</b> Gardez votre or, je garde ma puissance."
+  }
+  else {
+    flag.classList.add("hidden")
   }
 })
 
