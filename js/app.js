@@ -94,11 +94,14 @@ addEventListener("DOMContentLoaded", () => {
   interval = setTimeout(InvertLandingColours,timer) // Leave it at 1000 so user can see transition
 
   // GeoLocation interactions
-  let userLang = navigator.language
-  console.log(userLang)
-  if(userLang === "fr-FR" || userLang === "fr-CA" || userLang === "en-US"){
-    const landing_text = document.querySelector("#landing-text p");
-    landing_text.innerHTML =  "<b>Soit bienvenu! 🇫🇷 🇨🇦</b> Je vous offre ce que vous recherchez."
+  let user_lang = navigator.language
+  console.log(user_lang)
+  const landing_text = document.querySelector("#landing-text p");
+  if(user_lang === "fr-FR" || user_lang === "fr-CA"){
+    landing_text.innerHTML =  "<b>Soit bienvenu!</b> Je vous offre ce que vous recherchez."
+  }
+  else if(user_lang === "pt-BR"){
+    landing_text.innerHTML =  "<b>À l'ennemi je ne tends pas la main.</b> Gardez votre or, je garde ma puissance."
   }
 })
 
