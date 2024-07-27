@@ -97,7 +97,7 @@ addEventListener("DOMContentLoaded", () => {
   let userLang = navigator.language
   console.log(userLang)
   if(userLang === "fr-FR" || userLang === "fr-CA" || userLang === "en-US"){
-    const landing_text = document.querySelector("#landing-text.p");
+    const landing_text = document.querySelector("#landing-text p");
     landing_text.innerText = "<b>Soit bienvenu.</b> Je vous offre ce que vous recherchez."
   }
 })
