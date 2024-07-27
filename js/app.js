@@ -99,7 +99,7 @@ addEventListener("DOMContentLoaded", () => {
   const landing_text = document.querySelector("#landing-text p");
   const flag = document.querySelector(".flag");
   if(user_lang.startsWith("fr")){
-    landing_text.innerHTML =  "<b>Soit bienvenu!</b> Je vous offre ce que vous recherchez."
+    landing_text.innerHTML =  "<b>Soyez le bienvenu!</b> Je vous offre ce que vous recherchez."
     if(user_lang === "fr-CA"){
       flag.src = "https://upload.wikimedia.org/wikipedia/commons/5/5f/Flag_of_Quebec.svg"
       flag.alt = "French-Canadian Flag - Quebec"
