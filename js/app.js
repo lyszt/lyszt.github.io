@@ -102,7 +102,7 @@ addEventListener("DOMContentLoaded", () => {
   if(user_lang.startsWith("fr")){
     design_button.lastChild.innerText = "Projets Web";
     code_button.lastChild.innerText = "Projets Logiciels";
-    photography_button.lastChild.innerText = "Photographie";
+    photography_button.lastChild.innerText = "Photographie et Conception";
     videography_button.lastChild.innerText = "Videographie";
     landing_text.innerHTML =  "<b>Soyez le bienvenu!</b> Je vous offre ce que vous recherchez."
     cv_link.href = "https://drive.google.com/file/d/1UJTMjMxV83N_CFwpVpyr34CVuklIPgcJ/view?usp=sharing"
