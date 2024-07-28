@@ -100,6 +100,10 @@ addEventListener("DOMContentLoaded", () => {
   const flag = document.querySelector(".flag");
   const cv_link = document.querySelector(".cv");
   if(user_lang.startsWith("fr")){
+    design_button.innerText = "Projets Web"
+    code_button.innerText = "Projets Logiciels"
+    photography_button.innerText = "Photographie"
+    videography_button.innerText = "Videographie"
     landing_text.innerHTML =  "<b>Soyez le bienvenu!</b> Je vous offre ce que vous recherchez."
     cv_link.href = "https://drive.google.com/file/d/1UJTMjMxV83N_CFwpVpyr34CVuklIPgcJ/view?usp=sharing"
     if(user_lang === "fr-CA"){
