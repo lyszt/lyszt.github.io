@@ -18,9 +18,7 @@
     .undernav {
       width: 100%;
     }
-    .hamburger {
-      width: 60%;
-    }
+
     .hamburger > .bar {
       background-color: black;
       width: 1.4vw;
