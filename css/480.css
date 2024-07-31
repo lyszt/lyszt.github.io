@@ -30,7 +30,8 @@
     background-color: crimson;
   }
   .hamburger {
-    width: 83.91%;
+    margin-left: 1em;
+    width: 150%;
   }
   div.hamburger img {
     filter: saturate(0)brightness(0)invert(1);
