@@ -404,7 +404,37 @@ div.hamburger.active img {
   height: 1vw;
 
 }
+/* Introduction at Landing page */
+.introduction {
+  border-top: #ececec 5vw solid;
+  padding-top: 5%;
+  display: grid;
+  grid-auto-flow: column;
+  align-items: start;
+}
+.introduction > .left {
+  height: 100%;
+  display: grid;
 
+}
+.introduction > .left h3 {
+  text-align: left;
+  width: 80%;
+  margin-left: 20%;
+  font-weight: bold;
+  font-size: 2em;
+  padding-bottom: 1em;
+  border-bottom: 2px crimson solid;
+}
+.introduction > .right {
+  height: 100%;
+}
+
+.introduction > .right p {
+  width: 70%;
+  margin-left: 20%;
+  font-size: 1.1em;
+}
 
 
 /* Services Section */
