@@ -18,6 +18,10 @@
     .undernav {
       width: 100%;
     }
+  .hamburger {
+    width: 60%;
+    margin-left: 1em;
+  }
 
     .hamburger > .bar {
       background-color: black;
