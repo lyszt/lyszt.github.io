@@ -111,10 +111,15 @@ addEventListener("DOMContentLoaded", () => {
       flag.alt = "French-Canadian Flag - Quebec"
     }
   }
-  else if(user_lang.startsWith("pt") && user_lang !== "pt-BR"){
-    flag.src = "https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_Portugal.svg"
-    flag.alt = "Portuguese Flag - Portugal"
+  else if(user_lang.startsWith("pt")){
+    cv_link.href = "https://drive.google.com/file/d/1yEAZPgopRYWOElEYl4y3Mi0A1oyE5U2D/view?usp=sharing"
     landing_text.innerHTML =  "<b>A simplicidade</b> é o mais alto grau da sofisticação."
+    if(user_lang !== "pt-BR"){
+      flag.src = "https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_Portugal.svg"
+      flag.alt = "Portuguese Flag - Portugal"
+    }
+
+
   }
   else {
     cv_link.href = "https://drive.google.com/file/d/1FK_yAh3cft7x2CrK-GnOr5fbjv-heKwg/view?usp=sharing"
