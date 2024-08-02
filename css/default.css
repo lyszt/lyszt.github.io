@@ -408,6 +408,7 @@ div.hamburger.active img {
 .introduction {
   border-top: #f1f1f1 2vw solid;
   padding-top: 5%;
+  padding-bottom: 5%;
   display: grid;
   grid-auto-flow: column;
   align-items: start;
