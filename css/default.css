@@ -406,7 +406,7 @@ div.hamburger.active img {
 }
 /* Introduction at Landing page */
 .introduction {
-  border-top: #ececec 5vw solid;
+  border-top: #f1f1f1 2vw solid;
   padding-top: 5%;
   display: grid;
   grid-auto-flow: column;
