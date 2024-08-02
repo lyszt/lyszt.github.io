@@ -107,14 +107,13 @@
   }
   /*  BUTTONS */
   #landing-buttons .btn img {
-    width: 6vw;
+    width: 50%;
     height: 6vw;
     margin: auto;
     margin-top: 2vw;;
   }
 
   #landing-buttons .btn {
-    width: 90%;
     height: 12vw;
     margin-top: 2vw;
   }
