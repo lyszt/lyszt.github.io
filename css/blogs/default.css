@@ -36,6 +36,7 @@ header {
   text-align: left;
 }
 .header * {
+  font-size: 1.5em;
   margin-right: 2vw;
 }
 .header .author {
@@ -126,24 +127,26 @@ h2 {
     }
 
     h1 {
-      font-size: 5vw;
+      font-size: 2em;
       font-weight: bold;
     }
 
     h2 {
-      font-size: 3vw;
+      font-size: 2em;
       color: #101010;
 
     }
 
     .post .entry {
-      font-size: 1em;
+      font-size: 1.2em;
       line-height: normal;
       font-weight: normal;
-      margin: 10%;
+      width: 90%;
 
     }
-
+    .header * {
+      font-size: 2em;
+    }
 
     .post > img {
       width: 40%;
