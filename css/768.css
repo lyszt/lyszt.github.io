@@ -16,6 +16,10 @@
     }
 
     /*  NAV */
+    nav {
+      grid-gap: 10%;
+      width: 20%;
+    }
     .undernav {
       width: 100%;
       background-color: crimson;
