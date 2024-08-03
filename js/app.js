@@ -112,8 +112,7 @@ addEventListener("DOMContentLoaded", () => {
     }
   }
   else if(user_lang.startsWith("pt")){
-    flag.src = "https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_Portugal.svg"
-    flag.alt = "Portuguese Flag - Portugal"
+    flag.classList.add("hidden")
     landing_text.innerHTML =  "<b>A simplicidade</b> é o mais alto grau da sofisticação."
 
   }
