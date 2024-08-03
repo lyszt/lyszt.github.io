@@ -112,6 +112,7 @@ addEventListener("DOMContentLoaded", () => {
     }
   }
   else if(user_lang.startsWith("pt")){
+    flag.src = "https://upload.wikimedia.org/wikipedia/commons/3/31/Flag_of_Portuguese_language_%28PT-BR%29.svg"
     cv_link.href = "https://drive.google.com/file/d/1yEAZPgopRYWOElEYl4y3Mi0A1oyE5U2D/view?usp=sharing"
     landing_text.innerHTML =  "<b>A simplicidade</b> é o mais alto grau da sofisticação."
     if(user_lang !== "pt-BR"){
