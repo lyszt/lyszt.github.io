@@ -69,12 +69,10 @@ h2 {
 .post > img {
   width: 80%;
 }
-.post.entry img{
-  width: 30%;
-  margin-left: 1px;
-}
 .entry > p > img {
-  width: 30%;
+  margin: 6% 0  6% 0;
+  width: 100%;
+  display: block;
 }
 /* Distraction Image Sections */
 .decorating-section {
