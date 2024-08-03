@@ -28,7 +28,8 @@ header {
   justify-items: start;
   align-items: center;
   justify-content: start;
-  margin-top: 10px;
+  margin-top: 2%;
+  margin-bottom: 10%;
   font-size: 1.5vw;
 }
 .post {
@@ -60,7 +61,6 @@ h2 {
   font-weight: normal;
   font-size: 1.2em;
   line-height: 2em;
-  margin-right: 35%;
 }
 .post .entry a {
   color: black;
@@ -179,7 +179,7 @@ h2 {
     }
 
     .post .entry {
-      font-size: 4vw;
+      font-size: 1.2em;
       font-weight: normal;
       line-height: normal;
     }
