@@ -378,6 +378,7 @@ div.hamburger.active img {
   animation-delay: 3.5s;
 }
 #landing-buttons .btn {
+  box-shadow: none;
   margin: auto;
   padding: 0.8vw;
   padding-left: 1vw;
