@@ -166,7 +166,7 @@ hr {
 }
 /* Header & Nav */
 nav {
-  display: grid;
+  display: grid !important;
   grid-auto-flow: column;
   top: 0;
   position: fixed;
