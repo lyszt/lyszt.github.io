@@ -665,6 +665,7 @@ div.hamburger.active img {
   margin: 1vw;
   width: 230px;
   height: 260px;
+  padding-bottom: 10%;
   overflow: hidden;
 
 }
