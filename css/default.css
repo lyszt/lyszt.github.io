@@ -651,6 +651,7 @@ div.hamburger.active img {
   display: block;
   width: 100%;
   margin: 1vw;
+  margin-bottom: 5%;
 }
 .skills > p {
   font-size: 1em;
