@@ -122,4 +122,22 @@ addEventListener("DOMContentLoaded", () => {
   }
 })
 
+  // Konami Code Easter Egg
+  const konamiCode = [
+    'ArrowUp', 'ArrowUp',
+    'ArrowDown', 'ArrowDown',
+    'ArrowLeft', 'ArrowRight',
+    'ArrowLeft', 'ArrowRight',
+    'b', 'a'
+  ];
+  document.addEventListener('keydown', (event) => {
+    const key = event.key;
+    if (key == konamiCode[index]){
+      index++;
+    };
+    if(index == konamiCode.length){
+      window.location.replace("https://lyszt.github.io/memorial");
+      index = 0;
+    }
+  });
 
