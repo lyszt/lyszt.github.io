@@ -130,6 +130,7 @@ addEventListener("DOMContentLoaded", () => {
     'ArrowLeft', 'ArrowRight',
     'b', 'a'
   ];
+  let index = 0;
   document.addEventListener('keydown', (event) => {
     const key = event.key;
     if (key == konamiCode[index]){
