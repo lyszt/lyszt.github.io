@@ -11,7 +11,15 @@ h1 {
 /* ANIMATION AND TRANSITION STATEMENTS */
 
 .introduction {
-    animation: fadeIn ease-in-out 1.8s;
+    animation: fadeIn forwards 2s;
+}
+.introduction img {
+    animation: expandIn both 1s;
+    animation-delay: .5s;
+}
+@keyframes expandIn{
+    from{width: 0%;}
+    to{width: 50%;}
 }
 @keyframes fadeIn{
     from{opacity:0;}
