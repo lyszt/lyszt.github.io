@@ -1,5 +1,7 @@
 /* Transition */
  #transition {
+  margin-left: 50%;
+  margin-top: 50%;
   width: 0;
   height: 0;
   position: fixed;
@@ -11,7 +13,7 @@
   height: 100vw;
   border-radius: 0;
   z-index: 9999;
-  transition: 3s ease-in-out;
+  transition: 0.5s ease-in-out;
  }
 /* Video stuff */
 .video-wrapper{
