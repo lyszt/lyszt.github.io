@@ -8,6 +8,17 @@ h1 {
     margin-bottom: .6em;
     font-weight: 700;
 }
+/* ANIMATION AND TRANSITION STATEMENTS */
+
+.introduction {
+    animation: fadeIn ease-in-out 1.8s;
+}
+@keyframes fadeIn{
+    from{opacity:0;}
+    to{opacity: 1;}
+}
+
+/* INTRODUCTION */
 .introduction {
     padding-top: 10%;
     display: grid;
@@ -15,8 +26,6 @@ h1 {
     align-content: center;
     text-align: left;
 }
-/* INTRODUCTION */
-
 .introduction div {
     display: grid;
     justify-content: center;
