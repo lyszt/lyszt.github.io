@@ -1,4 +1,5 @@
-
+// CONSTANTS
+const transition_anim = document.querySelector("#transition");
 
 // Hamburger menu stuff
 
@@ -137,6 +138,7 @@ addEventListener("DOMContentLoaded", () => {
       index++;
     };
     if(index == konamiCode.length){
+      transition_anim.classList.toggle("active");
       window.location.replace("https://lyszt.github.io/memorial");
       index = 0;
     }
