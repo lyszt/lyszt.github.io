@@ -1,0 +1,45 @@
+
+body * {
+    font-family: 'Inter';
+    font-size: 1.3em;
+}
+h1 {
+    font-size: 1.5em;
+    margin-bottom: .6em;
+    font-weight: 700;
+}
+.introduction {
+    padding-top: 10%;
+    display: grid;
+    grid-auto-flow: column;
+    align-content: center;
+    text-align: left;
+}
+/* INTRODUCTION */
+
+.introduction div {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    grid-auto-flow: column;
+    width: 100%;
+    text-align: left;
+}
+.introduction h1 {
+    width: 80%;
+    padding-bottom: .1em;
+    border-bottom: .1em solid rgb(34, 34, 34);
+}
+.introduction p {
+    width: 50%;
+    font-size: .6em;
+    color: rgb(66, 66, 66);
+    font-weight: 300;
+}
+.introduction p b,u {
+    font-size: inherit;
+}
+.introduction img {
+    width: 65%;
+}
