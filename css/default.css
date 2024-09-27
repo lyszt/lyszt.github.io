@@ -1,17 +1,17 @@
 /* Transition */
  #transition {
-  width: 0%;
-  height: 0%;
+  width: 0;
+  height: 0;
   position: fixed;
   background-color: crimson;
   border-radius: 1000px;
  }
  #transition.active {
-  width: 0vw;
-  height: 0vw;
+  width: 100vw;
+  height: 100vw;
   border-radius: 0;
   z-index: 9999;
-  transition: 1.5s ease-in-out;
+  transition: 3s ease-in-out;
  }
 /* Video stuff */
 .video-wrapper{
