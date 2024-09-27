@@ -140,7 +140,7 @@ addEventListener("DOMContentLoaded", () => {
     if(index == konamiCode.length){
       transition_anim.classList.toggle("active");
       setTimeout(function(){
-        window.location.href("https://lyszt.github.io/memorial");
+        window.location.href = "https://lyszt.github.io/memorial";
       }, 1000);
       
       index = 0;
