@@ -1,12 +1,12 @@
 /* Transition */
  #transition {
-  margin-left: 50%;
-  margin-top: 50%;
   width: 0;
   height: 0;
   position: fixed;
   background-color: crimson;
   border-radius: 1000px;
+  transform: translate(-50%, 0);
+  left: 50%;
  }
  #transition.active {
   width: 100vw;
