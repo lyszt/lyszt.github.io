@@ -139,7 +139,10 @@ addEventListener("DOMContentLoaded", () => {
     };
     if(index == konamiCode.length){
       transition_anim.classList.toggle("active");
-      window.location.href("https://lyszt.github.io/memorial");
+      setTimeout(function(){
+        window.location.href("https://lyszt.github.io/memorial");
+      }, 1000);
+      
       index = 0;
     }
   });
