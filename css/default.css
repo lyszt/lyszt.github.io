@@ -1,17 +1,16 @@
 /* Transition */
  #transition {
   width: 100vw;
-  height: 0;
+  height: 100vw;
   position: fixed;
   background-color: crimson;
-  border-radius: 1000px;
+  border-radius: 50%;
   transform: translate(-50%, 0);
   left: 50%;
-  top: -10%;
+  top: -100%;
  }
  #transition.active {
-  height: 110vw;
-  border-radius: 0;
+  top:0;
   z-index: 9999;
   transition: 0.5s ease-in-out;
  }
