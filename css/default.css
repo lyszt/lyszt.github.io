@@ -1,17 +1,17 @@
 /* Transition */
  #transition {
-  width: 100vw;
-  height: 100vw;
+  width: 200vw;
+  height: 200vw;
   position: fixed;
   background-color: crimson;
   border-radius: 50%;
   transform: translate(-50%, 0);
   left: 50%;
-  top: -100%;
+  top: -200vw;
+  z-index: 9999;
  }
  #transition.active {
   top:0;
-  z-index: 9999;
   transition: 0.5s ease-in-out;
  }
 /* Video stuff */
