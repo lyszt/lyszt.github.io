@@ -12,10 +12,11 @@ h1 {
 
 .introduction {
     animation: fadeIn forwards 2s;
+    animation-delay: 1.5s;
 }
 .introduction img {
     animation: expandIn both 1s;
-    animation-delay: .5s;
+    animation-delay: 2s;
 }
 @keyframes expandIn{
     from{width: 0%;}
