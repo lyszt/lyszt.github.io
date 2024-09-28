@@ -372,7 +372,7 @@ div.hamburger.active img {
   text-align: center;
   width: 60%;
   margin: auto;
-  line-height: 3.5vw;
+  line-height: 1em;
   font-size: 3em;
   color: #474747;
   font-weight: 600;
