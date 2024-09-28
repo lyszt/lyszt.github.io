@@ -325,7 +325,7 @@ div.hamburger.active img {
   align-items: center;
   overflow: hidden;
   position: relative;
-  background: linear-gradient(to left,white 50%, crimson 50%) right;
+  background: linear-gradient(to left,#f1f1f1 50%, crimson 50%) right;
   background-size: 200% 100%;
   transition: 2s;
 }
