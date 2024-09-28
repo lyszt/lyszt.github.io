@@ -10,7 +10,7 @@ h1 {
 /* ANIMATION AND TRANSITION STATEMENTS */
 
 .introduction {
-    animation: fadeIn forwards 2s;
+    animation: fadeIn forwards both 2s;
     animation-delay: 1.5s;
 }
 .introduction img {
