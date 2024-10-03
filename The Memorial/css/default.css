@@ -10,7 +10,7 @@ h1 {
 /* ANIMATION AND TRANSITION STATEMENTS */
 
 .introduction {
-    animation: fadeIn forwards both 2s;
+    animation: fadeIn 2s forwards both;
     animation-delay: 1.5s;
 }
 .introduction img {
@@ -19,7 +19,7 @@ h1 {
 }
 @keyframes expandIn{
     from{width: 0%;}
-    to{width: 50%;}
+    to{width: 70%;}
 }
 @keyframes fadeIn{
     from{opacity:0;}
@@ -34,7 +34,6 @@ h1 {
 	display: grid;
 	grid-auto-flow: column;
 	align-items: start;
-	height: 60vw;
 	font-size: 2.5em;
 }
 .introduction div {
@@ -49,6 +48,7 @@ h1 {
 .introduction h1 {
     width: 80%;
     padding-bottom: .1em;
+    color: crimson;
     border-bottom: .1em solid rgb(34, 34, 34);
 }
 .introduction p {
@@ -61,5 +61,13 @@ h1 {
     font-size: inherit;
 }
 .introduction img {
-    width: 65%;
+    width: 40%;
+}
+/* FEATURED */
+.wiki-featured {
+  display: grid;
+  margin: 2%;
+  background-color: #f1f1f1 ;
+  width: 90%;
+  height: 45%;
 }
