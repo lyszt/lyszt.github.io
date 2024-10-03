@@ -49,7 +49,7 @@ h1 {
     width: 80%;
     padding-bottom: .1em;
     color: crimson;
-    border-bottom: .1em solid rgb(34, 34, 34);
+    border-bottom: .1em solid crimson;
 }
 .introduction p {
     width: 50%;
@@ -66,8 +66,23 @@ h1 {
 /* FEATURED */
 .wiki-featured {
   display: grid;
+  grid-auto-flow: column;
   margin: 2%;
   background-color: #f1f1f1 ;
   width: 90%;
-  height: 45%;
+  height: 40%;
+}
+.featured-item {
+  margin: 2%;
+  width: 95%;
+  height: 95%;
+  background-color: #d6d6d6;
+}
+.featured-item h1 {
+  width: 100%;
+  text-align: center;
+  color: white;
+  background-color: crimson;
+  padding: 1%;
+  margin: 0;
 }
