@@ -19,7 +19,7 @@ h1 {
 }
 @keyframes expandIn{
     from{width: 0%;}
-    to{width: 70%;}
+    to{width: 60%;}
 }
 @keyframes fadeIn{
     from{opacity:0;}
@@ -61,7 +61,6 @@ h1 {
     font-size: inherit;
 }
 .introduction img {
-    width: 40%;
 }
 /* FEATURED */
 .wiki-featured {
@@ -73,10 +72,8 @@ h1 {
   height: 40%;
 }
 .featured-item {
-  margin: 2%;
   width: 95%;
   height: 95%;
-  background-color: #d6d6d6;
 }
 .featured-item h1 {
   width: 100%;
