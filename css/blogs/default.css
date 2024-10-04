@@ -60,9 +60,12 @@ h2 {
 }
 .post .entry {
   font-weight: normal;
-  font-size: 1.2em;
+  font-size: 1.5em;
   line-height: 2em;
   margin-bottom: 5%;
+}
+.post p {
+  margin-bottom: 5%
 }
 .post .entry a {
   color: black;
@@ -71,7 +74,8 @@ h2 {
   width: 80%;
 }
 .entry > p > img {
-  margin: 6% 0  6% 0;
+  margin: 10%;
+  float: right;
   width: 43%;
   display: block;
 }
