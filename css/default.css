@@ -272,7 +272,8 @@ div.hamburger.active img {
 }
 
 .navigator-design li:active{
-  border-bottom: 0.2vw solid #cccccc;
+  color: crimson;
+  transition: 1s;
 }
 
 .contact {
