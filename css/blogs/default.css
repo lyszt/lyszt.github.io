@@ -104,6 +104,11 @@ h2 {
 .top-banner h1 {
   font-size: 5em !important;
 }
+.top-banner img {
+  opacity: 0.2;
+  max-width: 100%;
+  max-height: 100%;
+}
 
 
 @media screen and (max-width: 480px) {
