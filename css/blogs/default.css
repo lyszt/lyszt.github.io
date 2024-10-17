@@ -103,6 +103,16 @@ h2 {
 }
 .top-banner h1 {
   font-size: 5em !important;
+  font-weight: bold;
+}
+.top-banner hr {
+  background-color: #7d7d7d;
+  width: 10%;
+}
+.top-banner .subtitle {
+  display: grid;
+  grid-auto-flow: column;
+  grid-gap: 5%;
 }
 .top-banner img {
   opacity: 0.2;
