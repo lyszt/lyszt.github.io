@@ -90,6 +90,12 @@ h2 {
   filter: saturate(0%);
   max-width: 100%;
 }
+/* BANNER*/
+.top-banner{
+  background-color: #f1f1f1;
+  height: 50vh;
+}
+
 
 @media screen and (max-width: 480px) {
   #main {
