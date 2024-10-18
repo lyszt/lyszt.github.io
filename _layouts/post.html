@@ -24,23 +24,23 @@ layout: default
   <link rel="canonical" href="https://lyszt.github.io/{{page.title}}" />
 
 </head>
+<div class="top-banner">
+  <h1>{{page.title}}</h1>
+  <span class="subtitle">
+    <hr>
+    <h2>{{page.subtitle}}</h2>
+    <hr>
+  </span>
+  <div class="header">
+    {% if page.author %}<div class="author">{{page.author}}</div>{% endif %}
 
-<article class="post">
-  <div class="top-banner">
-      <h1>{{page.title}}</h1>
-      <span class="subtitle">
-        <hr>
-        <h2>{{page.subtitle}}</h2>
-        <hr>
-      </span>
-      <div class="header">
-        {% if page.author %}<div class="author">{{page.author}}</div>{% endif %}
-  
-        <div class="date">
-          Built around {{ page.date | date: "%B %e, %Y" }}
-        </div>
-      </div>
+    <div class="date">
+      Built around {{ page.date | date: "%B %e, %Y" }}
+    </div>
   </div>
+</div>
+<article class="post">
+  
   <div class="entry">
    
     {{ content }}
