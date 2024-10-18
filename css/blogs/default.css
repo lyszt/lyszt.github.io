@@ -100,6 +100,7 @@ h2 {
 	align-items: center;
 	text-align: center;
 	align-content: center;
+  overflow: hidden;
 }
 .top-banner h1 {
   font-size: 5em !important;
