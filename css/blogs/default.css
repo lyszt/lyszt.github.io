@@ -92,8 +92,11 @@ h2 {
 }
 /* BANNER*/
 .header {
-  display: grid;
-  grid-auto-flow: column;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
 }
 .top-banner {
 	background-color: #f1f1f1;
@@ -123,9 +126,11 @@ h2 {
 	justify-content: center;
 }
 .top-banner>.subtitle h2 {
+  margin: 2%;
+  color: #161616;
+  font-size: 1.5em;
   text-wrap: nowrap;
-  font-weight: normal;
-
+  font-weight: 300;
 }
 .top-banner img {
   opacity: 0.2;
