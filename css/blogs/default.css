@@ -107,13 +107,20 @@ h2 {
   font-weight: bold;
 }
 .top-banner hr {
-  border: 1px solid black;
-  margin: 0;
+	border: 1px solid black;
+	width: 2vw;
 }
 .top-banner .subtitle {
-  display: grid;
-  grid-auto-flow: column;
-  grid-gap: 5%;
+	display: grid;
+	grid-auto-flow: column;
+	grid-gap: 5%;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+}
+.top-banner>.subtitle h2 {
+  text-wrap: nowrap;
+  
 }
 .top-banner img {
   opacity: 0.2;
