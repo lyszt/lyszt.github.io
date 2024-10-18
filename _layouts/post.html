@@ -33,15 +33,16 @@ layout: default
         <h2>{{page.subtitle}}</h2>
         <hr>
       </span>
+      <div class="header">
+        {% if page.author %}<div class="author">{{page.author}}</div>{% endif %}
+  
+        <div class="date">
+          Built around {{ page.date | date: "%B %e, %Y" }}
+        </div>
+      </div>
   </div>
   <div class="entry">
-    <div class="header">
-      {% if page.author %}<div class="author">{{page.author}}</div>{% endif %}
-
-      <div class="date">
-        Built around {{ page.date | date: "%B %e, %Y" }}
-      </div>
-    </div>
+   
     {{ content }}
     <a href="{{page.refer}}"><button class="btn btn-secondary">See more</button></a>
 
