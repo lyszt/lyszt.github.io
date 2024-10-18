@@ -107,8 +107,8 @@ h2 {
   font-weight: bold;
 }
 .top-banner hr {
-  background-color: #7d7d7d;
-  width: 10%;
+  border: 1px solid black;
+  margin: 0;
 }
 .top-banner .subtitle {
   display: grid;
