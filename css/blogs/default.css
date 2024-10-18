@@ -91,6 +91,10 @@ h2 {
   max-width: 100%;
 }
 /* BANNER*/
+.header {
+  display: grid;
+  grid-auto-flow: column;
+}
 .top-banner {
 	background-color: #f1f1f1;
 	height: 69vh;
