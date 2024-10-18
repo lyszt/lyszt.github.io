@@ -120,7 +120,8 @@ h2 {
 }
 .top-banner>.subtitle h2 {
   text-wrap: nowrap;
-  
+  font-weight: normal;
+
 }
 .top-banner img {
   opacity: 0.2;
