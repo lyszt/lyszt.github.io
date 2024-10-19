@@ -40,25 +40,6 @@ layout: default
   </div>
 </div>
 <article class="post">
-  {% assign images =
-  [
-  { "src": page.image1, "alt": page.image1alt },
-  { "src": page.image2, "alt": page.image2alt },
-  { "src": page.image3, "alt": page.image3alt },
-  { "src": page.image4, "alt": page.image4alt }
-  ]
-  %}
-
-  {% if images | size > 0 %}
-  <div class="gallery">
-    {% for image in images %}
-    {% if image.src %}
-    <img src="{{ image.src }}" alt="{{ image.alt }}">
-    {% endif %}
-    {% endfor %}
-  </div>
-  {% endif %}
-
   <div class="entry">
 
     {{ content }}
