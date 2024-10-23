@@ -143,23 +143,39 @@ h2 {
   #main {
     margin: 30% 3vw 0 3vw;
   }
-
-  h1 {
-    font-size: 1.5em;
-    font-weight: bold;
-  }
-
-  .header * {
-    font-size: .5em;
-  }
-
   .post > img {
     width: 80%;
   }
-
+  h1 {
+    font-size: 1.3em;
+    font-weight: bold;
+  }
+  .top-banner {
+    height: 60vh
+  }
   .entry > p > img {
     width: 80%;
+
   }
+  .top-banner hr {
+    display: none;
+  }
+  
+  .top-banner > .subtitle h2 {
+    font-size: 1em;
+    text-wrap: wrap;
+  }
+  .top-banner h1 {
+    font-size: 1em !important;
+  }
+
+  .header * {
+    font-size: 1em;
+    padding: 0;
+    margin: 2%;
+  }
+
+  
 
   .post .entry {
     font-size: 1em;
@@ -168,6 +184,9 @@ h2 {
     font-weight: normal;
 
 
+  }
+  .entry p {
+    width: 100%;
   }
 }
   @media screen and (min-width: 481px) and (max-width: 768px) {
@@ -193,9 +212,6 @@ h2 {
       width: 90%;
 
     }
-    .header * {
-      font-size: 2em;
-    }
 
     .post > img {
       width: 40%;
@@ -207,6 +223,27 @@ h2 {
     }
     .entry > p > img {
       width: 80%;
+    }
+
+    .top-banner {
+      height: 100vh
+    }
+    .top-banner > .subtitle h2 {
+      font-size: 1em;
+      text-wrap: wrap;
+    }
+    .top-banner h1 {
+      font-size: 1em !important;
+    }
+  
+    .header * {
+      font-size: 1em;
+      padding: 0;
+      margin: 2%;
+    }
+  
+    .entry p {
+      width: 100%;
     }
 
 
