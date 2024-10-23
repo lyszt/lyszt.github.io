@@ -106,7 +106,6 @@ h2 {
 .top-banner {
 	background-color: #f1f1f1;
 	height: 69vh;
-	width: 100vw;
 	display: grid;
 	justify-content: center;
 	align-items: center;
@@ -246,7 +245,9 @@ h2 {
     .top-banner h1 {
       font-size: 1em !important;
     }
-  
+    .top-banner hr {
+      display: none;
+    }
     .header * {
       font-size: 1em;
       padding: 0;
@@ -296,7 +297,9 @@ h2 {
     .top-banner h1 {
       font-size: 3em !important;
     }
-  
+    .top-banner hr {
+      display: none;
+    }
     .header * {
       font-size: 1em;
       padding: 0;
