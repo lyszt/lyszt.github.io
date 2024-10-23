@@ -1,6 +1,9 @@
 .nav {
   display: grid !important;
 }
+.undernav {
+  background-color: crimson;
+}
 a {
   text-decoration: none;
 }
@@ -11,7 +14,9 @@ body {
   font-family: 'Inter', serif !important;
   display: grid;
   justify-items: center;
-  justify-content: center;
+}
+div.hamburger img {
+  filter: saturate(0)brightness(0)invert(1);
 }
 #main {
   margin: 10vw
@@ -271,6 +276,26 @@ h2 {
       font-weight: normal;
       line-height: normal;
 
+    }
+    .top-banner {
+      height: 100vh
+    }
+    .top-banner > .subtitle h2 {
+      font-size: 1em;
+      text-wrap: wrap;
+    }
+    .top-banner h1 {
+      font-size: 3em !important;
+    }
+  
+    .header * {
+      font-size: 1em;
+      padding: 0;
+      margin: 2%;
+    }
+  
+    .entry p {
+      width: 100%;
     }
 
 
