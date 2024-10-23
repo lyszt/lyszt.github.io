@@ -142,7 +142,7 @@ h2 {
   max-height: 100%;
 }
 .post-parallax img {
-  width: 60%;
+  background-size: 60%;
 }
 
 
@@ -196,7 +196,7 @@ h2 {
     width: 100%;
   }
   .post-parallax img {
-    width: 100%;
+    background-size: 100%;
   }
 }
   @media screen and (min-width: 481px) and (max-width: 768px) {
@@ -258,7 +258,7 @@ h2 {
       width: 100%;
     }
     .post-parallax img {
-      width: 60%;
+      background-size: 75%;
     }
 
 
@@ -310,7 +310,7 @@ h2 {
       width: 100%;
     }
     .post-parallax img {
-      width: 60%;
+      background-size: 60%;
     }
 
 
