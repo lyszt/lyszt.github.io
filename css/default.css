@@ -628,6 +628,14 @@ div.hamburger.active img {
   margin: 1vw;
   overflow: hidden;
 }
+.port-folder .project img {
+  transition: 2s;
+  opacity: 1;
+}
+.port-folder .project:hover img {
+  opacity: 0;
+}
+
 .project:hover .hover-setup {
   opacity: 1;
   left:0;
@@ -637,9 +645,7 @@ div.hamburger.active img {
   background-color: white;
   transition: 1s;
 }
-.project:hover img {
-  display: none;
-}
+
 
 .project:active .hover-setup {
   background-color: rgba(255,255,255,0.8);
