@@ -513,7 +513,7 @@ div.hamburger.active img {
   text-align: center;
   display: block;
   color: #6e6e6e;
-  font-size: 1em;
+  font-size: .75em;
 
 }
 .pick-portfolio h3{
@@ -531,6 +531,22 @@ div.hamburger.active img {
   background-color: #F8F8F8;
   display: table-cell;
   position: relative;
+}
+.project-skills {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  grid-auto-flow: column;
+  list-style-type: none;
+  padding: 0;
+}
+.project-skills > li {
+  list-style: none;
+  padding: 5px;
+  background-color: black;
+  color: white;
+  font-size: .75em;
+  margin: 1%;
 }
 .port-option {
   width: 20%;
@@ -605,15 +621,15 @@ div.hamburger.active img {
 .port-folder .project {
   position: relative;
   background-color: #e1e1e1;
-  width: 16vw;
-  height: 15vw;
+  width: 20vw;
+  height: 20vw;
   object-fit: contain;
   margin-left: 2vw;
   margin: 1vw;
 }
 .project:hover .hover-setup {
   opacity: 1;
-  transition: 0.5s;
+  transition: 0.2s;
 }
 
 .project:active .hover-setup {
