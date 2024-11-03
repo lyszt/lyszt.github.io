@@ -611,7 +611,7 @@ div.hamburger.active img {
   top: 0;
   display: flex;
   width: 100%;
-  height: 80%;
+  height: 100vh;
   margin: auto;
   overflow-x: hidden;
   overflow-y: scroll;
@@ -629,7 +629,7 @@ div.hamburger.active img {
   overflow: hidden;
 }
 .port-folder .project img {
-  transition: 2s;
+  transition: 1s;
   opacity: 1;
 }
 .port-folder .project:hover img {
@@ -643,7 +643,7 @@ div.hamburger.active img {
 }
 .project:hover {
   background-color: white;
-  transition: 1s;
+  transition: .5s;
 }
 
 
