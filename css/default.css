@@ -525,7 +525,7 @@ div.hamburger.active img {
 }
 .pick-portfolio .widgets {
   width: 100vw;
-  height: 43vh;
+  height: 100vh;
   padding-left: 2vw;
   margin: 5vh 1vw 5vh auto;
   background-color: #F8F8F8;
