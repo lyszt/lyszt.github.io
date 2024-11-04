@@ -1,5 +1,5 @@
 // TRANSLATION
-import { introduction } from './translation.js'
+import {translation} from './translation.js'
 
 
 // CONSTANTS
