@@ -40,7 +40,6 @@ addEventListener("DOMContentLoaded", () => {
       flag.alt = "French-Canadian Flag - Quebec";
     }
   } else if (user_lang.startsWith("pt")) {
-    flag.classList.add("hidden");
     design_button.innerText = "Design Web";
     code_button.innerText = "Softwares";
     photography_button.innerText = "Fotografia e Design";
