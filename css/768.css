@@ -193,7 +193,10 @@
     padding-bottom: 3vw;
   }
   .project .hover-setup {
-    opacity: 1;
+    opacity: 1 !important;
+  }
+  .project .hover-setup img {
+    display: none;
   }
   .pick-portfolio {
     background-color: #fbfbfb;
