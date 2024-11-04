@@ -107,10 +107,10 @@ addEventListener("DOMContentLoaded", () => {
   const intro_text = document.querySelector(".introduction p");
   const salutations = document.querySelector(".introduction .left h3")
   if(user_lang.startsWith("fr")){
-    design_button.lastChild.innerText = "Projets Web";
-    code_button.lastChild.innerText = "Projets Logiciels";
-    photography_button.lastChild.innerText = "Photographie et Conception";
-    videography_button.lastChild.innerText = "Videographie";
+    design_button.innerText = "Projets Web";
+    code_button.innerText = "Projets Logiciels";
+    photography_button.innerText = "Photographie et Conception";
+    videography_button.innerText = "Videographie";
 
     intro_text.innerHTML = translation.Introduction_FR[0];
     salutations.innerHTML = translation.Introduction_FR[1];
@@ -124,10 +124,10 @@ addEventListener("DOMContentLoaded", () => {
   }
   else if(user_lang.startsWith("pt")){
     flag.classList.add("hidden")
-    design_button.lastChild.innerText = "Design Web";
-    code_button.lastChild.innerText = "Softwares";
-    photography_button.lastChild.innerText = "Fotografia e Design";
-    videography_button.lastChild.innerText = "Videografia";
+    design_button.innerText = "Design Web";
+    code_button.innerText = "Softwares";
+    photography_button.innerText = "Fotografia e Design";
+    videography_button.innerText = "Videografia";
     landing_text.innerHTML =  "<b>A simplicidade</b> é o mais alto grau da sofisticação."
     intro_text.innerHTML = translation.Introduction_PT[0];
     salutations.innerHTML = translation.Introduction_PT[1];
