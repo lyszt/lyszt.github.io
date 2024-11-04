@@ -1,6 +1,9 @@
+// TRANSLATION
+import { introduction } from './translation.js'
+
+
 // CONSTANTS
 const transition_anim = document.querySelector("#transition");
-
 // Hamburger menu stuff
 
 const hamburger = document.querySelector(".hamburger");
@@ -100,11 +103,14 @@ addEventListener("DOMContentLoaded", () => {
   const landing_text = document.querySelector("#landing-text p");
   const flag = document.querySelector(".flag");
   const cv_link = document.querySelector(".cv");
+  const intro_text = document.querySelector(".introduction p");
+
   if(user_lang.startsWith("fr")){
     design_button.lastChild.innerText = "Projets Web";
     code_button.lastChild.innerText = "Projets Logiciels";
     photography_button.lastChild.innerText = "Photographie et Conception";
     videography_button.lastChild.innerText = "Videographie";
+    intro_text.innerHTML = translation.Introduction_FR[0];
     landing_text.innerHTML =  "<b>Soyez le bienvenu!</b> Je vous offre ce que vous recherchez."
     cv_link.href = "https://drive.google.com/file/d/1UJTMjMxV83N_CFwpVpyr34CVuklIPgcJ/view?usp=sharing"
     if(user_lang === "fr-CA"){
@@ -114,8 +120,12 @@ addEventListener("DOMContentLoaded", () => {
   }
   else if(user_lang.startsWith("pt")){
     flag.classList.add("hidden")
+    design_button.lastChild.innerText = "Design Web";
+    code_button.lastChild.innerText = "Softwares";
+    photography_button.lastChild.innerText = "Fotografia e Design";
+    videography_button.lastChild.innerText = "Videografia";
     landing_text.innerHTML =  "<b>A simplicidade</b> é o mais alto grau da sofisticação."
-
+    intro_text.innerHTML = translation.Introduction_PT[0];
   }
   else {
     cv_link.href = "https://drive.google.com/file/d/1FK_yAh3cft7x2CrK-GnOr5fbjv-heKwg/view?usp=sharing"
@@ -142,7 +152,7 @@ addEventListener("DOMContentLoaded", () => {
       setTimeout(function(){
         window.location.href = "https://lyszt.github.io/memorial";
       }, 1000);
-      
+
       index = 0;
     }
   });
