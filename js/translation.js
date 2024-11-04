@@ -1,16 +1,14 @@
 export const translation = {
-  "Introduction_PT": [
-    "Desde há alguns anos, trabalho de " +
-    "forma autónoma como desenvolvedor web e designer gráfico freelancer, " +
-    "especializando-me em design UI/UX e em diversas tecnologias. As minhas " +
-    "experiências permitiram-me aprofundar o meu conhecimento em táticas de SEO " +
-    "e estratégias de marketing, que são essenciais para melhorar a visibilidade " +
-    "online e impulsionar o envolvimento dos utilizadores. <br> <br> Sou dedicado e adaptável, com " +
-    "proficiência em várias linguagens de programação, incluindo C++, JavaScript, HTML, CSS, PHP, MySQL e Python, além dos seus respetivos frameworks. " +
-    "Este conjunto de competências técnicas permite-me entregar sites e aplicações de alta qualidade, feitas à medida para atender às necessidades específicas dos meus clientes. Como um diferencial, estou disponível em francês, inglês e português.<br><b>Aqui, " +
-    "pode saber mais sobre mim e o meu trabalho. Fique à vontade para explorar.</b>",
-    "Olá! <br> O meu nome é João Luís."
-  ],
+"Introduction_PT": [
+    "Há vários anos que trabalho de forma autónoma como desenvolvedor web e designer gráfico freelancer, " +
+    "especializado em design UI/UX e em várias tecnologias. As minhas experiências permitiram-me aprofundar os meus conhecimentos " +
+    "em tácticas de SEO e em estratégias de marketing, essenciais para melhorar a visibilidade online e aumentar " +
+    "o envolvimento dos utilizadores. <br> <br> Sou diligente e adaptável, com domínio de várias linguagens de programação, " +
+    "incluindo C++, JavaScript, HTML, CSS, PHP, MySQL e Python, bem como os respectivos frameworks. " +
+    "Este conhecimento técnico permite-me entregar sites e aplicações web de alta qualidade, ajustados às necessidades específicas dos meus clientes. " +
+    "Além disso, estou disponível em francês, inglês e português. <br> <b> Aqui, podes saber mais sobre mim e o meu trabalho. Sente-te à vontade para explorar.</b>"
+  ,
+    "Olá! <br> O meu nome é João Luís."],
   "Introduction_FR": [
     "Depuis plusieurs années, je travaille de manière autonome en tant que développeur web et designer graphique freelance, " +
     "spécialisé dans le design UI/UX et diverses technologies. Mes expériences m'ont permis d'approfondir mes connaissances " +
