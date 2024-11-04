@@ -1,10 +1,10 @@
 // TRANSLATION
 import { translation } from './translation.js';
 
-const photography_button = document.querySelector("#port-photography");
-const videography_button = document.querySelector("#port-video");
-const design_button = document.querySelector("#port-web");
-const code_button = document.querySelector("#port-code");
+const photography_button = document.querySelector("#port-photography a");
+const videography_button = document.querySelector("#port-video a");
+const design_button = document.querySelector("#port-web a");
+const code_button = document.querySelector("#port-code a");
 
 const photo_folder = document.querySelector("#photography-folder");
 const video_folder = document.querySelector("#video-folder");
