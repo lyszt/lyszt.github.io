@@ -1,16 +1,16 @@
 export const translation = {
   "Introduction_PT": [
-    "Desde alguns anos, tenho trabalhado de " +
-    "forma autônoma como desenvolvedor web e designer gráfico freelancer," +
-    " com especialização em design UI/UX e em diversas tecnologias. Minhas " +
-    "experiências permitiram aprofundar meu conhecimento em táticas de SEO " +
+    "Desde há alguns anos, trabalho de " +
+    "forma autónoma como desenvolvedor web e designer gráfico freelancer, " +
+    "especializando-me em design UI/UX e em diversas tecnologias. As minhas " +
+    "experiências permitiram-me aprofundar o meu conhecimento em táticas de SEO " +
     "e estratégias de marketing, que são essenciais para melhorar a visibilidade " +
-    "online e impulsionar o engajamento dos usuários.Sou dedicado e adaptável, com " +
-    "proficiência em várias linguagens de programação, incluindo C++, JavaScript, HTML, CSS, PHP, MySQL e Python, além de seus respectivos frameworks. " +
-    "Esse conjunto de habilidades técnicas me permite entregar sites e aplicativos de alta qualidade, feitos sob medida para atender às necessidades específicas dos meus clientes. Como um diferencial, estou disponível em francês, inglês e português.<br><b>Aqui, " +
-    "você pode saber mais sobre mim e meu trabalho. Fique à vontade para explorar.</b>"
-  ,
-  "Olá! <br> Meu nome é João Luís."],
+    "online e impulsionar o envolvimento dos utilizadores. Sou dedicado e adaptável, com " +
+    "proficiência em várias linguagens de programação, incluindo C++, JavaScript, HTML, CSS, PHP, MySQL e Python, além dos seus respetivos frameworks. " +
+    "Este conjunto de competências técnicas permite-me entregar sites e aplicações de alta qualidade, feitas à medida para atender às necessidades específicas dos meus clientes. Como um diferencial, estou disponível em francês, inglês e português.<br><b>Aqui, " +
+    "pode saber mais sobre mim e o meu trabalho. Fique à vontade para explorar.</b>",
+    "Olá! <br> O meu nome é João Luís."
+  ],
   "Introduction_FR": [
     "Depuis plusieurs années, je travaille de manière autonome en tant que développeur web et designer graphique freelance, " +
     "spécialisé dans le design UI/UX et diverses technologies. Mes expériences m'ont permis d'approfondir mes connaissances " +
