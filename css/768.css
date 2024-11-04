@@ -192,6 +192,9 @@
   .port-folder .project  img{
     display: none;
   }
+  .hover-setup {
+    left: 0;
+  }
   
   .portfolio-picker {
     padding-bottom: 3vw;
