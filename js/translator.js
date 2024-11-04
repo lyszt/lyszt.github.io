@@ -23,6 +23,7 @@ addEventListener("DOMContentLoaded", () => {
   const intro_text = document.querySelector(".introduction p");
   const salutations = document.querySelector(".introduction .left h3");
 
+  // FRENCH
   if (user_lang.startsWith("fr")) {
     design_button.innerText = "Projets Web";
     code_button.innerText = "Projets Logiciels";
@@ -39,6 +40,7 @@ addEventListener("DOMContentLoaded", () => {
       flag.src = "https://upload.wikimedia.org/wikipedia/commons/5/5f/Flag_of_Quebec.svg";
       flag.alt = "French-Canadian Flag - Quebec";
     }
+    // PORTUGUESE
   } else if (user_lang.startsWith("pt")) {
     design_button.innerText = "Design Web";
     code_button.innerText = "Softwares";
