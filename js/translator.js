@@ -50,7 +50,7 @@ addEventListener("DOMContentLoaded", () => {
     intro_text.innerHTML = translation.Introduction_PT[0];
     salutations.innerHTML = translation.Introduction_PT[1];
 
-    flag.src = "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Portugal.svg/1280px-Flag_of_Portugal.svg";
+    flag.src = "https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_Portugal.svg";
     flag.alt = "Bandeira de Portugal - Língua Portuguesa";
   } else {
     cv_link.href = "https://drive.google.com/file/d/1FK_yAh3cft7x2CrK-GnOr5fbjv-heKwg/view?usp=sharing";
