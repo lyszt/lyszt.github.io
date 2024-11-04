@@ -173,7 +173,9 @@
   .project .hover-setup {
     opacity: 1 !important;
   }
-
+  .hover-setup {
+    left: 0;
+  }
   
   /*  SERVICES OFFERED */
   .services-offered {
