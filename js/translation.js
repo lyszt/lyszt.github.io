@@ -1,4 +1,4 @@
-introduction = {
+export const introduction = {
   "Introduction_PT": [
     "Desde alguns anos, tenho trabalhado de " +
     "forma autônoma como desenvolvedor web e designer gráfico freelancer," +
