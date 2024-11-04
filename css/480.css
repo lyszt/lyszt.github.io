@@ -130,6 +130,9 @@
 
   /* Pick your poison - Pick Portfolio section */
 
+  .pick-portfolio .widgets {
+    height: 72vh;
+  }
   .pick-portfolio {
     margin-top: 5vw;
     margin-bottom: 5vw;
@@ -153,6 +156,9 @@
     width: 50vw;
     height: 50vw;
   }
+  .port-folder .project  img{
+    display: none;
+  }
   .portfolio-picker {
     padding-bottom: 3vw;
   }
@@ -162,13 +168,13 @@
   }
   .port-folder {
     padding: 3vw;
+    height: 70vh;
   }
   .project .hover-setup {
     opacity: 1 !important;
   }
-  .project .hover-setup img {
-    display: none;
-  }
+
+  
   /*  SERVICES OFFERED */
   .services-offered {
     background-color: white;
