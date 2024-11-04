@@ -10,7 +10,7 @@ export const translation = {
     "Esse conjunto de habilidades técnicas me permite entregar sites e aplicativos de alta qualidade, feitos sob medida para atender às necessidades específicas dos meus clientes. Como um diferencial, estou disponível em francês, inglês e português.<br><b>Aqui, " +
     "você pode saber mais sobre mim e meu trabalho. Fique à vontade para explorar.</b>"
   ,
-  "Olá! Meu nome é João Luís."],
+  "Olá! <br> Meu nome é João Luís."],
   "Introduction_FR": [
     "Depuis plusieurs années, je travaille de manière autonome en tant que développeur web et designer graphique freelance, " +
     "spécialisé dans le design UI/UX et diverses technologies. Mes expériences m'ont permis d'approfondir mes connaissances " +
@@ -20,5 +20,5 @@ export const translation = {
     "Ce bagage technique me permet de livrer des sites web et des applications de haute qualité, adaptés aux besoins spécifiques de mes clients. " +
     "En plus, je suis disponible en français, anglais et portugais. <b> Ici, vous pouvez en apprendre davantage sur moi et mon travail. N'hésitez pas à explorer.</b>"
   ,
-    "Enchanté! Je me nomme João Luís."],
+    "Enchanté! <br> Je me nomme João Luís."],
 }
