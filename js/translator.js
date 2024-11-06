@@ -67,7 +67,20 @@ addEventListener("DOMContentLoaded", () => {
     console.log(`Detected language (${user_lang}) is not English. Redirecting to Google Translate...`);
       
     if (!user_lang.startsWith("en")) {
-      const translateURL = `https://translate.google.com/translate?hl=en&sl=auto&tl=${targetLang}&u=${encodeURIComponent(pageURL)}`;
+       // List of supported languages in Google Translate
+      const supportedLanguages = ["en", "fr", "pt", "es", "de", "it", "ru", "ja", "zh", "ar", "ko", "pl"];
+
+      // Default target language (English)
+      let target_lang = "en"; 
+
+      // Check if the user's language is in the supported list
+      for (let lang of supportedLanguages) {
+        if (user_lang.startsWith(lang)) {
+          target_lang = lang;
+          break;
+        }
+      }
+      const translateURL = `https://translate.google.com/translate?hl=en&sl=auto&tl=${target_lang}}&u=${encodeURIComponent(pageURL)}`;
       window.location.href = translateURL;
     }
   }
