@@ -62,6 +62,7 @@ addEventListener("DOMContentLoaded", () => {
 
    // CONDITIONAL GOOGLE TRANSLATE WIDGET FOR NON-ENGLISH USERS
    if (!user_lang.startsWith("en")) { // If the language is not English
+    console.log("Language is not English. Loading Google Translate widget...");
     // Create a placeholder for the Google Translate widget
     const translateContainer = document.createElement("div");
     translateContainer.id = "google_translate_element";
