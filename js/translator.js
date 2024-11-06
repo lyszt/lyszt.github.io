@@ -52,8 +52,8 @@ addEventListener("DOMContentLoaded", () => {
     salutations.innerHTML = translation.Introduction_PT[1];
     // Change if you will, currently disabled to avoid preference-intent '-'
     flag.classList.add("hidden")
-    flag.src = "https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_Portugal.svg";
-    flag.alt = "Bandeira de Portugal - Língua Portuguesa";
+    flag.src = "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Flag_of_Brazil_%28Escobar_project%29.svg/1920px-Flag_of_Brazil_%28Escobar_project%29.svg.png";
+    flag.alt = "Bandeira do Brasil - Língua Portuguesa";
   } else {
     cv_link.href = "https://drive.google.com/file/d/1FK_yAh3cft7x2CrK-GnOr5fbjv-heKwg/view?usp=sharing";
     flag.classList.add("hidden");
