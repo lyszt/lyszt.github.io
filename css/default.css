@@ -128,31 +128,7 @@ hr {
   box-shadow: none !important;
   border: none !important;
 }
-.skiptranslate body {
-  background-color: white !important;
-  background-image: none !important;
-}
-.skiptranslate.iframe.html img {
-  display: none !important;
-}
-.skiptranslate.iframe.html a {
-  color: white;
-  text-decoration: none;
-  padding: 2%;
-  background: black;
-}
-.skiptranslate.iframe.html a:hover {
-  color: black;
-  background-color: white;
-}
-.skiptranslate.iframe.html button {
-  background-color: crimson;
-  color: white;
-}
-.skiptranslate.iframe.html button:hover {
-  background-color: rgb(155, 12, 40);
-  color: white;
-}
+
 /* Keyframes */
 @keyframes loadingFade {
   from{opacity: 1; visibility: visible;}
