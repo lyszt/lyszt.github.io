@@ -123,7 +123,7 @@ hr {
 .call-to-action:hover {
   background-color: black;
 }
-.skiptranslate.iframe.html {
+.skiptranslate{
   top: 10% !important;
   box-shadow: none !important;
   border: none !important;
