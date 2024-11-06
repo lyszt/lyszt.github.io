@@ -20,6 +20,48 @@ addEventListener("DOMContentLoaded", () => {
   const pageURL = window.location.href;
   console.log(`User language is ${user_lang}`);
 
+  var style = document.createElement('style');
+  style.type = 'text/css';
+  
+  // Define the CSS rules as a string
+  var css = `
+    .skiptranslate body {
+      background-color: white !important;
+      background-image: none !important;
+    }
+    .skiptranslate.iframe.html img {
+      display: none !important;
+    }
+    .skiptranslate.iframe.html a {
+      color: white !important;
+      text-decoration: none !important;
+      padding: 2% !important;
+      background: black !important;
+    }
+    .skiptranslate.iframe.html a:hover {
+      color: black !important;
+      background-color: white !important;
+    }
+    .skiptranslate.iframe.html button {
+      background-color: crimson !important;
+      color: white !important;
+    }
+    .skiptranslate.iframe.html button:hover {
+      background-color: rgb(155, 12, 40) !important;
+      color: white !important;
+    }
+  `;
+  
+  // Append the CSS to the style element
+  if (style.styleSheet) {
+    style.styleSheet.cssText = css; // For older IE
+  } else {
+    style.appendChild(document.createTextNode(css)); // For modern browsers
+  }
+
+  // Append the style element to the head of the document
+  document.head.appendChild(style);
+
   const landing_text = document.querySelector("#landing-text p");
   const flag = document.querySelector(".flag");
   const cv_link = document.querySelector(".cv");

@@ -128,7 +128,7 @@ hr {
   box-shadow: none !important;
   border: none !important;
 }
-.skiptranslate.iframe.html body {
+.skiptranslate body {
   background-color: white !important;
   background-image: none !important;
 }
