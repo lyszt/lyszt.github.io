@@ -66,20 +66,31 @@ addEventListener("DOMContentLoaded", () => {
     console.log("Language is not English. Loading Google Translate widget...");
     
     // Make the translate element container visible
-    document.getElementById("google_translate_element").style.display = "block";
+    const translateContainer = document.getElementById("google_translate_element");
+    translateContainer.style.display = "block";
 
     // Define the Google Translate callback function
     function googleTranslateElementInit() {
-      new google.translate.TranslateElement(
-        { pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE },
-        'google_translate_element'
-      );
+      try {
+        new google.translate.TranslateElement(
+          { pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE },
+          'google_translate_element'
+        );
+        console.log("Google Translate widget initialized successfully.");
+      } catch (error) {
+        console.error("Google Translate initialization failed:", error);
+      }
     }
 
     // Load the Google Translate script
     const script = document.createElement("script");
     script.type = "text/javascript";
     script.src = "https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit";
+
+    // Listen for script load or error events
+    script.onload = () => console.log("Google Translate script loaded successfully.");
+    script.onerror = () => console.error("Failed to load Google Translate script.");
+
     document.head.appendChild(script);
   }
 
