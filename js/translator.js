@@ -35,7 +35,8 @@ addEventListener("DOMContentLoaded", () => {
     landing_text.innerHTML = "<b>Soyez le bienvenu!</b> Je vous offre ce que vous recherchez.";
 
     cv_link.href = "https://drive.google.com/file/d/1UJTMjMxV83N_CFwpVpyr34CVuklIPgcJ/view?usp=sharing";
-
+    flag.src = "https://en.wikipedia.org/wiki/Flag_of_France#/media/File:Flag_of_France.svg";
+    flag.alt = "French Flag - France";
     if (user_lang === "fr-CA") {
       flag.src = "https://upload.wikimedia.org/wikipedia/commons/5/5f/Flag_of_Quebec.svg";
       flag.alt = "French-Canadian Flag - Quebec";
@@ -58,4 +59,27 @@ addEventListener("DOMContentLoaded", () => {
     cv_link.href = "https://drive.google.com/file/d/1FK_yAh3cft7x2CrK-GnOr5fbjv-heKwg/view?usp=sharing";
     flag.classList.add("hidden");
   }
+
+   // CONDITIONAL GOOGLE TRANSLATE WIDGET FOR NON-ENGLISH USERS
+   if (!user_lang.startsWith("en")) { // If the language is not English
+    // Create a placeholder for the Google Translate widget
+    const translateContainer = document.createElement("div");
+    translateContainer.id = "google_translate_element";
+    document.body.appendChild(translateContainer);  
+    
+    // Load the Google Translate script
+    const script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src = "//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit";
+    document.head.appendChild(script);
+  }
 });
+
+// Function to initialize the Google Translate element
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement(
+    {pageLanguage: 'en'},
+    'google_translate_element'
+  );
+}
+
