@@ -123,33 +123,33 @@ hr {
 .call-to-action:hover {
   background-color: black;
 }
-.skiptranslate {
+.skiptranslate.iframe.html {
   top: 10% !important;
   box-shadow: none !important;
   border: none !important;
 }
-.skiptranslate body {
+.skiptranslate.iframe.html body {
   background-color: white !important;
   background-image: none !important;
 }
-.skiptranslate img {
+.skiptranslate.iframe.html img {
   display: none !important;
 }
-.skiptranslate a {
+.skiptranslate.iframe.html a {
   color: white;
   text-decoration: none;
   padding: 2%;
   background: black;
 }
-.skiptranslate a:hover {
+.skiptranslate.iframe.html a:hover {
   color: black;
   background-color: white;
 }
-.skiptranslate button {
+.skiptranslate.iframe.html button {
   background-color: crimson;
   color: white;
 }
-.skiptranslate button:hover {
+.skiptranslate.iframe.html button:hover {
   background-color: rgb(155, 12, 40);
   color: white;
 }
