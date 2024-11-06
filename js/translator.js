@@ -50,7 +50,8 @@ addEventListener("DOMContentLoaded", () => {
     landing_text.innerHTML = "<b>A simplicidade</b> é o mais alto grau da sofisticação.";
     intro_text.innerHTML = translation.Introduction_PT[0];
     salutations.innerHTML = translation.Introduction_PT[1];
-
+    // Change if you will, currently disabled to avoid preference-intent '-'
+    flag.classList.add("hidden")
     flag.src = "https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_Portugal.svg";
     flag.alt = "Bandeira de Portugal - Língua Portuguesa";
   } else {
