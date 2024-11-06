@@ -141,113 +141,199 @@ layout: default
       </p>
     </div>
   </section>
-  <section class="pick-portfolio" role="region" aria-labelledby="portfolio-heading">
-    <h2 id="portfolio-heading">My Portfolio</h2>
-
+  <section class="pick-portfolio">
     <div class="portfolio-picker">
-        <div class="contents">
-            <button title="Web projects" class="port-option" id="port-web" aria-label="Web projects category">
-                <img src="img/web.svg" alt="Web portfolio icon">
-                Web Projects
-            </button>
+      <div class="contents">
+        <button title="Web projects" class="port-option" id="port-web"><img src="img/web.svg" alt="Web portfolio"><a>
+            Web Projects </a></button>
+        <button title="Programming Projects" class="port-option" id="port-code"><img src="img/computer.svg"
+            alt="Programming projects portfolio"><a>Programming</a></button>
+        <button title="Photography projects" class="port-option" id="port-photography"><img src="img/photocamera.svg"
+            alt="Photography Portfolio"><a>Photography and Design</a></button>
+        <button title="Videography projects" class="port-option" id="port-video"><img src="img/camera.svg"
+            alt="Videography Portfolio"><a>Videography</a> </button>
+      </div>
 
-            <button title="Programming Projects" class="port-option" id="port-code" aria-label="Programming projects category">
-                <img src="img/computer.svg" alt="Programming projects icon">
-                Programming
-            </button>
-
-            <button title="Photography projects" class="port-option" id="port-photography" aria-label="Photography category">
-                <img src="img/photocamera.svg" alt="Photography portfolio icon">
-                Photography and Design
-            </button>
-
-            <button title="Videography projects" class="port-option" id="port-video" aria-label="Videography category">
-                <img src="img/camera.svg" alt="Videography portfolio icon">
-                Videography
-            </button>
-        </div>
     </div>
-
     <div class="widgets">
-        <!-- DESIGN FOLDER -->
-        <div class="port-folder hidden" id="photography-folder" role="region" aria-labelledby="photography-heading">
-            <h3 id="photography-heading" class="sr-only">Photography Projects</h3>
+      <!-- DESIGN FOLDER -->
+      <div class="port-folder hidden" id="photography-folder">
+        <a class="project" href="https://www.behance.net/kalliddel" target="_blank">
+          <div class="hover-setup">
+            <h3>Behance</h3>
+            <p>Find a variety of my work here, some that haven't been highlighted in the website.</p>
+          </div>
+          <img src="img/behance.png" alt="My corporate logo.">
+        </a>
+        <a class="project" href="https://www.instagram.com/lys_kaldwin/" target="_blank">
+          <div class="hover-setup">
+            <h3>Daily photography</h3>
+            <p>A collection of pictures taken from everyday life with my Canon Powershot SX10IS.</p>
+          </div>
+          <img src="img/Portfolio/Fotografia/3.jpg" alt="Mushroom contrasting in scenery">
+        </a>
+        <a class="project" href="https://www.instagram.com/lys_dikaldwin/" target="_blank">
+          <div class="hover-setup">
+            <h3>Digital Art</h3>
+            <p>Check out my digital artworks.</p>
+          </div>
+          <img src="img/Portfolio/Design/2.jpg" alt="Deestad, protagonist of the Awesome Caderno.">
+        </a>
+        <a class="project" href="{{ site.baseurl }}{% link _posts/2021-12-1-Lygon.md %}" target="_blank">
+          <div class="hover-setup">
+            <h3>Studio Lygon X</h3>
+            <p>Check out all art pieces that have been created for Lygon X.</p>
+          </div>
+          <img src="img/Logobackground.png" alt="3D Mockup of the logo of Lygon.">
+        </a>
+        <a class="project" href="{{ site.baseurl }}{% link _posts/2021-8-5-Mactab.md %}" target="_blank">
+          <div class="hover-setup">
+            <h3>MACTAB Divisórias</h3>
+            <p>Publicity pieces for MACTAB's products, plus the website.</p>
+          </div>
+          <img src="img/Portfolio/Design/3dpublicity.jpg" alt="Privacy Booth for Corporate Environment.">
+        </a>
 
-            <a class="project" href="https://www.behance.net/kalliddel" target="_blank" aria-label="View my Behance portfolio">
-                <div class="hover-setup">
-                    <h3>Behance</h3>
-                    <p>Find a variety of my work here, some that haven't been highlighted in the website.</p>
-                </div>
-                <img src="img/behance.png" alt="Behance portfolio page screenshot">
-            </a>
-            <a class="project" href="https://www.instagram.com/lys_kaldwin/" target="_blank" aria-label="View my daily photography on Instagram">
-                <div class="hover-setup">
-                    <h3>Daily photography</h3>
-                    <p>A collection of pictures taken from everyday life with my Canon Powershot SX10IS.</p>
-                </div>
-                <img src="img/Portfolio/Fotografia/3.jpg" alt="Mushroom in a forest setting, photo example">
-            </a>
-            <!-- Add more items similarly with proper ARIA labels -->
-        </div>
+      </div>
+      <!-- VIDEO FOLDER -->
+      <div class="port-folder hidden" id="video-folder">
+        <a class="project" href="https://www.youtube.com/playlist?list=PLHF3MWlIK_c-uffF_lHzZJzP2lX4SyhlC"
+          target="_blank">
+          <div class="hover-setup">
+            <h3>Studio Lygon X</h3>
+            <p>My personal portfolio channel with movies, series and art. You can find some of my best work here.</p>
+            <ul class="project-skills">
+      </div>        <li>COMISSIONS</li>
+              <li>ENTERTAINMENT</li>
+              <li>CINEMA</li>
+            </ul>
+          </div>
+          <img src="img/lygon.png" alt="Logo of Studio Lygon.">
+        </a>
+        <a class="project" href="https://www.youtube.com/@MementosKai" target="_blank">
+          <div class="hover-setup">
+            <h3>MementosKai</h3>
+            <p>Gaming channel video editor, producer and designer.</p>
+            <ul class="project-skills">
+              <li>GAMING</li>
+            </ul>
+          </div>
+          <img src="img/Portfolio/Thumbnails/M. kai.png" alt="Beautiful and colourful abstract logo of MementosKai">
+        </a>
+        <a class="project" href="https://www.youtube.com/@kaldwin6853" target="_blank">
+          <div class="hover-setup">
+            <h3>LaWinter</h3>
+            <p>My english gaming channel, in which I'm the main video editor, producer and designer.</p>
+            <ul class="project-skills">
+              <li>GAMING</li>
+            </ul>
+          </div>
+          <img src="img/artoflogosuns.png" alt="Beautiful and colourful abstract logo of MementosKai">
+        </a>
+        <a class="project" href="https://youtu.be/lJE1pBazf4Q" target="_blank">
+          <div class="hover-setup">
+            <h3>Fidelity Factory</h3>
+            <p>Worked and created videos for a Microsoft Partner that offered solutions regarding Power Platform.</p>
+            <ul class="project-skills">
+              <li>CORPORATE</li>
+              <li>TUTORIALS</li>
+            </ul>
+          </div>
+          <img src="img/Portfolio/Thumbnails/mnp.jpg" alt="Beautiful and colourful abstract logo of MementosKai">
+        </a>
+      </div>
+      <!-- WEB FOLDER -->
+      <div class="port-folder" id="web-folder">
+        <a class="project" href="{{ site.baseurl }}{% link _posts/2024-1-1-Lex.md %}" target="_blank">
+          <div class="hover-setup">
+            <h3>Therapy with Lex</h3>
+            <p>I designed the sections regarding publishing, supervision, and coaching in a fancy, intuitive fashion.
+            </p>
+            <ul class="project-skills">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JAVASCRIPT</li>
+            </ul>
+          </div>
+          <img src="img/Portfolio/Web/santi.jpg" alt="Therapy with Lex Enrico Santi live view from a laptop">
+        </a>
+        <a class="project" href="{{ site.baseurl }}{% link _posts/2021-8-5-Mactab.md %}" target="_blank">
+          <div class="hover-setup">
+            <h3>Mactab Wall Partitions</h3>
+            <p>Responsible for the design of the majority of the website, not responsible for newer changes.</p>
+            <ul class="project-skills">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JAVASCRIPT</li>
+            </ul>
+          </div>
 
-        <!-- VIDEO FOLDER -->
-        <div class="port-folder hidden" id="video-folder" role="region" aria-labelledby="video-heading">
-            <h3 id="video-heading" class="sr-only">Videography Projects</h3>
-            <a class="project" href="https://www.youtube.com/playlist?list=PLHF3MWlIK_c-uffF_lHzZJzP2lX4SyhlC" target="_blank" aria-label="View my YouTube playlist for Studio Lygon X">
-                <div class="hover-setup">
-                    <h3>Studio Lygon X</h3>
-                    <p>My personal portfolio channel with movies, series, and art. You can find some of my best work here.</p>
-                    <ul class="project-skills">
-                        <li>COMISSIONS</li>
-                        <li>ENTERTAINMENT</li>
-                        <li>CINEMA</li>
-                    </ul>
-                </div>
-                <img src="img/lygon.png" alt="Studio Lygon X YouTube channel logo">
-            </a>
-            <!-- Add more items similarly with proper ARIA labels -->
-        </div>
+          <img src="img/Portfolio/Web/mactab.jpg" alt="Mactab divisórias e soluções">
+        </a>
+        <a class="project" href="{{ site.baseurl }}{% link _posts/2015-3-1-Zenon.md %}" target="_blank">
+          <div class="hover-setup">
+            <h3>Blade Zenon</h3>
+            <p>It's the website of a game development project from 2015. I still work on it to keep it fresh.</p>
+            <ul class="project-skills">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JAVASCRIPT</li>
+            </ul>
+          </div>
+          <img src="img/Portfolio/Web/zenon.jpg" alt="Person using the website for Blade Zenon.">
+        </a>
+      </div>
 
-        <!-- WEB FOLDER -->
-        <div class="port-folder" id="web-folder" role="region" aria-labelledby="web-heading">
-            <h3 id="web-heading" class="sr-only">Web Projects</h3>
-            <a class="project" href="{{ site.baseurl }}{% link _posts/2024-1-1-Lex.md %}" target="_blank" aria-label="Visit the Therapy with Lex website">
-                <div class="hover-setup">
-                    <h3>Therapy with Lex</h3>
-                    <p>I designed the sections regarding publishing, supervision, and coaching in a fancy, intuitive fashion.</p>
-                    <ul class="project-skills">
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>JAVASCRIPT</li>
-                    </ul>
-                </div>
-                <img src="img/Portfolio/Web/santi.jpg" alt="Screenshot of the Therapy with Lex website">
-            </a>
-            <!-- Add more items similarly with proper ARIA labels -->
-        </div>
 
-        <!-- ART FOLDER -->
-        <div class="port-folder hidden" id="code-folder" role="region" aria-labelledby="code-heading">
-            <h3 id="code-heading" class="sr-only">Programming Projects</h3>
-            <a class="project" href="https://github.com/lyszt/Providentia-Cataclyst" target="_blank" aria-label="View the Providentia Magnata project on GitHub">
-                <div class="hover-setup">
-                    <h3>Providentia Magnata</h3>
-                    <p>Python Discord bot built for spying and war. Made with SQL and Python using the module discord.py </p>
-                    <ul class="project-skills">
-                        <li>PYTHON</li>
-                        <li>PANDAS</li>
-                        <li>MYSQL</li>
-                        <li>DISCORD</li>
-                        <li>MATPLOT</li>
-                        <li>AI</li>
-                    </ul>
-                </div>
-                <img src="img/Portfolio/Coding/providentiathumb.png" alt="Screenshot of Providentia Magnata bot interface">
-            </a>
-            <!-- Add more items similarly with proper ARIA labels -->
-        </div>
-    </div>
-</section>
+      <!-- ART FOLDER -->
+      <div class="port-folder hidden" id="code-folder">
+        <a class="project" href="https://github.com/lyszt/Providentia-Cataclyst" target="_blank">
+          <div class="hover-setup">
+            <h3>Providentia Magnata</h3>
+            <p>Python Discord bot built for spying and war. Made with SQL and Python using the module discord.py </p>
+            <ul class="project-skills">
+              <li>PYTHON</li>
+              <li>PANDAS</li>
+              <li>MYSQL</li>
+              <li>DISCORD</li>
+              <li>MATPLOT</li>
+              <li>AI</li>
+            </ul>
+          </div>
+          <img src="img/Portfolio/Coding/providentiathumb.png" alt="Data Analysis Interface">
+        </a>
+        <a class="project" href="https://github.com/lyszt/ToadKeep" target="_blank">
+          <div class="hover-setup">
+            <h3>ToadKeep</h3>
+            <p>Useful Python Kivy virtual keyboard where you can copy characters and emoticons. Made to fix my old
+              laptop's keyboard problems.</p>
+            <ul class="project-skills">
+              <li>PYTHON</li>
+              <li>DESKTOP</li>
+              <li>MULTIPROCESSING</li>
+              <li>KIVYMD</li>
+            </ul>
+          </div>
+          <img src="img/Portfolio/Coding/toadkeeplogo.png" alt="Data Analysis Interface">
+        </a>
+        <a class="project" href="https://lystree.000webhostapp.com/" target="_blank">
+          <div class="hover-setup">
+            <h3>The Scarlett Gateway</h3>
+            <p>Dashboard for my daily need. Widgets, reminders and agendas and other integrations. Has a link with
+              Providentia.</p>
+            <ul class="project-skills">
+              <li>PHP</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JAVASCRIPT</li>
+            </ul>
+          </div>
+          <img src="img/Portfolio/Coding/scarlettgateway.png" alt="Data Analysis Interface">
+        </a>
+      </div>
+
+
+  </section>
 
   <section class="skills">
     <h1>SKILLS </h1>
