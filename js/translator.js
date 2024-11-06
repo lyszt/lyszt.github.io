@@ -64,9 +64,9 @@ addEventListener("DOMContentLoaded", () => {
   }
 
   if (!user_lang.startsWith("en")) {
-    console.log(`Detected language (${userLang}) is not English. Redirecting to Google Translate...`);
+    console.log(`Detected language (${user_lang}) is not English. Redirecting to Google Translate...`);
       
-    if (!userLang.startsWith("en")) {
+    if (!user_lang.startsWith("en")) {
       const translateURL = `https://translate.google.com/translate?hl=en&sl=auto&tl=${targetLang}&u=${encodeURIComponent(pageURL)}`;
       window.location.href = translateURL;
     }
