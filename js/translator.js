@@ -11,11 +11,21 @@ const video_folder = document.querySelector("#video-folder");
 const design_folder = document.querySelector("#web-folder");
 const code_folder = document.querySelector("#code-folder");
 
+
+// Function to initialize the Google Translate element
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement(
+    {pageLanguage: 'en'},
+    'google_translate_element'
+  );
+}
+
+
 addEventListener("DOMContentLoaded", () => {
   // GeoLocation interactions
   // Elements to translate in homepage
   let user_lang = navigator.language;
-  console.log(user_lang);
+  console.log(`User language is ${user_lang}`);
 
   const landing_text = document.querySelector("#landing-text p");
   const flag = document.querySelector(".flag");
@@ -75,12 +85,4 @@ addEventListener("DOMContentLoaded", () => {
     document.head.appendChild(script);
   }
 });
-
-// Function to initialize the Google Translate element
-function googleTranslateElementInit() {
-  new google.translate.TranslateElement(
-    {pageLanguage: 'en'},
-    'google_translate_element'
-  );
-}
 
