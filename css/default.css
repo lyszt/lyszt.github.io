@@ -97,7 +97,7 @@ b {
 body {
   overflow-x: hidden;
   background: white;
-  font-family: 'Inter', serif;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   font-weight: 200;
   max-width: 100%;
   margin: auto;
@@ -122,6 +122,36 @@ hr {
 }
 .call-to-action:hover {
   background-color: black;
+}
+.skiptranslate {
+  top: 10% !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+.skiptranslate body {
+  background-color: white !important;
+  background-image: none !important;
+}
+.skiptranslate img {
+  display: none !important;
+}
+.skiptranslate a {
+  color: white;
+  text-decoration: none;
+  padding: 2%;
+  background: black;
+}
+.skiptranslate a:hover {
+  color: black;
+  background-color: white;
+}
+.skiptranslate button {
+  background-color: crimson;
+  color: white;
+}
+.skiptranslate button:hover {
+  background-color: rgb(155, 12, 40);
+  color: white;
 }
 /* Keyframes */
 @keyframes loadingFade {
