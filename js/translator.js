@@ -16,7 +16,8 @@ const code_folder = document.querySelector("#code-folder");
 addEventListener("DOMContentLoaded", () => {
   // GeoLocation interactions
   // Elements to translate in homepage
-  let user_lang = navigator.language;
+  const user_lang = navigator.language;
+  const pageURL = window.location.href;
   console.log(`User language is ${user_lang}`);
 
   const landing_text = document.querySelector("#landing-text p");
@@ -63,35 +64,12 @@ addEventListener("DOMContentLoaded", () => {
   }
 
   if (!user_lang.startsWith("en")) {
-    console.log("Language is not English. Loading Google Translate widget...");
-    
-    // Make the translate element container visible
-    const translateContainer = document.getElementById("google_translate_element");
-    translateContainer.style.display = "block";
-
-    // Define the Google Translate callback function
-    function googleTranslateElementInit() {
-      try {
-        new google.translate.TranslateElement(
-          { pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE },
-          'google_translate_element'
-        );
-        console.log("Google Translate widget initialized successfully.");
-      } catch (error) {
-        console.error("Google Translate initialization failed:", error);
-      }
+    console.log(`Detected language (${userLang}) is not English. Redirecting to Google Translate...`);
+      
+    if (!userLang.startsWith("en")) {
+      const translateURL = `https://translate.google.com/translate?hl=en&sl=auto&tl=${targetLang}&u=${encodeURIComponent(pageURL)}`;
+      window.location.href = translateURL;
     }
-
-    // Load the Google Translate script
-    const script = document.createElement("script");
-    script.type = "text/javascript";
-    script.src = "https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit";
-
-    // Listen for script load or error events
-    script.onload = () => console.log("Google Translate script loaded successfully.");
-    script.onerror = () => console.error("Failed to load Google Translate script.");
-
-    document.head.appendChild(script);
   }
 
 });
