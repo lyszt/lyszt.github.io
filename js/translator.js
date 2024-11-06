@@ -12,14 +12,6 @@ const design_folder = document.querySelector("#web-folder");
 const code_folder = document.querySelector("#code-folder");
 
 
-// Function to initialize the Google Translate element
-function googleTranslateElementInit() {
-  new google.translate.TranslateElement(
-    {pageLanguage: 'en'},
-    'google_translate_element'
-  );
-}
-
 
 addEventListener("DOMContentLoaded", () => {
   // GeoLocation interactions
@@ -70,19 +62,26 @@ addEventListener("DOMContentLoaded", () => {
     flag.classList.add("hidden");
   }
 
-   // CONDITIONAL GOOGLE TRANSLATE WIDGET FOR NON-ENGLISH USERS
-   if (!user_lang.startsWith("en")) { // If the language is not English
+  if (!user_lang.startsWith("en")) {
     console.log("Language is not English. Loading Google Translate widget...");
-    // Create a placeholder for the Google Translate widget
-    const translateContainer = document.createElement("div");
-    translateContainer.id = "google_translate_element";
-    document.body.appendChild(translateContainer);  
     
+    // Make the translate element container visible
+    document.getElementById("google_translate_element").style.display = "block";
+
+    // Define the Google Translate callback function
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement(
+        { pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE },
+        'google_translate_element'
+      );
+    }
+
     // Load the Google Translate script
     const script = document.createElement("script");
     script.type = "text/javascript";
     script.src = "//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit";
     document.head.appendChild(script);
   }
+
 });
 
