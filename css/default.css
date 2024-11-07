@@ -879,5 +879,8 @@ footer > #bottom {
   text-align: center;
   margin: auto;
   font-size: 18px;
-  color: #999999;
+  color: black;
+}
+#copyright a {
+  color: crimson;
 }
