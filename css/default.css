@@ -374,6 +374,7 @@ div.hamburger.active img {
 }
 #landing-div span {
   line-height: 2em;
+  color: black;
 }
 #landing-text {
   width: 50%;
