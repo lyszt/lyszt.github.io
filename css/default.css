@@ -361,23 +361,23 @@ div.hamburger.active img {
 }
 #landing-div {
   display: grid;
-  justify-items: center;
+  justify-items: start;
   margin: 1vw;
-  padding-top: 4vw;
-  margin-top: 4vw;
+  grid-auto-flow: column;
+}
+#landing-div span {
+  line-height: 2em;
 }
 #landing-text {
-  width: 100%;
-  margin-left: 2vw;
-  float: left;
+  width: 50%;
+  margin-left: 5%;
   opacity: 0;
   animation: forwards fadeIn 2s;
   animation-delay: 2s;
 }
 #landing-text p {
-  text-align: center;
-  width: 60%;
-  margin: auto;
+  text-align: left;
+  width: 5%;
   line-height: 1em;
   font-size: 3em;
   color: #474747;

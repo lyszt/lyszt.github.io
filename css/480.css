@@ -74,7 +74,12 @@
   #landing-distractor {
     display: none;
   }
-
+  #landing-div {
+    margin: 0;
+  }
+  #landing-div span {
+    font-size: .85em;
+  }
 
   #landing-text {
     margin-top: 15vw;
@@ -96,10 +101,9 @@
 
   #landing-text p {
     color: black;
-    font-size: 5vw;
+    font-size: 1.6em;
     line-height: 7vw;
     padding-bottom: 5vw;
-    width: 70%;
   }
   /* Introduction at Landing page */
 
@@ -116,6 +120,11 @@
     margin-left: 0;
   }
   /*  BUTTONS */
+  #landing-buttons {
+    position: absolute;
+    top: 60%;
+    left: 2%;
+  }
   #landing-buttons .btn img {
     width: 50%;
     height: 6vw;
@@ -176,7 +185,7 @@
   .hover-setup {
     left: 0;
   }
-  
+
   /*  SERVICES OFFERED */
   .services-offered {
     background-color: white;
