@@ -60,6 +60,18 @@
 #goog-gt-vt {
   display: none;
 }
+.goog-te-gadget .goog-te-combo {
+  border: none;
+  margin: 4px 0;
+  margin-left: 10%;
+  background-color: white;
+}
+.goog-te-gadget .goog-te-combo:hover {
+  background-color: #d9d9d9;
+  padding: 4%;
+  transition: 1s;
+}
+
 ::-webkit-scrollbar {
   background: white;
 }
