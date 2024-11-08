@@ -57,6 +57,9 @@
   align-items: center;
   grid-gap: 5%;
 }
+#goog-gt-vt {
+  display: none;
+}
 ::-webkit-scrollbar {
   background: white;
 }
