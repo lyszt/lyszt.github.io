@@ -32,9 +32,7 @@
           <li class="nav-item contact"><a>contact</a></li>
         </ul>
       </nav>
-      <div id="transl">
       <div id="google_translate_element"></div>
-    </div>
     </header>
 
     <div id="main" role="main">
@@ -54,11 +52,11 @@
     {% include analytics.html %}
     <script src="../js/app.js"></script>
     <script type="module" src="js/translator.js"> </script>
-    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script> 
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
     <script type="text/javascript">
       function googleTranslateElementInit() {
         new google.translate.TranslateElement({pageLanguage: 'auto',  includedLanguages : 'pt,fr,en,de,ja,zh'}, 'google_translate_element');
       }
-      </script> 
+      </script>
   </body>
 </html>

@@ -41,6 +41,22 @@
 }
 
   /* Basic */
+#google_translate_element {
+  z-index: 999;
+  position: fixed;
+  bottom: 0;
+  background-color: white;
+  width: 100%;
+}
+.skiptranslate {
+  display: flex;
+  top: 10% !important;
+  box-shadow: none !important;
+  border: none !important;
+  align-content: center;
+  align-items: center;
+  grid-gap: 5%;
+}
 ::-webkit-scrollbar {
   background: white;
 }
