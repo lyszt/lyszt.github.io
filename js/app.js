@@ -18,12 +18,13 @@ const video_folder = document.querySelector("#video-folder");
 const design_folder = document.querySelector("#web-folder");
 const code_folder = document.querySelector("#code-folder");
 
+if(hamburger !== null) {
 // Hamburger menu toggle
-hamburger.addEventListener("click", () => {
-  hamburger.classList.toggle("active");
-  navMenu.classList.toggle("active");
-});
-
+  hamburger.addEventListener("click", () => {
+    hamburger.classList.toggle("active");
+    navMenu.classList.toggle("active");
+  });
+}
 // Menu item interactions on portfolio pick
 photography_button.addEventListener("click", () => {
   photo_folder.classList.remove("hidden");
