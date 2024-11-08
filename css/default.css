@@ -345,6 +345,9 @@ div.hamburger.active img {
 .altered p {
   color: white !important;
 }
+.altered span {
+  color: white !important;
+}
 .altered b {
   color: #222222 !important;
 }
