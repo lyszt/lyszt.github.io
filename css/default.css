@@ -395,9 +395,9 @@ div.hamburger.active img {
 }
 #landing-buttons {
   margin-top: 2vw;
-  animation: slideIn forwards 2s;
+  animation: slideIn forwards 1.5s;
   opacity: 0;
-  animation-delay: 3.5s;
+  animation-delay: 2.5s;
 }
 #landing-buttons .btn {
   box-shadow: none;
