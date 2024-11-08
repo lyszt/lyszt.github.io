@@ -383,6 +383,7 @@ div.hamburger.active img {
 }
 .altered span {
   color: white !important;
+  transition: 2s;
 }
 .altered b {
   color: #222222 !important;
@@ -407,6 +408,7 @@ div.hamburger.active img {
 #landing-div span {
   line-height: 2em;
   color: black;
+  transition: 2s;
 }
 #landing-text {
   width: 50%;
