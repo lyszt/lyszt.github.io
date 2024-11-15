@@ -16,10 +16,10 @@ const code_folder = document.querySelector("#code-folder");
 addEventListener("DOMContentLoaded", () => {
 
   const intervalId = setInterval(() => {
-    const element = document.querySelector("#skiptranslate > iframe");
+    const element = document.querySelector("#skiptranslate.iframe");
     if (element) {
       clearInterval(intervalId); // Stop checking once the element is found
-      translation_top.style.visibility = "hidden";
+      translation_top.parentElement.style.visibility = "hidden";
     }
   }, 100);
 
