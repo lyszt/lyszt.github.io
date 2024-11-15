@@ -14,6 +14,9 @@ const code_folder = document.querySelector("#code-folder");
 
 
 addEventListener("DOMContentLoaded", () => {
+
+  const translation_top = document.querySelector("#\\:1\\.container")
+  translation_top.style.visibility = "hidden";
   // GeoLocation interactions
   // Elements to translate in homepage
   const user_lang = navigator.language;
@@ -31,7 +34,7 @@ addEventListener("DOMContentLoaded", () => {
   }
   if (!user_lang.startsWith("en")) {
     console.log(`Detected language (${user_lang}) is not English.`);
-      
+
   }
 
 });
