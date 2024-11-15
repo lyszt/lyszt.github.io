@@ -18,9 +18,6 @@ body {
 div.hamburger img {
   filter: saturate(0)brightness(0)invert(1);
 }
-#main {
-  margin: 10vw
-}
 header {
   position: fixed;
   top: 0;
@@ -150,9 +147,7 @@ h2 {
 
 
 @media screen and (max-width: 480px) {
-  #main {
-    margin: 30% 3vw 0 3vw;
-  }
+
   .post > img {
     width: 80%;
   }
@@ -207,9 +202,7 @@ h2 {
   }
 }
   @media screen and (min-width: 481px) and (max-width: 768px) {
-    #main {
-      margin: 30% 3vw 0 3vw;
-    }
+
 
     h1 {
       font-size: 2em;
@@ -271,9 +264,6 @@ h2 {
 
   }
   @media screen and (min-width: 769px) and (max-width: 1024px) {
-    #main {
-      margin: 30% 20% 0 10vw
-    }
 
     h1 {
       font-size: 1.5em;
