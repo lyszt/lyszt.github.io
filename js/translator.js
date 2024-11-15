@@ -15,7 +15,7 @@ const code_folder = document.querySelector("#code-folder");
 
 addEventListener("DOMContentLoaded", () => {
 
-  const translation_top = document.querySelector("#\\:1\\.container")
+  const translation_top = document.querySelector(".skiptranslate>iframe")
   translation_top.style.visibility = "hidden";
   // GeoLocation interactions
   // Elements to translate in homepage
