@@ -15,8 +15,15 @@ const code_folder = document.querySelector("#code-folder");
 
 addEventListener("DOMContentLoaded", () => {
 
-  const translation_top = document.querySelector(".skiptranslate>iframe")
-  translation_top.style.visibility = "hidden";
+  const intervalId = setInterval(() => {
+    const element = document.querySelector("#skiptranslate > iframe");
+    if (element) {
+      clearInterval(intervalId); // Stop checking once the element is found
+      // Perform actions on the element here
+      translation_top.style.visibility = "hidden";
+    }
+  }, 100);
+
   // GeoLocation interactions
   // Elements to translate in homepage
   const user_lang = navigator.language;
