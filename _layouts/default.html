@@ -23,7 +23,6 @@
         <div class="hamburger">
           <img src="../img/hamburger.svg" alt="Hamburger Menu">
         </div>
-        <img class="hamburger flag" style="visibility: hidden;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_United_States_%28DoS_ECA_Color_Standard%29.svg/1920px-Flag_of_the_United_States_%28DoS_ECA_Color_Standard%29.svg.png" alt="English - US FLAG">
         <div class="undernav">
         </div>
         <ul class="navigator-design">
@@ -40,7 +39,6 @@
     </div>
 
     <footer>
-      </section>
       <section id="bottom">
         <p id="copyright">
           © 2024 João Luis Almeida (Lyszt Kaldwin, Deestad, Aldynor, Ryujinni). All Rights Reserved.
@@ -52,10 +50,11 @@
     {% include analytics.html %}
     <script src="/js/app.js"></script>
     <script type="module" src="/js/translator.js"> </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
     <script type="text/javascript">
-      function googleTranslateElementInit () {
+      function googleTranslateElementInit() {
         new google.translate.TranslateElement({pageLanguage: 'auto',  includedLanguages : 'pt,fr,en,de,ja,zh'}, 'google_translate_element');
       }
-      </script>
+    </script>
   </body>
 </html>
