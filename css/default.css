@@ -718,6 +718,7 @@ div.hamburger.active img {
 .hover-setup p {
   color: #383838;
   text-align: left;
+  font-weight: normal;
 }
 .hover-setup * {
   margin: 1vw;
