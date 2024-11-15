@@ -35,7 +35,7 @@ header {
   justify-content: start;
   margin-top: 2%;
   margin-bottom: 10%;
-  font-size: 1.5vw;
+  font-size: 1em;
 }
 .post {
   text-align: left;
@@ -81,7 +81,7 @@ h2 {
 }
 .entry > p > img {
   margin: 12%;
-  width: 50%;
+  width: 70vw;
   display: block;
 }
 /* Distraction Image Sections */
@@ -104,7 +104,6 @@ h2 {
   flex-direction: row;
 }
 .top-banner {
-	background-color: #f1f1f1;
 	height: 100vh;
   grid-gap: 10%;
 	display: grid;
