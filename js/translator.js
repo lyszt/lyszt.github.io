@@ -19,7 +19,6 @@ addEventListener("DOMContentLoaded", () => {
     const element = document.querySelector("#skiptranslate > iframe");
     if (element) {
       clearInterval(intervalId); // Stop checking once the element is found
-      // Perform actions on the element here
       translation_top.style.visibility = "hidden";
     }
   }, 100);
