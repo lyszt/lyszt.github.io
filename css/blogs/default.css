@@ -74,6 +74,7 @@ h2 {
   width: 100%;
 }
 .entry h1 {
+  font-size: 2em;
   margin: 10%;
 }
 .post .entry a {
@@ -165,6 +166,10 @@ h2 {
   .entry > p > img {
     width: 80%;
 
+  }
+  .entry h1 {
+    font-size: 1em;
+    margin: 10%;
   }
   .top-banner hr {
     display: none;
