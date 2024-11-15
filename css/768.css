@@ -28,6 +28,7 @@
       width: 100%;
     }
     div.hamburger img {
+      width: 20%;
       filter: saturate(0)brightness(0)invert(1);
     }
     div.hamburger.active img {
@@ -195,7 +196,7 @@
   .hover-setup {
     left: 0;
   }
-  
+
   .portfolio-picker {
     padding-bottom: 3vw;
   }
