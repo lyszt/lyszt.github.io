@@ -13,16 +13,6 @@ refer: https://www.youtube.com/watch?v=iQh63DH9H5w
 
 
 ---
-<style>.post-parallax {
-	width: 100%;
-	height: 60vh;
-	overflow: hidden;
-  	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-position: center;
-	background-size: 60%;
-}
-</style>
 
 # Knowing How to "Sell" Your Research: The Importance of Design in Academic Papers
 
