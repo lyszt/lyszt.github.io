@@ -48,7 +48,7 @@
   background-color: white;
   width: 100%;
 }
-.skip-translate.iframe {
+body>.skiptranslate {
   display: none;
   visibility: hidden;
 }
