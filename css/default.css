@@ -248,8 +248,7 @@ div.hamburger img {
   transition: 1s;
 }
 div.hamburger.active img {
-  filter: saturate(0)brightness(0);
-  transition: 1s;
+  filter: saturate(0.8);
 }
 
 .undernav {
