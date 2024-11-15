@@ -20,7 +20,7 @@ addEventListener("DOMContentLoaded", () => {
   const user_lang = navigator.language;
   console.log(`User language is ${user_lang}`);
   const cv_link = document.querySelector(".cv");
-
+  if(cv_link != null){
   // FRENCH
   if (user_lang.startsWith("fr")) {
     cv_link.href = "https://drive.google.com/file/d/1UJTMjMxV83N_CFwpVpyr34CVuklIPgcJ/view?usp=sharing";
@@ -29,6 +29,7 @@ addEventListener("DOMContentLoaded", () => {
     cv_link.href = "https://drive.google.com/file/d/1FK_yAh3cft7x2CrK-GnOr5fbjv-heKwg/view?usp=sharing";
   } else {
     cv_link.href = "https://drive.google.com/file/d/1yEAZPgopRYWOElEYl4y3Mi0A1oyE5U2D/view?pli=1";
+  }
   }
   if (!user_lang.startsWith("en")) {
     console.log(`Detected language (${user_lang}) is not English.`);
