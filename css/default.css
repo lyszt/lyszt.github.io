@@ -48,6 +48,10 @@
   background-color: white;
   width: 100%;
 }
+.skip-translate.iframe {
+  display: none;
+  visibility: hidden;
+}
 .skiptranslate {
   display: flex;
   top: 10% !important;
