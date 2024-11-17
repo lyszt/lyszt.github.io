@@ -1,7 +1,11 @@
 # frozen_string_literal: true
 
 source "https://rubygems.org"
-gem 'github-pages'
-gem 'jekyll-sitemap'
+
+gem "github-pages", "~> 226", group: :jekyll_plugins
+# If you have any plugins, put them here!
+group :jekyll_plugins do
+  gem "jekyll-feed"
+  gem 'jekyll-sitemap'
 
 # gem "rails"
