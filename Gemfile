@@ -7,9 +7,9 @@ source "https://rubygems.org"
 # https://github.com/jekyll/minima/pull/705#issuecomment-1387157504
 # Force the use of Jekyll's SASS converter
 gem "jekyll-sass-converter", "< 3.0"
-gem "liquid", "~> 4.0.3"
+gem "liquid", "~> 4.0.4"
 
-gem "github-pages", "~> 226", group: :jekyll_plugins
+gem "github-pages", group: :jekyll_plugins
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "jekyll-feed"
