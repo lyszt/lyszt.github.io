@@ -1,5 +1,4 @@
 // TRANSLATION
-import { translation } from './translation.js';
 
 const photography_button = document.querySelector("#port-photography a");
 const videography_button = document.querySelector("#port-video a");
