@@ -16,7 +16,7 @@ refer: https://www.youtube.com/watch?v=iQh63DH9H5w
 
 # Knowing How to "Sell" Your Research: The Importance of Design in Academic Papers
 
-![Beautiful 3d render made for a research paper](/img/3darticle.jpg)
+![Beautiful 3d render made for a research paper](/assets/img/3darticle.jpg)
 
 Knowing how to sell is one particularly important aspect of anything you do, write or create. There is no better way than convincing your customer that you product is top-notch than doing so by using aesthetics and design. Research shows that 75% of a consumer's judgment about a product is based on its appearance, with design playing a crucial role in influencing purchasing decisions (Source: Adobe). Furthermore, products with good aesthetics are often perceived as higher quality and more valuable, leading to a 30% increase in consumer engagement and a 20% higher likelihood of purchase (Source: Forbes). So, it becomes obvious: beauty doesn’t just apply to businesses and trade, it’s actually present everywhere. When you go for a job interview, when you try to convince your friend to come join your Minecraft server and build with you, or, as is the subject of this blog post, when you’re writing an article, a research paper, and you want to ** get your paper published **.
 But the principle of "design" extends beyond business. It influences how we present ideas, persuade others, and communicate messages.
