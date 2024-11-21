@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-11-21T20:18:23-03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">LYSZT - Portfólios e Projetos Relevantes</title><subtitle>Welcome to the portfolio of João Luís Almeida Santos (Lyszt Kaldwin), a skilled Developer &amp; Designer. Explore UI/UX design, web &amp; software solutions, and video production services tailored to elevate your business. Discover recent projects and learn about João&apos;s experience in the tech industry. Powered by Lygon Xin.</subtitle><entry><title type="html">Principles for making figures for research</title><link href="http://localhost:4000/ArticleDesign/" rel="alternate" type="text/html" title="Principles for making figures for research" /><published>2024-11-14T00:00:00-03:00</published><updated>2024-11-14T00:00:00-03:00</updated><id>http://localhost:4000/ArticleDesign</id><content type="html" xml:base="http://localhost:4000/ArticleDesign/"><![CDATA[<h1 id="knowing-how-to-sell-your-research-the-importance-of-design-in-academic-papers">Knowing How to “Sell” Your Research: The Importance of Design in Academic Papers</h1>
+
+<p><img src="/assets/img/3darticle.jpg" alt="Beautiful 3d render made for a research paper" /></p>
+
+<p>Knowing how to sell is one particularly important aspect of anything you do, write or create. There is no better way than convincing your customer that you product is top-notch than doing so by using aesthetics and design. Research shows that 75% of a consumer’s judgment about a product is based on its appearance, with design playing a crucial role in influencing purchasing decisions (Source: Adobe). Furthermore, products with good aesthetics are often perceived as higher quality and more valuable, leading to a 30% increase in consumer engagement and a 20% higher likelihood of purchase (Source: Forbes). So, it becomes obvious: beauty doesn’t just apply to businesses and trade, it’s actually present everywhere. When you go for a job interview, when you try to convince your friend to come join your Minecraft server and build with you, or, as is the subject of this blog post, when you’re writing an article, a research paper, and you want to ** get your paper published **.
+But the principle of “design” extends beyond business. It influences how we present ideas, persuade others, and communicate messages.</p>
+
+<p>In scientific writing, design also pla  ys a pivotal role in shaping how your work is perceived. The layout of a research paper, the clarity of figures, and the use of visual elements such as graphs or tables can significantly impact how readers engage with the content. Studies have shown that beautiful scientific articles are more likely to be cited and have higher readership. A paper that is easy to navigate, with visually appealing formatting and concise, well-structured sections, encourages readers to engage more deeply. Poor design, on the other hand, can lead to misunderstandings or cause readers to disengage prematurely, undermining the impact of even the most groundbreaking research.</p>
+
+<h1 id="uiux-in-scientific-writing-clarifying-the-role-of-design">UI/UX in Scientific Writing: Clarifying the Role of Design</h1>
+<p>With this said, it might also be important to consider that figures are ought to pass down a message. Don’t use figures nonsensically, use them to reinforce an idea or increase understanding. It’s basically UI/UX—User Interface and User Experience—which, although primarily associated with digital products, is just as relevant when presenting academic work. UI refers to the design elements that help structure the content and make it easy to navigate, while UX focuses on ensuring a positive experience for the reader, allowing them to engage with the material efficiently and intuitively. Every figure should reinforce an idea, clarify a concept, or provide additional insight into your research. In this way, the integration of UI/UX principles in your paper’s design not only improves the presentation but also enhances the reader’s understanding and engagement with the content.”</p>
+<ul>
+  <li><strong>UI (User Interface)</strong> refers to the design elements that make content easy to navigate and interact with. In a research paper, this includes how well the text, figures, graphs, and tables are organized, the consistency of formatting, and how readable the paper is as a whole.</li>
+  <li><strong>UX (User Experience)</strong> focuses on ensuring that the reader has a positive, efficient experience when engaging with the paper. It’s about making sure that the information flows logically, the figures are intuitive, and the design helps the reader to grasp the content easily. A positive UX in a research paper means the reader can focus on understanding the research without being distracted by confusing layouts or poorly presented data.
+Another valuable way to refine the UX of your research paper is to gather feedback through user testing. Just as companies conduct A/B testing to understand how different versions of a product resonate with their audience, you can apply a similar approach to your paper by showing it to friends, colleagues, or even unfamiliar readers. This external feedback can highlight areas where the flow or design of your paper might be confusing, too dense, or difficult to follow. By making adjustments based on their input, you can improve the overall user experience of your paper, ensuring that your ideas are communicated as clearly and effectively as possible.</li>
+</ul>
+
+<p>I’d like to mention one good scientific article designer, <a href="https://arxiv.org/pdf/2009.09134">Colin Ophus</a>. He makes good choices of colours and remarkably interesting designs that connect well to a paper that might be considered quite complex (Multibeam Electron Diffraction). The figures help the reader understand and visualize those not so easy to comprehend ideas, and that’s what figures are all about!</p>
+
+<p>But what to use in order to create the best possible articles? Now that we’ve established the importance of design, here are some tools to help you create high-quality visuals for your paper:</p>
+
+<ul>
+  <li>For 3D modeling, Blender is an excellent open-source tool that allows you to create detailed, high-quality visual representations of complex concepts.</li>
+  <li>Python offers a range of libraries such as Matplotlib and Seaborn for creating dynamic, customizable charts and graphs that can effectively convey statistical information.</li>
+  <li>If you’re looking for something more advanced, Unity or Unreal Engine can be used for immersive 3D visualizations that could turn your research into an interactive experience. With this, your crush your competitors.</li>
+  <li>Adobe Creative Suite (Photoshop, Illustrator, InDesign) is a great tool for refining layouts, creating clean vector graphics, and designing polished figures. Am I going too far?</li>
+  <li>But you don’t need to go all-in on professionality. Canva is super easy and has tons of templates to make graphs and images look polished without much work.</li>
+  <li>Google Sheets or Excel can help you whip up some charts and graphs to show off your numbers. Automatic, mind you.
+Here’s the complete list if you’re an advanced user and want the best stuff there is. You can go look for it.</li>
+  <li>Matplotlib, Seaborn, Plotly, Bokeh, Mayavi, Dask, Pandas, TensorFlow, PyTorch, PyOpenGL, Pygame, Unity with Python for Unity, VTK, Mayavi, Unreal Engine with Python scripting, Dash, Streamlit.</li>
+</ul>
+
+<blockquote>
+  <p>Below I have left a documentary in case you have the interest of diving in further into the subject.</p>
+</blockquote>]]></content><author><name>João Luís Almeida Santos</name></author><category term="DISCUSSION" /><summary type="html"><![CDATA[Knowing How to “Sell” Your Research: The Importance of Design in Academic Papers]]></summary></entry><entry><title type="html">THERAPY WITH LEX</title><link href="http://localhost:4000/Lex/" rel="alternate" type="text/html" title="THERAPY WITH LEX" /><published>2024-01-01T00:00:00-03:00</published><updated>2024-01-01T00:00:00-03:00</updated><id>http://localhost:4000/Lex</id><content type="html" xml:base="http://localhost:4000/Lex/"><![CDATA[<style>.post-parallax {
+	width: 100%;
+	height: 60vh;
+	overflow: hidden;
+  	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+    background-size: 60%;
+}
+</style>
+
+<p>Lex was one of my favourite clients I’ve worked with. In order to promote his services, he asked that I built him an engaging website with a modern, engaging design. You can see some examples of this work right here in this post.</p>
+
+<hr />
+
+<div class="post-parallax" style="background-image: url('../assets/img/Portfolio/Web/Lex/1.png');"> </div>
+
+<p>I designed this visual to communicate the key elements of Clinical Supervision in a clear and engaging manner. The title “Clinical Supervision” is prominently displayed in a bold font, immediately informing the viewer of the subject matter. Each of the three main points is accompanied by a simple, orange icon that visually represents the concept, helping in quick recognition and understanding. Below each icon, there is concise text that succinctly explains the associated concept, ensuring the message is conveyed without overwhelming the viewer. The use of orange for the icons draws attention, and the black background for the icons contrasts well with the white background, ensuring readability and visual appeal. The balanced layout, with evenly spaced and aligned points, creates an organized and aesthetically pleasing design. This professional and clean style is appropriate for the context of clinical supervision, balancing professionalism with approachability for the intended audience of licensed professionals.</p>
+
+<hr />
+
+<div class="post-parallax" style="
+	background-image: url('../assets/img/Portfolio/Web/Lex/2.png');"></div>
+<p>This design effectively showcases a collection of poetry books with an elegant and clean layout. The prominent “Poetry” title clearly indicates the section, while each book is displayed with its cover art, title, and artist credit, providing a visually appealing and informative presentation. The navigation arrows and pagination dots allow for easy browsing, enhancing the user experience. For more details and to explore the entire collection, please see more by clicking the button below, directing you to the full page.</p>
+
+<div class="post-parallax" style="background-image: url('../img/Portfolio/Web/Lex/3.png');"> </div>
+<hr />]]></content><author><name>João Luís Almeida Santos</name></author><category term="PORTFOLIO PIECE" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">LYGON - A Service Agency Dedicated to Design, Animation, and the Arts</title><link href="http://localhost:4000/Lygon/" rel="alternate" type="text/html" title="LYGON - A Service Agency Dedicated to Design, Animation, and the Arts" /><published>2021-12-01T00:00:00-03:00</published><updated>2021-12-01T00:00:00-03:00</updated><id>http://localhost:4000/Lygon</id><content type="html" xml:base="http://localhost:4000/Lygon/"><![CDATA[<h1 id="lygon---a-creative-journey-through-design-and-videography">LYGON - A Creative Journey Through Design and Videography</h1>
+
+<p>Lygon Xin is dedicated to my videography and design projects,
+and all the portfolio related to it was created to suit a variety of clients.
+I’ve worked on various projects, including branding, video editing, web design and development. All design elements
+are built using modern tools like After Effects, Premiere Pro, and Adobe Illustrator.
+Through Lygon, I’ve built a portfolio that caters to a wide range of clients—from influencers carving out their niche in the entertainment
+industry to established companies in Canada and the United States.</p>
+
+<p><img src="../assets/img/Logobackground.png" alt="Lygon Logo" /></p>
+
+<blockquote>
+  <p>The first iterations of Lygon’s brand were created back in 2014, setting the foundation for years of creative growth.</p>
+</blockquote>
+
+<hr />
+
+<h2 id="a-visual-evolution-from-2016-to-2021">A Visual Evolution: From 2016 to 2021</h2>
+
+<iframe width="420" height="315" src="https://www.youtube.com/embed/13qCYubhscI"></iframe>
+<iframe width="420" height="315" src="https://www.youtube.com/embed/fjJKdGJ5cN8"></iframe>
+
+<p><em>“Lygon’s opening sequences have evolved significantly. Compare the dynamic simplistic 2016 version to the polished 2021 iteration.”</em></p>
+
+<hr />
+
+<h2 id="working-with-influencers-and-businesses">Working with Influencers and Businesses</h2>
+
+<p>One of Lygon Xin’s core specialties is crafting visual content that empowers influencers in the competitive entertainment industry. Promotional videos, vlogs, and engaging visual branding - It has it all.
+’ve helped influencers find their voice and stand out. That’s the power of Lygon.</p>
+
+<p>Beyond influencer collaborations, Lygon has partnered with companies across Canada and the United States to produce impactful corporate videos. These projects include:</p>
+<ul>
+  <li><strong>Branding videos</strong> to establish a unique company identity.</li>
+  <li><strong>Promotional content</strong> designed to captivate target audiences.</li>
+  <li><strong>Internal communications videos</strong> that ensure consistency and professionalism.</li>
+</ul>
+
+<p>So far Lygon has worked with companies related to Microsoft, enterpreneurish individuals and startups.</p>
+<blockquote>
+  <p>Check out more examples of these works in the portfolio—click the ~see more~ button to explore.</p>
+</blockquote>
+
+<p><img src="../assets/img/Portfolio/Design/mockup.jpg" alt="Design Mockup" /></p>
+
+<hr />
+
+<h2 id="exploring-entertainment-and-wild-storytelling">Exploring Entertainment and Wild Storytelling</h2>
+
+<p>Lygon Xin is also a platform for creative projects that push the boundaries of conventional storytelling. One such project is the YouTube miniseries <em>Chodo and Deton</em>. This absurd, nonsensical story dives into immortality, clone-making, and multiverse travel—offering viewers an unpredictable and hilarious ride.</p>
+
+<iframe width="420" height="315" src="https://www.youtube.com/embed/XJf9m81MkAI"></iframe>
+<iframe width="420" height="315" src="https://www.youtube.com/embed/O5K_f5ET98M"></iframe>
+<iframe width="420" height="315" src="https://www.youtube.com/embed/KtLxMTNSyOQ"></iframe>
+
+<blockquote>
+  <p>If you have time to spare and a love for absurd comedy, this series is worth a watch!</p>
+</blockquote>
+
+<hr />
+
+<p>Are you looking for a partner to elevate your corporate identity? Lygon Xin has something to offer you. So reach out.</p>
+
+<blockquote>
+  <p>Ready to dive in? Check out the portfolio and see how creative design and storytelling can transform your vision into reality.</p>
+</blockquote>]]></content><author><name>João Luís Almeida Santos</name></author><category term="PORTFOLIO PIECE" /><summary type="html"><![CDATA[LYGON - A Creative Journey Through Design and Videography]]></summary></entry><entry><title type="html">MACTAB - How interactive design can help your business</title><link href="http://localhost:4000/Mactab/" rel="alternate" type="text/html" title="MACTAB - How interactive design can help your business" /><published>2021-08-05T00:00:00-03:00</published><updated>2021-08-05T00:00:00-03:00</updated><id>http://localhost:4000/Mactab</id><content type="html" xml:base="http://localhost:4000/Mactab/"><![CDATA[<h1 id="mactab-industrial-partition-solutions">MACTAB: Industrial Partition Solutions</h1>
+
+<p>In the digital age, businesses face a critical challenge: how to stand out in a crowded marketplace. One of the most effective tools for achieving this is interactive design—the art of creating user interfaces that don’t just look good but actively engage users, enhance functionality, and deliver memorable experiences.</p>
+
+<p><img src="https://mactab.com.br/wp-content/uploads/2023/11/logo-mactab-novo.png" alt="Mactab Logo" /></p>
+
+<p>MACTAB specializes in manufacturing industrial partitions for floors and ceilings, offering corporate solutions that optimize space with a blend of technology, aesthetics, acoustics, and innovation. The logo and brand design were created using pure JavaScript, HTML, and CSS.
+While working there, I witnessed firsthand how interactive design could transform a brand. Through a blend of technology, aesthetics, and innovation, we developed solutions that not only optimized space but also provided users with a seamless and intuitive experience.</p>
+<blockquote>
+  <p>I designed this logo, which is now used across MACTAB’s branding.</p>
+</blockquote>
+
+<hr />
+
+<p><img src="../assets/img/Portfolio/Web/Mactab/1.jpg" alt="Design Example 1" /></p>
+
+<p>The user interface I developed for MACTAB allows for intuitive customization of partitions, offering a range of fabric options, panels, and finishes to match any style or requirement. Users can effortlessly select textures and customize features such as locks, blinds, handles, and glass details. This clean, user-friendly design not only enhances functionality but also emphasizes aesthetics, making it a key piece in my portfolio.</p>
+
+<hr />
+
+<h1 id="why-interactive-design-matters">Why Interactive Design Matters</h1>
+<blockquote>
+  <p>“Design is not just what it looks like and feels like. Design is how it works.”
+— Steve Jobs</p>
+</blockquote>
+
+<p>Interactive design bridges the gap between users and functionality, enabling businesses to:</p>
+
+<ul>
+  <li>Improve User Engagement: Dynamic interfaces encourage users to explore, interact, and spend more time with the product.</li>
+  <li>Increase Efficiency: Clear, intuitive navigation reduces the learning curve and speeds up task completion.</li>
+  <li>Strengthen Branding: A well-designed interface reinforces brand identity, creating a consistent and professional image.</li>
+  <li>Drive Sales and Conversions: Customization options and interactive previews can directly influence purchasing decisions.</li>
+</ul>
+
+<h3 id="video-demonstration">Video Demonstration</h3>
+
+<iframe width="420" height="315" src="https://www.youtube.com/embed/OFG6XV8jaBE">
+</iframe>
+
+<p><img src="../assets/img/Portfolio/Web/Mactab/2.png" alt="Design Example 2" /></p>
+
+<blockquote>
+  <p>You can see some more designs down below.</p>
+</blockquote>
+
+<hr />]]></content><author><name>João Luís Almeida Santos</name></author><category term="PORTFOLIO PIECE" /><summary type="html"><![CDATA[MACTAB: Industrial Partition Solutions]]></summary></entry><entry><title type="html">BLADE ZENON - A collaborative game made by its players</title><link href="http://localhost:4000/Zenon/" rel="alternate" type="text/html" title="BLADE ZENON - A collaborative game made by its players" /><published>2015-03-01T00:00:00-03:00</published><updated>2015-03-01T00:00:00-03:00</updated><id>http://localhost:4000/Zenon</id><content type="html" xml:base="http://localhost:4000/Zenon/"><![CDATA[<h1 id="blade-zenon-how-a-collaborative-project-managed-to-create-a-game-managed-by-its-users">Blade Zenon: How a Collaborative Project Managed to Create a Game Managed by Its Users</h1>
+
+<blockquote>
+  <p><strong>Website for Blade Zenon:</strong> A website for a MMORPG project from 2015</p>
+</blockquote>
+
+<p>This entry is as much an addition to my portfolio as an homage to the period when it was developed. As a 12-year-old aspiring game developer, I launched an online forum for a game I was passionately working on using Unity.
+This forum became a community hub for over 100 active members. Back then, I had only begun programming, I had started doing 3D modeling, and I had hardly any experience as a developer.</p>
+
+<p>Although the game itself never reached publication, the experience of developing this project and managing the community was invaluable. Several skills I have today were developed during that period, not to mention it was my first experience leading a big project with lots of expectations and hype.</p>
+
+<p><img src="https://i.imgur.com/N6e0iGa.png" alt="Blade Zenon Concept Art" /></p>
+
+<hr />
+
+<p>Research has shown that when people feel they have a stake in the outcome of a project, their level of engagement increases. This is particularly true in online communities, where members are more likely to contribute to projects they feel are shaped by their input.</p>
+
+<p>The idea that the success of a project hinges on the contributions of its users is supported by self-determination theory in psychology. It suggests that people are motivated when they feel competent, autonomous, and connected to others. Blade Zenon’s collaborative design allowed members to experience all three. They weren’t just passive participants; they had a direct hand in how the game developed, which likely drove their continued involvement.</p>
+
+<p>In game development, especially in a collaborative setting, feedback loops are crucial. These loops not only help improve the game’s mechanics but also foster a sense of ownership among users. The process I went through with Blade Zenon—the cycle of receiving feedback, adjusting the design, and implementing new ideas—mirrors the concept of continuous improvement found in agile development.</p>
+
+<p>It’s an approach that emphasizes constant iteration, and in the context of Blade Zenon, it ensured the game adapted and evolved based on real user experiences. By staying responsive to feedback, the project could refine its design and make meaningful changes in real-time.</p>
+
+<p><img src="https://i.imgur.com/1ayvgvp.png" alt="Blade Zenon Forum" /></p>
+
+<hr />
+
+<p>Blade Zenon was an online game that featured a community-driven environment, where players could engage in various activities such as forming guilds and participating in discussions about game lore and mechanics.
+The community, the friends I made in that place—they’re all very important memories to me today, and I hope that wherever they stand, wherever they are, they still remember this project and that it has been as positive for them as it was for me.</p>
+
+<p>The forum served as a central platform where players could discuss game mechanics, share feedback, and collaborate on ideas.
+Players were encouraged to contribute ideas for game development and lore through public boards. This collaborative approach allowed players to feel a sense of ownership over the game’s evolution.</p>
+
+<p>Members provided ideas, and I executed them. It was a game made by its players. And I think that’s an awesome idea, you know? A game or project where the business decisions, the design, the very structure, is made based on user experience. This is very much what UX Design is, to the core.</p>
+
+<p><img src="https://i.imgur.com/xQnrPVI.png" alt="Blade Zenon Memories" /></p>
+
+<hr />]]></content><author><name>João Luís Almeida Santos</name></author><category term="PORTFOLIO PIECE" /><summary type="html"><![CDATA[Blade Zenon: How a Collaborative Project Managed to Create a Game Managed by Its Users]]></summary></entry></feed>

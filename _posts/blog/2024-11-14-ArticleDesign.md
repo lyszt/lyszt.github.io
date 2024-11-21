@@ -4,10 +4,10 @@ title: Principles for making figures for research
 subtitle: Best ways to proceed when writing a scientific article according to specialists
 author: João Luís Almeida Santos
 intro: How to sell your article through the utilisation of design and aesthetics? What makes for a good figure and what may you use to make them?
-cover: img/Portfolio/Design/go.png
+cover: /assets/img/Portfolio/Design/go.png
 alt: A go board I made in Blender.
 refer: https://www.youtube.com/watch?v=iQh63DH9H5w
-
+category: DISCUSSION
 
 
 

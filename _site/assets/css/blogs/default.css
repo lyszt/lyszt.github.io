@@ -1,0 +1,313 @@
+.nav {
+  display: grid !important;
+}
+.undernav {
+  background-color: black;
+}
+a {
+  text-decoration: none;
+}
+::selection {
+  background-color: crimson;
+}
+body {
+  font-family: 'Inter', serif !important;
+  display: grid;
+  justify-items: center;
+}
+div.hamburger img {
+  filter: saturate(0)brightness(0)invert(1);
+}
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.post .header {
+  width: 100%;
+  display: grid;
+  grid-auto-flow: column;
+  justify-items: start;
+  align-items: center;
+  justify-content: start;
+  margin-top: 2%;
+  margin-bottom: 10%;
+  font-size: 1em;
+}
+.post {
+  text-align: left;
+}
+.header * {
+  font-size: 1em;
+  margin-right: 2vw;
+}
+.header .author {
+  padding: 1vw;
+  background-color: black;
+  color: white;
+}
+/* TITLE */
+h1 {
+  font-size: 4em;
+  line-height: normal;
+  letter-spacing: .2em;
+  margin-bottom: 0;
+  color: #0c0c0c;
+}
+h2 {
+  font-weight: normal;
+  font-size: 1.5em;
+  color: #7b7b7b;
+  margin-top: 0;
+}
+.post .entry {
+  font-weight: normal;
+  font-size: 1.25em;
+  line-height: 2em;
+  margin: 1%;
+}
+
+.entry p {
+  width: 100%;
+}
+.entry h1 {
+  font-size: 2em;
+  margin: 10%;
+}
+.post .entry a {
+  color: black;
+}
+.post > img {
+  width: 80%;
+}
+.entry > p > img {
+  margin: 12%;
+  width: 70vw;
+  display: block;
+}
+/* Distraction Image Sections */
+.decorating-section {
+  width: 100%;
+  height: 30vh;
+  overflow: hidden;
+
+}
+.decorating-section img {
+  filter: saturate(0%);
+  max-width: 100%;
+}
+/* BANNER*/
+.header {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.top-banner {
+	height: 100vh;
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	align-content: center;
+  overflow: hidden;
+}
+.top-banner h1 {
+  font-size: 1.5em !important;
+  font-weight: bold;
+}
+.top-banner hr {
+	border: 1px solid black;
+	width: 2vw;
+}
+.top-banner .subtitle {
+	display: grid;
+	grid-auto-flow: column;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+  margin-bottom: 10%;
+}
+.top-banner>.subtitle h2 {
+  margin: 2%;
+  color: #161616;
+  font-size: 1.6em;
+  font-weight: 300;
+}
+.top-banner img {
+  opacity: 0.2;
+  max-width: 100%;
+  max-height: 100%;
+}
+.post-parallax img {
+  background-size: 60% !important;
+}
+
+
+@media screen and (max-width: 480px) {
+
+  .post > img {
+    width: 80%;
+  }
+  h1 {
+    font-size: 1.3em;
+    font-weight: bold;
+  }
+  .top-banner {
+    height: 60vh
+  }
+  .entry > p > img {
+    width: 80%;
+
+  }
+  .entry h1 {
+    font-size: 1em;
+    margin: 10%;
+  }
+  .top-banner hr {
+    display: none;
+  }
+
+  .top-banner > .subtitle h2 {
+    font-size: 1em;
+    text-wrap: wrap;
+  }
+  .top-banner h1 {
+    font-size: 1em !important;
+  }
+
+  .header * {
+    font-size: 1em;
+    padding: 0;
+    margin: 2%;
+  }
+
+
+
+  .post .entry {
+    font-size: 1em;
+    margin: 2%;
+    line-height: normal;
+    font-weight: normal;
+
+
+  }
+  .entry p {
+    width: 100%;
+  }
+  .post-parallax img {
+    background-size: 90% !important;
+  }
+}
+  @media screen and (min-width: 481px) and (max-width: 768px) {
+
+
+    h1 {
+      font-size: 2em;
+      font-weight: bold;
+    }
+
+    h2 {
+      font-size: 2em;
+      color: #101010;
+
+    }
+
+    .post .entry {
+      font-size: 1.2em;
+      line-height: normal;
+      font-weight: normal;
+      width: 90%;
+
+    }
+
+    .post > img {
+      width: 40%;
+    }
+
+    .post.entry img {
+      width: 10%;
+      margin-left: 1px;
+    }
+    .entry > p > img {
+      width: 80%;
+    }
+
+    .top-banner {
+      height: 100vh
+    }
+    .top-banner > .subtitle h2 {
+      font-size: 1em;
+      text-wrap: wrap;
+    }
+    .top-banner h1 {
+      font-size: 1em !important;
+    }
+    .top-banner hr {
+      display: none;
+    }
+    .header * {
+      font-size: 1em;
+      padding: 0;
+      margin: 2%;
+    }
+
+    .entry p {
+      width: 100%;
+    }
+    .post-parallax img {
+      background-size: 75% !important;
+    }
+
+
+  }
+  @media screen and (min-width: 769px) and (max-width: 1024px) {
+
+    h1 {
+      font-size: 1.5em;
+      line-height: normal;
+      margin-bottom: 0;
+    }
+
+    h2 {
+      font-weight: normal;
+      font-size: 1.5em;
+      color: #7d7d7d;
+      margin-top: 0;
+    }
+
+    .post .entry {
+      font-size: 1.2em;
+      font-weight: normal;
+      line-height: normal;
+
+    }
+    .top-banner {
+      height: 100vh
+    }
+    .top-banner > .subtitle h2 {
+      font-size: 1em;
+      text-wrap: wrap;
+    }
+    .top-banner h1 {
+      font-size: 3em !important;
+    }
+    .top-banner hr {
+      display: none;
+    }
+    .header * {
+      font-size: 1em;
+      padding: 0;
+      margin: 2%;
+    }
+
+    .entry p {
+      width: 100%;
+    }
+    .post-parallax img {
+      background-size: 60% !important;
+    }
+
+
+  }

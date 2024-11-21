@@ -1,0 +1,89 @@
+
+body * {
+    font-family: 'Inter';
+}
+h1 {
+    font-size: 1.5em;
+    margin-bottom: .6em;
+    font-weight: 700;
+}
+/* ANIMATION AND TRANSITION STATEMENTS */
+
+.introduction {
+    animation: fadeIn 2s forwards both;
+    animation-delay: 1.5s;
+}
+.introduction img {
+    animation: fadeIn both 1s;
+    animation-delay: 2s;
+}
+@keyframes expandIn{
+    from{width: 0%;}
+    to{width: 80%;}
+}
+@keyframes fadeIn{
+    from{opacity:0;}
+    to{opacity: 1;}
+}
+
+/* INTRODUCTION */
+.introduction {
+  padding-top: 5%;
+	/* padding-top: 12%; */
+	/* padding-bottom: 5%; */
+	display: grid;
+	grid-auto-flow: column;
+	font-size: 2.5em;
+  align-items: center;
+}
+.introduction div{
+  margin-left: 10%;
+  display: grid;
+  justify-content: center;
+  /* justify-items: center; */
+  align-content: center;
+  /* grid-auto-flow: column; */
+  text-align: left;
+}
+.introduction h1 {
+    padding-bottom: .1em;
+    color: crimson;
+  font-size: 1.2em;
+}
+#intro-introtext {
+  margin: 10%;
+}
+.introduction p {
+    font-size: .6em;
+    color: rgb(0, 0, 0);
+    font-weight: 300;
+}
+.introduction p b,u {
+    font-size: inherit;
+}
+.introduction img {
+  width: 40%;
+}
+/* FEATURED */
+.wiki-featured {
+  display: grid;
+  grid-auto-flow: column;
+  margin: 2%;
+  width: 90%;
+  height: 40%;
+}
+.featured-item {
+  width: 95%;
+  height: 95%;
+  font-size: 1em;
+  line-height: 1.8em;
+}
+.featured-item h1 {
+  width: 100%;
+  text-align: center;
+  color: white;
+  background-color: crimson;
+  padding: 1%;
+  margin: 0;
+  font-size: 1.2em;
+}
