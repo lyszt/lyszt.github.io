@@ -25,6 +25,19 @@ if(hamburger !== null) {
     navMenu.classList.toggle("active");
   });
 }
+
+// Transition animation for every a click
+document.querySelectorAll("a").forEach((link) => {
+  link.addEventListener("click", (e) => {
+    e.preventDefault();
+    const href = link.getAttribute("href");
+
+    transition_anim.classList.add("active");
+    setTimeout(() => {
+      window.location.href = href;
+    }, 1000);
+  });
+});
 // Menu item interactions on portfolio pick
 photography_button.addEventListener("click", () => {
   photo_folder.classList.remove("hidden");
