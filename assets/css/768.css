@@ -52,12 +52,40 @@
 
     /*  LANDING PAGE */
     .landing-page {
+      width: 90%;
       padding-bottom: 2vw;
     }
+    #landing-buttons .btn img {
+      width: 40%;
+      margin-bottom: 5%;
+
+    }
+  #landing-div {
+    display: flex;
+    justify-items: start;
+    margin: 1vw;
+    grid-auto-flow: column;
+    flex-direction: column;
+    justify-content: center;
+    align-content: flex-start;
+    align-items: flex-start;
+    margin-top: 5%;
+  }
+  #landing-div span {
+    display: block;
+    font-size: .9em;
+    line-height: 2em;
+    margin: 5%;
+    width: 100%;
+  }
+  #landing-div .col-2 {
+    width: 90%;
+  }
     #landing-distractor {
       display: none;
     }
     #landing-text {
+      width: 50%;
       margin-top: 15vw;
     }
     #landing-text h1{
@@ -72,26 +100,13 @@
     }
   #landing-text p {
     color: black;
-    font-size: 5vw;
-    line-height: 7vw;
+    font-size: 2em;
+    /* line-height: 7vw; */
     padding-bottom: 5vw;
     width: 70%;
   }
 
   /*  BUTTONS */
-
-  #landing-buttons .btn img {
-    width: 3vw;
-    height: 3vw;
-    margin: auto;
-    margin-top: 2vw;
-  ;
-  }
-  #landing-buttons .btn {
-    width: 10vw;
-    height: 10vw;
-    margin-top: 2vw;
-  }
 
   /*  SERVICES OFFERED */
   hr {

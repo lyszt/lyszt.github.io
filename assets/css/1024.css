@@ -22,6 +22,55 @@
     width: 60%;
     margin-left: 1em;
   }
+  /*  LANDING PAGE */
+  .landing-page {
+    width: 90%;
+    padding-bottom: 2vw;
+  }
+  #landing-div {
+    display: flex;
+    justify-items: start;
+    margin: 1vw;
+    grid-auto-flow: column;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+  }
+  #landing-div span {
+    display: block;
+    font-size: 1em;
+    line-height: 2em;
+    margin: 5%;
+    width: 75%;
+  }
+  #landing-div .col-2 {
+    width: 90%;
+  }
+  #landing-distractor {
+    display: none;
+  }
+  #landing-text {
+    width: 50%;
+    margin-top: 15vw;
+  }
+  #landing-text h1{
+    font-size: 5vw;
+  }
+  #landing-text h3 {
+    color: #303030;
+    font-size: 6vw;
+  }
+  #landing-text {
+    width: 100%;
+  }
+  #landing-text p {
+    color: black;
+    font-size: 2em;
+    /* line-height: 7vw; */
+    padding-bottom: 5vw;
+    width: 70%;
+  }
 
     .hamburger > .bar {
       background-color: black;
@@ -144,4 +193,4 @@
     #text-footer {
       display: none;
     }
-  }
+ }

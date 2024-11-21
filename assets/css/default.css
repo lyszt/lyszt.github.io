@@ -254,7 +254,15 @@ div.hamburger img {
 div.hamburger.active img {
   filter: saturate(0.8);
 }
-
+.side-nav {
+  display: grid;
+  height: 100vh;
+  position: fixed;
+  width: 8%;
+  background: white;
+  right: 0;
+  z-index: 0;
+}
 .undernav {
   color: white;
   font-weight: lighter;
@@ -373,6 +381,7 @@ div.hamburger.active img {
   background: linear-gradient(to left,#f1f1f1 50%, crimson 50%) right;
   background-size: 200% 100%;
   transition: 2s;
+  margin-top: 2%;
 }
 .altered {
   background-position: left;
@@ -403,10 +412,14 @@ div.hamburger.active img {
 .altered .btn:hover img {
 }
 #landing-div {
+  align-items: center;
   display: grid;
   justify-items: start;
   margin: 1vw;
   grid-auto-flow: column;
+}
+#landing-div .col-2 {
+  width: 70%;
 }
 #landing-div span {
   line-height: 2em;
@@ -422,9 +435,9 @@ div.hamburger.active img {
 }
 #landing-text p {
   text-align: left;
-  width: 5%;
+  width: 60%;
   line-height: 1em;
-  font-size: 3em;
+  font-size: 2.5em;
   color: #474747;
   font-weight: 600;
 }
@@ -439,8 +452,10 @@ div.hamburger.active img {
   font-weight: 600;
 }
 #landing-buttons {
+  display: grid;
+  align-content: center;
   margin-top: 2vw;
-  animation: slideInFromRight forwards 1.5s;
+  animation: fadeIn forwards 1.5s;
   opacity: 0;
   animation-delay: 2.5s;
 }
@@ -451,12 +466,14 @@ div.hamburger.active img {
   padding-left: 1vw;
   padding-right: 1vw;
   font-size: 1em;
-  background-color: crimson;
   border: none;
   border-radius: 0;
+  filter: brightness(0);
+
 }
 #landing-buttons .btn:hover {
-  background-color: rgb(218, 218, 218);
+  filter: brightness(0.5);
+  background: none;
 }
 #landing-buttons .btn:hover img {
   filter: invert(100%);
@@ -468,8 +485,8 @@ div.hamburger.active img {
   margin: auto;
 }
 #landing-buttons .btn img {
-  width: 1vw;
-  height: 1vw;
+  width: 20%;
+  margin-bottom: 5%;
 
 }
 /* Introduction at Landing page */

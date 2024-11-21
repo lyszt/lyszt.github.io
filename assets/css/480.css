@@ -37,7 +37,7 @@
   }
   .undernav {
     width: 100%;
-    background-color: crimson;
+    background-color: white;
   }
   .hamburger {
     margin-left: 1em;
@@ -45,10 +45,10 @@
   }
   div.hamburger img {
     width: 50%;
-    filter: saturate(0)brightness(0)invert(1);
+    filter: brightness(0);
   }
   div.hamburger.active img {
-    filter: saturate(0)brightness(0);
+    filter: saturate(0)brightness(0.5);
   }
   .navigator-design {
     background-color: white;
@@ -69,6 +69,7 @@
 
   /*  LANDING PAGE */
   .landing-page {
+    height: fit-content;
     padding-bottom: 1vw;
   }
 
@@ -76,14 +77,29 @@
     display: none;
   }
   #landing-div {
-    grid-auto-flow: row;
-    margin: 0;
+    display: flex;
+    justify-items: start;
+    margin: 1vw;
+    flex-direction: column;
+    justify-content: center;
+    align-content: flex-start;
+    align-items: flex-start;
+    width: 80%;
+    margin-top: 10%;
+  }
+  #landing-buttons .btn img {
+    width: 40%;
+    margin-bottom: 5%;
   }
   #landing-div span {
     display: block;
     font-size: 1em;
+    line-height: 2em;
     margin: 5%;
-    width: 79%;
+    width: 100%;
+  }
+  #landing-div .col-2 {
+    width: 90%;
   }
 
   #landing-text {
