@@ -110,6 +110,28 @@ b {
   opacity: 1;
   animation: slideFromLeft 0.5s;
 }
+@keyframes ExpandStyle {
+  0% {
+    width: 0;
+    background: #f1f1f1;
+    transform: scale(0.5);
+    border-radius: 50%;
+  }
+  50% {
+    width: 50%;
+    background: white;
+    transform: scale(1.2);
+    border-radius: 25%;
+  }
+  100% {
+    width: 100%;
+    opacity: 1;
+    background: #f1f1f1;
+    transform: scale(1);
+    border-radius: 0;
+  }
+}
+
 @keyframes slideFromLeft {
   from {margin-right:-100vw;}
   to {margin-right:0;}
@@ -380,6 +402,7 @@ div.hamburger.active img {
   position: relative;
   background: linear-gradient(to left,#f1f1f1 50%, crimson 50%) right;
   background-size: 200% 100%;
+  animation: fadeIn 1s backwards;
   transition: 2s;
   margin-top: 2%;
 }
