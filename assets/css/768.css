@@ -108,6 +108,19 @@
 
   /*  BUTTONS */
 
+  /*  INTRODUCTION */
+  .introduction {
+    margin-left: 5%;
+    grid-auto-flow: row;
+  }
+  .introduction > .left h3 {
+    margin: 0;
+  }
+  .introduction > .right p {
+    width: 90%;
+    margin-top: 5%;
+    margin-left: 0;
+  }
   /*  SERVICES OFFERED */
   hr {
     display: none;
