@@ -336,6 +336,7 @@ div.hamburger.active img {
   font-size: 1.5em;
   color: black;
   display: inline-block;
+  z-index: 9;
 }
 .navigator-design li a {
   text-decoration: none;
@@ -979,9 +980,8 @@ footer > #bottom {
   align-items: center;
   width: 70%;
   margin: 1%;
-  background-color: #ebebeb3d;
+  background-color: white;
   position: relative;
-  border: 1px solid #d8d8d863;
 }
 .post-item h2 {
   color: black;
