@@ -979,9 +979,8 @@ footer > #bottom {
   align-items: center;
   width: 70%;
   margin: 1%;
-  background-color: #ebebeb3d;
+  background-color: white;
   position: relative;
-  border: 1px solid #d8d8d863;
 }
 .post-item h2 {
   color: black;
