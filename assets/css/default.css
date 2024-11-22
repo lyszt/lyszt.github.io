@@ -971,6 +971,7 @@ footer > #bottom {
 }
 /* Homepage Post List */
 .post-item {
+  /* color: white; */
   display: flex;
   flex-direction: row;
   align-content: center;
@@ -978,8 +979,9 @@ footer > #bottom {
   align-items: center;
   width: 70%;
   margin: 1%;
-  background-color: #f7f7f7;
+  background-color: #ebebeb3d;
   position: relative;
+  border: 1px solid #d8d8d863;
 }
 .post-item h2 {
   color: black;
