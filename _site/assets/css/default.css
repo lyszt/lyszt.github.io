@@ -977,6 +977,7 @@ footer > #bottom {
   flex-wrap: nowrap;
   align-items: center;
   width: 70%;
+  padding-top: 5%;
   margin: 1%;
   background-color: #f7f7f7;
   position: relative;
@@ -992,7 +993,6 @@ footer > #bottom {
   padding: 1%;
   border-bottom: .1em black solid;
   font-weight: normal;
-  width: 90%;
   text-align: center;
 }
 .post-item a:hover {
@@ -1014,6 +1014,6 @@ footer > #bottom {
   color: black;
 }
 .post-item img {
-  width: 20%;
+  width: 25%;
   margin: 10%;
 }
