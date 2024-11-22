@@ -977,7 +977,6 @@ footer > #bottom {
   flex-wrap: nowrap;
   align-items: center;
   width: 70%;
-  padding-top: 5%;
   margin: 1%;
   background-color: #f7f7f7;
   position: relative;
@@ -1015,5 +1014,5 @@ footer > #bottom {
 }
 .post-item img {
   width: 25%;
-  margin: 10%;
+  margin: 5%;
 }
