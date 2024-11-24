@@ -6,7 +6,6 @@ const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".navigator-design");
 
 // Portfolio item buttons
-const port_title = document.querySelector(".port-title");
 const photography_button = document.querySelector("#port-photography");
 const videography_button = document.querySelector("#port-video");
 const design_button = document.querySelector("#port-web");
@@ -18,27 +17,28 @@ const video_folder = document.querySelector("#video-folder");
 const design_folder = document.querySelector("#web-folder");
 const code_folder = document.querySelector("#code-folder");
 
-if(hamburger !== null) {
 // Hamburger menu toggle
+if (hamburger !== null) {
   hamburger.addEventListener("click", () => {
     hamburger.classList.toggle("active");
     navMenu.classList.toggle("active");
   });
 }
 
-// Transition animation for every a click
-document.querySelectorAll("a").forEach((link) => {
-  link.addEventListener("click", (e) => {
-    e.preventDefault();
-    const href = link.getAttribute("href");
-
-    transition_anim.classList.add("active");
-    setTimeout(() => {
-      window.location.href = href;
-    }, 1000);
-  });
+// Transition animation on page leave (beforeunload event)
+window.addEventListener("beforeunload", (event) => {
+  transition_anim.classList.add("active");
 });
-// Menu item interactions on portfolio pick
+
+// Undo transition animation when coming back (pageshow event)
+window.addEventListener("pageshow", (event) => {
+  // Check if it's a back navigation (if the event is triggered by the back button)
+  if (event.persisted || (window.performance && window.performance.navigation.type === 2)) {
+    transition_anim.classList.remove("active");
+  }
+});
+
+// Portfolio item button interactions (same as before)
 photography_button.addEventListener("click", () => {
   photo_folder.classList.remove("hidden");
   video_folder.classList.add("hidden");
@@ -87,7 +87,7 @@ code_button.addEventListener("click", () => {
   videography_button.classList.remove("focus");
 });
 
-// On document load make preparations for Portfolio
+// On document load, make preparations for Portfolio
 addEventListener("DOMContentLoaded", () => {
   design_folder.classList.remove("hidden");
   design_button.classList.add("focus");
