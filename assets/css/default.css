@@ -261,6 +261,7 @@ nav {
 }
 .nav-item a {
   color: black;
+  font-weight: normal !important;
 }
 .navigator-design:active li {
   opacity: 1;
