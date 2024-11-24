@@ -23,28 +23,41 @@ layout: default
   <meta lang="en">
   <link rel="canonical" href="https://lyszt.net/{{page.title}}" />
 
-  <!-- Schema Markup -->
-  <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Person",
-      "name": "João Luís Almeida Santos",
-      "url": "https://www.lyszt.net/",
-      "description": "I'm a creative specialist with experience with many fields. UI/UX design, web & software solutions, and video production services tailored to help your business. See recent projects and my experience.",
-      "sameAs": [
-        "https://github.com/lyszt",
-        "https://www.linkedin.com/in/lyszt/",
-        "https://www.instagram.com/lyszt_kaldwin/",
-        "mailto:jluis.kaldwin@gmail.com"
-      ],
-      "image": "https://i.imgur.com/XE0vWOA.png",
-      "jobTitle": "Developer & Designer",
-      "worksFor": {
-        "@type": "Organization",
-        "name": "Lygon Xin"
+  <head>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": "{{ page.title }}",
+        "alternativeHeadline": "{{ page.subtitle }}",
+        "description": "{{ page.intro | escape }}",
+        "author": {
+          "@type": "Person",
+          "name": "{{ page.author }}"
+        },
+        "image": "{{ page.cover }}",
+        "genre": "{{ page.category }}",
+        "keywords": "{{ page.keywords | default: 'design, development, technology, portfolio' }}",
+        "publisher": {
+          "@type": "Organization",
+          "name": "João Luís Almeida Santos",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "/assets/img/Logo.png"
+          }
+        },
+        "mainEntityOfPage": "{{ page.url }}",
+        "datePublished": "{{ page.date | date_to_iso8601 }}",
+        "dateModified": "{{ page.last_modified_at | date_to_iso8601 }}",
+        "url": "{{ page.url }}",
+        "articleBody": "{{ content | strip_html | truncatewords: 150 }}"
       }
-    }
-  </script>
+
+    </script>
+
+  </head>
+
+
 
 </head>
 <div class="top-banner">
