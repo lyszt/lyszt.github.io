@@ -928,6 +928,9 @@ div.hamburger.active img {
 footer {
   width: 100%;
 }
+footer span {
+  font-size: 1em !important;
+}
 #sitemap {
   display: table-cell;
   margin-top: 1%;
