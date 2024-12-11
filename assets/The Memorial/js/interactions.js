@@ -1,4 +1,0 @@
-
-addEventListener("DOMContentLoaded", () =>{
-    
-)};
