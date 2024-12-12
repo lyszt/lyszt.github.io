@@ -81,6 +81,9 @@ code_button.addEventListener("click", () => {
 
 // On document load make preparations for Portfolio
 addEventListener("DOMContentLoaded", () => {
+  if(transition_anim.classList.contains("active")){
+    transition_anim.classList.remove("active");
+  }
   design_folder.classList.remove("hidden");
   design_button.classList.add("focus");
 
