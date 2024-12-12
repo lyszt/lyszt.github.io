@@ -1027,14 +1027,13 @@ footer > #bottom {
   display: flex;
   flex-direction: column;
   width: 50%;
-  mar
 }
 
 .post-item a {
   color: black;
 }
 .post-item img {
-  width: 10%;
+  width: 20%;
   position: absolute;
   right: 0;
   margin-left: 10%;
