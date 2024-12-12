@@ -994,6 +994,17 @@ footer > #bottom {
   border-bottom: 1px solid #bcbcbc;
 
 }
+.post-list a {
+  color: black;
+}
+.post-list a:hover {
+  color: crimson;
+}
+.post-list a:hover img {
+  filter: none !important;
+  transition: 2s;
+  width: 11%;
+}
 .post-item {
   /* color: white; */
   display: flex;
@@ -1001,11 +1012,16 @@ footer > #bottom {
   align-content: center;
   flex-wrap: nowrap;
   align-items: center;
-  width: 70%;
+  width: 100%;
   position: relative;
   background-color: white;
   padding: 5%;
   border-bottom: 1px solid #e8e8e8;
+}
+.post-item:hover {
+  background-color: #f1f1f1;
+  border-bottom: 1px solid #8e8e8e;
+
 }
 .post-item hr {
   border-color: #888888;
@@ -1033,8 +1049,8 @@ footer > #bottom {
   color: black;
 }
 .post-item img {
-  width: 20%;
+  width: 10%;
   position: absolute;
-  right: 0;
-  margin-left: 10%;
+  right: 40%;
+  filter: saturate(0);
 }

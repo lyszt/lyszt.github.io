@@ -422,18 +422,19 @@ layout: default
   <section class="post-list">
     <h1> BLOG </h1>
     {% for post in site.posts %}
+    <a href="{{ post.url }}">
     <article class="post-item">
       <div class="col-1">
         <h2>
-          <a href="{{ post.url }}">
+
             <h3>{{post.category}}</h3>
             {{ post.title }}
-          </a>
         </h2>
         <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_long_string }}</time>
       </div>
       <img src="{{post.cover}}" alt ="{{post.title}}">
     </article>
+    </a>
     {% endfor %}
   </section>
   </main>
