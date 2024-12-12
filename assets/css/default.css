@@ -593,7 +593,7 @@ div.hamburger.active img {
   display: block;
   position: relative;
   height: fit-content;
-  padding-bottom: 2vh;
+  padding-bottom: 10%;
 }
 .pick-portfolio h1 {
   text-align: center;
