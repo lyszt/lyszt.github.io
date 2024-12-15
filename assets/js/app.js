@@ -29,6 +29,9 @@ if(hamburger !== null) {
 window.addEventListener("beforeunload", () => {
   transition_anim.classList.add("active");
 });
+transition_anim.addEventListener("transitionend", () => {
+  transition_anim.classList.remove("active");
+});
 
 // Menu item interactions on portfolio pick
 photography_button.addEventListener("click", () => {
