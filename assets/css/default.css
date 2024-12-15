@@ -195,6 +195,9 @@ hr {
   background-color: #cccccc;
   color: black;
 }
+.call-to-action:hover img {
+  filter: invert(1);
+}
 .skiptranslate{
   top: 10% !important;
   box-shadow: none !important;
