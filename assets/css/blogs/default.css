@@ -11,7 +11,7 @@ a {
   background-color: crimson;
 }
 body {
-  font-family: 'Inter', serif !important;
+  font-family: "Sarala", sans-serif !important;
   display: grid;
   justify-items: center;
 }
@@ -43,7 +43,7 @@ header {
 }
 .header .author {
   padding: 1vw;
-  background-color: black;
+  background-color: crimson;
   color: white;
 }
 /* TITLE */
@@ -133,9 +133,10 @@ h2 {
 }
 .top-banner>.subtitle h2 {
   margin: 2%;
-  color: #161616;
-  font-size: 1.6em;
-  font-weight: 300;
+  color: crimson;
+  font-weight: bolder;
+  font-size: 1.2em;
+  text-wrap: nowrap;
 }
 .top-banner img {
   opacity: 0.2;
@@ -173,6 +174,7 @@ h2 {
 
   .top-banner > .subtitle h2 {
     font-size: 1em;
+    font-weight: bolder;
     text-wrap: wrap;
   }
   .top-banner h1 {
@@ -287,10 +289,6 @@ h2 {
     }
     .top-banner {
       height: 100vh
-    }
-    .top-banner > .subtitle h2 {
-      font-size: 1em;
-      text-wrap: wrap;
     }
     .top-banner h1 {
       font-size: 3em !important;

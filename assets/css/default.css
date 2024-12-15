@@ -162,7 +162,7 @@ b {
 body {
   overflow-x: hidden;
   background: white;
-  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: "Sarala", sans-serif !important;
   font-weight: 500;
   max-width: 100%;
   margin: auto;
@@ -177,16 +177,23 @@ a:hover {
 
 }
 hr {
-  border-color: #222222;
+  border-color: #a5a5a5;
   width: 50%;
   margin: auto;
-  padding: 3vw;
+  padding: 5%;
 }
 .call-to-action {
   background-color: crimson;
+  color: white;
+  text-wrap: nowrap;
+}
+.call-to-action img {
+  width: 5%;
+  margin-right: 5%;
 }
 .call-to-action:hover {
-  background-color: black;
+  background-color: #cccccc;
+  color: black;
 }
 .skiptranslate{
   top: 10% !important;
@@ -398,46 +405,36 @@ div.hamburger.active img {
 
 .landing-page {
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
+  max-height: fit-content;
+  padding-bottom: 10%;
   display: grid;
   justify-content: center;
   align-items: center;
   overflow: hidden;
   position: relative;
-  background: linear-gradient(to left,#f1f1f1 50%, crimson 50%) right;
+  background: linear-gradient(to left, #ffffff 50%, #ededed 50%) right;
   background-size: 200% 100%;
   animation: fadeIn 1s backwards;
   transition: 2s;
   margin-top: 2%;
 }
+
 .altered {
   background-position: left;
   transition: all 2s linear;
 }
-.altered ::selection {
-  background-color: white;
-}
 .altered p {
-  color: white !important;
+  color: #202020 !important;
 }
 .altered span {
-  color: white !important;
+  color: #222222 !important;
   transition: 2s;
 }
 .altered b {
-  color: #222222 !important;
+  color: crimson !important;
 }
-.altered .btn {
-  background-color: white !important;
-}
-.altered .btn img {
-  filter: invert(100%);
-}
-.altered .btn:hover {
-  background-color: #d0d0d0 !important;
-}
-.altered .btn:hover img {
-}
+
 #landing-div {
   align-items: center;
   display: grid;
@@ -449,16 +446,23 @@ div.hamburger.active img {
   width: 70%;
 }
 #landing-div span {
-  line-height: 2em;
   color: black;
   transition: 2s;
 }
+#landing-div .call-to-action {
+  display: block;
+  padding: 2%;
+  width: fit-content;
+  margin-top: 15%;
+}
+
 #landing-text {
   width: 50%;
   margin-left: 5%;
   opacity: 0;
   animation: forwards fadeIn 2s;
   animation-delay: 2s;
+  margin-bottom: 15%;
 }
 #landing-text p {
   text-align: left;
@@ -495,15 +499,15 @@ div.hamburger.active img {
   font-size: 1em;
   border: none;
   border-radius: 0;
-  filter: brightness(0);
+  filter: invert(0.5);
+
 
 }
 #landing-buttons .btn:hover {
-  filter: brightness(0.5);
+  filter: invert(1);
   background: none;
 }
 #landing-buttons .btn:hover img {
-  filter: invert(100%);
 }
 .btn:hover * {
   transition: 1s;
@@ -619,7 +623,7 @@ div.hamburger.active img {
 }
 .pick-portfolio .widgets {
   width: 100vw;
-  height: 40vh;
+  height: fit-content;
   padding-left: 2vw;
   margin: 5vh 1vw 5vh auto;
   background-color: #F8F8F8;
@@ -637,8 +641,10 @@ div.hamburger.active img {
 .project-skills > li {
   list-style: none;
   padding: 5px;
-  background-color: black;
-  color: white;
+  background: linear-gradient(30deg, #ffffff, #e8e8e8);
+  box-shadow: 2px 2px 0 0 rgba(0, 0, 0, 0.11);
+  color: #292929;
+  border: 1px solid #bababa;
   font-size: .75em;
   margin: 1%;
 }
@@ -750,9 +756,9 @@ div.hamburger.active img {
 }
 .hover-setup {
   background-color: white;
-  color: black;
+  color: crimson;
   opacity: 0;
-  font-weight: bolder;
+  font-weight: bold;
   width: 100%;
   height: 100%;
   position: absolute;
