@@ -168,10 +168,10 @@ body {
   margin: auto;
 }
 a {
-  color: white;
+  color: crimson;
 }
 a:hover {
-  color: crimson;
+  color: #ff0033;
   text-decoration: none;
   transition: 0.5s;
 
@@ -458,7 +458,10 @@ div.hamburger.active img {
   width: fit-content;
   margin-top: 15%;
 }
-
+#landing-div #observation {
+  color: gray;
+  margin: 5%;
+}
 #landing-text {
   width: 50%;
   margin-left: 5%;
