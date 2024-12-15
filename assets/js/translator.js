@@ -18,7 +18,7 @@ addEventListener("DOMContentLoaded", () => {
   // Elements to translate in homepage
   const user_lang = navigator.language;
   console.log(`User language is ${user_lang}`);
-  const cv_link = document.querySelector(".cv");
+  const cv_link = document.querySelectorAll(".cv");
   if(cv_link != null){
   // FRENCH
   if (user_lang.startsWith("fr")) {
