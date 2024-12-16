@@ -405,18 +405,21 @@ div.hamburger.active img {
 
 
 /* Landing Page */
-
+#landing-canvas {
+  position: absolute;
+  z-index: -1;
+  right: 10%;
+}
 .landing-page {
   width: 100%;
   min-height: 100vh;
   max-height: fit-content;
   padding-bottom: 10%;
   display: grid;
+  position: relative;
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  position: relative;
-  background: linear-gradient(to left, #ffffff 50%, #ededed 50%) right;
   background-size: 200% 100%;
   animation: fadeIn 1s backwards;
   transition: 2s;
@@ -526,6 +529,48 @@ div.hamburger.active img {
   margin-bottom: 5%;
 
 }
+/* Teaser section under landing page */
+.teaser {
+  display: flex;
+  flex-direction: row;
+  font-size: 1.1em;
+  height: 70vh;
+  padding: 5%;
+  align-content: center;
+  overflow: hidden;
+  background-color: #efefef;
+}
+.teaser video {
+  width: 70%;
+  margin: auto;
+}
+.teaser .col-1 {
+  width: 50%;
+  height: 50vh;
+  display: grid;
+  align-content: center;
+  flex-direction: row;
+  padding: 10%;
+}
+.teaser .col-2 {
+  width: 50%;
+  display: grid;
+}
+.teaser span {
+  margin-bottom: 10%;
+}
+.teaser a {
+  padding: 2%;
+  width: fit-content;
+}
+.teaser #observation {
+  color: #303030;
+  font-size: .9em;
+}
+.teaser #observation a:hover{
+  color: black;
+}
+
 /* Introduction at Landing page */
 .introduction {
   border-top: #f1f1f1 2vw solid;

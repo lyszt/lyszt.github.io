@@ -38,6 +38,9 @@ layout: default
   <!-- Latest compiled JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
+  <!-- THREE.JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+
   <link rel="stylesheet" href="assets/css/style.css">
   <!-- Default and responsive CSS -->
   <link rel="stylesheet" href="assets/css/default.css">
@@ -125,17 +128,24 @@ layout: default
       <div class ="col-1" id="landing-text">
         <p><b> Simplicity</b> is the ultimate form of sophistication</p>
       </div>
-      <div class="col-2">
+    </div>
+    <canvas id="landing-canvas">
+
+    </canvas>
+  </section>
+  <section class="teaser">
+    <div class="col-1">
         <span>
           User experience is key. I can support your team with 2D/3D visuals, animations,
           and systems with functional front-end frameworks and reliable back-end structures.
           My work focuses on creating interfaces that are easy to use and accessible.
         </span>
         <a class="call-to-action cv" href="https://drive.google.com/file/d/1yEAZPgopRYWOElEYl4y3Mi0A1oyE5U2D/view?usp=sharing"
-        aria-pressed="true" target="_blank"><img src="/assets/img/cv.svg" alt="Image of paper with CV written in it">Download my curriculum</a>
-        <span id="observation">If you wish to hire my services, get in contact with me <a href="http://eepurl.com/i4J_XA">here.</a></span>
-
-      </div>
+         aria-pressed="true" target="_blank"><img src="/assets/img/cv.svg" alt="Image of paper with CV written in it">Download my curriculum</a>
+      <span id="observation">If you wish to hire my services, get in contact with me <a href="http://eepurl.com/i4J_XA">here.</a></span>
+    </div>
+    <div class="col-2">
+      <video type="video/mp4" controls src="/assets/Video/LYSZTTeaser.mp4"> </video>
     </div>
   </section>
   <section class="introduction">

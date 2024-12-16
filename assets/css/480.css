@@ -126,6 +126,20 @@
     line-height: 7vw;
     padding-bottom: 5vw;
   }
+  /* Teaser section under landing page */
+  .teaser {
+    flex-direction: column;
+    height: 100vh;
+    grid-gap: 10%;
+    align-items: center;
+  }
+  .teaser .col-1 {
+    width: 100%;
+  }
+  .teaser .col-2 {
+    width: 100%;
+    align-content: center;
+  }
   /* Introduction at Landing page */
 
   .introduction {

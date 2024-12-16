@@ -1,3 +1,4 @@
+
 // CONSTANTS
 const transition_anim = document.querySelector("#transition");
 
@@ -135,3 +136,52 @@ document.addEventListener('keydown', (event) => {
     index = 0;
   }
 });
+
+
+// THREE.JS
+
+function render() {
+  const canvas = document.querySelector("#landing-canvas");
+  const renderer = new THREE.WebGLRenderer({alpha: true, antialias: true, canvas});
+  renderer.setSize(window.innerWidth, window.innerHeight);
+  renderer.setPixelRatio(window.devicePixelRatio);
+  const fov = 75;
+  const aspect = 2;  // the canvas default
+  const near = 0.1;
+  const far = 5;
+  const camera = new THREE.PerspectiveCamera(fov, aspect, near, far);
+  camera.aspect = window.innerWidth / window.innerHeight;
+  camera.updateProjectionMatrix()
+  camera.position.z = 5;
+  camera.position.x = 2;
+  camera.position.y = 1;
+
+  const scene = new THREE.Scene();
+  const boxWidth = 1;
+  const boxHeight = 4;
+  const boxDepth = 1;
+  const geometry = new THREE.BoxGeometry(boxWidth, boxHeight, boxDepth);
+
+  const material = new THREE.MeshStandardMaterial({color: 0xc2c2c2});
+  const cubes = []
+  const spacing = 1.2;
+
+  const ambientLight = new THREE.AmbientLight(0xffffff);
+  scene.add(ambientLight);
+  const light = new THREE.DirectionalLight(0xffffff);
+  light.position.set(10,10,10)
+  scene.add(light);
+
+  for(let i = 4; i < 8; i++){
+    let cube = new THREE.Mesh(geometry, material);
+    cube.position.z = 1;
+    cube.position.x = i * spacing;
+    cube.position.y = 1;
+    cube.rotation.x += 0.01;
+    cube.rotation.z += 0;
+    cubes.push(cube);
+    scene.add(cube);
+  }
+  renderer.render(scene, camera);
+}
+render();
