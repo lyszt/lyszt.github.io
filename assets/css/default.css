@@ -424,7 +424,8 @@ div.hamburger.active img {
   align-items: center;
   overflow: hidden;
   background-size: 200% 100%;
-  animation: fadeIn 1s backwards;
+  animation-delay: 1s;
+  animation: fadeIn 1s both;
   transition: 2s;
   margin-top: 2%;
 }
