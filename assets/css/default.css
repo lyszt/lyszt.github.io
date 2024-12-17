@@ -1111,7 +1111,7 @@ footer > #bottom {
   color: black;
 }
 .post-item img {
-  width: 10%;
+  width: 15%;
   position: absolute;
   right: 40%;
   filter: saturate(0);
