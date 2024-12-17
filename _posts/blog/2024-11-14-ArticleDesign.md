@@ -44,7 +44,7 @@ But what to use in order to create the best possible articles? Now that we’ve 
 - But you don't need to go all-in on professionality. Canva is super easy and has tons of templates to make graphs and images look polished without much work.
 - Google Sheets or Excel can help you whip up some charts and graphs to show off your numbers. Automatic, mind you.
 Here's the complete list if you're an advanced user and want the best stuff there is. You can go look for it.
-- Matplotlib, Seaborn, Plotly, Bokeh, Mayavi, Dask, Pandas, TensorFlow, PyTorch, PyOpenGL, Pygame, Unity with Python for Unity, VTK, Mayavi, Unreal Engine with Python scripting, Dash, Streamlit.
+- Matplotlib, Seaborn, Plotly, Bokeh, Mayavi, Dask, Pandas, TensorFlow, PyTorch, PyOpenGL, Pygame, Unity, Unreal Engine, VTK, Mayavi, Dash, Streamlit.
 
 
 >Below I have left a documentary in case you have the interest of diving in further into the subject.
