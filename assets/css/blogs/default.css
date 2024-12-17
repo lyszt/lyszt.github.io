@@ -62,9 +62,9 @@ h2 {
 }
 .post .entry {
   font-weight: normal;
-  font-size: 1.25em;
+  font-size: 1.1em;
   line-height: 2em;
-  width: 80%;
+  width: 60%;
   margin: 5%;
 }
 
@@ -72,8 +72,10 @@ h2 {
   width: 100%;
 }
 .entry h1 {
-  font-size: 2em;
-  margin: 10%;
+  font-size: 1.35em;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  font-weight: bold;
 }
 .post .entry a {
   color: black;
