@@ -1044,7 +1044,7 @@ footer > #bottom {
 /* Homepage Post List */
 .post-list {
   display: grid;
-  grid-gap: 10%;
+  grid-gap: 5%;
 }
 .post-list>h1 {
   display: grid;
@@ -1065,7 +1065,6 @@ footer > #bottom {
 .post-list a:hover img {
   filter: none !important;
   transition: 2s;
-  width: 11%;
 }
 .post-item {
   /* color: white; */
