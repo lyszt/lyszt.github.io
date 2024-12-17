@@ -438,11 +438,10 @@ layout: default
     <a href="{{ post.url }}">
     <article class="post-item">
       <div class="col-1">
-        <h2>
-
-            <h3>{{post.category}}</h3>
-            {{ post.title }}
-        </h2>
+        <h3>{{post.category}}</h3>
+        <p>
+           {{ post.intro }}
+        </p>
         <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_long_string }}</time>
       </div>
       <img src="{{post.cover}}" alt ="{{post.title}}">

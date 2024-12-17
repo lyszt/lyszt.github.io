@@ -1087,9 +1087,10 @@ footer > #bottom {
 .post-item hr {
   border-color: #888888;
 }
-.post-item h2 {
+.post-item p {
   color: black;
-  font-size: 1.2em;
+  font-size: 1em;
+  width: 70%;
 }
 .post-item h3{
   font-size: 1em;
