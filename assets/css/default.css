@@ -108,13 +108,13 @@ b {
   visibility: hidden;
   display: block !important;
   opacity: 0;
-  animation: slideFromLeft 0.5s;
+  animation: fadeIn 0.5s;
 }
 .show {
   visibility: visible;
   display: block !important;
   opacity: 1;
-  animation: slideFromLeft 0.5s;
+  animation: fadeIn 0.5s;
 }
 @keyframes ExpandStyle {
   0% {
@@ -779,7 +779,6 @@ div.hamburger.active img {
   width: 20vw;
   height: 20vw;
   object-fit: contain;
-  margin-left: 2vw;
   margin: 1vw;
   overflow: hidden;
 }
