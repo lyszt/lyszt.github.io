@@ -139,8 +139,9 @@ b {
 }
 
 @keyframes slideFromLeft {
-  from {margin-right:-100vw;}
-  to {margin-right:0;}
+  0% {margin-left: -100%; opacity: 0}
+  50% {opacity: .5;}
+  100% {margin-left: 0; opacity: 1}
 }
 @keyframes slideIn {
   from {margin-left:-100vw; opacity:  0;}
@@ -469,11 +470,12 @@ div.hamburger.active img {
   color: gray;
   margin: 5%;
 }
+
 #landing-text {
   width: 50%;
   margin-left: 5%;
   opacity: 0;
-  animation: forwards fadeIn 2s;
+  animation: forwards slideFromLeft 2s;
   animation-delay: 2s;
   margin-bottom: 15%;
 }
