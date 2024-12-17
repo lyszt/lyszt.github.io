@@ -22,7 +22,7 @@ Knowing how to sell is one particularly important aspect of anything you do, wri
 But the principle of "design" extends beyond business. It influences how we present ideas, persuade others, and communicate messages.
 
 
-In scientific writing, design also pla  ys a pivotal role in shaping how your work is perceived. The layout of a research paper, the clarity of figures, and the use of visual elements such as graphs or tables can significantly impact how readers engage with the content. Studies have shown that beautiful scientific articles are more likely to be cited and have higher readership. A paper that is easy to navigate, with visually appealing formatting and concise, well-structured sections, encourages readers to engage more deeply. Poor design, on the other hand, can lead to misunderstandings or cause readers to disengage prematurely, undermining the impact of even the most groundbreaking research.
+In scientific writing, design also plays a pivotal role in shaping how your work is perceived. The layout of a research paper, the clarity of figures, and the use of visual elements such as graphs or tables can significantly impact how readers engage with the content. Studies have shown that beautiful scientific articles are more likely to be cited and have higher readership. A paper that is easy to navigate, with visually appealing formatting and concise, well-structured sections, encourages readers to engage more deeply. Poor design, on the other hand, can lead to misunderstandings or cause readers to disengage prematurely, undermining the impact of even the most groundbreaking research.
 
 
 # UI/UX in Scientific Writing: Clarifying the Role of Design
