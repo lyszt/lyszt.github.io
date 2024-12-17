@@ -108,13 +108,11 @@ b {
   visibility: hidden;
   display: block !important;
   opacity: 0;
-  animation: fadeIn 0.5s;
 }
 .show {
   visibility: visible;
   display: block !important;
   opacity: 1;
-  animation: fadeIn 0.5s;
 }
 @keyframes ExpandStyle {
   0% {
