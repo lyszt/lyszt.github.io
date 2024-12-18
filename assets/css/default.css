@@ -1038,7 +1038,12 @@ footer > #bottom {
 #copyright a {
   color: crimson;
 }
+
+
 /* Homepage Post List */
+.post-list {
+  padding-top: 10%;
+}
 .post-list>h1 {
   display: grid;
   padding: 5%;
