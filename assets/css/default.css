@@ -1039,10 +1039,6 @@ footer > #bottom {
   color: crimson;
 }
 /* Homepage Post List */
-.post-list {
-  display: grid;
-  grid-gap: 5%;
-}
 .post-list>h1 {
   display: grid;
   padding: 5%;
@@ -1050,7 +1046,7 @@ footer > #bottom {
   background-color: #ffffff;
   width: 100%;
   justify-content: center;
-  border-bottom: 1px solid #bcbcbc;
+  border-bottom: 1px solid #dddddd;
 
 }
 .post-list a {
@@ -1078,7 +1074,7 @@ footer > #bottom {
 }
 .post-item:hover {
   background-color: #f1f1f1;
-  border-bottom: 1px solid #8e8e8e;
+  border-bottom: 1px solid #eaeaea;
 
 }
 .post-item hr {
