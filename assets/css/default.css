@@ -651,7 +651,6 @@ div.hamburger.active img {
 .pick-portfolio {
   display: block;
   position: relative;
-  height: 50vh;
   padding-bottom: 15%;
 }
 .pick-portfolio h1 {
@@ -677,13 +676,12 @@ div.hamburger.active img {
   background-color: white;
 }
 .pick-portfolio .widgets {
-  width: 100vw;
-  height: fit-content;
   padding-left: 2vw;
-  margin: 5vh 1vw 5vh auto;
   background-color: #F8F8F8;
-  display: table-cell;
+  display: flex;
   position: relative;
+  height: 100vh;
+  margin: 5%;
 }
 .project-skills {
   display: flex;
@@ -760,11 +758,11 @@ div.hamburger.active img {
 
 .port-folder {
   position: absolute;
-  left: 0;
   top: 0;
+  left: 0;
   display: flex;
   width: 100%;
-  height: 50vh;
+  height: 100vh;
   margin: auto;
   overflow-x: hidden;
   overflow-y: scroll;
@@ -773,9 +771,10 @@ div.hamburger.active img {
 /* Pastas do Portfolio */
 .port-folder .project {
   position: relative;
+  display: grid;
   background-color: #ffffff;
-  width: 20vw;
-  height: 20vw;
+  width: 250px;
+  height: 250px;
   object-fit: contain;
   margin: 1vw;
   overflow: hidden;
@@ -803,30 +802,36 @@ div.hamburger.active img {
   background-color: rgba(255,255,255,0.8);
 }
 .port-folder .project img {
+  position: absolute;
+  top: 0;
   width: 100%;
   height: 100%;
-  z-index: -1;
+  z-index: 1;
 }
 .hover-setup {
+  display: grid;
   background-color: white;
   color: crimson;
   opacity: 0;
   font-weight: bold;
   width: 100%;
   height: 100%;
-  position: absolute;
   z-index: 1;
   left: -100%;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+}
+.hover-setup * {
+  width: 90%;
 }
 .hover-setup p {
   color: #383838;
-  text-align: left;
   font-weight: normal;
 }
-.hover-setup * {
-  margin: 1vw;
-  margin-bottom: 0;
-}
+
 /* Aesthetical Distraction */
 .aesthetical-distraction {
   background-color: crimson;
