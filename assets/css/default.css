@@ -684,7 +684,7 @@ div.hamburger.active img {
   margin: 5%;
 }
 .project-skills {
-  display: flex;
+  display: none;
   flex-wrap: wrap;
   align-items: center;
   grid-auto-flow: column;
