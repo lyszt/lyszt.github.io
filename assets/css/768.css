@@ -215,7 +215,9 @@
     display: none;
   }
   .port-folder .project {
-    width: 50vw;
+    width: 50%;
+    height: 50%;
+    padding: 5%;
   }
   .port-folder .project  img{
     display: none;

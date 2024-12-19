@@ -773,7 +773,7 @@ div.hamburger.active img {
 /* Pastas do Portfolio */
 .port-folder .project {
   position: relative;
-  background-color: #e1e1e1;
+  background-color: #ffffff;
   width: 20vw;
   height: 20vw;
   object-fit: contain;
