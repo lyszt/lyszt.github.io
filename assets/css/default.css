@@ -744,7 +744,7 @@ div.hamburger.active img {
   background-color: #ededed;
   border-radius: 3px;
   border-bottom: 3px solid crimson;
-  transition: 3s;
+  transition: .5s;
 }
 .port-option.focus{
   background-color: #ededed;
@@ -1067,7 +1067,7 @@ footer > #bottom {
 }
 .post-list a:hover img {
   filter: none !important;
-  transition: 2s;
+  transition: 1s;
 }
 .post-item {
   /* color: white; */
