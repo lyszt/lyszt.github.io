@@ -211,7 +211,7 @@
   }
   .port-folder {
     padding: 3vw;
-    height: 70vh;
+    height: fit-content;
   }
   .project .hover-setup {
     opacity: 1 !important;

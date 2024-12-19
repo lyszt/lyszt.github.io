@@ -205,7 +205,7 @@
     font-size: 1em;
   }
   .port-option {
-    width: 50%;
+    width: 15%;
     margin-left: 2vw;
   }
   .port-option img {
@@ -216,7 +216,6 @@
   }
   .port-folder .project {
     width: 50vw;
-    height: 50vw;
   }
   .port-folder .project  img{
     display: none;
