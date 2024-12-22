@@ -518,6 +518,7 @@ div.hamburger.active img {
   width: 50%;
   margin-bottom: 20%;
 
+
 }
 #landing-buttons .btn:hover {
   background: crimson;
@@ -526,8 +527,8 @@ div.hamburger.active img {
 #landing-buttons .btn:hover img {
   filter: brightness(1);
 }
-.btn:hover * {
-  transition: 1s;
+.btn * {
+  transition: 2s all;
 }
 #landing-buttons .btn *{
   margin: auto;
