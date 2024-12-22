@@ -499,28 +499,32 @@ div.hamburger.active img {
   display: grid;
   align-content: center;
   margin-top: 2vw;
+  width: 70%;
   animation: fadeIn forwards 1.5s;
   opacity: 0;
   animation-delay: 2.5s;
 }
+#landing-buttons .btn img {
+  width: 45%;
+  filter: brightness(0.5);
+}
 #landing-buttons .btn {
   box-shadow: none;
-  margin: auto;
-  padding: 0.8vw;
-  padding-left: 1vw;
-  padding-right: 1vw;
+  padding: 0;
   font-size: 1em;
   border: none;
-  border-radius: 0;
-  filter: invert(0.5);
-
+  border-radius: 100px;
+  background: none;
+  width: 50%;
+  margin-bottom: 20%;
 
 }
 #landing-buttons .btn:hover {
-  filter: invert(1);
-  background: none;
+  background: crimson;
+  padding: 10%;
 }
 #landing-buttons .btn:hover img {
+  filter: brightness(1);
 }
 .btn:hover * {
   transition: 1s;
@@ -528,11 +532,7 @@ div.hamburger.active img {
 #landing-buttons .btn *{
   margin: auto;
 }
-#landing-buttons .btn img {
-  width: 20%;
-  margin-bottom: 5%;
 
-}
 /* Teaser section under landing page */
 .teaser {
   display: flex;
