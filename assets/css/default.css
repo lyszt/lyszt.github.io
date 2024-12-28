@@ -39,6 +39,13 @@
   background-color: rgb(0,0,0, 0.5)
 
 }
+h1 {
+  font-size: 1.5em;
+  text-align: center;
+  width: 100%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
 
   /* Basic */
 a:hover {
@@ -587,7 +594,7 @@ div.hamburger.active img {
 
 /* Introduction at Landing page */
 .introduction {
-  border-top: #202020 2vw solid;
+  margin: 5%;
   padding-top: 5%;
   padding-bottom: 5%;
   display: grid;
@@ -595,6 +602,7 @@ div.hamburger.active img {
   align-items: start;
 }
 .introduction > .left {
+  width: 50%;
   height: 100%;
   display: grid;
 
@@ -604,7 +612,7 @@ div.hamburger.active img {
   width: 80%;
   margin-left: 20%;
   font-weight: bold;
-  font-size: 2em;
+  font-size: 1.5em;
   padding-bottom: 1em;
   border-bottom: 2px crimson solid;
 }

@@ -14,7 +14,11 @@
     margin: auto;
     margin-top: 10%;
   }
-
+  h1 {
+    margin: 5%;
+    width: 85%;
+    text-align: left;
+  }
   /* NAV */
   nav {
     grid-gap: 30%;
