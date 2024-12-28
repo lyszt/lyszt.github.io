@@ -1,0 +1,18 @@
+<svg width="1080" height="1080" viewBox="0 0 1080 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_427_14)">
+<rect width="1080" height="1080" fill="#C1C1C1"/>
+<rect x="-258" y="-178" width="1644" height="1500" fill="#D9D9D9"/>
+<circle cx="955.5" cy="1080.5" r="461.5" fill="#A0A0A0"/>
+<ellipse cx="450" cy="1085" rx="555" ry="536" fill="#C4C4C4"/>
+<circle cx="798" cy="248" r="207" fill="#EAEAEA"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M487.509 342.34L504.089 174.729L564.642 180.718L548.063 348.33L487.509 342.34Z" fill="#C1C1C1"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M462.439 786.789L493.618 306.842L554.339 310.787L523.16 790.733L462.439 786.789Z" fill="#616161"/>
+<path d="M484.761 303.34C487.783 300.796 491.617 299.417 495.568 299.455L545.533 299.934C549.906 299.976 554.085 301.748 557.154 304.864L583.327 331.431C593.763 342.024 586.003 359.934 571.138 359.565L465.975 356.954C450.759 356.576 444.092 337.577 455.737 327.774L484.761 303.34Z" fill="#A0A0A0"/>
+<rect x="495.759" y="149" width="79.5986" height="37" rx="14" transform="rotate(5.83156 495.759 149)" fill="#A0A0A0"/>
+</g>
+<defs>
+<clipPath id="clip0_427_14">
+<rect width="1080" height="1080" fill="white"/>
+</clipPath>
+</defs>
+</svg>
