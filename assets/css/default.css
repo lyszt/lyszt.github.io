@@ -546,12 +546,12 @@ div.hamburger.active img {
 .teaser {
   display: flex;
   flex-direction: row-reverse;
-  font-size: 1.1em;
+  font-size: 1em;
   height: 70vh;
   padding: 5%;
   align-content: center;
-  overflow: hidden;
   background-color: #1c1c1c;
+  padding-bottom: 10%;
 }
 .teaser video {
   width: 70%;
@@ -614,7 +614,7 @@ div.hamburger.active img {
 .introduction > .right p {
   width: 70%;
   margin-left: 20%;
-  font-size: 1.1em;
+  font-size: 1em;
 }
 
 
@@ -797,6 +797,9 @@ div.hamburger.active img {
   transition: .5s;
 }
 
+#web-folder img {
+  filter: invert(1);
+}
 
 .project:active .hover-setup {
   background-color: rgba(255,255,255,0.8);

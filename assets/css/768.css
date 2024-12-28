@@ -1,65 +1,58 @@
-@media screen and (min-width: 481px) and (max-width: 768px){
+@media screen and (min-width: 481px) and (max-width: 768px) {
 
   .loading-simulation img {
     display: block;
     width: 50vw;
     margin: auto;
-    margin-top: 10%
-
+    margin-top: 10%;
   }
 
-    body {
-      background-color: white;
-    }
-    .horizontal-line {
-      display: none;
-    }
+  body {
+  }
+  .horizontal-line {
+    display: none;
+  }
 
-    /*  NAV */
-    nav {
-      grid-gap: 10%;
-      width: 20%;
-    }
-    .undernav {
-      width: 100%;
-    }
-    .hamburger {
-      margin-left: 1em;
-      width: 100%;
-    }
-    div.hamburger img {
-      width: 20%;
-      filter: saturate(0)brightness(0)invert(1);
-    }
-    div.hamburger.active img {
-      filter: saturate(0)brightness(0);
-    }
-    .navigator-design {
-      background-color: white;
-      width: 100%;
-      margin-top: 0;
-      z-index: -2;
+  /*  NAV */
+  nav {
+    grid-gap: 10%;
+    width: 20%;
+  }
+  .undernav {
+    width: 100%;
+  }
+  .hamburger {
+    margin-left: 1em;
+    width: 100%;
+  }
+  div.hamburger img {
+    width: 20%;
+  }
+  div.hamburger.active img {
+    filter: none;
+  }
+  .navigator-design {
+    width: 100%;
+    margin-top: 0;
+    z-index: -2;
+  }
+  .navigator-design img {
+    display: none;
+  }
+  .navigator-design li a {
+    font-size: 6vw;
+    margin-left: 0;
+  }
 
-    }
-    .navigator-design img {
-      display: none;
-    }
-    .navigator-design li a {
-      color: black !important;
-      font-size: 6vw;
-      margin-left: 0;
-    }
-
-    /*  LANDING PAGE */
-    .landing-page {
-      width: 90%;
-      padding-bottom: 2vw;
-    }
-    #landing-buttons .btn img {
-      width: 40%;
-      margin-bottom: 5%;
-
-    }
+  /*  LANDING PAGE */
+  .landing-page {
+    width: 90%;
+    padding-bottom: 2vw;
+  }
+  #landing-buttons .btn img {
+    width: 100%;
+    margin-bottom: 5%;
+  }
   #landing-div {
     display: flex;
     justify-items: start;
@@ -81,31 +74,27 @@
   #landing-div .col-2 {
     width: 90%;
   }
-    #landing-distractor {
-      display: none;
-    }
-    #landing-text {
-      width: 50%;
-      margin-top: 15vw;
-    }
-    #landing-text h1{
-      font-size: 5vw;
-    }
-    #landing-text h3 {
-      color: #303030;
-      font-size: 6vw;
-    }
-    #landing-text {
-      width: 100%;
-    }
+  #landing-distractor {
+    display: none;
+  }
+  #landing-text {
+    width: 100%;
+    margin-top: 15vw;
+  }
+  #landing-text h1 {
+    font-size: 5vw;
+  }
+  #landing-text h3 {
+    font-size: 6vw;
+  }
   #landing-text p {
-    color: black;
     font-size: 2em;
-    /* line-height: 7vw; */
     padding-bottom: 5vw;
     width: 70%;
   }
-
+  .image-break {
+    display: none;
+  }
   /*  BUTTONS */
 
   /*  INTRODUCTION */
@@ -125,15 +114,12 @@
   hr {
     display: none;
   }
-  .services-offered {
-    background-color: white;
-  }
   .services-offered h1 {
     margin-top: 15vw;
     font-size: 5vw;
     text-align: left;
   }
-  .services-offered p{
+  .services-offered p {
     text-align: left;
     margin: 1%;
     margin-top: 5vw;
@@ -144,18 +130,16 @@
   /*  SKILLS */
   .skills {
     display: grid;
-    background-color: white;
     flex-direction: column;
     height: fit-content;
   }
   .skills h1 {
-    color: black;
+    font-size: 5vw;
   }
   .skills > p {
     font-size: 1em;
   }
   .skills > .skill-item {
-    background-color: white;
     margin: auto;
     width: 90vw;
     height: 55vw;
@@ -166,7 +150,6 @@
     display: none;
   }
   .skill-item > h2 {
-    color: black !important;
     font-size: 5vw;
   }
   .skill-item:hover * {
@@ -174,7 +157,6 @@
     transition: 0.5s;
   }
   .skill-item > p {
-    color: black !important;
     font-size: 5vw;
   }
   .skills > .skill-advert {
@@ -190,7 +172,6 @@
     font-size: 5vw;
   }
   /* Pick your poison - Pick Portfolio section */
-
   .pick-portfolio {
     margin-top: 5vw;
     margin-bottom: 5vw;
@@ -198,7 +179,7 @@
   .pick-portfolio h1 {
     font-size: 5.3vw;
   }
-  .pick-portfolio h3{
+  .pick-portfolio h3 {
     font-size: 1em;
   }
   .pick-portfolio p {
@@ -219,22 +200,17 @@
     height: 50%;
     padding: 5%;
   }
-  .port-folder .project  img{
+  .port-folder .project img {
     display: none;
   }
   .hover-setup {
     left: 0;
   }
-
   .portfolio-picker {
     padding-bottom: 3vw;
   }
   .project .hover-setup {
     opacity: 1 !important;
-  }
-
-  .pick-portfolio {
-    background-color: #fbfbfb;
   }
   .port-folder {
     padding: 3vw;
@@ -255,17 +231,9 @@
     font-size: 3vw !important;
   }
 
-
-
-
-
-
-
   /*  FOOTER */
   footer * {
-    background-color: white !important;
     display: block;
-    color: black;
     font-size: 1em;
   }
   #sitemap {

@@ -162,7 +162,7 @@ function render() {
   const boxDepth = 1;
   const geometry = new THREE.BoxGeometry(boxWidth, boxHeight, boxDepth);
 
-  const material = new THREE.MeshStandardMaterial({color: 0xc2c2c2});
+  const material = new THREE.MeshStandardMaterial({color: 0x202020});
   const cubes = []
   const spacing = 1.2;
 
@@ -174,11 +174,12 @@ function render() {
 
   for(let i = 4; i < 8; i++){
     let cube = new THREE.Mesh(geometry, material);
-    cube.position.z = 1;
+    cube.position.z = -.2;
     cube.position.x = i * spacing;
     cube.position.y = 1;
-    cube.rotation.x += 0.01;
+    cube.rotation.x += 0.02;
     cube.rotation.z += 0;
+    cube.rotation.y += .05;
     cubes.push(cube);
     scene.add(cube);
   }

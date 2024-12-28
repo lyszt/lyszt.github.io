@@ -2,7 +2,6 @@
   body {
     margin-right: 0;
     max-width: 100%;
-    background-color: white;
   }
 
   hr, .horizontal-line {
@@ -31,7 +30,6 @@
   .undernav,
   .navigator-design {
     width: 100%;
-    background-color: white;
     margin-top: 0;
     z-index: -2;
   }
@@ -43,7 +41,6 @@
 
   div.hamburger img {
     width: 50%;
-    filter: brightness(0);
   }
 
   div.hamburger.active img {
@@ -55,11 +52,12 @@
   }
 
   .navigator-design li a {
-    color: black !important;
     font-size: 6vw;
     margin-left: 0;
   }
-
+  .image-break {
+    display: none;
+  }
   /* LANDING PAGE */
   .landing-page {
     height: fit-content;
@@ -98,8 +96,7 @@
   }
 
   #landing-buttons .btn img {
-    width: 50%;
-    height: 6vw;
+    width: 100%;
     margin: auto;
   }
 
@@ -109,16 +106,14 @@
   }
 
   #landing-text h1 {
-    font-size: 4vw;
+    font-size: 2em;
   }
 
   #landing-text h3 {
-    color: #303030;
     font-size: 6vw;
   }
 
   #landing-text p {
-    color: black;
     font-size: 2em;
     line-height: 7vw;
     padding-bottom: 5vw;
@@ -162,7 +157,6 @@
   /* Pick your poison */
   .pick-portfolio {
     margin: 5vw 0;
-    background-color: #fbfbfb;
   }
 
 
@@ -198,18 +192,17 @@
 
   /* SERVICES OFFERED */
   .services-offered {
-    background-color: white;
   }
 
   .services-offered h1 {
     margin: 15vw 0 0 5vw;
-    font-size: 4vw;
+    font-size: 2em;
     text-align: left;
   }
 
   .services-offered p {
     margin: 5vw;
-    font-size: 4vw;
+    font-size: 2em;
     text-align: left;
     width: 90%;
   }
@@ -219,7 +212,6 @@
   }
 
   .highlights-area > .highlights-items {
-    background-color: #eaeaea;
     margin-top: 2vw;
     width: 85vw;
     height: 65vw;
@@ -227,14 +219,12 @@
   }
 
   .highlights-items > h1, .highlights-items > p {
-    color: black;
-    font-size: 4vw;
+    font-size: 2em;
   }
 
   /* SKILLS */
   .skills {
     display: grid;
-    background-color: white;
     flex-direction: column;
     height: fit-content;
   }
@@ -242,16 +232,13 @@
   .skills h1 {
     font-size: 7vw;
     margin-bottom: 4vw;
-    color: black;
   }
 
   .skills > p {
-    font-size: 4vw;
+    font-size: 2em;
   }
 
   .skills > .skill-item {
-    background-color: white;
-    background-image: none;
     margin: auto;
     width: 90vw;
     height: fit-content;
@@ -265,8 +252,7 @@
   }
 
   .skill-item > h2 {
-    color: black !important;
-    font-size: 4vw;
+    font-size: 2em;
   }
 
   .skill-item:hover * {
@@ -275,8 +261,7 @@
   }
 
   .skill-item > p {
-    color: black !important;
-    font-size: 4vw;
+    font-size: 2em;
   }
 
   .skills > .skill-advert {
@@ -287,11 +272,11 @@
   }
 
   .skill-advert > h2 {
-    font-size: 4vw;
+    font-size: 2em;
   }
 
   .skill-advert > p {
-    font-size: 4vw;
+    font-size: 2em;
   }
 
   /* Blog */
@@ -300,7 +285,7 @@
   }
 
   .posts .post .intro {
-    font-size: 4vw;
+    font-size: 2em;
   }
 
   .post .intro p {
@@ -308,7 +293,7 @@
   }
 
   .post .intro h1 {
-    font-size: 4vw;
+    font-size: 2em;
   }
 
   .post .intro h2 {
@@ -323,9 +308,7 @@
 
   /* FOOTER */
   footer * {
-    background-color: white !important;
     display: block;
-    color: black;
     font-size: 1em;
   }
 
