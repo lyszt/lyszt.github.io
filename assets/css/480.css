@@ -115,7 +115,6 @@
 
   #landing-text p {
     font-size: 2em;
-    line-height: 7vw;
     padding-bottom: 5vw;
   }
 
@@ -289,7 +288,6 @@
   }
 
   .post .intro p {
-    line-height: 4vw;
   }
 
   .post .intro h1 {

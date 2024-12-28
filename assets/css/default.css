@@ -428,7 +428,8 @@ div.hamburger.active img {
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  background-size: 200% 100%;
+  background: url("/assets/img/background.svg") no-repeat;
+  background-size: cover;
   animation-delay: 1s;
   animation: fadeIn 1s both;
   transition: 2s;
@@ -436,7 +437,6 @@ div.hamburger.active img {
 }
 
 .altered {
-  background-position: left;
   transition: all 2s linear;
 }
 .altered p {
@@ -552,6 +552,7 @@ div.hamburger.active img {
   align-content: center;
   background-color: #1c1c1c;
   padding-bottom: 10%;
+  margin-top: 10%;
 }
 .teaser video {
   width: 70%;
