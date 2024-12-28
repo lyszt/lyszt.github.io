@@ -772,7 +772,7 @@ div.hamburger.active img {
 .port-folder .project {
   position: relative;
   display: grid;
-  background-color: #ffffff;
+  background-color: #1c1c1c;
   width: 250px;
   height: 250px;
   object-fit: contain;
