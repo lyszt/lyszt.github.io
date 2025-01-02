@@ -3,7 +3,7 @@
   width: 200vw;
   height: 200vw;
   position: fixed;
-  background-color: crimson;
+  background-color: #9e9e9e;
   border-radius: 50%;
   transform: translate(-50%, 0);
   left: 50%;
@@ -48,6 +48,13 @@ h1 {
 }
 
   /* Basic */
+
+.mobile {
+  visibility: hidden;
+}
+.desktop {
+  visibility: visible;
+}
 a:hover {
   text-decoration: none;
 }
@@ -58,7 +65,7 @@ a:hover {
   z-index: 999;
   position: fixed;
   bottom: 0;
-  background-color: #1c1c1c;
+  background-color: white;
   width: 100%;
 }
 body>.skiptranslate {
@@ -81,7 +88,7 @@ body>.skiptranslate {
   border: none;
   margin: 4px 0;
   margin-left: 10%;
-  background-color: #1c1c1c;
+  background-color: white;
   transition: 1s;
   padding: 4%;
 }
@@ -95,16 +102,16 @@ body>.skiptranslate {
 }
 
 ::-webkit-scrollbar {
-  background: #1c1c1c;
+  background: white;
 }
 ::-webkit-scrollbar-button {
-  background: #1c1c1c;
+  background: white;
 }
 ::-webkit-scrollbar-thumb {
-  background: crimson;
+  background: #9e9e9e;
 }
 ::-webkit-scrollbar-track {
-  background: #1c1c1c;
+  background: white;
 }
 ::-webkit-scrollbar-thumb:hover {
   background: #b6b6b6;
@@ -113,7 +120,8 @@ html {
   scroll-behavior: smooth;
 }
 b {
-  color: crimson;
+  color: black;
+  font-weight: bold;
 }
 .hidden {
   visibility: hidden;
@@ -134,7 +142,7 @@ b {
   }
   50% {
     width: 50%;
-    background: #1c1c1c;
+    background: white;
     transform: scale(1.2);
     border-radius: 25%;
   }
@@ -161,28 +169,28 @@ b {
   to {margin-right:0; opacity: 1}
 }
 ::selection {
-  background-color: crimson;
-  color: #1c1c1c;
+  background-color: #9e9e9e;
+  color: white;
 }
 ::-moz-selection{
-  background-color: crimson;
-  color: #1c1c1c;
+  background-color: #9e9e9e;
+  color: white;
 }
 .btn:hover {
-  background-color: crimson;
-  color: #1c1c1c;
+  background-color: #9e9e9e;
+  color: white;
 }
 body {
   overflow-x: hidden;
-  background: #1c1c1c;
-  color: white;
+  background: white;
+  color: black;
   font-family: "Sarala", sans-serif !important;
-  font-weight: 500;
+  font-weight: 100;
   max-width: 100%;
   margin: auto;
 }
 a {
-  color: crimson;
+  color: #989898;
 }
 a:hover {
   color: #ff0033;
@@ -191,22 +199,20 @@ a:hover {
 
 }
 hr {
-  border-color: #202020;
+  border-color: white;
   width: 50%;
   margin: auto;
   padding: 5%;
 }
 .call-to-action {
-  background-color: crimson;
-  color: #1c1c1c;
+  padding: 2% 10% 2% 10% !important;
+  background-color: #d1d1d1;
+  color: black;
   text-wrap: nowrap;
 }
-.call-to-action img {
-  width: 5%;
-  margin-right: 5%;
-}
+
 .call-to-action:hover {
-  background-color: #cccccc;
+  background-color: black;
   color: white;
 }
 .call-to-action:hover img {
@@ -238,7 +244,7 @@ hr {
   top:0;
   left:0;
   z-index: 999999;
-  background-color: #1c1c1c;
+  background-color: white;
   width: 100%;
   min-height: 100%;
   height: 100vh;
@@ -255,14 +261,13 @@ hr {
   width: 20vw;
   margin: auto;
   margin-top: 10%;
-  filter: brightness(2);
 
 }
 .horizontal-line {
   margin-top: 2vw;
   width: 30%;
   height: 0.5vw;
-  border-bottom: crimson 0.2vw solid;
+  border-bottom: #9e9e9e 0.2vw solid;
   margin-bottom: 1vw;
 
 }
@@ -288,7 +293,7 @@ nav {
   height: 10%;
 }
 .nav-item a {
-  color: white;
+  color: black;
 }
 .navigator-design:active li {
   opacity: 1;
@@ -301,27 +306,30 @@ nav {
 div.hamburger img {
   transition: 1s;
 }
+div.hamburger:hover {
+  filter: invert(.6);
+}
 div.hamburger.active img {
-  filter: saturate(0.8);
+  filter: invert(.5);
 }
 .side-nav {
   display: grid;
   height: 100vh;
   position: fixed;
   width: 8%;
-  background: #1c1c1c;
+  background: #f4f4f4;
   right: 0;
   z-index: 0;
 }
 .undernav {
-  color: #1c1c1c;
+  color: white;
   font-weight: lighter;
   width: 100%;
   position: fixed;
   top: 0;
   left: 0;
   height: 11vh;
-  background-color: #1c1c1c;
+  background-color: white;
   z-index: -1;
 }
 .undernav ul {
@@ -343,7 +351,7 @@ div.hamburger.active img {
   flex-wrap: nowrap;
   flex-direction: column;
   left: -110%;
-  background-color: #1c1c1c;
+  background-color: white;
   width: 100%;
   height: 100%;
   z-index: -3;
@@ -362,7 +370,7 @@ div.hamburger.active img {
   text-align: left;
   margin-top: 5vw;
   font-size: 1.5em;
-  color: white;
+  color: black;
   display: inline-block;
   z-index: 9;
 }
@@ -375,7 +383,7 @@ div.hamburger.active img {
 }
 
 .navigator-design li:active{
-  color: crimson;
+  color: #9e9e9e;
   transition: 1s;
 }
 
@@ -404,18 +412,6 @@ div.hamburger.active img {
   flex-wrap: wrap;
 
 
-}
-
-/* Distraction Image Sections */
-.decorating-section {
-  width: 100%;
-  height: 30vh;
-  overflow: hidden;
-
-}
-.decorating-section img {
-  filter: saturate(0%);
-  max-width: 100%;
 }
 
 
@@ -447,7 +443,7 @@ div.hamburger.active img {
   transition: all 2s linear;
 }
 .altered p {
-  color: crimson !important;
+  color: black !important;
   transition: 2s;
 }
 .altered span {
@@ -455,7 +451,7 @@ div.hamburger.active img {
   transition: 2s;
 }
 .altered b {
-  color: white !important;
+  color: black !important;
   transition: 2s;
 }
 
@@ -470,7 +466,7 @@ div.hamburger.active img {
   width: 70%;
 }
 #landing-div span {
-  color: white;
+  color: black;
   transition: 2s;
 }
 #landing-div .call-to-action {
@@ -495,23 +491,23 @@ div.hamburger.active img {
 }
 #landing-text p {
   text-align: left;
-  width: 60%;
+  width: 70%;
   line-height: 1em;
   font-size: 2.5em;
-  color: white;
+  color: black;
   font-weight: 600;
 }
 #landing-text h1 {
-  color: crimson;
+  color: #9e9e9e;
   font-weight: 800;
   font-size: 1.5em;
 }
 #landing-text h3 {
-  color: crimson;
+  color: #9e9e9e;
   font-size: 1.5em;
   font-weight: 600;
 }
-#landing-buttons {
+.landing-buttons {
   display: grid;
   align-content: center;
   margin-top: 2vw;
@@ -519,14 +515,16 @@ div.hamburger.active img {
   opacity: 0;
   animation-delay: 2.5s;
   justify-items: center;
+
 }
-#landing-buttons .btn img {
+.landing-buttons .btn img {
   width: 35%;
+  filter: invert(1);
 }
-#landing-buttons .btn {
+.landing-buttons .btn {
   box-shadow: none;
   padding: 0;
-  font-size: 1em;
+  font-size: 1.1em;
   border: none;
   border-radius: 100px;
   background: none;
@@ -535,17 +533,42 @@ div.hamburger.active img {
 
 
 }
-#landing-buttons .btn:hover {
-  background: crimson;
-  padding: 10%;
+.side-nav.desktop span {
+  padding-bottom: 10%;
+  border-bottom: 1px solid black;
+  font-weight: bold;
+  margin-bottom: 10%;
 }
-#landing-buttons .btn:hover img {
-  filter: brightness(1);
+.side-nav.desktop {
+  display: flex !important;
+  width: 15% !important;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  grid-gap: 3%;
+  background-color: rgb(255 255 255 / 80%);
+  backdrop-filter: blur(1px);
+  border-left: 1px solid #ececec;
+}
+.side-nav.desktop a {
+  width: 75% !important;
+  padding: 2% 20% 2% 20% !important;
+  font-size: 1em;
+  background: linear-gradient(90deg, white, #efefef);
+  box-shadow: #eaeaea 0 2px 1px;
+  color: black;
+
+}
+.side-nav.desktop a:hover {
+  background: linear-gradient(90deg, #e1e1e1, #dfdfdf);
+}
+.landing-buttons .btn:hover img {
+  filter: none;
 }
 .btn * {
-  transition: 2s all;
+  transition: .5s all;
 }
-#landing-buttons .btn *{
+.landing-buttons .btn *{
   margin: auto;
 }
 
@@ -553,17 +576,18 @@ div.hamburger.active img {
 .teaser {
   display: flex;
   flex-direction: row-reverse;
-  font-size: 1em;
+  font-size: 1.1em;
   height: 70vh;
   padding: 5%;
   align-content: center;
-  background-color: #1c1c1c;
+  background-color: white;
   padding-bottom: 10%;
   margin-top: 10%;
 }
 .teaser video {
   width: 70%;
   margin: auto;
+  filter: saturate(0);
 }
 .teaser .col-1 {
   width: 50%;
@@ -585,11 +609,11 @@ div.hamburger.active img {
   width: fit-content;
 }
 .teaser #observation {
-  color: white;
+  color: black;
   font-size: .9em;
 }
 .teaser #observation a:hover{
-  color: white;
+  color: black;
 }
 
 /* Introduction at Landing page */
@@ -614,7 +638,7 @@ div.hamburger.active img {
   font-weight: bold;
   font-size: 1.5em;
   padding-bottom: 1em;
-  border-bottom: 2px crimson solid;
+  border-bottom: 2px #9e9e9e solid;
 }
 .introduction > .right {
   height: 100%;
@@ -623,7 +647,7 @@ div.hamburger.active img {
 .introduction > .right p {
   width: 70%;
   margin-left: 20%;
-  font-size: 1em;
+  font-size: 1.1em;
 }
 
 
@@ -639,21 +663,21 @@ div.hamburger.active img {
   color: #272727;
   text-align: center;
   margin: auto auto 2vw auto;
-  font-size: 1em;
+  font-size: 1.1em;
   width: 50%;
 }
 .services-offered .call-to-action {
   display: block;
-  background-color: crimson;
-  color: #1c1c1c;
+  background-color: #9e9e9e;
+  color: white;
   margin: auto;
   border: none;
   padding: 1vw;
   border-radius: 0.1vw;
 }
 .services-offered .call-to-action:hover {
-  background-color: white;
-  color: #1c1c1c;
+  background-color: black;
+  color: white;
   transition: 0.3s;
 }
 .services-offered h1 {
@@ -676,22 +700,22 @@ div.hamburger.active img {
   display: block;
   color: #272727;
   font-weight: bold;
-  font-size: 1em;
+  font-size: 1.1em;
 
 }
 .pick-portfolio p {
   text-align: center;
   display: block;
   color: #6e6e6e;
-  font-size: 1em;
+  font-size: 1.1em;
 
 }
 .pick-portfolio h3{
-  font-size: 1em;
+  font-size: 1.1em;
 }
 .portfolio-picker {
   width: 100%;
-  background-color: #1c1c1c;
+  background-color: white;
 }
 .pick-portfolio .widgets {
   padding-left: 2vw;
@@ -721,7 +745,7 @@ div.hamburger.active img {
   width: 20%;
   padding: 2vw;
   display: flex;
-  color: white;
+  color: black;
   align-items: center;
   justify-content: center;
   background: none;
@@ -745,10 +769,11 @@ div.hamburger.active img {
 .port-option img {
   display: block;
   width: 10%;
+  filter: saturate(0);
 }
 .port-option:hover {
-  background-color: #101010;
-  border-bottom: 3px solid #202020;
+  background-color: #efefef;
+  border-bottom: 3px solid #323232;
   transition: 1s;
 }
 .port-option:hover img{
@@ -758,7 +783,7 @@ div.hamburger.active img {
 
 .port-option.focus{
   border-radius: 3px;
-  border-bottom: 3px solid crimson;
+  border-bottom: 3px solid #9e9e9e;
 }
 .port-option.focus img {
   filter: saturate(0) brightness(2);
@@ -781,7 +806,7 @@ div.hamburger.active img {
 .port-folder .project {
   position: relative;
   display: grid;
-  background-color: #1c1c1c;
+  background-color: white;
   width: 250px;
   height: 250px;
   object-fit: contain;
@@ -802,7 +827,7 @@ div.hamburger.active img {
   transition: 0.6s;
 }
 .project:hover {
-  background-color: #1c1c1c;
+  background-color: white;
   transition: .5s;
 }
 
@@ -822,8 +847,8 @@ div.hamburger.active img {
 }
 .hover-setup {
   display: grid;
-  background-color: #1c1c1c;
-  color: crimson;
+  background-color: white;
+  color: #9e9e9e;
   opacity: 0;
   font-weight: bold;
   width: 100%;
@@ -840,13 +865,13 @@ div.hamburger.active img {
   width: 90%;
 }
 .hover-setup p {
-  color: white;
+  color: black;
   font-weight: normal;
 }
 
 /* Aesthetical Distraction */
 .aesthetical-distraction {
-  background-color: crimson;
+  background-color: #9e9e9e;
   width: 100%;
   height: 1vh;
   overflow: hidden;
@@ -855,7 +880,7 @@ div.hamburger.active img {
 
 .skills {
   padding: 10vh;
-  background-color: #1c1c1c;
+  background-color: white;
   display: inline-flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -873,7 +898,7 @@ div.hamburger.active img {
   margin-bottom: 5%;
 }
 .skills > p {
-  font-size: 1em;
+  font-size: 1.1em;
   text-align: center;
   width: 100%;
   margin-bottom: 4vw;
@@ -881,7 +906,7 @@ div.hamburger.active img {
 }
 .skills > .skill-item {
   transition: all 0.5s ease;
-  background-image: linear-gradient(60deg, #1c1c1c, #fbfbfb);
+  background-image: linear-gradient(60deg, white, #fbfbfb);
   margin: 1vw;
   width: 230px;
   height: 260px;
@@ -898,23 +923,23 @@ div.hamburger.active img {
   padding: 0;
   margin: 1vw;
   text-align: left;
-  color: white;
+  color: black;
   font-size: 1.5em;
   font-weight: bolder;
 }
 .skill-item > p {
-  color: white;
-  font-size: 1em;
+  color: black;
+  font-size: 1.1em;
   margin: 1vw;
 }
 
 .skill-item:hover * {
-  border-color: crimson;
-  color: white;
+  border-color: #9e9e9e;
+  color: black;
   transition: all 1s ease-out;
 }
 .skill-item:hover h2 {
-  color: crimson;
+  color: #9e9e9e;
 }
 .skill-item:hover img {
   width: 2.6em;
@@ -931,18 +956,18 @@ div.hamburger.active img {
 .skill-advert > h2 {
   margin: 1vw;
   text-align: left;
-  color: white;
+  color: black;
   font-size: 1.5em;
-  border-bottom: 2px crimson solid;
+  border-bottom: 2px #9e9e9e solid;
   padding-bottom: 1vw;
 }
 .skill-advert > p {
-  color: white;
-  font-size: 1em;
+  color: black;
+  font-size: 1.1em;
   margin: 1vw;
 }
 .skill-advert a {
-  color: crimson;
+  color: #9e9e9e;
 }
 
 /* Blog post behaviour */
@@ -965,7 +990,7 @@ div.hamburger.active img {
 }
 .posts .post .intro {
   margin-right: 2vw;
-  color: white;
+  color: black;
   font-size: 1.5em;
   text-align: left;
 }
@@ -985,7 +1010,7 @@ div.hamburger.active img {
   font-size: 3em !important;
 }
 .post .intro a:hover {
-  color: crimson;
+  color: #9e9e9e;
 }
 .post .image {
   display: grid;
@@ -1011,7 +1036,7 @@ footer span {
   font-size: 1em !important;
 }
 footer a {
-  color: white;
+  color: black;
 }
 #sitemap {
   display: table-cell;
@@ -1027,20 +1052,20 @@ footer a {
   font-weight: bolder;
   margin-top: 1vw;
   list-style: none;
-  font-size: 1em;
+  font-size: 1.1em;
 }
 #text-footer {
 	display: grid;
 	width: 100%;
 	/* height: 90%; */
-	background-color: #1c1c1c;
-	font-size: 1em;
+	background-color: white;
+	font-size: 1.1em;
 	color: #4d4d4d;
 }
 #text-footer > p {
-  font-size: 1em;
+  font-size: 1.1em;
   text-align: right;
-  color: #1c1c1c;
+  color: white;
   margin: 10%;
 }
 footer > #bottom {
@@ -1050,10 +1075,10 @@ footer > #bottom {
   text-align: center;
   margin: auto;
   font-size: 18px;
-  color: white;
+  color: black;
 }
 #copyright a {
-  color: crimson;
+  color: #9e9e9e;
 }
 
 
@@ -1067,21 +1092,21 @@ footer > #bottom {
   text-align: left;
   width: 100%;
   justify-content: start;
-  border-bottom: 1px solid #202020;
+  border-bottom: 1px solid white;
 
 }
 .post-list a {
-  color: white;
+  color: black;
 }
 .post-list a:hover {
-  color: crimson;
+  color: #9e9e9e;
 }
 .post-list a:hover img {
   filter: none !important;
   transition: 1s;
 }
 .post-item {
-  /* color: #1c1c1c; */
+  /* color: white; */
   display: flex;
   flex-direction: row;
   align-content: center;
@@ -1089,30 +1114,30 @@ footer > #bottom {
   align-items: center;
   width: 100%;
   position: relative;
-  background-color: #1c1c1c;
+  background-color: white;
   padding: 5%;
-  border-bottom: 1px solid #202020;
+  border-bottom: 1px solid white;
 }
 .post-item:hover {
-  background-color: black;
+  background-color: #f4f4f4;
 
 }
 .post-item hr {
-  border-color: #202020;
+  border-color: white;
 }
 .post-item p {
-  color: white;
-  font-size: 1em;
+  color: black;
+  font-size: 1.1em;
   width: 70%;
 }
 .post-item h3{
-  font-size: 1em;
+  font-size: 1.1em;
   font-weight: bolder;
   margin-bottom: 5%;
   text-align: left;
 }
 .post-item a:hover {
-  color: crimson;
+  color: #9e9e9e;
 }
 .post-item .col-1 {
   display: flex;
@@ -1121,7 +1146,7 @@ footer > #bottom {
 }
 
 .post-item a {
-  color: white;
+  color: black;
 }
 .post-item img {
   width: 15%;

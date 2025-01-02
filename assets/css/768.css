@@ -9,6 +9,12 @@
 
   body {
   }
+  .mobile {
+    visibility: visible;
+  }
+  .desktop {
+    visibility: hidden;
+  }
   .horizontal-line {
     display: none;
   }
@@ -68,7 +74,7 @@
     margin: 5%;
     width: 100%;
   }
-  #landing-buttons .btn img {
+  .landing-buttons .btn img {
     width: 50%;
   }
   #landing-div .col-2 {

@@ -1,7 +1,10 @@
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<!-- Uploaded to: SVG Repo, www.svgrepo.com, Transformed by: SVG Repo Mixer Tools -->
-<svg width="800px" height="800px" viewBox="0 -2.5 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000">
-<g id="SVGRepo_bgCarrier" stroke-width="0"/>
-<g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
-<g id="SVGRepo_iconCarrier"> <title>email [#1572]</title> <desc>Created with Sketch.</desc> <defs> </defs> <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"> <g id="Dribbble-Light-Preview" transform="translate(-340.000000, -922.000000)" fill="#ffffff"> <g id="icons" transform="translate(56.000000, 160.000000)"> <path d="M294,774.474 L284,765.649 L284,777 L304,777 L304,765.649 L294,774.474 Z M294.001,771.812 L284,762.981 L284,762 L304,762 L304,762.981 L294.001,771.812 Z" id="email-[#1572]"> </path> </g> </g> </g> </g>
-</svg>
+<svg width="320" height="320" viewBox="0 0 320 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M266.667 53.3333H53.3334C38.6058 53.3333 26.6667 65.2724 26.6667 80V240C26.6667 254.728 38.6058 266.667 53.3334 266.667H266.667C281.394 266.667 293.333 254.728 293.333 240V80C293.333 65.2724 281.394 53.3333 266.667 53.3333Z" fill="url(#paint0_linear_107_2)"/>
+<path d="M283.333 59.3333C278.624 55.4927 272.744 53.3758 266.667 53.3333H53.3333C47.2564 53.3758 41.3762 55.4927 36.6666 59.3333C35.1413 60.5936 33.9155 62.1776 33.0782 63.9703C32.241 65.7631 31.8132 67.7197 31.826 69.6983C31.8387 71.6769 32.2917 73.6279 33.152 75.4097C34.0123 77.1915 35.2585 78.7595 36.8 80L143.467 163.867C148.175 167.587 154 169.611 160 169.611C166 169.611 171.825 167.587 176.533 163.867L283.2 80C284.757 78.7507 286.014 77.1675 286.878 75.3675C287.741 73.5675 288.19 71.5965 288.19 69.6C288.19 67.6035 287.741 65.6325 286.878 63.8325C286.014 62.0325 284.757 60.4494 283.2 59.2L283.333 59.3333Z" fill="#D8D8D8"/>
+<defs>
+<linearGradient id="paint0_linear_107_2" x1="160" y1="53.3333" x2="160" y2="266.667" gradientUnits="userSpaceOnUse">
+<stop stop-color="white"/>
+<stop offset="1" stop-color="#EAEAEA"/>
+</linearGradient>
+</defs>
+</svg>

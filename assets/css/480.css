@@ -4,6 +4,12 @@
     max-width: 100%;
   }
 
+  .mobile {
+    visibility: visible;
+  }
+  .desktop {
+    visibility: hidden;
+  }
   hr, .horizontal-line {
     display: none;
   }
@@ -97,10 +103,10 @@
     width: 90%;
   }
 
-  #landing-buttons {
+  .landing-buttons {
   }
 
-  #landing-buttons .btn img {
+  .landing-buttons .btn img {
     width: 80%;
   }
 
