@@ -515,13 +515,13 @@ div.hamburger.active img {
   display: grid;
   align-content: center;
   margin-top: 2vw;
-  width: 70%;
   animation: fadeIn forwards 1.5s;
   opacity: 0;
   animation-delay: 2.5s;
+  justify-items: center;
 }
 #landing-buttons .btn img {
-  width: 45%;
+  width: 35%;
 }
 #landing-buttons .btn {
   box-shadow: none;

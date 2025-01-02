@@ -30,6 +30,9 @@
     width: 16%;
     height: 10%;
   }
+  .side-nav {
+    width: 12%;
+  }
 
   .undernav,
   .navigator-design {
@@ -95,13 +98,10 @@
   }
 
   #landing-buttons {
-    position: absolute;
-    left: 2%;
   }
 
   #landing-buttons .btn img {
-    width: 100%;
-    margin: auto;
+    width: 80%;
   }
 
   #landing-text {
