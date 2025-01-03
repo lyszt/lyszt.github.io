@@ -576,6 +576,7 @@ div.hamburger.active img {
   display: flex;
   flex-direction: row-reverse;
   font-size: 1.1em;
+  width: 80%;
   height: 70vh;
   padding: 5%;
   align-content: center;
