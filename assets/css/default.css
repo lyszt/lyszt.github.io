@@ -74,12 +74,11 @@ body>.skiptranslate {
 }
 .skiptranslate {
   display: flex;
-  top: 10% !important;
   box-shadow: none !important;
   border: none !important;
   align-content: center;
   align-items: center;
-  grid-gap: 5%;
+  grid-gap: 7%;
 }
 #goog-gt-vt {
   display: none;
@@ -219,7 +218,6 @@ hr {
   filter: invert(1);
 }
 .skiptranslate{
-  top: 10% !important;
   box-shadow: none !important;
   border: none !important;
 }
@@ -508,14 +506,15 @@ div.hamburger.active img {
   font-weight: 600;
 }
 .landing-buttons {
-  display: grid;
+  display: flex;
   align-content: center;
-  margin-top: 2vw;
   animation: fadeIn forwards 1.5s;
   opacity: 0;
   animation-delay: 2.5s;
   justify-items: center;
-
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .landing-buttons .btn img {
   width: 35%;
@@ -618,6 +617,7 @@ div.hamburger.active img {
 
 /* Introduction at Landing page */
 .introduction {
+  width: 70%;
   margin: 5%;
   padding-top: 5%;
   padding-bottom: 5%;
@@ -694,6 +694,7 @@ div.hamburger.active img {
   display: block;
   position: relative;
   padding-bottom: 15%;
+  width: 80%;
 }
 .pick-portfolio h1 {
   text-align: center;

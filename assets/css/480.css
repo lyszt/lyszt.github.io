@@ -6,6 +6,7 @@
 
   .mobile {
     visibility: visible;
+    padding-right: 3%;
   }
   .desktop {
     visibility: hidden;
