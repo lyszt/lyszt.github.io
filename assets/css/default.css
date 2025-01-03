@@ -73,6 +73,7 @@ body>.skiptranslate {
   visibility: hidden;
 }
 .skiptranslate {
+  margin: 0 !important;
   display: flex;
   box-shadow: none !important;
   border: none !important;
@@ -318,6 +319,7 @@ div.hamburger.active img {
   background: #f4f4f4;
   right: 0;
   z-index: 0;
+  margin: 0 !important;
 }
 .undernav {
   color: white;
