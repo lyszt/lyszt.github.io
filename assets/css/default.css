@@ -350,6 +350,11 @@ nav {
   position: fixed;
   display: flex;
   flex-direction: column;
+  grid-gap: 4%;
+  align-content: flex-start;
+  justify-items: start;
+  justify-content: flex-start;
+  align-items: center;
   left: -110%;
   background-color: white;
   width: 40%;
@@ -360,12 +365,6 @@ nav {
 }
 .navigator-design.active {
   left: 0;
-  display: flex;
-  grid-gap: 4%;
-  align-content: flex-start;
-  justify-items: start;
-  justify-content: flex-start;
-  align-items: center;
 }
 .navigator-design a {
   width: 70%;
