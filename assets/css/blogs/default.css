@@ -1,9 +1,7 @@
 .nav {
   display: grid !important;
 }
-.undernav {
-  background-color: black;
-}
+
 a {
   text-decoration: none;
 }
