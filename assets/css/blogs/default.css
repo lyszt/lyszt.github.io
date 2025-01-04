@@ -6,7 +6,7 @@ a {
   text-decoration: none;
 }
 ::selection {
-  background-color: crimson;
+  background-color: #f1f1f1;
 }
 body {
   font-family: "Sarala", sans-serif !important;
@@ -41,7 +41,7 @@ header {
 }
 .header .author {
   padding: 1vw;
-  background-color: crimson;
+  background-color: #f1f1f1;
   color: white;
 }
 /* TITLE */
@@ -132,7 +132,7 @@ h2 {
 }
 .top-banner>.subtitle h2 {
   margin: 2%;
-  color: crimson;
+  color: #f1f1f1;
   font-weight: bolder;
   font-size: 1.2em;
   text-wrap: nowrap;
