@@ -41,7 +41,6 @@
     width: 12%;
   }
 
-  .undernav,
   .navigator-design {
     width: 100%;
     margin-top: 0;
@@ -51,13 +50,14 @@
   .hamburger {
     margin-left: 1em;
     width: 150%;
+    background-color: transparent !important;
   }
   .hamburger span {
     display: none;
   }
 
   div.hamburger img {
-    width: 50%;
+    width: 10%;
   }
 
   div.hamburger.active img {
@@ -160,13 +160,19 @@
     margin-left: 0;
   }
 
-  /* DEC */
-  .decorating-section {
-    object-fit: contain;
-    height: fit-content;
+  /*  TESTIMONIALS */
+  .testimonials {
+    flex-direction: column;
     width: 100%;
+    margin-left: 5%;
   }
-
+  .testimonials div:first-child {
+    margin: 0;
+  }
+  .testimonial-item {
+    margin-top: 5%;
+    width: 80%;
+  }
   /* Pick your poison */
   .pick-portfolio {
     margin: 5vw 0;

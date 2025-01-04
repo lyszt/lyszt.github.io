@@ -328,10 +328,13 @@ nav {
   width: 100%;
   position: fixed;
   top: 0;
+  display: flex;
   left: 0;
-  height: 11vh;
   background-color: white;
-  z-index: -1;
+  align-content: center;
+  justify-content: flex-start;
+  padding: 2%;
+  align-items: center;
 }
 .undernav ul {
   margin-top: 1vw;
@@ -418,11 +421,11 @@ nav {
   height: 2.2vw;
 }
 .hamburger {
-  margin: auto;
+  color: black;
+  width: 10%;
   display: flex;
   flex-wrap: nowrap;
-  grid-gap: 14%;
-  padding: 5%;
+  padding: 1%;
   border-radius: 2px;
   align-items: center;
   flex-direction: row;
@@ -431,7 +434,7 @@ nav {
   background-color: #efefef;
 }
 .hamburger img {
-  width: 25%;
+  width: 40%;
   height: 100%;
 }
 div.hamburger img {
@@ -679,6 +682,54 @@ div.hamburger.active img {
   width: 70%;
   margin-left: 20%;
   font-size: 1.1em;
+}
+
+/* Testimonials */
+.testimonials {
+  display: flex;
+  grid-gap: 3%;
+  width: 80%;
+  padding-bottom: 3%;
+  justify-content: center;
+}
+.testimonials div:first-child {
+  margin-left: 5%;
+}
+.testimonials img {
+  width: 110%;
+  filter: saturate(0);
+}
+.testimonials .wrapper {
+  display: grid;
+  border-radius: 100%;
+  width: 80px;
+  height: 67px;
+  overflow: hidden;
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
+}
+.testimonial-item {
+  display: grid;
+  grid-gap: 10%;
+  width: 60%;
+  background: #efefef;
+  padding: 2%;
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
+}
+.testimonial-item > span {
+  width: 80%;
+  font-size: 1em;
+  padding-bottom: 10%;
+}
+.testimonial-identity {
+  display: flex;
+  grid-gap: 10%;
+  align-content: center;
+  align-items: center;
+  flex-direction: row;
 }
 
 

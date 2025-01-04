@@ -30,12 +30,13 @@
   .hamburger {
     margin-left: 1em;
     width: 100%;
+    background-color: transparent !important;
   }
   .hamburger span {
     display: none;
   }
   div.hamburger img {
-    width: 20%;
+    width: 10%;
   }
   div.hamburger.active img {
     filter: none;
@@ -106,6 +107,18 @@
     width: 90%;
     margin-top: 5%;
     margin-left: 0;
+  }
+  /*  TESTIMONIALS */
+  .testimonials {
+    flex-direction: column;
+    width: 100%;
+    margin-left: 5%;
+  }
+  .testimonials div:first-child {
+    margin: 0;
+  }
+  .testimonial-item {
+    margin-top: 5%;
   }
   /*  SERVICES OFFERED */
   hr {
