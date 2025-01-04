@@ -13,9 +13,7 @@ body {
   display: grid;
   justify-items: center;
 }
-div.hamburger img {
-  filter: saturate(0)brightness(0)invert(1);
-}
+
 header {
   position: fixed;
   top: 0;
