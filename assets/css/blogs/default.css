@@ -6,7 +6,7 @@ a {
   text-decoration: none;
 }
 ::selection {
-  background-color: #f1f1f1;
+  background-color: #9e9e9e;
 }
 body {
   font-family: "Sarala", sans-serif !important;
@@ -39,7 +39,7 @@ header {
 }
 .header .author {
   padding: 1vw;
-  background-color: #f1f1f1;
+  background-color: #9e9e9e;
   color: white;
 }
 /* TITLE */
@@ -130,7 +130,7 @@ h2 {
 }
 .top-banner>.subtitle h2 {
   margin: 2%;
-  color: #f1f1f1;
+  color: #9e9e9e;
   font-weight: bolder;
   font-size: 1.2em;
   text-wrap: nowrap;
