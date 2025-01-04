@@ -165,8 +165,8 @@ b {
   to {margin-left:0; opacity: 1}
 }
 @keyframes slideInFromRight {
-  from {margin-right:-100vw; opacity:  0;}
-  to {margin-right:0; opacity: 1}
+  from {margin-right:-100vw;}
+  to {margin-right:0;}
 }
 ::selection {
   background-color: #9e9e9e;
@@ -319,7 +319,10 @@ div.hamburger.active img {
   background: #f4f4f4;
   right: 0;
   z-index: 0;
-  margin: 0 !important;
+  margin: 0;
+  margin-left: -100%;
+  animation: slideInFromRight 1.5s both;
+  animation-delay: 3s;
 }
 .undernav {
   color: white;
