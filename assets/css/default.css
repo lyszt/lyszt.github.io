@@ -298,19 +298,7 @@ nav {
   opacity: 1;
   display: block;
 }
-.hamburger img {
-  width: 40%;
-  height: 100%;
-}
-div.hamburger img {
-  transition: 1s;
-}
-div.hamburger:hover {
-  filter: invert(.6);
-}
-div.hamburger.active img {
-  filter: invert(.5);
-}
+
 .side-nav {
   display: grid;
   height: 100vh;
@@ -412,12 +400,29 @@ div.hamburger.active img {
   margin: auto;
   width: 50%;
   display: flex;
-  flex-wrap: wrap;
-
-
+  flex-wrap: nowrap;
+  grid-gap: 10%;
+  padding: 4%;
+  border-radius: 10px;
+  align-items: center;
+  flex-direction: row;
 }
-
-
+.hamburger:hover {
+  background-color: #efefef;
+}
+.hamburger img {
+  width: 40%;
+  height: 100%;
+}
+div.hamburger img {
+  transition: 1s;
+}
+div.hamburger:hover img {
+  filter: invert(.6);
+}
+div.hamburger.active img {
+  filter: invert(.5);
+}
 /* Landing Page */
 #landing-canvas {
   position: absolute;

@@ -31,6 +31,9 @@
     margin-left: 1em;
     width: 100%;
   }
+  .hamburger span {
+    display: none;
+  }
   div.hamburger img {
     width: 20%;
   }

@@ -52,6 +52,9 @@
     margin-left: 1em;
     width: 150%;
   }
+  .hamburger span {
+    display: none;
+  }
 
   div.hamburger img {
     width: 50%;
