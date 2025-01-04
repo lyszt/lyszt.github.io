@@ -24,6 +24,7 @@ if(hamburger !== null) {
   hamburger.addEventListener("click", () => {
     hamburger.classList.toggle("active");
     navMenu.classList.toggle("active");
+    document.querySelector("main").classList.toggle("active");
   });
 }
 // Trigger transition animation before leaving the page

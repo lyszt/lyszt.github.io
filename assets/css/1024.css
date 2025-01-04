@@ -16,10 +16,7 @@
   .undernav {
     width: 100%;
   }
-  .hamburger {
-    width: 60%;
-    margin-left: 1em;
-  }
+
   /*  LANDING PAGE */
   .landing-page {
     width: 90%;
@@ -72,18 +69,6 @@
     width: 1.4vw;
     height: 1.4vw;
     margin: 0.63vw;
-  }
-  .navigator-design {
-    width: 100%;
-    margin-top: 0;
-    z-index: -2;
-  }
-  .navigator-design img {
-    display: none;
-  }
-  .navigator-design li a {
-    font-size: 2.6vw;
-    margin-left: 0;
   }
 
   /*  SERVICES OFFERED */

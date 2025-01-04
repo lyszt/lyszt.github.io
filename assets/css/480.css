@@ -68,7 +68,7 @@
     display: none;
   }
 
-  .navigator-design li a {
+  .navigator-design a span {
     font-size: 6vw;
     margin-left: 0;
   }
