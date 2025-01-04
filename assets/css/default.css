@@ -67,6 +67,9 @@ main {
 main.active {
   filter: blur(2px);
 }
+.disabled:active {
+  background-color: #d19090;
+}
 #google_translate_element {
   z-index: 999;
   position: fixed;
