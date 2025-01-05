@@ -19,28 +19,16 @@
     display: none;
   }
 
-  /*  NAV */
-  nav {
-    grid-gap: 10%;
-    width: 20%;
-  }
-  .undernav {
-    width: 100%;
-  }
   .hamburger {
-    margin-left: 1em;
-    width: 100%;
     background-color: transparent !important;
   }
   .hamburger span {
     display: none;
   }
   div.hamburger img {
-    width: 10%;
+    width: 70%;
   }
-  div.hamburger.active img {
-    filter: none;
-  }
+
 
   /*  LANDING PAGE */
   .landing-page {
