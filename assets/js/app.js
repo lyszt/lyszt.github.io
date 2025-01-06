@@ -4,6 +4,7 @@ const transition_anim = document.querySelector("#transition");
 
 // Hamburger menu stuff
 const hamburger = document.querySelector(".hamburger");
+const hamburger_img = document.querySelector("#hamburger-img")
 const navMenu = document.querySelector(".navigator-design");
 
 // Portfolio item buttons
@@ -24,8 +25,25 @@ if(hamburger !== null) {
   hamburger.addEventListener("click", () => {
     hamburger.classList.toggle("active");
     navMenu.classList.toggle("active");
+
+    if (hamburger.classList.contains("active")) {
+      // Add a unique query parameter to bypass caching
+      hamburger_img.src = `/assets/img/hamburger-forwards.gif?t=${Date.now()}`;
+
+    } else {
+      // Add a unique query parameter to bypass caching
+      hamburger_img.src = `/assets/img/hamburger-back.gif?t=${Date.now()}`;
+
+      // Change to SVG after the GIF has finished playing
+      setTimeout(() => {
+        hamburger_img.src = "/assets/img/hamburger.svg";
+      }, 2000);
+    }
+
     document.querySelector("main").classList.toggle("active");
   });
+
+
 }
 // Trigger transition animation before leaving the page
 window.addEventListener("beforeunload", () => {
