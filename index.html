@@ -504,7 +504,7 @@ layout: default
           <p>
              {{ post.intro }}
           </p>
-          <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_long_string }}</time>
+          <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date_to_long_string }}</time>
         </div>
         <img src="{{post.cover}}" alt ="{{post.title}}">
       </article>
