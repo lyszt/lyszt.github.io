@@ -40,6 +40,7 @@
     display: flex;
     justify-items: start;
     margin: 1vw;
+    width: 70%;
     grid-auto-flow: column;
     flex-direction: column;
     justify-content: center;
@@ -58,7 +59,7 @@
     width: 50%;
   }
   #landing-div .col-2 {
-    width: 90%;
+    width: 60%;
   }
   #landing-distractor {
     display: none;
@@ -76,7 +77,7 @@
   #landing-text p {
     font-size: 2em;
     padding-bottom: 5vw;
-    width: 70%;
+    width: 40%;
   }
   .image-break {
     display: none;
