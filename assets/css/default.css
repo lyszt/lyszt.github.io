@@ -718,6 +718,11 @@ div.hamburger.active img {
   align-items: center;
   justify-content: center;
 }
+.testimonial-item:hover {
+  background-color: #d3d3d3;
+  transition: 1.5s;
+  width: 80%;
+}
 .testimonial-item > span {
   width: 80%;
   font-size: 1em;
