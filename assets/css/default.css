@@ -717,6 +717,7 @@ div.hamburger.active img {
   justify-items: center;
   align-items: center;
   justify-content: center;
+  transition: 2s;
 }
 .testimonial-item:hover {
   background-color: #d3d3d3;
