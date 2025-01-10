@@ -7,7 +7,8 @@
     margin-top: 10%;
   }
 
-  body {
+  section, h1 {
+    margin-left: 10%;
   }
   .mobile {
     visibility: visible;
@@ -38,15 +39,11 @@
 
   #landing-div {
     display: flex;
-    justify-items: start;
-    margin: 1vw;
-    width: 70%;
-    grid-auto-flow: column;
     flex-direction: column;
     justify-content: center;
     align-content: flex-start;
     align-items: flex-start;
-    margin-top: 5%;
+    width: 80%;
   }
   #landing-div span {
     display: block;
@@ -55,18 +52,18 @@
     margin: 5%;
     width: 100%;
   }
-  .landing-buttons .btn img {
+
+  #landing-div .col-2 {
     width: 50%;
   }
-  #landing-div .col-2 {
-    width: 60%;
+  .landing-buttons .btn img {
+    width: 50%;
   }
   #landing-distractor {
     display: none;
   }
   #landing-text {
     width: 100%;
-    margin-top: 15vw;
   }
   #landing-text h1 {
     font-size: 5vw;
@@ -78,6 +75,7 @@
     font-size: 2em;
     padding-bottom: 5vw;
     width: 40%;
+    margin-left: 0;
   }
   .image-break {
     display: none;
@@ -86,7 +84,7 @@
 
   /*  INTRODUCTION */
   .introduction {
-    margin-left: 5%;
+    margin-left: 10%;
     grid-auto-flow: row;
   }
   .introduction > .left h3 {
@@ -101,7 +99,7 @@
   .testimonials {
     flex-direction: column;
     width: 100%;
-    margin-left: 5%;
+    margin-left: 10%;
   }
   .testimonials div:first-child {
     margin: 0;

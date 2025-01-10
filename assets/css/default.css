@@ -42,13 +42,13 @@
 h1 {
   font-size: 1.5em;
   text-align: center;
-  width: 100%;
+  width: 80%;
   margin-top: 5%;
   margin-bottom: 5%;
 }
 
   /* Basic */
-
+section { display: block}
 .mobile {
   visibility: hidden;
 }
@@ -784,7 +784,9 @@ div.hamburger.active img {
   display: block;
   position: relative;
   padding-bottom: 15%;
+  margin-bottom: 10%;
   width: 80%;
+  height: 100vh;
 }
 .pick-portfolio h1 {
   text-align: center;
@@ -814,6 +816,7 @@ div.hamburger.active img {
   position: relative;
   margin: 5%;
   background: #efefef;
+  height: 100vh;
 }
 .project-skills {
   display: none;
