@@ -234,10 +234,10 @@ layout: default
         <div class="contents">
           <button title="Web projects" class="port-option" id="port-web"><img src="assets/img/web.svg" alt="Web portfolio"><a>
               Web Projects </a></button>
-          <button title="Programming Projects" class="port-option" id="port-code"><img src="assets/img/computer.svg"
+          <button title="Programming Projects" class="port-option focus" id="port-code"><img src="assets/img/computer.svg"
               alt="Programming projects portfolio"><a>Programming</a></button>
-          <button title="Photography projects" class="port-option" id="port-photography"><img src="assets/img/photocamera.svg"
-              alt="Photography Portfolio"><a>Photography and Design</a></button>
+          <button title="Design projects" class="port-option" id="port-photography"><img src="assets/img/photocamera.svg"
+                                               alt="Design Symbol"><a>Design</a></button>
           <button title="Videography projects" class="port-option" id="port-video"><img src="assets/img/camera.svg"
               alt="Videography Portfolio"><a>Videography</a> </button>
         </div>
@@ -344,7 +344,7 @@ layout: default
       </div>
 
         <!-- WEB FOLDER -->
-        <div class="port-folder" id="web-folder" role="list" aria-live="polite">
+        <div class="port-folder hidden" id="web-folder" role="list" aria-live="polite">
             <a class="project" href="{{ site.baseurl }}{% link _posts/2024-1-1-Lex.md %}">
                 <div class="hover-setup">
                     <h3>Therapy with Lex</h3>
@@ -397,7 +397,7 @@ layout: default
         </div>
 
         <!-- CODE FOLDER -->
-        <div class="port-folder hidden" id="code-folder" role="list" aria-live="polite">
+        <div class="port-folder" id="code-folder" role="list" aria-live="polite">
             <a class="project" href="https://github.com/lyszt/ProvidentiaMagnata" target="_blank">
                 <div class="hover-setup">
                     <h3>Providentia Magnata</h3>
@@ -460,7 +460,7 @@ layout: default
         <video type="video/mp4" autoplay="autoplay" muted loop src="/assets/Video/LYSZTTeaser.mp4"> </video>
       </div>
     </section>
-    <section class="skills" style="display: none">
+    <section class="skills" style="display: none;">
       <h1>Boost your project with my skills</h1>
       <div class="skill-item">
         <img src="assets/img/uiuxicon.svg" alt="Squares that represent layout">

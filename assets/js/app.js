@@ -107,8 +107,8 @@ addEventListener("DOMContentLoaded", () => {
   if(transition_anim.classList.contains("active")){
     transition_anim.classList.remove("active");
   }
-  design_folder.classList.remove("hidden");
-  design_folder.classList.add("focus");
+  code_folder.classList.remove("hidden");
+  code_folder.classList.add("focus");
 
   // Landing page loop animations
   let timer = 10000;
