@@ -52,7 +52,7 @@ h1 {
 }
 h2 {
   font-weight: normal;
-  font-size: 1.5em;
+  font-size: 1.5em !important;
   color: #7b7b7b;
   margin-top: 0;
 }
@@ -60,7 +60,7 @@ h2 {
   font-weight: normal;
   font-size: 1.1em;
   line-height: 2em;
-  width: 60%;
+  width: 70%;
   margin: 5%;
 }
 
@@ -81,7 +81,7 @@ h2 {
 }
 .entry > p > img {
   margin: 12%;
-  width: 70vw;
+  width: 80%;
   display: block;
 }
 /* Distraction Image Sections */
@@ -105,6 +105,7 @@ h2 {
 }
 .top-banner {
 	height: 100vh;
+  width: 80%;
 	display: grid;
 	justify-content: center;
 	align-items: center;
@@ -153,12 +154,22 @@ h2 {
   h1 {
     font-size: 1.3em;
     font-weight: bold;
+    text-align: center;
+  }
+  h2 {
+    font-size: 1.5em;
   }
   .top-banner {
-    height: 60vh
-  }
-  .entry > p > img {
+    height: 60vh;
     width: 80%;
+    margin: 2%;
+  }
+  .top-banner h1 {
+    width: 100%;
+  }
+
+  .entry > p > img {
+    width: 100%;
 
   }
   .entry h1 {
@@ -187,6 +198,8 @@ h2 {
 
 
   .post .entry {
+    text-align: center;
+    width: 80%;
     font-size: 1em;
     margin: 2%;
     line-height: normal;
@@ -215,12 +228,10 @@ h2 {
 
     }
 
-    .post .entry {
-      font-size: 1.2em;
-      line-height: normal;
-      font-weight: normal;
-      width: 90%;
-
+    .top-banner {
+      height: 60vh;
+      width: 80%;
+      margin: 2%;
     }
 
     .post > img {
@@ -232,6 +243,10 @@ h2 {
       margin-left: 1px;
     }
     .entry > p > img {
+      width: 80%;
+    }
+    .post.entry {
+      text-align: center;
       width: 80%;
     }
 
@@ -282,6 +297,7 @@ h2 {
       font-size: 1.2em;
       font-weight: normal;
       line-height: normal;
+      width: 80%;
 
     }
     .top-banner {

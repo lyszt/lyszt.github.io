@@ -189,6 +189,10 @@ b {
   background-color: #9e9e9e;
   color: white;
 }
+.btn.active, .btn:active {
+  box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+}
 body {
   overflow-x: hidden;
   background: white;
@@ -722,7 +726,6 @@ div.hamburger.active img {
 .testimonial-item:hover {
   background-color: #d3d3d3;
   transition: 1.5s;
-  width: 80%;
 }
 .testimonial-item > span {
   width: 80%;
