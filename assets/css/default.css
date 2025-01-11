@@ -483,11 +483,6 @@ div.hamburger.active img {
   color: #222222 !important;
   transition: 2s;
 }
-.altered b {
-  color: black !important;
-  transition: 2s;
-}
-
 #landing-div {
   align-items: center;
   display: grid;
@@ -530,6 +525,9 @@ div.hamburger.active img {
   font-size: 2.5em;
   color: black;
   font-weight: 600;
+}
+#landing-text b {
+  color: #2AA198;
 }
 #landing-text h1 {
   color: #9e9e9e;
