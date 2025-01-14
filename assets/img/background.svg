@@ -1,27 +1,23 @@
 <svg width="1440" height="1024" viewBox="0 0 1440 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g clip-path="url(#clip0_432_2)">
-<rect width="1440" height="1024" fill="white"/>
-<path d="M1382.07 -169C1331.4 3.33333 1285.17 353.7 1505.57 376.5C1725.97 399.3 1829.07 849 1853.07 1071" stroke="#FBFBFB" stroke-width="655"/>
-<path d="M-43.9087 1040.16C531.712 620.283 895.344 270.384 1005.21 147.919L1285.69 -135L1577 1040.16C796.855 1215.11 -619.529 1460.04 -43.9087 1040.16Z" fill="white"/>
-<rect x="243" y="777" width="105" height="105" fill="white"/>
-<circle cx="1323.5" cy="83.5" r="116.5" fill="white"/>
-<path d="M526.094 509.719L834.265 -640.391L1676.2 201.548L526.094 509.719Z" fill="#FCFCFC"/>
-<circle cx="1264.5" cy="67.5" r="225.5" fill="white"/>
-<circle cx="1352.5" cy="83.5" r="116.5" fill="#F4F4F4"/>
-<path d="M407 834H1235.5" stroke="white" stroke-width="2"/>
-<rect x="-37" y="489" width="1614" height="535" fill="#FAFAFA"/>
-<circle cx="724.068" cy="527.117" r="376.699" transform="rotate(-15 724.068 527.117)" fill="white"/>
-<path d="M946.5 234L1417.18 1049.25H475.815L946.5 234Z" fill="white"/>
-<path d="M702.283 404.955L733.567 506.984L697.801 439.76L668.724 377.875L702.283 404.955Z" fill="#F5F5F5"/>
-<path d="M816.66 365.513L853.538 459.741L732.625 507.063L697.832 412.02L816.66 365.513Z" fill="#FBFBFB"/>
-<path d="M758.561 338.073L815.618 365.921L697.415 412.183L666 374.3L758.561 338.073Z" fill="#FAFAFA"/>
-<circle cx="917" cy="523" r="373.5" stroke="#F9F9F9" stroke-width="91"/>
-<circle cx="935" cy="529" r="422.5" stroke="white" stroke-width="47"/>
+<rect width="1440" height="1024" fill="#FAFAFA"/>
+<rect x="243" y="777" width="105" height="105" fill="#393939"/>
+<path d="M407 834H1235.5" stroke="#393939" stroke-width="2"/>
+<path d="M-68.446 48C152.916 85.7124 1156.31 566.923 1696.24 1033.53C1795.2 1119.05 1890.27 1182.46 1981.76 1228.94L3018 1299.1C2726.01 1306.88 2389.46 1436.05 1981.76 1228.94L-178 1082.71L-68.446 48Z" fill="url(#paint0_linear_432_2)"/>
+<path d="M-228 95.0002C733.964 -32.6456 1350.37 896.223 1853 1071" stroke="white" stroke-width="179"/>
+<circle cx="935" cy="529" r="391.5" stroke="white" stroke-width="109"/>
 <path d="M1217 707.662L779 738L901.151 697L1217 707.662Z" fill="#FDFDFD"/>
-<path d="M916 418H1217V708L916 703V418Z" fill="#F5F5F5"/>
-<path d="M777 516.5L916 420.5V704L777 738.5V516.5Z" fill="#FCFCFC"/>
+<path d="M916 418H1217V708L916 703V418Z" fill="white"/>
+<path d="M777 516.5L916 420.5V704L777 738.5V516.5Z" fill="#D2D2D2"/>
+<path d="M525.283 404.955L556.567 506.984L520.801 439.76L491.724 377.875L525.283 404.955Z" fill="#5C5C5C"/>
+<path d="M639.66 365.513L676.538 459.741L555.625 507.063L520.832 412.02L639.66 365.513Z" fill="#FBFBFB"/>
+<path d="M581.561 338.073L638.618 365.921L520.415 412.183L489 374.3L581.561 338.073Z" fill="#AAAAAA"/>
 </g>
 <defs>
+<linearGradient id="paint0_linear_432_2" x1="1420" y1="48" x2="1420" y2="1346" gradientUnits="userSpaceOnUse">
+<stop stop-color="white"/>
+<stop offset="1" stop-color="#C7C7C7"/>
+</linearGradient>
 <clipPath id="clip0_432_2">
 <rect width="1440" height="1024" fill="white"/>
 </clipPath>
