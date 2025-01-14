@@ -583,6 +583,9 @@ div.hamburger.active img {
   backdrop-filter: blur(1px);
   border-left: 1px solid #ececec;
 }
+.side-nav.desktop img {
+  width: 50%;
+}
 .side-nav.desktop a {
   width: 75% !important;
   padding: 2% 20% 2% 20% !important;
