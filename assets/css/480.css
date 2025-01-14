@@ -80,6 +80,7 @@
   }
   /* LANDING PAGE */
   .landing-page {
+    background: url("/assets/img/backgroundnoblur.svg");
     height: fit-content;
     padding-bottom: 1vw;
   }
