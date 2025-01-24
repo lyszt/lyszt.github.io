@@ -465,6 +465,7 @@ div.hamburger.active img {
   align-items: center;
   overflow: hidden;
   background: url("/assets/img/background.svg") no-repeat;
+  filter: brightness(1.1);
   background-size: cover;
   animation-delay: 1s;
   animation: fadeIn 1s both;
@@ -489,6 +490,7 @@ div.hamburger.active img {
   justify-items: start;
   margin: 1vw;
   grid-auto-flow: column;
+
 }
 #landing-div .col-2 {
   width: 50%;
