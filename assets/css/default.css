@@ -846,6 +846,7 @@ div.hamburger.active img {
   display: flex;
   height: 35%;
   flex-direction: row;
+  padding-bottom: 10%;
 }
 .project-description > div {
   width: 50%;
