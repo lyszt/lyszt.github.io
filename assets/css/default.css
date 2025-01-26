@@ -111,16 +111,16 @@ body>.skiptranslate {
 }
 
 ::-webkit-scrollbar {
-  background: white;
+  background: #1F1F1F;
 }
 ::-webkit-scrollbar-button {
-  background: white;
+  background: #1F1F1F;
 }
 ::-webkit-scrollbar-thumb {
-  background: #9e9e9e;
+  background: #359787;
 }
 ::-webkit-scrollbar-track {
-  background: white;
+  background: #1F1F1F;
 }
 ::-webkit-scrollbar-thumb:hover {
   background: #b6b6b6;
@@ -465,8 +465,8 @@ div.hamburger.active img {
   align-items: center;
   overflow: hidden;
   background: url("/assets/img/background.svg") no-repeat;
-  filter: brightness(1.1);
   background-size: cover;
+  filter: brightness(1.1);
   animation-delay: 1s;
   animation: fadeIn 1s both;
   transition: 2s;
@@ -784,13 +784,17 @@ div.hamburger.active img {
 }
 /* Pick your poison - Pick Portfolio section */
 .pick-portfolio {
-  display: block;
+  padding-top: 5%;
+  display: flex;
   position: relative;
-  padding-bottom: 15%;
-  margin-bottom: 10%;
-  width: 80%;
+  background: url("/assets/img/port-background.svg") no-repeat;
+  background-size: cover;
+  width: 85%;
   height: 100vh;
+  flex-direction: row;
+  justify-content: center;
 }
+
 .pick-portfolio h1 {
   text-align: center;
   display: block;
@@ -810,16 +814,48 @@ div.hamburger.active img {
   font-size: 1.1em;
 }
 .portfolio-picker {
-  width: 100%;
-  background-color: white;
+  width: 40%;
+  padding-right: 2%;
+  height: 100%;
+  background-color: #1F1F1F;
+}
+.portfolio {
+  width: 80%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.portfolio * {
+  font-size: 1em;
 }
 .pick-portfolio .widgets {
+  width: 100%;
+  height: 100%;
   padding-left: 2vw;
+  overflow: hidden;
   display: flex;
   position: relative;
-  margin: 5%;
-  background: #efefef;
-  height: 100vh;
+  background: rgb(15,15,15,.93);
+  justify-content: center;
+  flex-direction: column;
+}
+.project-description {
+  width: 100%;
+  color: white;
+  display: flex;
+  height: 35%;
+  flex-direction: row;
+}
+.project-description > div {
+  width: 50%;
+  margin: 2%;
+  display: flex;
+  grid-gap: 5%;
+  flex-direction: column;
+}
+.project-description a {
+  width: 50%;
 }
 .project-skills {
   display: none;
@@ -839,17 +875,17 @@ div.hamburger.active img {
   margin: 1%;
 }
 .port-option {
-  width: 20%;
-  padding: 2vw;
+  width: 90%;
+  margin-top: 5%;
+  padding: 10%;
   display: flex;
-  color: black;
+  color: white;
   align-items: center;
   justify-content: center;
   border: none;
   margin-left: 1vw;
-  border-bottom: 3px solid #eaeaea;
-  background: linear-gradient(90deg,white,#eee);
-
+  border-bottom: 3px solid #1B1B1B;
+  background: #282828;
 }
 .port-option a{
   display: block;
@@ -859,87 +895,73 @@ div.hamburger.active img {
 }
 
 .portfolio-picker .contents {
-  flex-direction: row;
+  flex-direction: column;
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-content: center;
+  align-items: center;
 }
 .port-option img {
   display: block;
   width: 10%;
-  filter: saturate(0);
 }
 .port-option:hover {
-  background: linear-gradient(90deg, #fff, #e4fbff);
+  background: #3e3e3e;
   border-bottom: 3px solid #78d8b3;
   transition: 1s;
   box-shadow: 1px 1px 2px 2px #00ffff17;
 }
 .port-option:hover img{
-  filter: invert(50%);
+  filter: invert(10%);
   transition: all 0.5s;
 }
 
 .port-option.focus {
   border-radius: 3px;
-  background: #ececec;
+  background: #68aba0;
   border-bottom: 3px solid rgba(151, 255, 207, 0.49);
 }
 .port-option.focus img {
   filter: saturate(0) brightness(0);
   transition: 0.5s;
 }
-
 .port-folder {
-  position: absolute;
-  top: 0;
-  left: 0;
-  display: flex;
+  flex: 1;
   width: 100%;
-  height: 100vh;
+  display: flex;
+  /* flex-grow: 1; */
   margin: auto;
-  overflow-x: hidden;
-  overflow-y: scroll;
-  flex-wrap:wrap;
+  grid-gap: 33.3%;
+  bottom: 8%;
+  /* overflow-y: hidden; */
+  flex-direction: row;
+  position: absolute;
+  height: 100%;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  padding-bottom: 10%;
 }
 /* Pastas do Portfolio */
-.port-folder .project {
+.project-wrapper {
   position: relative;
-  display: grid;
-  background-color: white;
-  width: 250px;
-  height: 250px;
-  object-fit: contain;
-  margin: 1vw;
+  overflow-x: scroll;
+  height: 40%;
+  width: 100%;
+}
+.port-folder .project {
   overflow: hidden;
+}
+.port-folder .project:hover img {
+  filter: brightness(1.2) saturate(.2);
 }
 .port-folder .project img {
   transition: 1s;
   opacity: 1;
 }
-.port-folder .project:hover img {
-  opacity: 0;
-}
-
-.project:hover .hover-setup {
-  opacity: 1;
-  left:0;
-  transition: 0.6s;
-}
-.project:hover {
-  background-color: white;
-  transition: .5s;
-}
-
-
-.project:active .hover-setup {
-  background-color: rgba(255,255,255,0.8);
-}
 .port-folder .project img {
   position: absolute;
   top: 0;
-  width: 100%;
-  height: 100%;
+  width: 30%;
   z-index: 1;
 }
 .hover-setup {

@@ -168,51 +168,50 @@
   .skill-advert > p {
     font-size: 5vw;
   }
-  /* Pick your poison - Pick Portfolio section */
+
+  /*  Portfolio */
   .pick-portfolio {
-    margin-top: 5vw;
-    margin-bottom: 5vw;
+    margin: 0;
   }
-  .pick-portfolio h1 {
-    font-size: 5.3vw;
+  .portfolio * {
+    font-size: .96em;
   }
-  .pick-portfolio h3 {
-    font-size: 1em;
+  .project-wrapper {
+    width: 90%;
+    height: 35%;
+    overflow-y: hidden;
   }
-  .pick-portfolio p {
-    font-size: 1em;
+  .port-folder {
+    grid-gap: 63.3%;
+    width: 90%;
   }
-  .port-option {
-    width: 15%;
-    margin-left: 2vw;
+  .port-folder .project img {
+    position: absolute;
+    top: 0;
+    width: 40%;
+    z-index: 1;
+  }
+  .project-description a {
+    width: 60%;
   }
   .port-option img {
-    width: 50%;
+    width: 30%;
   }
   .port-option a {
     display: none;
   }
-  .port-folder .project {
-    width: 50%;
-    height: 50%;
-    padding: 5%;
+  .portfolio-picker {
+    width: 30%;
   }
-  .port-folder .project img {
+  .project-description .col-1 {
     display: none;
   }
-  .hover-setup {
-    left: 0;
+  .project-description .col-2 {
+    width: 60%;
   }
-  .portfolio-picker {
-    padding-bottom: 3vw;
+  .port-folder .project img {
+    width: 60%;
   }
-  .project .hover-setup {
-    opacity: 1 !important;
-  }
-  .port-folder {
-    padding: 3vw;
-  }
-
   /* Blog */
   .posts .post .intro {
     font-size: 2vw;

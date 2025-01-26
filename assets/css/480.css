@@ -178,40 +178,69 @@
     width: 80%;
     padding-bottom: 10%;
   }
-  /* Pick your poison */
+
+  /*  Portfolio */
   .pick-portfolio {
-    margin: 5vw 0;
+    margin: 0;
+    width: 100%;
+    background: none;
   }
-
-
-  .pick-portfolio h1,
-  .pick-portfolio p,
-  .pick-portfolio h3 {
-    font-size: 1em;
+  .portfolio {
+    width: 90%;
+    height: 100%;
   }
-
+  .portfolio * {
+    font-size: .96em;
+  }
+  .project-wrapper {
+    width: 90%;
+    height: 35%;
+    overflow-y: hidden;
+  }
+  .port-folder {
+    grid-gap: 73.3%;
+    width: 90%;
+  }
+  .port-folder .project img {
+    position: absolute;
+    top: 0;
+    width: 40%;
+    z-index: 1;
+  }
+  .project-description a {
+    width: 60%;
+  }
   .port-option img {
-    width: 50%;
+    width: 100%;
   }
-
   .port-option a {
     display: none;
   }
-
-  .port-folder .project img {
+  .portfolio-picker {
+    width: 30%;
+    display: flex;
+    align-content: center;
+  }
+  .portfolio-picker .contents {
+    grid-gap: 5%;
+  }
+  .project-description {
+    margin-top: 0;
+    width: 60%;
+  }
+  .project-description .col-1 {
     display: none;
   }
-
-  .project .hover-setup {
-    opacity: 1 !important;
+  .project-description .col-2 {
+    width: 100%;
   }
-
-  .hover-setup {
-    left: 0;
+  .port-folder .project img {
+    width: 70%;
   }
-
-  .portfolio-picker {
-    padding-bottom: 3vw;
+  .port-option.focus {
+    border-radius: 3px;
+    background: #ffffff;
+    border-bottom: 3px solid rgba(151, 255, 207, 0.49);
   }
 
   /* SERVICES OFFERED */

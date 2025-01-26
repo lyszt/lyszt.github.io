@@ -88,33 +88,6 @@
     width: 100%;
   }
 
-  /* Pick your poison - Pick Portfolio section */
-
-  .pick-portfolio {
-    margin-top: 5vw;
-    margin-bottom: 5vw;
-  }
-  .pick-portfolio h1 {
-    font-size: 2vw;
-  }
-  .pick-portfolio p {
-    font-size: 2vw;
-  }
-  .port-option {
-    width: 20%;
-    height: 7vw;
-  }
-  .port-folder .project {
-    width: 30vw;
-    height: 30vw;
-  }
-  .portfolio-picker {
-    padding-bottom: 3vw;
-  }
-
-  .port-folder {
-    padding: 3vw;
-  }
 
   /* Blog */
   .posts .post .intro {
@@ -131,6 +104,43 @@
     font-size: 3vw !important;
   }
 
+  /*  Portfolio */
+  .pick-portfolio {
+    margin: 0;
+  }
+  .portfolio * {
+    font-size: 1em;
+  }
+  .project-wrapper {
+    width: 90%;
+    height: 35%;
+    overflow-y: hidden;
+  }
+  .port-folder {
+    grid-gap: 43.3%;
+  }
+  .port-folder .project img {
+    position: absolute;
+    top: 0;
+    width: 40%;
+    z-index: 1;
+  }
+  .project-description {
+    margin-top: 0;
+    height: 45%;
+  }
+  .project-description a {
+    width: 60%;
+  }
+  .port-option img {
+    width: 20%;
+  }
+  .portfolio-picker {
+    width: 30%;
+  }
+  .port-option a {
+    display: none;
+  }
   /*  FOOTER */
   footer * {
     display: block;

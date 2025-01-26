@@ -230,223 +230,110 @@ layout: default
     </section>
     <h1> Explore my craft. </h1>
     <section class="pick-portfolio">
-      <div class="portfolio-picker">
-        <div class="contents">
-          <button title="Web projects" class="port-option" id="port-web"><img src="assets/img/web.svg" alt="Web portfolio"><a>
-              Web Projects </a></button>
-          <button title="Programming Projects" class="port-option focus" id="port-code"><img src="assets/img/computer.svg"
-              alt="Programming projects portfolio"><a>Programming</a></button>
-          <button title="Design projects" class="port-option" id="port-photography"><img src="assets/img/photocamera.svg"
-                                               alt="Design Symbol"><a>Design</a></button>
-          <button title="Videography projects" class="port-option" id="port-video"><img src="assets/img/camera.svg"
-              alt="Videography Portfolio"><a>Videography</a> </button>
-        </div>
+      <div class="portfolio">
+        <div class="portfolio-picker">
+          <div class="contents">
+            <button title="Web projects" class="port-option" id="port-web"><img src="assets/img/web.svg" alt="Web portfolio"><a>
+                Web Projects </a></button>
+            <button title="Programming Projects" class="port-option focus" id="port-code"><img src="assets/img/computer.svg"
+                alt="Programming projects portfolio"><a>Programming</a></button>
+            <button title="Design projects" class="port-option" id="port-photography"><img src="assets/img/photocamera.svg"
+                                                 alt="Design Symbol"><a>Design</a></button>
+            <button title="Videography projects" class="port-option" id="port-video"><img src="assets/img/camera.svg"
+                alt="Videography Portfolio"><a>Videography</a> </button>
+          </div>
 
-      </div>
-      <div class="widgets">
-        <!-- DESIGN FOLDER -->
-        <div class="port-folder hidden" id="photography-folder" role="list" aria-live="polite">
-            <a class="project" href="https://www.behance.net/kalliddel" target="_blank">
-                <div class="hover-setup">
-                    <h3>Behance</h3>
-                    <p>Find a variety of my work here, some that haven't been highlighted in the website.</p>
-                </div>
+        </div>
+        <div class="widgets">
+          <div class="project-description">
+            <div class="col-1">
+              <div class="project-animation"></div>
+              <ul class="project-skills">
+                <li>COMMISSIONS</li>
+                <li>ENTERTAINMENT</li>
+                <li>CINEMA</li>
+              </ul>
+            </div>
+            <div class="col-2" style="border-bottom: #232323 1px solid;">
+              <h3 id="project-title">Therapy with Lex</h3>
+              <span id="project-desc">I designed, programmed and reworked the entire
+                website, creating layouts for various sections including publishing, supervision,
+                and coaching in a fancy, intuitive fashion.</span>
+              <a class="call-to-action" id="project-link" href="#">Learn more</a>
+            </div>
+                      </div>
+          <div class="project-wrapper">
+          <!-- DESIGN FOLDER -->
+          <div class="port-folder hidden"  id="photography-folder" role="list" aria-live="polite">
+              <a title="Behance" class="project" target="_blank">
                 <img src="assets/img/behance.png" alt="My corporate logo.">
-            </a>
-            <a class="project" href="https://www.instagram.com/lys_kaldwin/" target="_blank">
-                <div class="hover-setup">
-                    <h3>Daily photography</h3>
-                    <p>A collection of pictures taken from everyday life with my Canon Powershot SX10IS.</p>
-                </div>
+              </a>
+              <a class="project" title="Daily Photography"  target="_blank">
                 <img src="assets/img/Portfolio/Fotografia/3.jpg" alt="Mushroom contrasting in scenery">
-            </a>
-            <a class="project" href="https://www.instagram.com/kaldwin__/" target="_blank">
-                <div class="hover-setup">
-                    <h3>Digital Art</h3>
-                    <p>Check out my digital artworks.</p>
-                </div>
+              </a>
+              <a class="project" title="Digital Art" target="_blank">
                 <img src="assets/img/Portfolio/Design/2.jpg" alt="Deestad, protagonist of the Awesome Caderno.">
-            </a>
-            <a class="project" href="{{ site.baseurl }}{% link _posts/2021-12-1-Lygon.md %}" >
-                <div class="hover-setup">
-                    <h3>Studio Lygon X</h3>
-                    <p>Check out all art pieces that have been created for Lygon X.</p>
-                </div>
+              </a>
+              <a class="project" title="Lygon X - Design" >
                 <img src="assets/img/Logobackground.png" alt="3D Mockup of the logo of Lygon.">
-            </a>
-            <a class="project" href="{{ site.baseurl }}{% link _posts/2021-8-5-Mactab.md %}" >
-                <div class="hover-setup">
-                    <h3>MACTAB Divisórias</h3>
-                    <p>Publicity pieces for MACTAB's products, plus the website.</p>
-                </div>
-                <img src="assets/img/Portfolio/Design/3dpublicity.jpg" alt="Privacy Booth for Corporate Environment.">
-            </a>
-        </div>
+              </a>
+            </div>
 
-        <!-- VIDEO FOLDER -->
-        <div class="port-folder hidden" id="video-folder" role="list" aria-live="polite">
-            <a class="project" href="https://www.youtube.com/playlist?list=PLHF3MWlIK_c-uffF_lHzZJzP2lX4SyhlC" target="_blank">
-                <div class="hover-setup">
-                    <h3>Studio Lygon X</h3>
-                    <p>My personal portfolio channel with movies, series and art. You can find some of my best work here.</p>
-                    <ul class="project-skills">
-                        <li>COMMISSIONS</li>
-                        <li>ENTERTAINMENT</li>
-                        <li>CINEMA</li>
-                    </ul>
-                </div>
+            <!-- VIDEO FOLDER -->
+            <div class="port-folder hidden"  id="video-folder" role="list" aria-live="polite">
+              <a class="project" title="Lygon X - Video"  target="_blank">
                 <img src="assets/img/lygon.png" alt="Logo of Studio Lygon Xin.">
-            </a>
-            <a class="project" href="https://www.youtube.com/@MementosKai" target="_blank">
-                <div class="hover-setup">
-                    <h3>MementosKai</h3>
-                    <p>Gaming channel video editor, producer and designer.</p>
-                    <ul class="project-skills">
-                        <li>GAMING</li>
-                    </ul>
-                </div>
+              </a>
+              <a class="project" title="MementosKai" target="_blank">
                 <img src="assets/img/Portfolio/Thumbnails/M. kai.png" alt="Beautiful and colourful abstract logo of MementosKai">
-            </a>
-          <a class="project" href="https://www.youtube.com/@GringoReage" target="_blank">
-            <div class="hover-setup">
-              <h3>Gringo Reage</h3>
-              <p>YouTube Channel of an american learning portuguese with over 50 thousand subscribers.</p>
-              <ul class="project-skills">
-                <li>INFLUENCER</li>
-                <li>REACTIONS</li>
-              </ul>
-            </div>
-            <img src="assets/img/Portfolio/Thumbnails/gringoreage.jpg" alt="MNP Logo">
-          </a>
-            <a class="project" href="https://www.youtube.com/@kaldwin6853" target="_blank">
-                <div class="hover-setup">
-                    <h3>LaWinter</h3>
-                    <p>My English gaming channel, in which I'm the main video editor, producer and designer.</p>
-                    <ul class="project-skills">
-                        <li>GAMING</li>
-                    </ul>
-                </div>
+              </a>
+              <a class="project" title="Gringo Reage"  target="_blank">
+                <img src="assets/img/Portfolio/Thumbnails/gringoreage.jpg" alt="MNP Logo">
+              </a>
+              <a class="project" title="LaWinter"  target="_blank">
                 <img src="assets/img/artoflogosuns.png" alt="Warrior pointing sword up">
-            </a>
-            <a class="project" href="https://youtu.be/lJE1pBazf4Q" target="_blank">
-                <div class="hover-setup">
-                    <h3>Fidelity Factory</h3>
-                    <p>Worked and created videos for a Microsoft Partner that offered solutions regarding Power Platform.</p>
-                    <ul class="project-skills">
-                        <li>CORPORATE</li>
-                        <li>TUTORIALS</li>
-                    </ul>
-                </div>
+              </a>
+              <a class="project" title="Fidelity Factory" target="_blank">
                 <img src="assets/img/Portfolio/Thumbnails/mnp.jpg" alt="MNP Logo">
-            </a>
+              </a>
+            </div>
 
-
-      </div>
-
-        <!-- WEB FOLDER -->
-        <div class="port-folder hidden" id="web-folder" role="list" aria-live="polite">
-            <a class="project" href="{{ site.baseurl }}{% link _posts/2024-1-1-Lex.md %}">
-                <div class="hover-setup">
-                    <h3>Therapy with Lex</h3>
-                    <p>I designed the sections regarding publishing, supervision, and coaching in a fancy, intuitive fashion.</p>
-                    <ul class="project-skills">
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>JAVASCRIPT</li>
-                    </ul>
-                </div>
+            <!-- WEB FOLDER -->
+            <div class="port-folder hidden"  id="web-folder" role="list" aria-live="polite">
+              <a class="project" title="Therapy with Lex"">
                 <img src="assets/img/web-lexcover.svg" alt="Therapy with Lex Enrico Santi live view from a laptop">
-            </a>
-          <a class="project" href="{{ site.baseurl }}{% link _posts/2025-1-7-LYSZT.md %}">
-            <div class="hover-setup">
-              <h3>LYSZT: Personal Portfolio</h3>
-              <p>The current website, based on luxury brands, minimalism and modernism. Learn here what inspired me.</p>
-              <ul class="project-skills">
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JAVASCRIPT</li>
-                <li>JEKYLL</li>
-              </ul>
-            </div>
-            <img src="assets/img/Portfolio/Thumbnails/LYSZT.svg" alt="Stylized logo for LYSZT, my brand.">
-          </a>
-            <a class="project" href="{{ site.baseurl }}{% link _posts/2021-8-5-Mactab.md %}">
-                <div class="hover-setup">
-                    <h3>Mactab Wall Partitions</h3>
-                    <p>Responsible for the design of the majority of the website, not responsible for newer changes.</p>
-                    <ul class="project-skills">
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>JAVASCRIPT</li>
-                    </ul>
-                </div>
+              </a>
+              <a class="project" title="LYSZT">
+                <img src="assets/img/Portfolio/Thumbnails/LYSZT.svg" alt="Stylized logo for LYSZT, my brand.">
+              </a>
+              <a class="project" title="MACTAB Divisórias">
                 <img src="assets/img/web-mactab.svg" alt="Mactab divisórias e soluções">
-            </a>
-            <a class="project" href="{{ site.baseurl }}{% link _posts/2015-3-1-Zenon.md %}">
-                <div class="hover-setup">
-                    <h3>Blade Zenon</h3>
-                    <p>It's the website of a game development project from 2015. I still work on it to keep it fresh.</p>
-                    <ul class="project-skills">
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>JAVASCRIPT</li>
-                    </ul>
-                </div>
+              </a>
+              <a class="project" title="Blade Zenon">
                 <img src="assets/img/web-bz.svg" alt="Person using the website for Blade Zenon.">
-            </a>
-        </div>
-
-        <!-- CODE FOLDER -->
-        <div class="port-folder" id="code-folder" role="list" aria-live="polite">
-            <a class="project" href="https://github.com/lyszt/ProvidentiaMagnata" target="_blank">
-                <div class="hover-setup">
-                    <h3>Providentia Magnata</h3>
-                    <p>Python Discord bot built for spying and war. Made with SQL and Python using the module discord.py.</p>
-                    <ul class="project-skills">
-                        <li>PYTHON</li>
-                        <li>PANDAS</li>
-                        <li>MYSQL</li>
-                        <li>DISCORD</li>
-                        <li>MATPLOT</li>
-                        <li>AI</li>
-                    </ul>
-                </div>
-                <img src="assets/img/Portfolio/Coding/providentiathumb.png" alt="Data Analysis Interface">
-            </a>
-            <a class="project" href="https://github.com/lyszt/ToadKeep" target="_blank">
-                <div class="hover-setup">
-                    <h3>ToadKeep</h3>
-                    <p>Useful Python Kivy virtual keyboard for copying characters and emoticons. Made to fix my old laptop's keyboard problems.</p>
-                    <ul class="project-skills">
-                        <li>PYTHON</li>
-                        <li>DESKTOP</li>
-                        <li>MULTIPROCESSING</li>
-                        <li>KIVYMD</li>
-                    </ul>
-                </div>
-                <img src="assets/img/Portfolio/Coding/toadkeeplogo.png" alt="Mechanical Frog and keyboard hero Toad Kip">
-            </a>
-          <a class="project" href="https://github.com/lyszt/gateway" target="_blank">
-            <div class="hover-setup">
-              <h3>The Scarlett Gateway</h3>
-              <p>Personal dashboard system made with React, Vite and Express that merges all my other projects into one system.
-                Has a link to discord using Providentia.</p>
-              <ul class="project-skills">
-                <li>PHP</li>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JAVASCRIPT</li>
-              </ul>
+              </a>
             </div>
-            <img src="assets/img/Portfolio/Coding/scarlettgateway.png" alt="My Personal Dashboard">
-          </a>
+
+            <!-- CODE FOLDER -->
+            <div class="port-folder"  id="code-folder" role="list" aria-live="polite">
+              <a class="project" title="Providentia Magnata" target="_blank">
+                <img src="assets/img/Portfolio/Coding/providentiathumb.png" alt="Data Analysis Interface">
+              </a>
+              <a class="project" title="ToadKeep"  target="_blank">
+                <img src="assets/img/Portfolio/Coding/toadkeeplogo.svg" alt="Mechanical Frog and keyboard hero Toad Kip">
+              </a>
+              <a class="project" title="The Scarlett Gateway"  target="_blank">
+                <img src="assets/img/Portfolio/Coding/scarlettgateway.png" alt="My Personal Dashboard">
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </section>
     <section class="skills" style="display: none;">
       <h1>Boost your project with my skills</h1>
       <div class="skill-item">
-        <img src="assets/img/uiuxicon.svg" alt="Squares that represent layout">
+        <img src="assets/img/web.svg" alt="Squares that represent layout">
         <h2>HTML & CSS</h2>
         <p>My expertise includes building intuitive user interfaces, implementing modern design principles, and ensuring
           cross-browser compatibility.</p>
@@ -488,7 +375,7 @@ layout: default
           productivity with the help of Python and general workflow knowledge.</p>
       </div>
       <div class="skill-item">
-        <img src="assets/img/videoprodicon.svg" alt="Camera Icon">
+        <img src="assets/img/camera.svg" alt="Camera Icon">
         <h2>Video Production</h2>
         <p>Adobe Premiere Pro and After Effects, combining them with other Adobe tools like Illustrator to create
           animations, motion graphics and video productions.</p>
@@ -515,7 +402,7 @@ layout: default
       {% endfor %}
     </section>
   </main>
-
+  <script src="/assets/js/portfolio.js"></script>
 </body>
 
 </html>
