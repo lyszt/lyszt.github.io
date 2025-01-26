@@ -145,7 +145,7 @@ const projectMap = new Map(
 const projects = document.querySelectorAll('.port-folder .project');
 const project_title = document.querySelector("#project-title");
 const project_desc = document.querySelector("#project-desc");
-const project_link = document.querySelector("#project_link");
+const project_link = document.querySelector("#project-link");
 
 function handleProjectInteraction(project){
   const titleToFind = project.title.trim().toLowerCase();
@@ -156,8 +156,9 @@ function handleProjectInteraction(project){
     return;
   }
 
-  project_title.textContent = project.title; // Safer than innerHTML
+  project_title.textContent = project.title;
   project_desc.textContent = project_info.description;
+  project_link.setAttribute("href", project_info.link);
 }
 projects.forEach(project => {
   project.addEventListener("mouseenter", () => {
