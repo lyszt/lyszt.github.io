@@ -8,16 +8,9 @@ const project_index = {
       alt: "My corporate logo."
     },
     {
-      title: "Daily photography",
-      description: "A collection of pictures taken from everyday life with my Canon Powershot SX10IS.",
-      link: "https://www.instagram.com/lys_kaldwin/",
-      image: "assets/img/Portfolio/Fotografia/3.jpg",
-      alt: "Mushroom contrasting in scenery"
-    },
-    {
       title: "Digital Art",
       description: "Check out my digital artworks.",
-      link: "https://www.instagram.com/kaldwin__/",
+      link: "https://www.instagram.com/lys_dikaldwin",
       image: "assets/img/Portfolio/Design/2.jpg",
       alt: "Deestad, protagonist of the Awesome Caderno."
     },
