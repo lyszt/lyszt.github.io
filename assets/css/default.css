@@ -790,7 +790,7 @@ div.hamburger.active img {
   background: url("/assets/img/port-background.svg") no-repeat;
   background-size: cover;
   width: 85%;
-  height: 100vh;
+  height: 110vh;
   flex-direction: row;
   justify-content: center;
 }
@@ -844,13 +844,15 @@ div.hamburger.active img {
   width: 100%;
   color: white;
   display: flex;
-  height: 35%;
+  height: 40%;
   flex-direction: row;
   padding-bottom: 10%;
+  margin-bottom: 5%;
   overflow: hidden;
 }
 .project-animation {
   width: 100%;
+  filter: saturate(0);
 }
 #project-video {
   width: 100%;
