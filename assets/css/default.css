@@ -857,6 +857,11 @@ div.hamburger.active img {
 #project-video {
   width: 100%;
 }
+#project-desc {
+  width: 70%;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
 .project-description > div {
   width: 50%;
   margin: 2%;
