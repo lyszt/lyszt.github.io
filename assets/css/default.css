@@ -847,10 +847,18 @@ div.hamburger.active img {
   height: 35%;
   flex-direction: row;
   padding-bottom: 10%;
+  overflow: hidden;
+}
+.project-animation {
+  width: 100%;
+}
+#project-video {
+  width: 100%;
 }
 .project-description > div {
   width: 50%;
   margin: 2%;
+  margin-bottom: 10%;
   display: flex;
   grid-gap: 5%;
   flex-direction: column;

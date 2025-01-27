@@ -65,7 +65,8 @@ const project_index = {
       description: "I designed the sections regarding publishing, supervision, and coaching in a fancy, intuitive fashion.",
       link: "https://lyszt.net/Lex",
       image: "assets/img/web-lexcover.svg",
-      alt: "Therapy with Lex Enrico Santi live view from a laptop"
+      alt: "Therapy with Lex Enrico Santi live view from a laptop",
+      video: "/assets/Video/Lex.mp4"
     },
     {
       title: "LYSZT",
@@ -139,10 +140,16 @@ const projects = document.querySelectorAll('.port-folder .project');
 const project_title = document.querySelector("#project-title");
 const project_desc = document.querySelector("#project-desc");
 const project_link = document.querySelector("#project-link");
+const project_video = document.querySelector("#project-video");
 
 function handleProjectInteraction(project){
   const titleToFind = project.title.trim().toLowerCase();
   const project_info = projectMap.get(titleToFind);
+  if(project_info.video){
+    project_video.src = project_info.video;
+  } else{
+    project_video.src = "#";
+  }
 
   if (!project_info) {
     console.warn(`Project "${titleToFind}" not found.`);
