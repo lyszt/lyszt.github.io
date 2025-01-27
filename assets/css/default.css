@@ -847,11 +847,11 @@ div.hamburger.active img {
   height: 40%;
   flex-direction: row;
   padding-bottom: 10%;
-  margin-bottom: 5%;
+  margin-bottom: 10%;
   overflow: hidden;
 }
 .project-animation {
-  width: 100%;
+  width: 90%;
   filter: saturate(0);
 }
 #project-video {
