@@ -107,7 +107,7 @@ const project_index = {
     },
     {
       title: "The Scarlett Gateway",
-      description: "Personal dashboard system made with React, Vite and Express that merges all my other projects into one system. Has a link to discord using Providentia.",
+      description: "Personal dashboard system made with React, Vite and Express that merges all my other projects into one system.",
       link: "https://github.com/lyszt/gateway",
       image: "assets/img/Portfolio/Coding/scarlettgateway.png",
       alt: "My Personal Dashboard"
