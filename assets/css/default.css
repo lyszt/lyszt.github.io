@@ -960,7 +960,6 @@ div.hamburger.active img {
 /* Pastas do Portfolio */
 .project-wrapper {
   position: relative;
-  overflow-x: scroll;
   height: 40%;
   width: 100%;
 }

@@ -199,7 +199,11 @@
   }
   .port-folder {
     grid-gap: 73.3%;
-    width: 90%;
+    width: 80%;
+    overflow-x: hidden;
+    flex-wrap: wrap;
+    flex-direction: column;
+    bottom: 0;
   }
   .port-folder .project img {
     position: absolute;
