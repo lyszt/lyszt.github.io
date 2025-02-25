@@ -186,6 +186,7 @@
     grid-gap: 5%;
     flex-wrap: wrap;
     overflow-x: hidden;
+    overflow-y: scroll;
     flex-direction: row;
     bottom: 0;
   }
