@@ -182,15 +182,17 @@
     overflow-y: hidden;
   }
   .port-folder {
-    grid-gap: 63.3%;
-    width: 90%;
+    width: 80%;
+    grid-gap: 5%;
+    flex-wrap: wrap;
+    overflow-x: hidden;
+    flex-direction: row;
+    bottom: 0;
   }
   .port-folder .project img {
-    position: absolute;
-    top: 0;
-    width: 40%;
-    z-index: 1;
+    max-width: 80%;
   }
+
   .project-description a {
     width: 60%;
   }
@@ -207,11 +209,9 @@
     display: none;
   }
   .project-description .col-2 {
-    width: 60%;
+    width: 100%;
   }
-  .port-folder .project img {
-    width: 60%;
-  }
+
   /* Blog */
   .posts .post .intro {
     font-size: 2vw;

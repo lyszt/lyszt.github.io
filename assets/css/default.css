@@ -832,7 +832,6 @@ div.hamburger.active img {
 .pick-portfolio .widgets {
   width: 100%;
   height: 100%;
-  padding-left: 2vw;
   overflow: hidden;
   display: flex;
   position: relative;
@@ -943,15 +942,15 @@ div.hamburger.active img {
 }
 .port-folder {
   flex: 1;
-  width: 100%;
+  width: 80%;
   display: flex;
+  position: absolute;
   /* flex-grow: 1; */
   margin: auto;
-  grid-gap: 33.3%;
+  grid-gap: 1%;
   bottom: 8%;
   /* overflow-y: hidden; */
   flex-direction: row;
-  position: absolute;
   height: 100%;
   justify-content: flex-start;
   flex-wrap: nowrap;
@@ -963,22 +962,18 @@ div.hamburger.active img {
   height: 40%;
   width: 100%;
 }
-.port-folder .project {
-  overflow: hidden;
+.port-folder .project img {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
 }
 .port-folder .project:hover img {
   filter: brightness(1.2) saturate(.2);
 }
-.port-folder .project img {
-  transition: 1s;
-  opacity: 1;
-}
-.port-folder .project img {
-  position: absolute;
-  top: 0;
-  width: 30%;
-  z-index: 1;
-}
+
 .hover-setup {
   display: grid;
   background-color: white;
