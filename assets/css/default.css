@@ -946,14 +946,18 @@ div.hamburger.active img {
   display: flex;
   position: absolute;
   /* flex-grow: 1; */
+  overflow-y: hidden;
+  overflow-x: auto;
+  white-space: nowrap;
+  max-width: 100%;
   margin: auto;
   grid-gap: 1%;
   bottom: 8%;
-  /* overflow-y: hidden; */
-  flex-direction: row;
   height: 100%;
-  justify-content: flex-start;
   flex-wrap: nowrap;
+  flex-direction: row; /* Ensures items align horizontally */
+  align-items: flex-start; /* Prevents vertical stretching */
+  justify-content: flex-start;
   padding-bottom: 10%;
 }
 /* Pastas do Portfolio */
@@ -961,6 +965,10 @@ div.hamburger.active img {
   position: relative;
   height: 40%;
   width: 100%;
+}
+.port-folder .project {
+  min-width: 35%;
+  height: auto;
 }
 .port-folder .project img {
   max-width: 100%;

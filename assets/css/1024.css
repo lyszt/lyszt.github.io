@@ -116,21 +116,16 @@
     height: 35%;
     overflow-y: hidden;
   }
-  .port-folder {
-    grid-gap: 43.3%;
-  }
-  .port-folder .project img {
-    position: absolute;
-    top: 0;
-    width: 40%;
-    z-index: 1;
-  }
+
   .project-description {
     margin-top: 0;
     height: 45%;
   }
   .project-description a {
     width: 60%;
+  }
+  .port-folder .project {
+    min-width: 45%;
   }
   .port-option img {
     width: 20%;
