@@ -780,7 +780,7 @@ div.hamburger.active img {
 }
 /* Pick your poison - Pick Portfolio section */
 .pick-portfolio {
-  padding-top: 5%;
+  padding-top: 3%;
   display: flex;
   position: relative;
   background: url("/assets/img/port-background.svg") no-repeat;
@@ -839,10 +839,9 @@ div.hamburger.active img {
   width: 100%;
   color: #212121;
   display: flex;
-  height: 40%;
   flex-direction: row;
   padding-bottom: 10%;
-  margin-bottom: 10%;
+
   overflow: hidden;
 }
 .project-animation {
@@ -858,14 +857,12 @@ div.hamburger.active img {
 #project-desc {
   width: 70%;
   margin-bottom: 5%;
+  padding-bottom: 5%;
   margin-top: 5%;
 }
 .project-description > div {
   width: 50%;
-  margin: 2%;
-  margin-bottom: 10%;
   display: flex;
-  grid-gap: 5%;
   flex-direction: column;
 }
 .project-description a {
