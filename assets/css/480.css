@@ -173,6 +173,10 @@
   .testimonials div:first-child {
     margin: 0;
   }
+  .testimonials .wrapper {
+    border-radius: 0;
+    padding: 1.3%;
+  }
   .testimonial-item {
     margin-top: 5%;
     width: 80%;

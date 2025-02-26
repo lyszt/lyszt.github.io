@@ -112,8 +112,8 @@
     font-size: 1em;
   }
   .project-wrapper {
-    width: 90%;
-    height: 35%;
+    width: 90px;
+    height: 80px;
     overflow-y: hidden;
   }
 
