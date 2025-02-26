@@ -786,7 +786,7 @@ div.hamburger.active img {
   position: relative;
   background: url("/assets/img/port-background.svg") no-repeat;
   background-size: cover;
-  width: 85%;
+  width: 90%;
   height: 110vh;
   flex-direction: row;
   justify-content: center;
@@ -831,8 +831,8 @@ div.hamburger.active img {
   height: 100%;
   overflow: hidden;
   display: flex;
+  background-color: white;
   position: relative;
-  background: linear-gradient(45deg, #ffffff, #e1e1e1);
   justify-content: center;
   flex-direction: column;
 }
