@@ -817,7 +817,7 @@ div.hamburger.active img {
   }
 .portfolio {
   width: 80%;
-  height: 90%;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -960,6 +960,7 @@ div.hamburger.active img {
   margin: auto;
   grid-gap: 1%;
   bottom: 8%;
+  left: 8%;
   height: 100%;
   flex-wrap: nowrap;
   flex-direction: row; /* Ensures items align horizontally */
