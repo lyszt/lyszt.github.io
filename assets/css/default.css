@@ -812,10 +812,10 @@ div.hamburger.active img {
 }
 .portfolio-picker {
   width: 40%;
-  padding-right: 2%;
+  padding-right: 4%;
   height: 100%;
-  background-color: #1F1F1F;
-}
+  background: linear-gradient(45deg, white, transparent);
+  }
 .portfolio {
   width: 80%;
   height: 90%;
@@ -832,13 +832,13 @@ div.hamburger.active img {
   overflow: hidden;
   display: flex;
   position: relative;
-  background: rgb(15,15,15,.93);
+  background: linear-gradient(45deg, #ffffff, #e1e1e1);
   justify-content: center;
   flex-direction: column;
 }
 .project-description {
   width: 100%;
-  color: white;
+  color: #212121;
   display: flex;
   height: 40%;
   flex-direction: row;
@@ -847,7 +847,9 @@ div.hamburger.active img {
   overflow: hidden;
 }
 .project-animation {
-  width: 90%;
+  border-radius: 100%;
+  margin: auto;
+  width: 70%;
   filter: saturate(0);
 }
 #project-video {
@@ -868,6 +870,14 @@ div.hamburger.active img {
 }
 .project-description a {
   width: 50%;
+  border-bottom: 3px solid #ababab;
+  background: linear-gradient(45deg, white, lightgrey);
+}
+.project-description a:hover {
+  background: linear-gradient(45deg, #eaeaea, lightgrey);
+  color: #000000;
+  border-bottom: 3px solid #2AA198;
+  transition: 2s;
 }
 .project-skills {
   display: none;
@@ -891,13 +901,13 @@ div.hamburger.active img {
   margin-top: 5%;
   padding: 10%;
   display: flex;
-  color: white;
+  color: black;
   align-items: center;
   justify-content: center;
   border: none;
   margin-left: 1vw;
-  border-bottom: 3px solid #1B1B1B;
-  background: #282828;
+  border-bottom: 3px solid #a3a3a3;
+  background: linear-gradient(90deg, #f5f5f5, #e3e3e3);
 }
 .port-option a{
   display: block;
@@ -916,15 +926,15 @@ div.hamburger.active img {
 .port-option img {
   display: block;
   width: 10%;
+  filter: invert(1);
 }
 .port-option:hover {
-  background: #3e3e3e;
+  background: #cdcdcd;
   border-bottom: 3px solid #78d8b3;
   transition: 1s;
   box-shadow: 1px 1px 2px 2px #00ffff17;
 }
 .port-option:hover img{
-  filter: invert(10%);
   transition: all 0.5s;
 }
 
@@ -963,6 +973,7 @@ div.hamburger.active img {
   height: 40%;
   width: 100%;
 }
+
 .port-folder .project {
   min-width: 35%;
   height: auto;
