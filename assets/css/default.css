@@ -787,7 +787,7 @@ div.hamburger.active img {
   background: url("/assets/img/port-background.svg") no-repeat;
   background-size: cover;
   width: 90%;
-  height: 110vh;
+  height: 90vh;
   flex-direction: row;
   justify-content: center;
 }
@@ -854,6 +854,7 @@ div.hamburger.active img {
 }
 #project-video {
   width: 100%;
+  border-radius: 100%;
 }
 #project-desc {
   width: 70%;
