@@ -38,13 +38,6 @@ const project_index = {
       alt: "Beautiful and colourful abstract logo of MementosKai"
     },
     {
-      title: "Gringo Reage",
-      description: "YouTube Channel of an American learning Portuguese with over 50 thousand subscribers.",
-      link: "https://www.youtube.com/@GringoReage",
-      image: "assets/img/Portfolio/Thumbnails/gringoreage.jpg",
-      alt: "MNP Logo"
-    },
-    {
       title: "LaWinter",
       description: "My English gaming channel, in which I'm the main video editor, producer and designer.",
       link: "https://www.youtube.com/@kaldwin6853",
