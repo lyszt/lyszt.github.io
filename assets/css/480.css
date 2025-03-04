@@ -197,13 +197,13 @@
     font-size: .96em;
   }
   .project-wrapper {
-    width: 90%;
+    width: 80%;
     height: 50%;
     overflow-y: hidden;
     margin-top: 0;
   }
   .port-folder {
-    width: 100%;
+    width: 90%;
     grid-gap: 5%;
     flex-wrap: wrap;
     overflow-x: hidden;
@@ -236,6 +236,8 @@
   .project-description {
     margin-top: 0;
     width: 100%;
+    height: auto;
+    margin-bottom: 10%;
   }
   .project-description .col-1 {
     display: none;
