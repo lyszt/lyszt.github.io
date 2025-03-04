@@ -63,7 +63,7 @@ const project_index = {
     },
     {
       title: "LYSZT",
-      description: "A modern website inspired by luxury brands and minimalism.",
+      description: "A portfolio website inspired by luxury brands and minimalism, but that is also a bit experimentative.",
       link: "https://lyszt.net/LYSZT",
       image: "assets/img/Portfolio/Thumbnails/LYSZT.svg",
       alt: "Stylized logo for LYSZT."

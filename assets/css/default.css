@@ -840,9 +840,8 @@ div.hamburger.active img {
   color: #212121;
   display: flex;
   flex-direction: row;
-  padding-bottom: 10%;
-
   overflow: hidden;
+  padding-bottom: 10%;
 }
 .project-animation {
   border-radius: 100%;
