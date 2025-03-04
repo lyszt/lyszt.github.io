@@ -2,51 +2,51 @@ const project_index = {
   design: [
     {
       title: "Behance",
-      description: "Find a variety of my work here, some that haven't been highlighted in the website.",
+      description: "A showcase of my design work, including projects not featured on my main site.",
       link: "https://www.behance.net/kalliddel",
       image: "assets/img/behance.png",
       alt: "My corporate logo."
     },
     {
       title: "Digital Art",
-      description: "Check out my digital artworks.",
+      description: "A collection of my digital art pieces and experiments in creative design.",
       link: "https://www.instagram.com/lys_dikaldwin",
       image: "assets/img/Portfolio/Design/2.jpg",
       alt: "Deestad, protagonist of the Awesome Caderno."
     },
     {
       title: "Lygon X - Design",
-      description: "Check out all art pieces that have been created for Lygon X.",
+      description: "Design work created exclusively for the Lygon X project.",
       link: "https://lyszt.net/Lygon",
       image: "assets/img/Logobackground.png",
-      alt: "3D Mockup of the logo of Lygon."
-    },
+      alt: "3D mockup of the Lygon logo."
+    }
   ],
   video: [
     {
       title: "Lygon X - Video",
-      description: "My personal portfolio channel with movies, series and art. You can find some of my best work here.",
+      description: "My channel featuring films, series, and art projects.",
       link: "https://www.youtube.com/playlist?list=PLHF3MWlIK_c-uffF_lHzZJzP2lX4SyhlC",
       image: "assets/img/lygon.png",
       alt: "Logo of Studio Lygon Xin."
     },
     {
       title: "MementosKai",
-      description: "Gaming channel video editor, producer and designer.",
+      description: "A gaming channel where I handle video editing, production, and design work.",
       link: "https://www.youtube.com/@MementosKai",
       image: "assets/img/Portfolio/Thumbnails/M. kai.png",
-      alt: "Beautiful and colourful abstract logo of MementosKai"
+      alt: "Abstract logo for MementosKai."
     },
     {
       title: "LaWinter",
-      description: "My English gaming channel, in which I'm the main video editor, producer and designer.",
+      description: "An English gaming channel that I manage as the main editor and designer.",
       link: "https://www.youtube.com/@kaldwin6853",
       image: "assets/img/artoflogosuns.png",
-      alt: "Warrior pointing sword up"
+      alt: "Warrior with raised sword."
     },
     {
       title: "Fidelity Factory",
-      description: "Worked and created videos for a Microsoft Partner that offered solutions regarding Power Platform.",
+      description: "Video work produced for a Microsoft partner focused on Power Platform solutions.",
       link: "https://youtu.be/lJE1pBazf4Q",
       image: "assets/img/Portfolio/Thumbnails/mnp.jpg",
       alt: "MNP Logo"
@@ -55,18 +55,18 @@ const project_index = {
   web: [
     {
       title: "Therapy with Lex",
-      description: "I designed the sections regarding publishing, supervision, and coaching in a fancy, intuitive fashion.",
+      description: "A modern website for an american therapist. I built and reworked the majority of the pages inside.",
       link: "https://lyszt.net/Lex",
       image: "assets/img/web-lexcover.svg",
-      alt: "Therapy with Lex Enrico Santi live view from a laptop",
+      alt: "Therapy with Lex viewed on a laptop",
       video: "/assets/Video/Lex.mp4"
     },
     {
       title: "LYSZT",
-      description: "The current website, based on luxury brands, minimalism and modernism. Learn here what inspired me.",
+      description: "A modern website inspired by luxury brands and minimalism.",
       link: "https://lyszt.net/LYSZT",
       image: "assets/img/Portfolio/Thumbnails/LYSZT.svg",
-      alt: "Stylized logo for LYSZT, my brand."
+      alt: "Stylized logo for LYSZT."
     },
     {
       title: "MACTAB Divisórias",
@@ -77,36 +77,39 @@ const project_index = {
     },
     {
       title: "Blade Zenon",
-      description: "It's the website of a game development project from 2015. I still work on it to keep it fresh.",
+      description: "A website for a 2015 game project that I still update to keep current.",
       link: "https://lyszt.net/Zenon",
       image: "assets/img/web-bz.svg",
-      alt: "Person using the website for Blade Zenon."
+      alt: "User interacting with the Blade Zenon site."
     }
   ],
   code: [
     {
       title: "Providentia Magnata",
-      description: "Python Discord bot built for spying and war. Made with SQL and Python using the module discord.py.",
+      description: "A Python Discord bot for espionage and server-security, built with SQL and discord.py.",
       link: "https://github.com/lyszt/ProvidentiaMagnata",
       image: "assets/img/Portfolio/Coding/providentiathumb.png",
-      alt: "Data Analysis Interface"
+      alt: "Data analysis interface."
     },
     {
       title: "ToadKeep",
-      description: "Useful Python Kivy virtual keyboard for copying characters and emoticons. Made to fix my old laptop's keyboard problems.",
+      description: "A practical Python Kivy virtual keyboard for copying characters and emoticons seamlessly.",
       link: "https://github.com/lyszt/ToadKeep",
       image: "assets/img/Portfolio/Coding/toadkeeplogo.png",
-      alt: "Mechanical Frog and keyboard hero Toad Kip"
+      alt: "Logo for ToadKeep."
     },
     {
       title: "The Scarlett Gateway",
-      description: "Personal dashboard system made with React, Vite and Express that merges all my other projects into one system.",
+      description: "A personal dashboard built with React, Vite, and Express.",
       link: "https://github.com/lyszt/gateway",
       image: "assets/img/Portfolio/Coding/scarlettgateway.png",
-      alt: "My Personal Dashboard"
+      alt: "My personal dashboard."
     }
   ]
 };
+
+
+
 
 // Portfolio item buttons
 const port_title = document.querySelector(".port-title");
@@ -133,16 +136,10 @@ const projects = document.querySelectorAll('.port-folder .project');
 const project_title = document.querySelector("#project-title");
 const project_desc = document.querySelector("#project-desc");
 const project_link = document.querySelector("#project-link");
-const project_video = document.querySelector("#project-video");
 
 function handleProjectInteraction(project){
   const titleToFind = project.title.trim().toLowerCase();
   const project_info = projectMap.get(titleToFind);
-  if(project_info.video){
-    project_video.src = project_info.video;
-  } else{
-    project_video.src = "#";
-  }
 
   if (!project_info) {
     console.warn(`Project "${titleToFind}" not found.`);
