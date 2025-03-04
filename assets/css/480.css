@@ -200,9 +200,10 @@
     width: 90%;
     height: 35%;
     overflow-y: hidden;
+    margin-top: 0;
   }
   .port-folder {
-    width: 80%;
+    width: 100%;
     grid-gap: 5%;
     flex-wrap: wrap;
     overflow-x: hidden;
