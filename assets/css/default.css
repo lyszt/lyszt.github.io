@@ -841,7 +841,7 @@ div.hamburger.active img {
   height: 50%;
   color: #212121;
   display: flex;
-  flex-direction: row;
+  flex-direction: row-reverse;
   overflow: hidden;
 }
 .project-animation {
@@ -864,6 +864,9 @@ div.hamburger.active img {
   width: 50%;
   display: flex;
   flex-direction: column;
+}
+.project-description > .col-1 {
+  width: 40%;
 }
 .project-description a {
   width: 50%;
