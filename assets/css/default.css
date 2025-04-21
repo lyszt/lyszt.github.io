@@ -60,11 +60,18 @@ body, a, button, input, textarea {
   left: 0;
   width: 15px;
   height: 15px;
-  background: #1b1f23;
+  background: #4b555a;
   border-radius: 50%;
   pointer-events: none;
   z-index: 9999;
   transform: translate(-50%, -50%);
+}
+.custom-cursor.active {
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
+  border: 5px #6a737d solid;
+  transition: 0.1s ease-in-out;
 }
 button:hover .custom-cursor {
   filter: brightness(50%);

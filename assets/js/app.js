@@ -16,6 +16,13 @@ const renderCursor = () => {
   requestAnimationFrame(renderCursor);
 };
 
+document.addEventListener('mousedown', () => {
+  site_wide_cursor.classList.add("active");
+})
+document.addEventListener('mouseup', () => {
+  site_wide_cursor.classList.remove("active");
+})
+
 // Optimize mouse events by limiting unnecessary updates
 document.addEventListener('mouseover', () => {
   if (!isCursorVisible) {
