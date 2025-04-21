@@ -23,6 +23,18 @@ document.addEventListener('mouseup', () => {
   site_wide_cursor.classList.remove("active");
 })
 
+document.addEventListener('mouseover', (e) => {
+  if (e.target.closest('button, a')) {
+    site_wide_cursor.style.backgroundColor = '#5893d8';
+  }
+});
+
+document.addEventListener('mouseout', (e) => {
+  if (e.target.closest('button, a')) {
+    site_wide_cursor.style.backgroundColor = '#1b1f23';
+  }
+});
+
 // Optimize mouse events by limiting unnecessary updates
 document.addEventListener('mouseover', () => {
   if (!isCursorVisible) {
