@@ -48,6 +48,30 @@ h1 {
 }
 
   /* Basic */
+*{
+  cursor: none !important;
+}
+body, a, button, input, textarea {
+  cursor: none !important;
+}
+.custom-cursor {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 15px;
+  height: 15px;
+  background: #1b1f23;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 9999;
+  transform: translate(-50%, -50%);
+}
+button:hover .custom-cursor {
+  filter: brightness(50%);
+}
+a:hover .custom-cursor {
+  filter: brightness(50%);
+}
 section { display: block}
 .mobile {
   visibility: hidden;
@@ -57,6 +81,10 @@ section { display: block}
 }
 a:hover {
   text-decoration: none;
+  cursor: none !important;
+}
+button:hover {
+  cursor: none !important;
 }
 #main {
   display: block;
@@ -262,7 +290,7 @@ hr {
   height: 100vh;
   position: fixed;
   animation: 1s forwards ease-out loadingFade;
-  animation-delay: 1s;
+  animation-delay: 3s;
 }
 .loading-simulation::before {
   display: block;
@@ -513,8 +541,8 @@ div.hamburger.active img {
   width: 50%;
   margin-left: 5%;
   opacity: 0;
-  animation: forwards slideFromLeft 2s;
-  animation-delay: 2s;
+  animation: forwards fadeIn 2s;
+  animation-delay: 1s;
   margin-bottom: 15%;
   transition: 2s;
 }
