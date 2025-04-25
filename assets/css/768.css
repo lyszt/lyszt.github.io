@@ -19,7 +19,9 @@
   .horizontal-line {
     display: none;
   }
-
+  .custom-cursor {
+    display: none !important;
+  }
   .hamburger {
     background-color: transparent !important;
   }

@@ -1,4 +1,6 @@
 @media screen and (max-width: 480px) {
+  /* BASIC */
+
   body {
     margin-right: 0;
     max-width: 100%;
@@ -14,7 +16,9 @@
   hr, .horizontal-line {
     display: none;
   }
-
+  .custom-cursor {
+    display: none !important;
+  }
   .loading-simulation img {
     display: block;
     width: 80vw;
