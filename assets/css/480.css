@@ -378,18 +378,18 @@
   /* POST LIST */
   .post-item {
     width: 100%;
+    flex-direction: column;
   }
   .post-item p {
+    width: 100%;
     color: black;
     font-size: 1.1em;
-    width: 100%;
     display: block;
 }
   .post-item img {
     width: 50%;
     display: block;
     margin-top: 10%;
-    right: 40%;
     filter: saturate(0);
 }
 
