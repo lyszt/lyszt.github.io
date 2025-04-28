@@ -366,10 +366,32 @@
     font-size: 4vw !important;
   }
 
+  .post-list>h1 {
+    display: grid;
+    /* padding: 5%; */
+    text-align: left;
+    width: 100%;
+    justify-content: start;
+    border-bottom: 1px solid white;
+}
+
   /* POST LIST */
   .post-item {
     width: 100%;
   }
+  .post-item p {
+    color: black;
+    font-size: 1.1em;
+    width: 100%;
+    display: block;
+}
+  .post-item img {
+    width: 50%;
+    display: block;
+    margin-top: 10%;
+    right: 40%;
+    filter: saturate(0);
+}
 
   /* FOOTER */
   footer * {
