@@ -3,64 +3,58 @@ const transition_anim = document.querySelector("#transition");
 
 // CURSOR
 const site_wide_cursor = document.querySelector(".custom-cursor.site-wide");
-// Cache initial cursor dimensions to avoid layout thrashing
 const cursorWidth = site_wide_cursor.offsetWidth;
 const cursorHeight = site_wide_cursor.offsetHeight;
 
 let mouseX = 0;
 let mouseY = 0;
-let isCursorVisible = false;
-let animationFrameId; // For requestAnimationFrame throttling
+let isDragging = false; // New drag state flag
 
-// Optimized position updater with animation frame throttling
-const updateCursorPosition = (e) => {
-  mouseX = e.clientX;
-  mouseY = e.clientY;
+// Continuous animation loop with dirty checking
+let lastX = -Infinity;
+let lastY = -Infinity;
 
-  if (!animationFrameId) {
-    animationFrameId = requestAnimationFrame(() => {
-      site_wide_cursor.style.transform =
-        `translate(${mouseX - cursorWidth/2}px, ${mouseY - cursorHeight/2}px)`;
-      animationFrameId = null;
-    });
+const updateCursor = () => {
+  if (mouseX !== lastX || mouseY !== lastY) {
+    const translateX = mouseX - cursorWidth/2;
+    const translateY = mouseY - cursorHeight/2;
+
+    site_wide_cursor.style.transform =
+      `translate(${translateX}px, ${translateY}px)`;
+
+    lastX = mouseX;
+    lastY = mouseY;
   }
+  requestAnimationFrame(updateCursor);
 };
 
-// Cursor visibility handlers (fixed logic)
-document.addEventListener('mouseenter', () => {
-  if (!isCursorVisible) {
-    site_wide_cursor.style.display = 'block';
-    isCursorVisible = true;
+// Start continuous render loop
+updateCursor();
+
+// Drag state detection
+document.addEventListener('dragstart', () => {
+  isDragging = true;
+  site_wide_cursor.classList.add('dragging');
+});
+
+document.addEventListener('dragend', () => {
+  isDragging = false;
+  site_wide_cursor.classList.remove('dragging');
+});
+
+// Optimized mouse move handler
+document.addEventListener('mousemove', (e) => {
+  if (!isDragging) {
+    mouseX = e.clientX;
+    mouseY = e.clientY;
+  } else {
+    // During drag events, use precise position updates
+    mouseX = e.clientX;
+    mouseY = e.clientY;
+    // Force synchronous update for drag precision
+    updateCursor();
   }
-});
-
-document.addEventListener('mouseleave', () => {
-  if (isCursorVisible) {
-    site_wide_cursor.style.display = 'none';
-    isCursorVisible = false;
-  }
-});
-
-// Interaction states using CSS classes
-document.addEventListener('mousedown', () => {
-  site_wide_cursor.classList.add("active");
-});
-
-document.addEventListener('mouseup', () => {
-  site_wide_cursor.classList.remove("active");
-});
-
-// Hover effect using event delegation and CSS classes
-const handleHover = (e) => {
-  const hasInteractiveElement = e.target.closest('button, a, [data-cursor-hover]');
-  site_wide_cursor.classList.toggle('hovering', !!hasInteractiveElement);
-};
-
-document.addEventListener('mouseover', handleHover);
-document.addEventListener('mouseout', handleHover);
-
-// Optimized mouse move listener
-document.addEventListener('mousemove', updateCursorPosition, { passive: true });
+}, { passive: true });
 
 // Hamburger menu stuff
 const hamburger = document.querySelector(".hamburger");
