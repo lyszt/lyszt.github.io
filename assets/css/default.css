@@ -65,6 +65,8 @@ body, a, button, input, textarea {
   pointer-events: none;
   z-index: 9999;
   transform: translate(-50%, -50%);
+  will-change: transform;
+  backface-visibility: hidden;
 }
 .custom-cursor.active {
   width: 20px;
@@ -491,7 +493,6 @@ div.hamburger.active img {
   width: 100%;
   min-height: 100vh;
   max-height: fit-content;
-  padding-bottom: 10%;
   display: grid;
   position: relative;
   justify-content: center;

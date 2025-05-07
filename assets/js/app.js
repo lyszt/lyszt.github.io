@@ -3,57 +3,64 @@ const transition_anim = document.querySelector("#transition");
 
 // CURSOR
 const site_wide_cursor = document.querySelector(".custom-cursor.site-wide");
-let mouseX = 0, mouseY = 0;
-let isCursorVisible = false;
+// Cache initial cursor dimensions to avoid layout thrashing
+const cursorWidth = site_wide_cursor.offsetWidth;
+const cursorHeight = site_wide_cursor.offsetHeight;
 
+let mouseX = 0;
+let mouseY = 0;
+let isCursorVisible = false;
+let animationFrameId; // For requestAnimationFrame throttling
+
+// Optimized position updater with animation frame throttling
 const updateCursorPosition = (e) => {
   mouseX = e.clientX;
   mouseY = e.clientY;
+
+  if (!animationFrameId) {
+    animationFrameId = requestAnimationFrame(() => {
+      site_wide_cursor.style.transform =
+        `translate(${mouseX - cursorWidth/2}px, ${mouseY - cursorHeight/2}px)`;
+      animationFrameId = null;
+    });
+  }
 };
 
-const renderCursor = () => {
-  site_wide_cursor.style.transform = `translate(${mouseX - site_wide_cursor.offsetWidth / 2}px, ${mouseY - site_wide_cursor.offsetHeight / 2}px)`;
-  requestAnimationFrame(renderCursor);
-};
-
-document.addEventListener('mousedown', () => {
-  site_wide_cursor.classList.add("active");
-})
-document.addEventListener('mouseup', () => {
-  site_wide_cursor.classList.remove("active");
-})
-
-document.addEventListener('mouseover', (e) => {
-  if (e.target.closest('button, a')) {
-    site_wide_cursor.style.backgroundColor = '#5893d8';
-  }
-});
-
-document.addEventListener('mouseout', (e) => {
-  if (e.target.closest('button, a')) {
-    site_wide_cursor.style.backgroundColor = '#1b1f23';
-  }
-});
-
-// Optimize mouse events by limiting unnecessary updates
-document.addEventListener('mouseover', () => {
+// Cursor visibility handlers (fixed logic)
+document.addEventListener('mouseenter', () => {
   if (!isCursorVisible) {
     site_wide_cursor.style.display = 'block';
     isCursorVisible = true;
   }
 });
 
-document.addEventListener('mouseout', () => {
+document.addEventListener('mouseleave', () => {
   if (isCursorVisible) {
     site_wide_cursor.style.display = 'none';
     isCursorVisible = false;
   }
 });
 
-document.addEventListener('mousemove', updateCursorPosition);
+// Interaction states using CSS classes
+document.addEventListener('mousedown', () => {
+  site_wide_cursor.classList.add("active");
+});
 
-// Start cursor render loop
-requestAnimationFrame(renderCursor);
+document.addEventListener('mouseup', () => {
+  site_wide_cursor.classList.remove("active");
+});
+
+// Hover effect using event delegation and CSS classes
+const handleHover = (e) => {
+  const hasInteractiveElement = e.target.closest('button, a, [data-cursor-hover]');
+  site_wide_cursor.classList.toggle('hovering', !!hasInteractiveElement);
+};
+
+document.addEventListener('mouseover', handleHover);
+document.addEventListener('mouseout', handleHover);
+
+// Optimized mouse move listener
+document.addEventListener('mousemove', updateCursorPosition, { passive: true });
 
 // Hamburger menu stuff
 const hamburger = document.querySelector(".hamburger");
