@@ -56,6 +56,15 @@ document.addEventListener('mousemove', (e) => {
   }
 }, { passive: true });
 
+// Interaction states using CSS classes
+document.addEventListener('mousedown', () => {
+  site_wide_cursor.classList.add("active");
+});
+
+document.addEventListener('mouseup', () => {
+  site_wide_cursor.classList.remove("active");
+});
+
 // Hamburger menu stuff
 const hamburger = document.querySelector(".hamburger");
 const hamburger_img = document.querySelector("#hamburger-img");
