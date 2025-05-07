@@ -382,8 +382,7 @@ nav {
 .undernav li {
   display: inline;
   font-size: 2vw;
-  margin: 1.5vw;
-  margin-left: 10vw;
+  margin: 1.5vw 1.5vw 1.5vw 10vw;
 }
 .navigator-design {
   position: fixed;
