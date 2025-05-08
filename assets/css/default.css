@@ -71,7 +71,7 @@ body, a, button, input, textarea {
 .custom-cursor.active {
   width: 20px;
   height: 20px;
-  background-color: #232323;
+  background-color: #8c8c8c;
   border: 5px #6a737d solid;
 }
 button:hover .custom-cursor {
@@ -234,7 +234,7 @@ body {
   background: white;
   color: black;
   font-family: "Lexend", sans-serif !important;
-  font-weight: 200;
+  font-weight: 300;
   max-width: 100%;
   margin: auto;
 }
