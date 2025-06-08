@@ -70,11 +70,14 @@ if (hamburger) {
       hamburger_img.src = `${gifSource}?t=${Date.now()}`;
     }
 
+
+
     if (!isActive && hamburger_img) {
       setTimeout(() => {
         hamburger_img.src = "/assets/img/hamburger.svg";
       }, GIF_ANIMATION_DURATION);
     }
+    document.querySelector("main").classList.toggle("active");
   };
 
   hamburger.addEventListener("click", toggleMenu);
