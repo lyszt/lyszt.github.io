@@ -69,6 +69,12 @@ if (hamburger) {
     if(hamburger_img) {
       hamburger_img.src = `${gifSource}?t=${Date.now()}`;
     }
+    if (navMenu) {
+      navMenu.classList.toggle("active");
+    }
+    if (mainContent) {
+      mainContent.classList.toggle("active");
+    }
 
 
 
@@ -77,7 +83,6 @@ if (hamburger) {
         hamburger_img.src = "/assets/img/hamburger.svg";
       }, GIF_ANIMATION_DURATION);
     }
-    document.querySelector("main").classList.toggle("active");
   };
 
   hamburger.addEventListener("click", toggleMenu);
