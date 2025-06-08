@@ -1,112 +1,114 @@
-// CONSTANTS
-const transition_anim = document.querySelector("#transition");
-
-// CURSOR
-const site_wide_cursor = document.querySelector(".custom-cursor.site-wide");
+const elements = {
+  transition: document.querySelector("#transition"),
+  cursor: document.querySelector(".custom-cursor.site-wide"),
+  navMenu: document.querySelector(".navigator-design"),
+  mainContent: document.querySelector("main"),
+};
 const hamburger = document.querySelector(".hamburger");
 const hamburger_img = document.querySelector("#hamburger-img");
 const navMenu = document.querySelector(".navigator-design");
-const main_content = document.querySelector("main");
+const mainContent = document.querySelector("main");
 
 
-if (site_wide_cursor) {
-  const cursorWidth = site_wide_cursor.offsetWidth;
-  const cursorHeight = site_wide_cursor.offsetHeight;
+// CUSTOM CURSOR
+if (elements.cursor) {
+  const cursorWidth = elements.cursor.offsetWidth;
+  const cursorHeight = elements.cursor.offsetHeight;
+
+  // Mouse position state
   let mouseX = 0;
   let mouseY = 0;
-  let isDragging = false; // New drag state flag
 
-  const updateCursor = () => {
-    const translateX = mouseX - cursorWidth / 2;
-    const translateY = mouseY - cursorHeight / 2;
-    site_wide_cursor.style.transform = `translate(${translateX}px, ${translateY}px)`;
-    requestAnimationFrame(updateCursor);
-  };
-
-  // Start continuous render loop
-  requestAnimationFrame(updateCursor);
-
-  // Drag state detection
-  document.addEventListener('dragstart', () => {
-    isDragging = true;
-    site_wide_cursor.classList.add('dragging');
-  });
-
-  document.addEventListener('dragend', () => {
-    isDragging = false;
-    site_wide_cursor.classList.remove('dragging');
-  });
-
-  // Optimized mouse move handler
   document.addEventListener('mousemove', (e) => {
     mouseX = e.clientX;
     mouseY = e.clientY;
   }, { passive: true });
 
-  // Interaction states using CSS classes
-  document.addEventListener('mousedown', () => {
-    site_wide_cursor.classList.add("active");
+  const updateCursor = () => {
+    const translateX = mouseX - cursorWidth / 2;
+    const translateY = mouseY - cursorHeight / 2;
+
+    elements.cursor.style.transform = `translate(${translateX}px, ${translateY}px)`;
+
+    // Keep the loop going.
+    requestAnimationFrame(updateCursor);
+  };
+
+  // Start the animation loop.
+  requestAnimationFrame(updateCursor);
+
+  // --- Cursor State Changes ---
+  // Using event delegation on the body is slightly more efficient.
+  document.body.addEventListener('mousedown', () => {
+    elements.cursor.classList.add("active");
   });
 
-  document.addEventListener('mouseup', () => {
-    site_wide_cursor.classList.remove("active");
+  document.body.addEventListener('mouseup', () => {
+    elements.cursor.classList.remove("active");
+  });
+
+  // These can be useful for styling the cursor during native drag operations.
+  document.addEventListener('dragstart', () => {
+    elements.cursor.classList.add('dragging');
+  });
+
+  document.addEventListener('dragend', () => {
+    elements.cursor.classList.remove('dragging');
   });
 }
 
-// Hamburger menu stuff
-if (hamburger && navMenu && main_content) {
-  // Hamburger menu toggle
+
+if (hamburger) {
+  const GIF_ANIMATION_DURATION = 2000;
+
   const toggleMenu = () => {
-    const isActive = hamburger.classList.toggle("active");
-    navMenu.classList.toggle("active");
-    main_content.classList.toggle("active");
+    hamburger.classList.toggle("active");
+    const isActive = hamburger.classList.contains("active");
 
     const gifSource = isActive ? "/assets/img/hamburger-forwards.gif" : "/assets/img/hamburger-back.gif";
-    hamburger_img.src = `${gifSource}?t=${Date.now()}`;
+    if(hamburger_img) {
+      hamburger_img.src = `${gifSource}?t=${Date.now()}`;
+    }
 
-    if (!isActive) {
-      // Change to SVG after the GIF has finished playing
+    if (!isActive && hamburger_img) {
       setTimeout(() => {
         hamburger_img.src = "/assets/img/hamburger.svg";
-      }, 2000);
+      }, GIF_ANIMATION_DURATION);
     }
   };
 
   hamburger.addEventListener("click", toggleMenu);
 }
 
-// Transition animation before page unload
-if (transition_anim) {
+
+if (elements.transition) {
   window.addEventListener("beforeunload", () => {
-    transition_anim.classList.add("active");
+    elements.transition.classList.add("active");
   });
 
-  transition_anim.addEventListener("transitionend", () => {
-    transition_anim.classList.remove("active");
+  elements.transition.addEventListener("transitionend", () => {
+    if (elements.transition.classList.contains("active")) {
+      elements.transition.classList.remove("active");
+    }
   });
 
-  // Konami Code Easter Egg
-  const konamiCode = [
-    'ArrowUp', 'ArrowUp',
-    'ArrowDown', 'ArrowDown',
-    'ArrowLeft', 'ArrowRight',
-    'ArrowLeft', 'ArrowRight',
-    'b', 'a'
-  ];
-  let index = 0;
+  //  Konami Code Easter Egg
+  const konamiCode = ['ArrowUp', 'ArrowUp', 'ArrowDown', 'ArrowDown', 'ArrowLeft', 'ArrowRight', 'ArrowLeft', 'ArrowRight', 'b', 'a'];
+  let konamiIndex = 0;
 
-  document.addEventListener('keydown', (event) => {
-    if (event.key === konamiCode[index]) {
-      index++;
-      if (index === konamiCode.length) {
-        transition_anim.classList.add("active");
+  document.addEventListener('keydown', (e) => {
+    if (e.key === konamiCode[konamiIndex]) {
+      konamiIndex++;
+      if (konamiIndex === konamiCode.length) {
+        elements.transition.classList.add("active");
         setTimeout(() => {
           window.location.href = "https://lyszt.github.io/memorial";
         }, 1000);
-        index = 0;
+        konamiIndex = 0;
       }
     } else {
-      index = 0; // Reset on wrong key
+      // Reset if the wrong key is pressed.
+      konamiIndex = 0;
     }
   });
 }

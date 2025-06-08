@@ -165,8 +165,8 @@ addEventListener("DOMContentLoaded", () => {
   code_folder.classList.remove("hidden");
   code_folder.classList.add("focus");
 
-  if(transition_anim.classList.contains("active")){
-    transition_anim.classList.remove("active");
+  if(transition.classList.contains("active")){
+    transition.classList.remove("active");
   }
   code_folder.classList.remove("hidden");
   code_folder.classList.add("focus");
