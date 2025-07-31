@@ -26,9 +26,13 @@
     margin-top: 10%;
   }
   h1 {
-    margin: 5%;
     width: 85%;
     text-align: left;
+  }
+  h4 {
+    width: 85%;
+    text-align: left;
+    margin-left: 5% ;
   }
   /* NAV */
   nav {
@@ -158,6 +162,9 @@
     grid-auto-flow: row;
   }
 
+  .introduction > .left {
+    width: 100%;
+  }
   .introduction > .left h3 {
     margin: 0;
   }

@@ -3,97 +3,93 @@ layout: default
 ---
 <head>
   <link rel="stylesheet" href="/assets/css/style.css">
-  <!-- Blog-related CSS -->
   <link rel="stylesheet" href="/assets/css/blogs/default.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <title>{{site.title}}</title>
-  <meta name="description" content="{{site.intro}}">
-  <meta name="robots" content="index,follow" />
+
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <meta name="description" content="{{ page.description | default: site.description }}">
+  <meta name="robots" content="index, follow">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="author" content="Lyszt Kaldwin" />
-  <meta name="copyright" content="Lygon Xin"/>
-  <meta property="og:title" content="LYSZT: My work in {{site.title}}">
-  <meta property="og:description" content="Skilled Developer & Designer. Discover recent projects and learn about João's experience in the tech industry. Powered by Lygon Xin.">
-  <meta property="og:url" content="https://lyszt.net/">
-  <meta property="og:image" content="https://i.imgur.com/XE0vWOA.png">
+  <meta name="author" content="{{ page.author }}">
+  <meta name="copyright" content="{{ site.author }}"/>
   <meta charset="utf-8">
-  <meta lang="en">
-  <link rel="canonical" href="https://lyszt.net/{{page.title}}" />
+  <link rel="canonical" href="{{ site.url }}{{ page.url }}">
 
-  <head>
-    <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "BlogPosting",
-        "headline": "{{ page.title }}",
-        "alternativeHeadline": "{{ page.subtitle }}",
-        "description": "{{ page.intro | escape }}",
-        "author": {
-          "@type": "Person",
-          "name": "{{ page.author }}"
-        },
-        "image": "{{ page.cover }}",
-        "genre": "{{ page.category }}",
-        "keywords": "{{ page.keywords | default: 'design, development, technology, portfolio' }}",
-        "publisher": {
-          "@type": "Organization",
-          "name": "João Luís Almeida Santos",
-          "logo": {
-            "@type": "ImageObject",
-            "url": "/assets/img/Logo.png"
-          }
-        },
-        "mainEntityOfPage": "{{ page.url }}",
-        "datePublished": "{{ page.date | date_to_iso8601 }}",
-        "dateModified": "{{ page.last_modified_at | date_to_iso8601 }}",
-        "url": "{{ page.url }}",
-        "articleBody": "{{ content | strip_html | truncatewords: 150 }}"
-      }
+  <meta property="og:title" content="{{ page.title | default: site.title }}">
+  <meta property="og:description" content="{{ page.description | default: site.description }}">
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+  <meta property="og:image" content="{{ page.cover | default: site.social_image }}">
+  <meta property="og:type" content="article">
+  <meta property="og:locale" content="en_US">
 
-    </script>
-
-  </head>
-
-
-
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "{{ page.title }}",
+      "alternativeHeadline": "{{ page.subtitle | default: page.title }}",
+      "image": "{{ page.cover | default: site.social_image }}",
+      "datePublished": "{{ page.date | date_to_iso8601 }}",
+      "dateModified": "{{ page.last_modified_at | default: page.date | date_to_iso8601 }}",
+      "author": {
+        "@type": "Person",
+        "name": "{{ page.author }}"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "{{ site.author }}",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "{{ site.url }}/assets/img/Logo.png"
+        }
+      },
+      "description": "{{ page.description | default: site.description | escape }}",
+      "url": "{{ site.url }}{{ page.url }}",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "{{ site.url }}{{ page.url }}"
+      },
+      "articleBody": "{{ content | strip_html | truncatewords: 150 }}"
+    }
+  </script>
 </head>
-<div class="top-banner">
-  <h1>{{page.title}}</h1>
-  <span class="subtitle">
-    <h2>{{page.subtitle}}</h2>
-  </span>
-  <div class="header">
-    {% if page.author %}<div class="author">{{page.author}}</div>{% endif %}
 
-    <div class="date">
-      Built around {{ page.date | date: "%B %e, %Y" }}
+<main>
+  <div class="top-banner">
+    <h1>{{ page.title }}</h1>
+    <span class="subtitle">
+      <h2>{{ page.subtitle }}</h2>
+    </span>
+    <div class="header">
+      {% if page.author %}<div class="author">{{ page.author }}</div>{% endif %}
+      <div class="date">
+        Built around {{ page.date | date: "%B %e, %Y" }}
+      </div>
     </div>
   </div>
-</div>
-<article class="post">
-  <div class="entry">
 
-    {{ content }}
-    <a href="{{page.refer}}"><button class="btn btn-secondary">See more</button></a>
+  <article class="post">
+    <div class="entry">
+      {{ content }}
+      {% if page.refer %}
+      <a href="{{ page.refer }}"><button class="btn btn-secondary">See more</button></a>
+      {% endif %}
+    </div>
 
-  </div>
-
-  <script async type="application/javascript"
-          src="https://news.google.com/swg/js/v1/swg-basic.js"></script>
-  <script>
-    (self.SWG_BASIC = self.SWG_BASIC || []).push( basicSubscriptions => {
-      basicSubscriptions.init({
-        type: "NewsArticle",
-        isPartOfType: ["Product"],
-        isPartOfProductId: "CAowwObcCw:openaccess",
-        clientOptions: { theme: "light", lang: "en" },
+    <script async type="application/javascript" src="https://news.google.com/swg/js/v1/swg-basic.js"></script>
+    <script>
+      (self.SWG_BASIC = self.SWG_BASIC || []).push( basicSubscriptions => {
+        basicSubscriptions.init({
+          type: "NewsArticle",
+          isPartOfType: ["Product"],
+          isPartOfProductId: "CAowwObcCw:openaccess",
+          clientOptions: { theme: "light", lang: "en" },
+        });
       });
-    });
-  </script>
-
-  {% include disqus.html %}
-</article>
+    </script>
+    {% include disqus.html %}
+  </article>
 </main>

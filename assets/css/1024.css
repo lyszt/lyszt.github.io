@@ -1,4 +1,14 @@
 @media screen and (min-width: 769px) and (max-width: 1024px) {
+
+  h1 {
+    width: 85%;
+    text-align: left;
+  }
+  h4 {
+    width: 85%;
+    margin-left: 5%;
+  }
+
   .loading-simulation img {
     display: block;
     width: 50vw;

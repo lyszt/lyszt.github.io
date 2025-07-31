@@ -40,13 +40,21 @@
 
 }
 h1 {
-  font-size: 1.5em;
-  text-align: center;
-  width: 80%;
+  font-size: 1em;
+  text-align: left;
+  width: 100%;
   margin-top: 5%;
   margin-bottom: 5%;
 }
 
+h4 {
+  padding-top: 5%;
+  width: 85%;
+  text-align: center;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  font-size: 1.5em;
+}
   /* Basic */
 *{
   cursor: none !important;

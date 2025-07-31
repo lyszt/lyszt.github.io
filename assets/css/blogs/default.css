@@ -49,12 +49,20 @@ h1 {
   letter-spacing: .2em;
   margin-bottom: 0;
   color: #0c0c0c;
+  text-align: left;
 }
 h2 {
   font-weight: normal;
   font-size: 1.5em !important;
   color: #7b7b7b;
   margin-top: 0;
+}
+h4 {
+  font-size: 4em;
+  line-height: normal;
+  letter-spacing: .2em;
+  margin-bottom: 0;
+  color: #0c0c0c;
 }
 .post .entry {
   font-weight: normal;
@@ -159,7 +167,7 @@ h2 {
   h1 {
     font-size: 1.3em;
     font-weight: bold;
-    text-align: center;
+    text-align: left;
   }
   h2 {
     font-size: 1.5em;
