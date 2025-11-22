@@ -1,8 +1,92 @@
-# Include your project-specific ignores in this file
-# Read about how to use .gitignore: https://help.github.com/articles/ignoring-files
-# Useful .gitignore templates: https://github.com/github/gitignore
-node_modules
-dist
-.cache
-Gemfile.lock
-_site
+# -------------------------
+# Global
+# -------------------------
+# macOS
+.DS_Store
+# Windows
+Thumbs.db
+Desktop.ini
+# Swap / temp files
+*~
+*.swp
+# Shell history
+.history
+
+# -------------------------
+# Node / JS
+# -------------------------
+node_modules/
+# built/compiled assets
+dist/
+build/
+# lockfiles (keep package-lock.json checked in for reproducible builds; remove only if you prefer)
+# package-lock.json
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp/
+.pnp.js
+.yarn-integrity
+.eslintcache
+
+# -------------------------
+# Ruby / Jekyll
+# -------------------------
+# Jekyll build output
+_site/
+# caches and temporary files
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+# Bundler
+.bundle/
+vendor/bundle/
+# other vendor artifacts
+vendor/*
+# Ruby environment
+.ruby-version
+.ruby-gemset
+.gem/
+# Ruby build outputs
+*.gem
+log/
+tmp/
+
+# -------------------------
+# Development tools
+# -------------------------
+.vscode/
+.idea/
+*.iml
+*.sublime-project
+*.sublime-workspace
+.vagrant/
+
+# -------------------------
+# System files / misc
+# -------------------------
+# Environment files (do not commit secret credentials)
+.env
+.env.local
+.env.*.local
+# OS X Icon
+Icon
+
+# -------------------------
+# Test / coverage
+# -------------------------
+coverage/
+.nyc_output/
+
+# -------------------------
+# IDE / Editor backups
+# -------------------------
+*.log
+*.out
+
+# -------------------------
+# Optional: remove these if you intentionally want to keep them
+# -------------------------
+# vendor/ # vendor often includes built/compiled 3rd party assets. If you keep vendor in repo, remove vendor from this list.
+
+# EOF

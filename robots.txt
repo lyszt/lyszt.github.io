@@ -1,5 +1,12 @@
 # www.robotstxt.org/
-
-# Allow crawling of all content
+# Prevent browsing and automated scraping
 User-agent: *
-Disallow:
+Disallow: /
+
+# If you wish to allow specific bots or paths, override above.
+# Example: allow googlebot to access /assets for images
+# User-agent: Googlebot
+# Allow: /assets/
+
+# Sitemap reference
+Sitemap: https://lyszt.net/sitemap.xml

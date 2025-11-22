@@ -59,7 +59,7 @@ const project_index = {
       link: "https://lyszt.net/Lex",
       image: "assets/img/web-lexcover.svg",
       alt: "Therapy with Lex viewed on a laptop",
-      video: "/assets/Video/Lex.mp4"
+      video: "/assets/video/Lex.mp4"
     },
     {
       title: "LYSZT",

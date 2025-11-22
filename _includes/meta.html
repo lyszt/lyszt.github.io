@@ -1,2 +1,77 @@
-    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        {%- comment -%} Primary page metadata {%- endcomment -%}
+        <meta name="description" content="{{ page.description | default: page.intro | default: site.description | strip | xml_escape }}">
+        <meta name="author" content="{{ page.author | default: site.author }}">
+        <link rel="canonical" href="{{ page.url | absolute_url }}">
+
+        {%- assign robots_default = "index,follow" -%}
+        {%- if site.prevent_scraping %}
+            {%- assign robots_default = "noindex,nofollow" -%}
+        {%- endif -%}
+        <meta name="robots" content="{{ page.robots | default: robots_default }}">
+
+        {%- comment -%} Open Graph / Twitter Card {%- endcomment -%}
+        <meta property="og:type" content="{{ page.og_type | default: 'website' }}">
+        <meta property="og:locale" content="{{ site.lang | default: 'en_US' }}">
+        <meta property="og:title" content="{{ page.title | default: site.title }}">
+        <meta property="og:description" content="{{ page.description | default: site.description | strip | xml_escape }}">
+        <meta property="og:url" content="{{ page.url | absolute_url }}">
+        <meta property="og:image" content="{{ page.image | default: site.image }}">
+        <meta name="twitter:card" content="summary_large_image">
+        {%- if site.twitter_username and site.twitter_username != "" -%}
+            <meta name="twitter:site" content="@{{ site.twitter_username }}">
+        {%- endif -%}
+        <meta name="twitter:title" content="{{ page.title | default: site.title }}">
+        <meta name="twitter:description" content="{{ page.description | default: site.description | strip | xml_escape }}">
+        <meta name="twitter:image" content="{{ page.image | default: site.image }}">
+
+        {%- comment -%} JSON-LD for Person/Organization (default) {%- endcomment -%}
+        {%- comment -%} Build sameAs array for JSON-LD without trailing commas {%- endcomment -%}
+        {%- assign sa = "" -%}
+        {%- if site.footer-links.github and site.footer-links.github != "" -%}
+            {%- assign sa = sa | append: '"https://github.com/' | append: site.footer-links.github | append: '"' -%}
+        {%- endif -%}
+        {%- if site.footer-links.linkedin and site.footer-links.linkedin != "" -%}
+            {%- if sa != "" -%}
+                {%- assign sa = sa | append: ',' -%}
+            {%- endif -%}
+            {%- assign sa = sa | append: '"https://www.linkedin.com/in/' | append: site.footer-links.linkedin | append: '"' -%}
+        {%- endif -%}
+        {%- if site.footer-links.instagram and site.footer-links.instagram != "" -%}
+            {%- if sa != "" -%}
+                {%- assign sa = sa | append: ',' -%}
+            {%- endif -%}
+            {%- assign sa = sa | append: '"https://www.instagram.com/' | append: site.footer-links.instagram | append: '"' -%}
+        {%- endif -%}
+        {%- if site.footer-links.youtube and site.footer-links.youtube != "" -%}
+            {%- if sa != "" -%}
+                {%- assign sa = sa | append: ',' -%}
+            {%- endif -%}
+            {%- assign sa = sa | append: '"https://www.youtube.com/' | append: site.footer-links.youtube | append: '"' -%}
+        {%- endif -%}
+        {%- if site.footer-links.stackoverflow and site.footer-links.stackoverflow != "" -%}
+            {%- if sa != "" -%}
+                {%- assign sa = sa | append: ',' -%}
+            {%- endif -%}
+            {%- assign sa = sa | append: '"https://stackoverflow.com/' | append: site.footer-links.stackoverflow | append: '"' -%}
+        {%- endif -%}
+        {%- if site.footer-links.email and site.footer-links.email != "" -%}
+            {%- if sa != "" -%}
+                {%- assign sa = sa | append: ',' -%}
+            {%- endif -%}
+            {%- assign sa = sa | append: '"mailto:' | append: site.footer-links.email | append: '"' -%}
+        {%- endif -%}
+
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "{{ site.author }}",
+                "url": "{{ site.url }}",
+                "image": "{{ site.image }}",
+                "sameAs": [{{ sa }}]
+            }
+        </script>

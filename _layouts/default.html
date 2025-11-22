@@ -1,17 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ site.lang | default: 'en' }}">
   <head>
-    <meta property="og:title" content="João Luís - Designer and Programmer">
-    <meta property="og:description"
-          content="This is LYSZT. UI/UX design, web & software solutions, and video production services tailored to elevate your business. See recent projects and my experience.">
-    <meta property="og:url" content="https://www.lyszt.net/">
-    <meta property="og:image" content="https://i.imgur.com/XE0vWOA.png">
+        {%- comment -%} Open Graph meta tags are handled dynamically in _includes/meta.html {%- endcomment -%}
     {% include meta.html %}
+    {% include gtm.html %}
+    <title>{{ page.title | default: site.title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1"/>
     <!-- FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <!-- --- -->
     <link rel="icon" href="/assets/favicon/favicon.ico" sizes="any">
     <link rel="apple-touch-icon" href="/assets/favicon/icon.png">
@@ -19,16 +19,25 @@
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
     <link rel="stylesheet" href="/assets/css/default.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="stylesheet" href="/assets/css/480.css">
     <link rel="stylesheet" href="/assets/css/768.css">
     <link rel="stylesheet" href="/assets/css/1024.css">
     <link rel="stylesheet" href="/assets/css/1200.css">
+    <!-- Overrides: smaller heading sizes and helpers -->
+    <link rel="stylesheet" href="/assets/css/overrides.css">
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+    {%- if page.layout == 'post' -%}
+      <link rel="stylesheet" href="/assets/css/blogs/default.css">
+    {%- endif -%}
   </head>
   <div class="loading-simulation">
     <img src="/assets/img/crimsonanimation.gif" alt="A logo that is a graph with circles around">
   </div>
   <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-54T6RHWN" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
   <div class="custom-cursor site-wide"></div>
   <header>
       <nav>
@@ -85,7 +94,12 @@
 
 
     {% include analytics.html %}
+    <!-- Vendor scripts loaded globally -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
     <script src="/assets/js/app.js"></script>
+    <script src="/assets/js/portfolio.js"></script>
     <script type="module" src="/assets/js/translator.js"> </script>
     <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
     <script type="text/javascript">
