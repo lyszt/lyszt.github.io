@@ -22,8 +22,10 @@ export default defineConfig(({ mode }) => ({
   },
   
   define: {
-    // Remove process.env references
-    'process.env.NODE_ENV': JSON.stringify(mode)
+    'process.env': '{}',
+    'process.env.NODE_ENV': JSON.stringify(mode),
+    'process': '{}',
+    'global': '{}'
   },
   
   build: {

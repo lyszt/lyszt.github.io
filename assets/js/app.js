@@ -1,86 +1,40 @@
-import { gsap } from 'gsap';
-
+// GSAP loaded via CDN in HTML
 const elements = {
   transition: document.querySelector("#transition"),
   cursor: document.querySelector(".custom-cursor.site-wide"),
 };
 
-// CUSTOM CURSOR
+// CUSTOM CURSOR - Optimized with GSAP
 if (elements.cursor) {
-  const cursorWidth = elements.cursor.offsetWidth;
-  const cursorHeight = elements.cursor.offsetHeight;
+  const cursor = elements.cursor;
+  const cursorWidth = cursor.offsetWidth;
+  const cursorHeight = cursor.offsetHeight;
+  
+  const pos = { x: 0, y: 0 };
+  const mouse = { x: pos.x, y: pos.y };
+  const speed = 0.2;
 
-  // Mouse position state
-  let mouseX = 0;
-  let mouseY = 0;
+  const xSet = gsap.quickSetter(cursor, "x", "px");
+  const ySet = gsap.quickSetter(cursor, "y", "px");
 
   document.addEventListener('mousemove', (e) => {
-    mouseX = e.clientX;
-    mouseY = e.clientY;
+    mouse.x = e.clientX - cursorWidth / 2;
+    mouse.y = e.clientY - cursorHeight / 2;
   }, { passive: true });
 
-  const updateCursor = () => {
-    const translateX = mouseX - cursorWidth / 2;
-    const translateY = mouseY - cursorHeight / 2;
-
-    elements.cursor.style.transform = `translate(${translateX}px, ${translateY}px)`;
-
-    // Keep the loop going.
-    requestAnimationFrame(updateCursor);
-  };
-
-  // Start the animation loop.
-  requestAnimationFrame(updateCursor);
-
-  // --- Cursor State Changes ---
-  // Using event delegation on the body is slightly more efficient.
-  document.body.addEventListener('mousedown', () => {
-    elements.cursor.classList.add("active");
+  gsap.ticker.add(() => {
+    const dt = 1.0 - Math.pow(1.0 - speed, gsap.ticker.deltaRatio());
+    pos.x += (mouse.x - pos.x) * dt;
+    pos.y += (mouse.y - pos.y) * dt;
+    xSet(pos.x);
+    ySet(pos.y);
   });
 
-  document.body.addEventListener('mouseup', () => {
-    elements.cursor.classList.remove("active");
-  });
-
-  // These can be useful for styling the cursor during native drag operations.
-  document.addEventListener('dragstart', () => {
-    elements.cursor.classList.add('dragging');
-  });
-
-  document.addEventListener('dragend', () => {
-    elements.cursor.classList.remove('dragging');
-  });
-}
-
-
-if (hamburger) {
-  const GIF_ANIMATION_DURATION = 2000;
-
-  const toggleMenu = () => {
-    hamburger.classList.toggle("active");
-    const isActive = hamburger.classList.contains("active");
-
-    const gifSource = isActive ? "/assets/img/hamburger-forwards.gif" : "/assets/img/hamburger-back.gif";
-    if(hamburger_img) {
-      hamburger_img.src = `${gifSource}?t=${Date.now()}`;
-    }
-    if (navMenu) {
-      navMenu.classList.toggle("active");
-    }
-    if (mainContent) {
-      mainContent.classList.toggle("active");
-    }
-
-
-
-    if (!isActive && hamburger_img) {
-      setTimeout(() => {
-        hamburger_img.src = "/assets/img/hamburger.svg";
-      }, GIF_ANIMATION_DURATION);
-    }
-  };
-
-  hamburger.addEventListener("click", toggleMenu);
+  // Cursor state changes
+  document.body.addEventListener('mousedown', () => cursor.classList.add("active"), { passive: true });
+  document.body.addEventListener('mouseup', () => cursor.classList.remove("active"), { passive: true });
+  document.addEventListener('dragstart', () => cursor.classList.add('dragging'), { passive: true });
+  document.addEventListener('dragend', () => cursor.classList.remove('dragging'), { passive: true });
 }
 
 

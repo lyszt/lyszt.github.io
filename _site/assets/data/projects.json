@@ -1,0 +1,109 @@
+{
+  "design": [
+    {
+      "title": "Behance",
+      "description": "A showcase of my design work, including projects not featured on my main site.",
+      "link": "https://www.behance.net/kalliddel",
+      "image": "assets/img/behance.png",
+      "alt": "My corporate logo."
+    },
+    {
+      "title": "Digital Art",
+      "description": "A collection of my digital art pieces and experiments in creative design.",
+      "link": "https://www.instagram.com/lys_dikaldwin",
+      "image": "assets/img/Portfolio/Design/2.jpg",
+      "alt": "Deestad, protagonist of the Awesome Caderno."
+    },
+    {
+      "title": "Lygon X - Design",
+      "description": "Design work created exclusively for the Lygon X project.",
+      "link": "https://lyszt.net/Lygon",
+      "image": "assets/img/Logobackground.png",
+      "alt": "3D mockup of the Lygon logo."
+    }
+  ],
+  "video": [
+    {
+      "title": "Lygon X - Video",
+      "description": "My channel featuring films, series, and art projects.",
+      "link": "https://www.youtube.com/playlist?list=PLHF3MWlIK_c-uffF_lHzZJzP2lX4SyhlC",
+      "image": "assets/img/lygon.png",
+      "alt": "Logo of Studio Lygon Xin."
+    },
+    {
+      "title": "MementosKai",
+      "description": "A gaming channel where I handle video editing, production, and design work.",
+      "link": "https://www.youtube.com/@MementosKai",
+      "image": "assets/img/Portfolio/Thumbnails/M. kai.png",
+      "alt": "Abstract logo for MementosKai."
+    },
+    {
+      "title": "LaWinter",
+      "description": "An English gaming channel that I manage as the main editor and designer.",
+      "link": "https://www.youtube.com/@kaldwin6853",
+      "image": "assets/img/artoflogosuns.png",
+      "alt": "Warrior with raised sword."
+    },
+    {
+      "title": "Fidelity Factory",
+      "description": "Video work produced for a Microsoft partner focused on Power Platform solutions.",
+      "link": "https://youtu.be/lJE1pBazf4Q",
+      "image": "assets/img/Portfolio/Thumbnails/mnp.jpg",
+      "alt": "MNP Logo"
+    }
+  ],
+  "web": [
+    {
+      "title": "Therapy with Lex",
+      "description": "A modern website for an american therapist. I built and reworked the majority of the pages inside.",
+      "link": "https://lyszt.net/Lex",
+      "image": "assets/img/web-lexcover.svg",
+      "alt": "Therapy with Lex viewed on a laptop",
+      "video": "/assets/video/Lex.mp4"
+    },
+    {
+      "title": "LYSZT",
+      "description": "A portfolio website inspired by luxury brands and minimalism, but that is also a bit experimentative.",
+      "link": "https://lyszt.net/LYSZT",
+      "image": "assets/img/Portfolio/Thumbnails/LYSZT.svg",
+      "alt": "Stylized logo for LYSZT."
+    },
+    {
+      "title": "MACTAB Divisórias",
+      "description": "Responsible for the design of the majority of the website, not responsible for newer changes.",
+      "link": "https://lyszt.net/Mactab",
+      "image": "assets/img/web-mactab.svg",
+      "alt": "Mactab divisórias e soluções"
+    },
+    {
+      "title": "Blade Zenon",
+      "description": "A website for a 2015 game project that I still update to keep current.",
+      "link": "https://lyszt.net/Zenon",
+      "image": "assets/img/web-bz.svg",
+      "alt": "User interacting with the Blade Zenon site."
+    }
+  ],
+  "code": [
+    {
+      "title": "Providentia Magnata",
+      "description": "A Python Discord bot for espionage and server-security, built with SQL and discord.py.",
+      "link": "https://github.com/lyszt/ProvidentiaMagnata",
+      "image": "assets/img/Portfolio/Coding/providentiathumb.png",
+      "alt": "Data analysis interface."
+    },
+    {
+      "title": "ToadKeep",
+      "description": "A practical Python Kivy virtual keyboard for copying characters and emoticons seamlessly.",
+      "link": "https://github.com/lyszt/ToadKeep",
+      "image": "assets/img/Portfolio/Coding/toadkeeplogo.png",
+      "alt": "Logo for ToadKeep."
+    },
+    {
+      "title": "The Scarlett Gateway",
+      "description": "A personal dashboard built with React, Vite, and Express.",
+      "link": "https://github.com/lyszt/gateway",
+      "image": "assets/img/Portfolio/Coding/scarlettgateway.png",
+      "alt": "My personal dashboard."
+    }
+  ]
+}
