@@ -3,12 +3,11 @@ import react from '@vitejs/plugin-react';
 import path from 'path';
 
 export default defineConfig(({ mode }) => ({
-  root: './_site', // Serve Jekyll's built output
-  publicDir: false, // No separate public dir needed
+  root: mode === 'production' ? '.' : './_site', // Build from root for production, serve from _site for dev
+  publicDir: false,
   
   plugins: [
     react({
-      // Disable Fast Refresh for production builds
       fastRefresh: mode !== 'production'
     })
   ],
@@ -29,8 +28,7 @@ export default defineConfig(({ mode }) => ({
   },
   
   build: {
-    mode: 'production',
-    outDir: '../_site/assets/js',
+    outDir: mode === 'production' ? 'assets/js' : '../_site/assets/js',
     emptyOutDir: false,
     minify: 'terser',
     lib: {
@@ -41,7 +39,8 @@ export default defineConfig(({ mode }) => ({
     },
     rollupOptions: {
       output: {
-        assetFileNames: '[name].[ext]'
+        assetFileNames: '[name].[ext]',
+        inlineDynamicImports: true
       }
     }
   },
