@@ -99,24 +99,4 @@ if (elements.transition) {
       elements.transition.classList.remove("active");
     }
   });
-
-  //  Konami Code Easter Egg
-  const konamiCode = ['ArrowUp', 'ArrowUp', 'ArrowDown', 'ArrowDown', 'ArrowLeft', 'ArrowRight', 'ArrowLeft', 'ArrowRight', 'b', 'a'];
-  let konamiIndex = 0;
-
-  document.addEventListener('keydown', (e) => {
-    if (e.key === konamiCode[konamiIndex]) {
-      konamiIndex++;
-      if (konamiIndex === konamiCode.length) {
-        elements.transition.classList.add("active");
-        setTimeout(() => {
-          window.location.href = "https://lyszt.github.io/memorial";
-        }, 1000);
-        konamiIndex = 0;
-      }
-    } else {
-      // Reset if the wrong key is pressed.
-      konamiIndex = 0;
-    }
-  });
 }
