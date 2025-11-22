@@ -1,0 +1,36 @@
+/* Blog enhancements styles */
+
+.reading-time {
+  color: #999;
+  font-style: italic;
+}
+
+.copy-code-button {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  background: rgba(0, 255, 255, 0.2);
+  color: cyan;
+  border: 1px solid cyan;
+  padding: 0.25rem 0.75rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  transition: all 0.2s;
+}
+
+.copy-code-button:hover {
+  background: rgba(0, 255, 255, 0.3);
+}
+
+pre {
+  position: relative;
+}
+
+pre code {
+  display: block;
+  padding: 1rem;
+  overflow-x: auto;
+  background: #1e1e1e;
+  border-radius: 4px;
+}

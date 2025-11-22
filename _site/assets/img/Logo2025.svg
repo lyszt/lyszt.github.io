@@ -1,0 +1,34 @@
+<svg width="1339" height="1024" viewBox="0 0 1339 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M331 639H1045" stroke="white" stroke-width="2"/>
+<circle cx="215.5" cy="805.5" r="127.5" fill="#292929"/>
+<circle cx="956.5" cy="184.5" r="94.5" fill="#303030"/>
+<circle cx="654.5" cy="241.5" r="69.5" fill="#D8D8D8"/>
+<circle cx="1158.64" cy="704.5" r="69.5" fill="url(#paint0_linear_444_2)"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M687.333 361.742V698.751L708.546 735.493H585L605.514 699.962V360.531L585 325L708.546 325L687.333 361.742Z" fill="url(#paint1_linear_444_2)"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M841.18 361.742L841.18 698.751L862.393 735.493H738.847L759.361 699.962V360.531L738.847 325L862.393 325L841.18 361.742Z" fill="url(#paint2_linear_444_2)"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M995.027 362.442V699.45L1016.24 736.192H892.695L913.209 700.661V361.231L892.695 325.699L1016.24 325.699L995.027 362.442Z" fill="url(#paint3_linear_444_2)"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M412.579 580.087V791.187L387.01 835.474H540.999L514.559 789.678V580.087H412.579Z" fill="url(#paint4_linear_444_2)"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M515.431 580.086L515.431 368.986L541 324.699L387.01 324.699L413.451 370.496L413.451 580.086L515.431 580.086Z" fill="#2C2C2C"/>
+<defs>
+<linearGradient id="paint0_linear_444_2" x1="1158.64" y1="635" x2="1158.64" y2="774" gradientUnits="userSpaceOnUse">
+<stop stop-color="#DDDDDD"/>
+<stop offset="1" stop-color="#C4C4C4"/>
+</linearGradient>
+<linearGradient id="paint1_linear_444_2" x1="646.773" y1="325" x2="646.773" y2="735.493" gradientUnits="userSpaceOnUse">
+<stop stop-color="#1B1B1B"/>
+<stop offset="1" stop-color="#4F4F4F"/>
+</linearGradient>
+<linearGradient id="paint2_linear_444_2" x1="800.62" y1="325" x2="800.62" y2="735.493" gradientUnits="userSpaceOnUse">
+<stop stop-color="#1B1B1B"/>
+<stop offset="1" stop-color="#4F4F4F"/>
+</linearGradient>
+<linearGradient id="paint3_linear_444_2" x1="954.468" y1="325.699" x2="954.468" y2="736.192" gradientUnits="userSpaceOnUse">
+<stop stop-color="#1B1B1B"/>
+<stop offset="1" stop-color="#4F4F4F"/>
+</linearGradient>
+<linearGradient id="paint4_linear_444_2" x1="464.005" y1="323.828" x2="464.005" y2="835.474" gradientUnits="userSpaceOnUse">
+<stop stop-color="white"/>
+<stop offset="1" stop-color="#C4C4C4"/>
+</linearGradient>
+</defs>
+</svg>

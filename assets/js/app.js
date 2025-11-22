@@ -1,14 +1,9 @@
+import { gsap } from 'gsap';
+
 const elements = {
   transition: document.querySelector("#transition"),
   cursor: document.querySelector(".custom-cursor.site-wide"),
-  navMenu: document.querySelector(".navigator-design"),
-  mainContent: document.querySelector("main"),
 };
-const hamburger = document.querySelector(".hamburger");
-const hamburger_img = document.querySelector("#hamburger-img");
-const navMenu = document.querySelector(".navigator-design");
-const mainContent = document.querySelector("main");
-
 
 // CUSTOM CURSOR
 if (elements.cursor) {

@@ -1,0 +1,54 @@
+{
+  "name": " ",
+  "version": "0.0.1",
+  "description": "",
+  "private": true,
+  "keywords": [
+    ""
+  ],
+  "license": "",
+  "author": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npm run build:vite && concurrently \"npm run jekyll\" \"npm run vite\"",
+    "jekyll": "bundle exec jekyll serve --watch --incremental --port 4000",
+    "vite": "vite",
+    "build": "npm run build:vite && npm run build:jekyll && npm run sitemap",
+    "build:jekyll": "JEKYLL_ENV=production bundle exec jekyll build",
+    "build:vite": "vite build --mode production",
+    "sitemap": "node scripts/generate-sitemap.js",
+    "preview": "vite preview",
+    "start": "webpack serve --open --config webpack.config.dev.js",
+    "build:webpack": "webpack --config webpack.config.prod.js"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-legacy": "^7.2.1",
+    "@vitejs/plugin-react": "^5.1.1",
+    "concurrently": "^9.2.1",
+    "copy-webpack-plugin": "^11.0.0",
+    "html-webpack-plugin": "^5.5.3",
+    "vite": "^7.2.4",
+    "vite-plugin-static-copy": "^3.1.4",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.2.1",
+    "webpack-merge": "^5.9.0"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@mui/icons-material": "^7.3.5",
+    "@mui/material": "^7.3.5",
+    "gray-matter": "^4.0.3",
+    "nodemon": "^3.1.7",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-helmet-async": "^2.0.5",
+    "reading-time": "^1.5.0",
+    "rehype-highlight": "^7.0.2",
+    "remark": "^15.0.1",
+    "remark-html": "^16.0.1",
+    "sitemap": "^9.0.0",
+    "three": "^0.171.0"
+  }
+}

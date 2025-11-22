@@ -32,8 +32,8 @@ yarn-error.log*
 # -------------------------
 # Ruby / Jekyll
 # -------------------------
-# Jekyll build output
-_site/
+# Jekyll build output - keep navigation bundle for GitHub Pages
+# _site/
 # caches and temporary files
 .sass-cache/
 .jekyll-cache/

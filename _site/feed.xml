@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2025-11-22T18:21:29-03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">LYSZT - Portfólios e Projetos Relevantes</title><subtitle>Welcome to the portfolio of João Luís Almeida Santos (Lyszt Kaldwin), a skilled Developer &amp; Designer. Explore UI/UX design, web &amp; software solutions, and video production services tailored to elevate your business. Discover recent projects and learn about João&apos;s experience in the tech industry. Powered by Lygon Xin.</subtitle><author><name>João Luís Almeida Santos</name></author><entry><title type="html">Embraer - Analysis of the Supply Chain</title><link href="http://localhost:4000/Embraer-Analysis/" rel="alternate" type="text/html" title="Embraer - Analysis of the Supply Chain" /><published>2025-07-30T00:00:00-03:00</published><updated>2025-07-30T00:00:00-03:00</updated><id>http://localhost:4000/Embraer-Analysis</id><content type="html" xml:base="http://localhost:4000/Embraer-Analysis/"><![CDATA[# Embraer: An Investment Analysis (07/30/2025)
+
+
+## Embraer in Focus: An Overview of the Brazilian Aerospace Company
+
+Embraer, with over fifty years of operation, is an aerospace company that manufactures aircraft and operates in various segments. The company is active in Commercial Aviation, Executive Jets, Defense & Security, and future air mobility. Its mission is to "shape the future of air mobility," which reflects its commitment to innovation, safety, and sustainability.
+
+As of July 30, 2025, the question for investors concerns Embraer's growth potential.
+
+![Embraer planes going by the sky.](/assets/img/Articles/embraer.jpg)
+## Embraer's Portfolio of Operations
+
+To understand Embraer's potential, it is important to analyze the variety of its operations. The company is not limited to aircraft manufacturing; it develops a range of activities spanning various sectors. The Commercial Aviation, Executive Jets, and Defense & Security areas are the company's main revenue drivers. Additionally, Agricultural Aviation, with ethanol-powered and ANAC-certified aircraft, demonstrates an attention to sustainable solutions. Embraer Equipment Division (EDE) produces and controls important components such as landing gear and hydraulic systems. In the Advanced Air Mobility segment, Eve Air Mobility, with its eVTOL (electric vertical take-off and landing vehicle) projects, positions Embraer at the forefront of urban air mobility. In the field of Technology and Defense, companies like Atech, Visiona, and Aguas Azuis, which participates in the construction of naval frigates, demonstrate Embraer's capability in high-tech and security sectors. Finally, OGMA offers maintenance services, and Nidec Aerospace supplies electric motors for new aircraft. This diversification of operations contributes to multiple revenue streams and helps mitigate risks, increasing the company's resilience to market fluctuations.
+
+## EMBR3 Performance: Signs of Market Optimism
+
+The recent performance of Embraer's shares (EMBR3) has been notable, especially in July 2025. On July 30, EMBR3's year-to-date and last twelve-month profitability surpassed that of major technology companies such as Nvidia, Microsoft, Meta, Amazon, Alphabet, Apple, and Tesla. This is a relevant indicator for investors. On the same day, shares rose over 10%, with a 10.93% gain. The reason was the White House's confirmation that aircraft, in addition to energy and orange juice, were excluded from an additional 50% tariff on Brazilian imports, initially announced by Donald Trump on July 9. This exclusion represents a significant benefit for Embraer's exports to the U.S. These recent events indicate renewed market optimism regarding Embraer, driven by solid financial results and the reduction of important commercial risks.
+
+## Challenges and Opportunities in the Supply Chain
+
+Embraer, as a large industrial company, faces challenges in its complex supply chain. However, these challenges can also present strategic opportunities. Regarding Carbon Fiber Composites, the market is growing, driven by demand for lighter and more efficient aircraft. Innovations in low-cost materials and recycling are promising, and Embraer needs to ensure access to these materials, considering the trend of domestic supply in the U.S. to avoid tariffs.
+
+As for Future Engines, the transition to electric, hybrid, and hydrogen propulsion is a reality. The next-generation propulsion market is booming, and Embraer, through Eve Air Mobility, is involved in this transition. Environmental regulations and U.S. tariffs are accelerating this shift.
+
+In the Battery sector, lithium-ion batteries are essential, and the market is growing. However, there is competition from new technologies, such as sodium-ion batteries, and investments in recycling and domestic manufacturing, like LG Chem's Tennessee factory, indicate a dynamic scenario that Embraer must monitor.
+
+Regarding Avionics and Semiconductors, onboard electronics are becoming more advanced. Partnerships for maintenance and modernization, such as with CMC Electronics, are important. Demand for semiconductors increases with electrification, but the global supply chain still faces challenges like component counterfeiting and the need for "green semiconductors."
+
+Concerning Hydraulics and Marine Propulsion, although there is a trend towards electro-mechanical systems, innovations in hydraulics continue to seek efficiency. In the naval sector, Embraer, through Aguas Azuis, benefits from the growing adoption of hybrid and electric propulsion systems, driven by decarbonization goals.
+
+For Radiation-Hardened Electronics, which are crucial for Visiona in space systems, demand is increasing. The shortage of testing capacity in the U.S. is a challenge, but new technologies are emerging to solve it.
+
+Finally, the Rare Earths market is a point that requires attention. It faces supply restrictions, rising prices, and geopolitical tensions, such as the possible mining ban in Myanmar and China's export restrictions. The search for heavy rare-earth-free magnets, like those developed by Proterial, and investments in recycling, like those by Apple and MP Materials, are important for supply chain stability. Embraer, which uses these materials, needs to monitor this situation.
+
+
+![Embraer plane landing.](/assets/img/Articles/embraer2.jpg)
+
+Embraer, as of July 30, 2025, presents a favorable scenario for investors. Its strategic diversification, which goes beyond traditional aviation, positions it in markets with potential of growth, such as advanced air mobility and defense. Recent financial performance, surpassing other large companies, and the positive resolution regarding U.S. tariffs are indicators of a favorable moment.
+
+However, investors should be aware of the challenges in global supply chains, especially the volatility in the rare earths market. Embraer's ability to innovate and secure access to essential materials, while leveraging sustainability and electrification trends, will be a determining factor for its long-term success.
+
+In summary, Embraer appears to be in a good position for a new growth cycle. For those seeking an investment in a high-tech sector with a focus on innovation and resilience, the Brazilian company could be an interesting option. However, as with any investment, continuous research and risk analysis are always fundamental.
+
+# Kairos Insight III
+
+This analysis of Embraer, which I conducted on July 30, 2025, leverages data collected and processed by Kairos Insight 3, a comprehensive data collection and scraping program I developed from the ground up. My work on Kairos Insight 3 involved architecting its robust backend using Python and Django, where I integrated and configured libraries such as requests for making HTTP requests, feedparser for RSS feed aggregation, BeautifulSoup for parsing HTML content, readability for extracting clean article text, dateparser for flexible date parsing, and GNews for efficient news aggregation. I designed and implemented the data collection and analysis scripts, ensuring their efficiency and reliability for web scraping and processing diverse data sources. Furthermore, I developed its integrated AI component through custom Python modules (e.g., collector/Analysis/AI.py), which I engineered to provide advanced capabilities for summarizing web pages, extracting structured data, and performing in-depth analysis of company activities, offering a deep dive into market signals and logistical dependencies. On the frontend, I built the user interface with React and TypeScript, leveraging Vite for a fast development experience and Tailwind CSS for a modern and responsive design, ensuring efficient data presentation and a seamless user experience.]]></content><author><name>João Luís Almeida Santos</name></author><category term="MARKET ANALYSIS" /><summary type="html"><![CDATA[Embraer: An Investment Analysis (07/30/2025)]]></summary></entry><entry><title type="html">LYSZT - A modern and interactive portfolio</title><link href="http://localhost:4000/LYSZT/" rel="alternate" type="text/html" title="LYSZT - A modern and interactive portfolio" /><published>2025-01-07T00:00:00-03:00</published><updated>2025-01-07T00:00:00-03:00</updated><id>http://localhost:4000/LYSZT</id><content type="html" xml:base="http://localhost:4000/LYSZT/"><![CDATA[The past few years have sparked my interest in modern luxury brands like Porsche, Bugatti, and Lamborghini, and the psychology that drives their appeal. The allure of the unattainable often makes these brands more desirable. Interestingly, adopting an opposite approach—making products more expensive, exclusive, and catering to an elite audience—can enhance a brand's success.
+![image](https://github.com/user-attachments/assets/ac05c867-bd52-45fe-925a-c7dbe0e44854)
+
+Scientific studies support this phenomenon. Research in consumer psychology, such as the Veblen Effect, highlights how higher prices and exclusivity increase perceived value and social status. Additionally, scarcity, as outlined by Cialdini's principles of persuasion, heightens desirability by making products feel unique and limited.
+
+Over time, as I designed the website you are now using to explore my work, I began delving into the psychology of luxury branding and applying it to my own brand. I started asking myself: What if I transformed my brand into a luxury one? In my freelance endeavors, I’ve adopted higher pricing and focused on delivering top-tier services, even prioritizing client satisfaction over short-term financial gain.
+
+More importantly, I’ve come to realize that achieving what may seem small or unattainable requires aiming for something far greater. To reach the moon, you must set your sights on the center of the galaxy. This mindset led to the creation of LYSZT—a brand rooted in self-respect, ambition, and a vision of my role in the world. This website now embodies how I choose to perceive myself and my aspirations.
+![image](https://github.com/user-attachments/assets/f1332faa-a256-4313-bc64-fdb4a59c1526)
+
+Research supports the psychological and strategic benefits of this approach. The concept of self-concept clarity, as noted in consumer and branding studies, highlights how aligning personal values with brand identity creates a more authentic and impactful brand. Additionally, theories like Maslow's hierarchy of needs suggest that targeting self-actualization and esteem needs aligns with the aspirational qualities of luxury branding. By embracing ambition and exclusivity, the LYSZT concept reflects both personal growth and strategic positioning.
+
+# THE AESTHETIC BASIS OF LYSZT
+
+The name, as can be observed, comes as an hommage to french musician, Franz Liszt. The website embodies a modern, minimalistic design inspired by luxury brands and the timeless principles of Swiss design. Clean lines, grid-based layouts, and a focus on whitespace create a sense of sophistication and elegance. The brand's core colors are white, gray, black, with touches of medium aquamarine.
+![image](https://github.com/user-attachments/assets/14cd34e1-e4fc-48b6-b2ca-194ded0cb6b4)
+
+Initially, the website's aesthetic was dominated by crimson tones. However, the introduction of a project, “Scarlett Gateway,” reshaped my personal vision of beauty and art. This shift ushered in a design language characterized by understated elegance and a commitment to a serene, modern art style, eschewing bold contrasts for subtlety and harmony.
+![login](https://github.com/user-attachments/assets/b28fc10d-31eb-4e82-8b1d-e00eae7ac10e)
+
+Speaking of Serene, I was particularly pushed by a modern musician that has also inspired me to build the website in this manner, and the name of that musician is SERENE. She is, according to her profile, a concert pianist & ex-Hacker. Bösendorfer Artist. I have discovered her watching a Sillicon Valley concert from a nuclear fusion startup called FUSE, where she played piano with a robot, thanks to a modern music brand called FINIS MUSICAE. The scenery in that concert was a great inspirator of the current design of my website. I don’'t know why, but the idea of mixing classicism with modernism is beautifully inspiring to me, and it motivates me right now on every project I work in. Is there a reason why the old cannot be mixed with the nouveau?
+![394830328-061ea4e2-8e23-4437-9a5f-54b06ddcfb67](https://github.com/user-attachments/assets/586ff5cc-2dc7-4ddb-918b-f4fe1588d749)
+
+Typography choices further align with the Swiss design ethos, using clean sans-serif fonts for clarity and professionalism. Subtle animations and interactions add a sense of fluidity.
+![image](https://github.com/user-attachments/assets/28b5969b-7f71-44cd-9eb7-7685fc4b7ff8)
+
+
+---]]></content><author><name>João Luís Almeida Santos</name></author><category term="PORTFOLIO PIECE" /><summary type="html"><![CDATA[The past few years have sparked my interest in modern luxury brands like Porsche, Bugatti, and Lamborghini, and the psychology that drives their appeal. The allure of the unattainable often makes these brands more desirable. Interestingly, adopting an opposite approach—making products more expensive, exclusive, and catering to an elite audience—can enhance a brand’s success.]]></summary></entry><entry><title type="html">Principles for making figures for research</title><link href="http://localhost:4000/ArticleDesign/" rel="alternate" type="text/html" title="Principles for making figures for research" /><published>2024-11-14T00:00:00-03:00</published><updated>2024-11-14T00:00:00-03:00</updated><id>http://localhost:4000/ArticleDesign</id><content type="html" xml:base="http://localhost:4000/ArticleDesign/"><![CDATA[# Knowing How to "Sell" Your Research: The Importance of Design in Academic Papers
+
+![Beautiful 3d render made for a research paper](/assets/img/3darticle.jpg)
+
+Knowing how to sell is one particularly important aspect of anything you do, write or create. There is no better way than convincing your customer that you product is top-notch than doing so by using aesthetics and design. Research shows that 75% of a consumer's judgment about a product is based on its appearance, with design playing a crucial role in influencing purchasing decisions (Source: Adobe). Furthermore, products with good aesthetics are often perceived as higher quality and more valuable, leading to a 30% increase in consumer engagement and a 20% higher likelihood of purchase (Source: Forbes). So, it becomes obvious: beauty doesn’t just apply to businesses and trade, it’s actually present everywhere. When you go for a job interview, when you try to convince your friend to come join your Minecraft server and build with you, or, as is the subject of this blog post, when you’re writing an article, a research paper, and you want to ** get your paper published **.
+But the principle of "design" extends beyond business. It influences how we present ideas, persuade others, and communicate messages.
+
+
+In scientific writing, design also plays a pivotal role in shaping how your work is perceived. The layout of a research paper, the clarity of figures, and the use of visual elements such as graphs or tables can significantly impact how readers engage with the content. Studies have shown that beautiful scientific articles are more likely to be cited and have higher readership. A paper that is easy to navigate, with visually appealing formatting and concise, well-structured sections, encourages readers to engage more deeply. Poor design, on the other hand, can lead to misunderstandings or cause readers to disengage prematurely, undermining the impact of even the most groundbreaking research.
+
+
+# UI/UX in Scientific Writing: Clarifying the Role of Design
+With this said, it might also be important to consider that figures are ought to pass down a message. Don’t use figures nonsensically, use them to reinforce an idea or increase understanding. It’s basically UI/UX—User Interface and User Experience—which, although primarily associated with digital products, is just as relevant when presenting academic work. UI refers to the design elements that help structure the content and make it easy to navigate, while UX focuses on ensuring a positive experience for the reader, allowing them to engage with the material efficiently and intuitively. Every figure should reinforce an idea, clarify a concept, or provide additional insight into your research. In this way, the integration of UI/UX principles in your paper’s design not only improves the presentation but also enhances the reader's understanding and engagement with the content."
+- **UI (User Interface)** refers to the design elements that make content easy to navigate and interact with. In a research paper, this includes how well the text, figures, graphs, and tables are organized, the consistency of formatting, and how readable the paper is as a whole.
+- **UX (User Experience)** focuses on ensuring that the reader has a positive, efficient experience when engaging with the paper. It's about making sure that the information flows logically, the figures are intuitive, and the design helps the reader to grasp the content easily. A positive UX in a research paper means the reader can focus on understanding the research without being distracted by confusing layouts or poorly presented data.
+Another valuable way to refine the UX of your research paper is to gather feedback through user testing. Just as companies conduct A/B testing to understand how different versions of a product resonate with their audience, you can apply a similar approach to your paper by showing it to friends, colleagues, or even unfamiliar readers. This external feedback can highlight areas where the flow or design of your paper might be confusing, too dense, or difficult to follow. By making adjustments based on their input, you can improve the overall user experience of your paper, ensuring that your ideas are communicated as clearly and effectively as possible.
+
+
+I’d like to mention one good scientific article designer, [Colin Ophus](https://arxiv.org/pdf/2009.09134). He makes good choices of colours and remarkably interesting designs that connect well to a paper that might be considered quite complex (Multibeam Electron Diffraction). The figures help the reader understand and visualize those not so easy to comprehend ideas, and that’s what figures are all about!
+
+
+But what to use in order to create the best possible articles? Now that we’ve established the importance of design, here are some tools to help you create high-quality visuals for your paper:
+
+-  For 3D modeling, Blender is an excellent open-source tool that allows you to create detailed, high-quality visual representations of complex concepts.
+- Python offers a range of libraries such as Matplotlib and Seaborn for creating dynamic, customizable charts and graphs that can effectively convey statistical information.
+- If you're looking for something more advanced, Unity or Unreal Engine can be used for immersive 3D visualizations that could turn your research into an interactive experience. With this, your crush your competitors.
+- Adobe Creative Suite (Photoshop, Illustrator, InDesign) is a great tool for refining layouts, creating clean vector graphics, and designing polished figures. Am I going too far?
+- But you don't need to go all-in on professionality. Canva is super easy and has tons of templates to make graphs and images look polished without much work.
+- Google Sheets or Excel can help you whip up some charts and graphs to show off your numbers. Automatic, mind you.
+Here's the complete list if you're an advanced user and want the best stuff there is. You can go look for it.
+- Matplotlib, Seaborn, Plotly, Bokeh, Mayavi, Dask, Pandas, TensorFlow, PyTorch, PyOpenGL, Pygame, Unity, Unreal Engine, VTK, Mayavi, Dash, Streamlit.
+
+
+>Below I have left a documentary in case you have the interest of diving in further into the subject.]]></content><author><name>João Luís Almeida Santos</name></author><category term="DISCUSSION" /><summary type="html"><![CDATA[Knowing How to “Sell” Your Research: The Importance of Design in Academic Papers]]></summary></entry><entry><title type="html">THERAPY WITH LEX</title><link href="http://localhost:4000/Lex/" rel="alternate" type="text/html" title="THERAPY WITH LEX" /><published>2024-01-01T00:00:00-03:00</published><updated>2024-01-01T00:00:00-03:00</updated><id>http://localhost:4000/Lex</id><content type="html" xml:base="http://localhost:4000/Lex/"><![CDATA[<style>.post-parallax {
+	width: 100%;
+	height: 60vh;
+	overflow: hidden;
+  	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+    background-size: 60%;
+}
+</style>
+
+Lex was one of my favourite clients I've worked with. In order to promote his services, he asked that I built him an engaging website with a modern, engaging design. You can see some examples of this work right here in this post.
+
+
+---
+
+<div class="post-parallax" style="background-image: url('/assets/img/Portfolio/Web/Lex/1.png');"> </div>
+
+I designed this visual to communicate the key elements of Clinical Supervision in a clear and engaging manner. The title "Clinical Supervision" is prominently displayed in a bold font, immediately informing the viewer of the subject matter. Each of the three main points is accompanied by a simple, orange icon that visually represents the concept, helping in quick recognition and understanding. Below each icon, there is concise text that succinctly explains the associated concept, ensuring the message is conveyed without overwhelming the viewer. The use of orange for the icons draws attention, and the black background for the icons contrasts well with the white background, ensuring readability and visual appeal. The balanced layout, with evenly spaced and aligned points, creates an organized and aesthetically pleasing design. This professional and clean style is appropriate for the context of clinical supervision, balancing professionalism with approachability for the intended audience of licensed professionals.
+
+---
+
+<div class="post-parallax" style="
+	background-image: url('/assets/img/Portfolio/Web/Lex/2.png');"></div>
+This design effectively showcases a collection of poetry books with an elegant and clean layout. The prominent "Poetry" title clearly indicates the section, while each book is displayed with its cover art, title, and artist credit, providing a visually appealing and informative presentation. The navigation arrows and pagination dots allow for easy browsing, enhancing the user experience. For more details and to explore the entire collection, please see more by clicking the button below, directing you to the full page.
+
+<div class="post-parallax" style="background-image: url('../img/Portfolio/Web/Lex/3.png');"> </div>
+---]]></content><author><name>João Luís Almeida Santos</name></author><category term="PORTFOLIO PIECE" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">LYGON - A Service Agency Dedicated to Design, Animation, and the Arts</title><link href="http://localhost:4000/Lygon/" rel="alternate" type="text/html" title="LYGON - A Service Agency Dedicated to Design, Animation, and the Arts" /><published>2021-12-01T00:00:00-03:00</published><updated>2021-12-01T00:00:00-03:00</updated><id>http://localhost:4000/Lygon</id><content type="html" xml:base="http://localhost:4000/Lygon/"><![CDATA[# LYGON - A Creative Journey Through Design and Videography
+
+Lygon Xin is dedicated to my videography and design projects,
+and all the portfolio related to it was created to suit a variety of clients.
+I’ve worked on various projects, including branding, video editing, web design and development. All design elements
+are built using modern tools like After Effects, Premiere Pro, and Adobe Illustrator.
+Through Lygon, I’ve built a portfolio that caters to a wide range of clients—from influencers carving out their niche in the entertainment
+industry to established companies in Canada and the United States.
+
+![Lygon Logo](../assets/img/Logobackground.png)
+
+> The first iterations of Lygon's brand were created back in 2014, setting the foundation for years of creative growth.
+
+---
+
+## A Visual Evolution: From 2016 to 2021
+
+<iframe width="420" height="315" src="https://www.youtube.com/embed/13qCYubhscI"></iframe>
+<iframe width="420" height="315" src="https://www.youtube.com/embed/fjJKdGJ5cN8"></iframe>
+
+*“Lygon’s opening sequences have evolved significantly. Compare the dynamic simplistic 2016 version to the polished 2021 iteration.”*
+
+---
+
+## Working with Influencers and Businesses
+
+One of Lygon Xin’s core specialties is crafting visual content that empowers influencers in the competitive entertainment industry. Promotional videos, vlogs, and engaging visual branding - It has it all.
+’ve helped influencers find their voice and stand out. That's the power of Lygon.
+
+Beyond influencer collaborations, Lygon has partnered with companies across Canada and the United States to produce impactful corporate videos. These projects include:
+- **Branding videos** to establish a unique company identity.
+- **Promotional content** designed to captivate target audiences.
+- **Internal communications videos** that ensure consistency and professionalism.
+
+So far Lygon has worked with companies related to Microsoft, enterpreneurish individuals and startups.
+> Check out more examples of these works in the portfolio—click the ~see more~ button to explore.
+
+![Design Mockup](../assets/img/Portfolio/Design/mockup.jpg)
+
+---
+
+## Exploring Entertainment and Wild Storytelling
+
+Lygon Xin is also a platform for creative projects that push the boundaries of conventional storytelling. One such project is the YouTube miniseries *Chodo and Deton*. This absurd, nonsensical story dives into immortality, clone-making, and multiverse travel—offering viewers an unpredictable and hilarious ride.
+
+<iframe width="420" height="315" src="https://www.youtube.com/embed/XJf9m81MkAI"></iframe>
+<iframe width="420" height="315" src="https://www.youtube.com/embed/O5K_f5ET98M"></iframe>
+<iframe width="420" height="315" src="https://www.youtube.com/embed/KtLxMTNSyOQ"></iframe>
+
+> If you have time to spare and a love for absurd comedy, this series is worth a watch!
+
+---
+
+Are you looking for a partner to elevate your corporate identity? Lygon Xin has something to offer you. So reach out.
+
+> Ready to dive in? Check out the portfolio and see how creative design and storytelling can transform your vision into reality.]]></content><author><name>João Luís Almeida Santos</name></author><category term="PORTFOLIO PIECE" /><summary type="html"><![CDATA[LYGON - A Creative Journey Through Design and Videography]]></summary></entry><entry><title type="html">MACTAB - How interactive design can help your business</title><link href="http://localhost:4000/Mactab/" rel="alternate" type="text/html" title="MACTAB - How interactive design can help your business" /><published>2021-08-05T00:00:00-03:00</published><updated>2021-08-05T00:00:00-03:00</updated><id>http://localhost:4000/Mactab</id><content type="html" xml:base="http://localhost:4000/Mactab/"><![CDATA[# MACTAB: Industrial Partition Solutions
+
+In the digital age, businesses face a critical challenge: how to stand out in a crowded marketplace. One of the most effective tools for achieving this is interactive design—the art of creating user interfaces that don't just look good but actively engage users, enhance functionality, and deliver memorable experiences.
+
+![Mactab Logo](https://mactab.com.br/wp-content/uploads/2023/11/logo-mactab-novo.png)
+
+MACTAB specializes in manufacturing industrial partitions for floors and ceilings, offering corporate solutions that optimize space with a blend of technology, aesthetics, acoustics, and innovation. The logo and brand design were created using pure JavaScript, HTML, and CSS.
+While working there, I witnessed firsthand how interactive design could transform a brand. Through a blend of technology, aesthetics, and innovation, we developed solutions that not only optimized space but also provided users with a seamless and intuitive experience.
+> I designed this logo, which is now used across MACTAB’s branding.
+
+---
+
+![Design Example 1](../assets/img/Portfolio/Web/Mactab/1.jpg)
+
+The user interface I developed for MACTAB allows for intuitive customization of partitions, offering a range of fabric options, panels, and finishes to match any style or requirement. Users can effortlessly select textures and customize features such as locks, blinds, handles, and glass details. This clean, user-friendly design not only enhances functionality but also emphasizes aesthetics, making it a key piece in my portfolio.
+
+---
+
+# Why Interactive Design Matters
+> "Design is not just what it looks like and feels like. Design is how it works."
+— Steve Jobs
+
+Interactive design bridges the gap between users and functionality, enabling businesses to:
+
+- Improve User Engagement: Dynamic interfaces encourage users to explore, interact, and spend more time with the product.
+- Increase Efficiency: Clear, intuitive navigation reduces the learning curve and speeds up task completion.
+- Strengthen Branding: A well-designed interface reinforces brand identity, creating a consistent and professional image.
+- Drive Sales and Conversions: Customization options and interactive previews can directly influence purchasing decisions.
+
+### Video Demonstration
+
+<iframe width="420" height="315"
+src="https://www.youtube.com/embed/OFG6XV8jaBE">
+</iframe>
+
+![Design Example 2](../assets/img/Portfolio/Web/Mactab/2.png)
+
+
+> You can see some more designs down below.
+
+---]]></content><author><name>João Luís Almeida Santos</name></author><category term="PORTFOLIO PIECE" /><summary type="html"><![CDATA[MACTAB: Industrial Partition Solutions]]></summary></entry><entry><title type="html">BLADE ZENON - A collaborative game made by its players</title><link href="http://localhost:4000/Zenon/" rel="alternate" type="text/html" title="BLADE ZENON - A collaborative game made by its players" /><published>2015-03-01T00:00:00-03:00</published><updated>2015-03-01T00:00:00-03:00</updated><id>http://localhost:4000/Zenon</id><content type="html" xml:base="http://localhost:4000/Zenon/"><![CDATA[# Blade Zenon: How a Collaborative Project Managed to Create a Game Managed by Its Users
+
+> **Website for Blade Zenon:** A website for a MMORPG project from 2015
+
+This entry is as much an addition to my portfolio as an homage to the period when it was developed. As a 12-year-old aspiring game developer, I launched an online forum for a game I was passionately working on using Unity.
+This forum became a community hub for over 100 active members. Back then, I had only begun programming, I had started doing 3D modeling, and I had hardly any experience as a developer.
+
+Although the game itself never reached publication, the experience of developing this project and managing the community was invaluable. Several skills I have today were developed during that period, not to mention it was my first experience leading a big project with lots of expectations and hype.
+
+![Blade Zenon Concept Art](https://i.imgur.com/N6e0iGa.png)
+
+---
+
+Research has shown that when people feel they have a stake in the outcome of a project, their level of engagement increases. This is particularly true in online communities, where members are more likely to contribute to projects they feel are shaped by their input.
+
+The idea that the success of a project hinges on the contributions of its users is supported by self-determination theory in psychology. It suggests that people are motivated when they feel competent, autonomous, and connected to others. Blade Zenon’s collaborative design allowed members to experience all three. They weren’t just passive participants; they had a direct hand in how the game developed, which likely drove their continued involvement.
+
+In game development, especially in a collaborative setting, feedback loops are crucial. These loops not only help improve the game’s mechanics but also foster a sense of ownership among users. The process I went through with Blade Zenon—the cycle of receiving feedback, adjusting the design, and implementing new ideas—mirrors the concept of continuous improvement found in agile development.
+
+It's an approach that emphasizes constant iteration, and in the context of Blade Zenon, it ensured the game adapted and evolved based on real user experiences. By staying responsive to feedback, the project could refine its design and make meaningful changes in real-time.
+
+![Blade Zenon Forum](https://i.imgur.com/1ayvgvp.png)
+
+---
+
+Blade Zenon was an online game that featured a community-driven environment, where players could engage in various activities such as forming guilds and participating in discussions about game lore and mechanics.
+The community, the friends I made in that place—they're all very important memories to me today, and I hope that wherever they stand, wherever they are, they still remember this project and that it has been as positive for them as it was for me.
+
+The forum served as a central platform where players could discuss game mechanics, share feedback, and collaborate on ideas.
+Players were encouraged to contribute ideas for game development and lore through public boards. This collaborative approach allowed players to feel a sense of ownership over the game's evolution.
+
+Members provided ideas, and I executed them. It was a game made by its players. And I think that's an awesome idea, you know? A game or project where the business decisions, the design, the very structure, is made based on user experience. This is very much what UX Design is, to the core.
+
+![Blade Zenon Memories](https://i.imgur.com/xQnrPVI.png)
+
+---]]></content><author><name>João Luís Almeida Santos</name></author><category term="PORTFOLIO PIECE" /><summary type="html"><![CDATA[Blade Zenon: How a Collaborative Project Managed to Create a Game Managed by Its Users]]></summary></entry></feed>

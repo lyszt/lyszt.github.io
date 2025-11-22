@@ -1,0 +1,172 @@
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+
+  h1 {
+    width: 85%;
+    text-align: left;
+  }
+  h4 {
+    width: 85%;
+    margin-left: 5%;
+  }
+
+  .loading-simulation img {
+    display: block;
+    width: 50vw;
+    margin: auto;
+    margin-top: 10%;
+  }
+
+  body {
+  }
+  .horizontal-line {
+    display: none;
+  }
+
+
+  /*  LANDING PAGE */
+  .landing-page {
+    width: 90%;
+    padding-bottom: 2vw;
+  }
+  #landing-div {
+    display: flex;
+    width: 70%;
+    justify-items: start;
+    margin: 1vw;
+    grid-auto-flow: column;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+  }
+  #landing-div span {
+    display: block;
+    font-size: 1em;
+    line-height: 2em;
+    margin: 5%;
+    width: 75%;
+  }
+  #landing-div .col-2 {
+    width: 50%;
+  }
+  #landing-distractor {
+    display: none;
+  }
+  #landing-text {
+    width: 50%;
+    margin-top: 15vw;
+  }
+  #landing-text h1 {
+    font-size: 5vw;
+  }
+  #landing-text h3 {
+    font-size: 6vw;
+  }
+  #landing-text {
+    width: 100%;
+  }
+  #landing-text p {
+    font-size: 2em;
+    padding-bottom: 5vw;
+    width: 50%;
+  }
+
+
+  .hamburger > .bar {
+    width: 1.4vw;
+    height: 1.4vw;
+    margin: 0.63vw;
+  }
+
+  /*  SERVICES OFFERED */
+  hr {
+    display: none;
+  }
+  .services-offered {
+  }
+  .services-offered h1 {
+    margin-top: 15vw;
+    font-size: 1em;
+    text-align: left;
+  }
+  .services-offered p {
+    text-align: left;
+    margin: 1%;
+    margin-top: 5vw;
+    font-size: 1em;
+    margin-bottom: 15vw;
+    width: 100%;
+  }
+
+
+  /* Blog */
+  .posts .post .intro {
+    font-size: 2vw;
+  }
+  .post .intro p {
+    line-height: 3vw;
+  }
+  .post .intro h1 {
+    font-size: 2vw;
+  }
+  .post .intro h2 {
+    margin: 0;
+    font-size: 3vw !important;
+  }
+
+  /*  Portfolio */
+  .pick-portfolio {
+    margin: 0;
+  }
+  .portfolio * {
+    font-size: 1em;
+  }
+  .project-wrapper {
+    overflow-y: hidden;
+  }
+
+  .project-description {
+    margin-top: 0;
+    height: 45%;
+  }
+  .project-description a {
+    width: 60%;
+  }
+  .port-folder .project {
+    min-width: 45%;
+  }
+  .port-option img {
+    width: 20%;
+  }
+  .portfolio-picker {
+    width: 30%;
+  }
+  .port-option a {
+    display: none;
+  }
+  /*  FOOTER */
+  footer * {
+    display: block;
+    font-size: 1em;
+  }
+  #sitemap {
+    overflow: hidden;
+    width: 100%;
+    height: fit-content;
+    display: block;
+    text-align: center;
+    margin: auto;
+  }
+  #sitemap > #sitemap-links {
+    margin: auto;
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  footer hr {
+    display: none;
+  }
+  #text-footer {
+    display: none;
+  }
+}
