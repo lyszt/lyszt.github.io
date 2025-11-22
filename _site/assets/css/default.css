@@ -12,7 +12,7 @@
  }
  #transition.active {
   top:-100vw;
-  transition: 0.5s ease-in-out;
+  transition: 0.3s ease-in-out;
  }
 /* Video stuff */
 .video-wrapper{
@@ -56,38 +56,6 @@ h4 {
   font-size: 1.5em;
 }
   /* Basic */
-*{
-  cursor: none !important;
-}
-body, a, button, input, textarea {
-  cursor: none !important;
-}
-.custom-cursor {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 15px;
-  height: 15px;
-  background: #4b555a;
-  border-radius: 50%;
-  pointer-events: none;
-  z-index: 9999;
-  transform: translate(-50%, -50%);
-  will-change: transform;
-  backface-visibility: hidden;
-}
-.custom-cursor.active {
-  width: 20px;
-  height: 20px;
-  background-color: #8c8c8c;
-  border: 5px #6a737d solid;
-}
-button:hover .custom-cursor {
-  filter: brightness(50%);
-}
-a:hover .custom-cursor {
-  filter: brightness(50%);
-}
 section { display: block}
 .mobile {
   visibility: hidden;
@@ -97,10 +65,6 @@ section { display: block}
 }
 a:hover {
   text-decoration: none;
-  cursor: none !important;
-}
-button:hover {
-  cursor: none !important;
 }
 #main {
   display: block;
@@ -305,8 +269,9 @@ hr {
   min-height: 100%;
   height: 100vh;
   position: fixed;
-  animation: 1s forwards ease-out loadingFade;
-  animation-delay: 3s;
+}
+.loading-simulation.loaded {
+  animation: 0.5s forwards ease-out loadingFade;
 }
 .loading-simulation::before {
   display: block;
