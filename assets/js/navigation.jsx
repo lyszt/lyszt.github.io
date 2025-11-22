@@ -26,12 +26,11 @@ import EmailIcon from '@mui/icons-material/Email';
 import DescriptionIcon from '@mui/icons-material/Description';
 import HomeIcon from '@mui/icons-material/Home';
 import InfoIcon from '@mui/icons-material/Info';
-import ContactMailIcon from '@mui/icons-material/ContactMail';
 import LanguageIcon from '@mui/icons-material/Language';
 
 const pages = [
   { name: 'Homepage', href: 'https://lyszt.net', icon: <HomeIcon /> },
-  { name: 'Contact', href: 'http://eepurl.com/i4J_XA', icon: <ContactMailIcon /> },
+  { name: 'Contact', href: `mailto:${'jluis.kaldwin'}@${'gmail'}.com`, icon: <EmailIcon /> },
   { name: 'New Website [WIP]', href: 'https://lyszt.net/scarlett-citadel', icon: <LanguageIcon /> },
 ];
 
@@ -39,7 +38,6 @@ const socialLinks = [
   { name: 'GitHub', href: 'https://github.com/lyszt', icon: <GitHubIcon /> },
   { name: 'LinkedIn', href: 'https://www.linkedin.com/in/lyszt/', icon: <LinkedInIcon /> },
   { name: 'Instagram', href: 'https://www.instagram.com/kaldwin__/', icon: <InstagramIcon /> },
-  { name: 'E-mail', href: 'mailto:jluis.kaldwin@gmail.com', icon: <EmailIcon /> },
   { name: 'CV', href: 'https://drive.google.com/file/d/1yEAZPgopRYWOElEYl4y3Mi0A1oyE5U2D/view?usp=sharing', icon: <DescriptionIcon /> },
 ];
 
