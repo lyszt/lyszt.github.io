@@ -12,6 +12,9 @@
             {%- assign robots_default = "noindex,nofollow" -%}
         {%- endif -%}
         <meta name="robots" content="{{ page.robots | default: robots_default }}">
+        {%- if site.google_site_verification and site.google_site_verification != "" -%}
+        <meta name="google-site-verification" content="{{ site.google_site_verification }}" />
+        {%- endif -%}
 
         {%- comment -%} Open Graph / Twitter Card {%- endcomment -%}
         <meta property="og:type" content="{{ page.og_type | default: 'website' }}">
@@ -75,3 +78,6 @@
                 "sameAs": [{{ sa }}]
             }
         </script>
+        {%- if page.ld_json and page.ld_json != "" -%}
+        <script type="application/ld+json">{{ page.ld_json | strip }}</script>
+        {%- endif -%}
