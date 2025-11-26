@@ -1,10 +1,6 @@
 # www.robotstxt.org/
-# Allow search engines to index the site while blocking sensitive paths
+# Allow all search engines to index everything
 User-agent: *
-Disallow: /scripts/
-Disallow: /legacy/
-Disallow: /_site/
-Disallow: /.git/
 Allow: /
 
 # Sitemap reference for better indexing
