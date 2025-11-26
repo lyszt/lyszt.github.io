@@ -1,12 +1,11 @@
 # www.robotstxt.org/
-# Prevent browsing and automated scraping
+# Allow search engines to index the site while blocking sensitive paths
 User-agent: *
-Disallow: /
+Disallow: /scripts/
+Disallow: /legacy/
+Disallow: /_site/
+Disallow: /.git/
+Allow: /
 
-# If you wish to allow specific bots or paths, override above.
-# Example: allow googlebot to access /assets for images
-# User-agent: Googlebot
-# Allow: /assets/
-
-# Sitemap reference
+# Sitemap reference for better indexing
 Sitemap: https://lyszt.net/sitemap.xml
