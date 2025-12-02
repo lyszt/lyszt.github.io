@@ -33,11 +33,7 @@ Rather than continuing to fight the legacy architecture, the decision was made t
 
 ## Successor Project
 
-This project has been replaced by **Scarlett Citadel**—a clean, modern portfolio built from the ground up with:
-- Pure React/Next.js architecture (no Jekyll hybrid)
-- Unified build system
-- Modern development practices
-- Better performance and maintainability
+This project has been replaced by **the Scarlett Citadel**.
 
 ## Legacy Status
 
