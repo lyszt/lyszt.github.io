@@ -1,220 +1,335 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="https://lyszt.net/feed.xml" rel="self" type="application/atom+xml" /><link href="https://lyszt.net/" rel="alternate" type="text/html" hreflang="en" /><updated>2025-12-02T16:22:32-03:00</updated><id>https://lyszt.net/feed.xml</id><title type="html">LYSZT - Portfólios e Projetos Relevantes</title><subtitle>Welcome to the portfolio of João Luís Almeida Santos (Lyszt Kaldwin), a skilled Developer &amp; Designer. Explore UI/UX design, web &amp; software solutions, and video production services tailored to elevate your business. Discover recent projects and learn about João&apos;s experience in the tech industry. Powered by Lygon Xin.</subtitle><author><name>João Luís Almeida Santos</name></author><entry><title type="html">Embraer - Analysis of the Supply Chain</title><link href="https://lyszt.net/Embraer-Analysis/" rel="alternate" type="text/html" title="Embraer - Analysis of the Supply Chain" /><published>2025-07-30T00:00:00-03:00</published><updated>2025-07-30T00:00:00-03:00</updated><id>https://lyszt.net/Embraer-Analysis</id><content type="html" xml:base="https://lyszt.net/Embraer-Analysis/"><![CDATA[<h1 id="embraer-an-investment-analysis-07302025">Embraer: An Investment Analysis (07/30/2025)</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2025-12-02T16:41:11-03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">LYSZT - Portfólios e Projetos Relevantes</title><subtitle>Welcome to the portfolio of João Luís Almeida Santos (Lyszt Kaldwin), a skilled Developer &amp; Designer. Explore UI/UX design, web &amp; software solutions, and video production services tailored to elevate your business. Discover recent projects and learn about João&apos;s experience in the tech industry. Powered by Lygon Xin.</subtitle><author><name>João Luís Almeida Santos</name></author><entry><title type="html">Embraer - Analysis of the Supply Chain</title><link href="http://localhost:4000/Embraer-Analysis/" rel="alternate" type="text/html" title="Embraer - Analysis of the Supply Chain" /><published>2025-07-30T00:00:00-03:00</published><updated>2025-07-30T00:00:00-03:00</updated><id>http://localhost:4000/Embraer-Analysis</id><content type="html" xml:base="http://localhost:4000/Embraer-Analysis/"><![CDATA[# Embraer: An Investment Analysis (07/30/2025)
 
-<h2 id="embraer-in-focus-an-overview-of-the-brazilian-aerospace-company">Embraer in Focus: An Overview of the Brazilian Aerospace Company</h2>
 
-<p>Embraer, with over fifty years of operation, is an aerospace company that manufactures aircraft and operates in various segments. The company is active in Commercial Aviation, Executive Jets, Defense &amp; Security, and future air mobility. Its mission is to “shape the future of air mobility,” which reflects its commitment to innovation, safety, and sustainability.</p>
+## Embraer in Focus: An Overview of the Brazilian Aerospace Company
 
-<p>As of July 30, 2025, the question for investors concerns Embraer’s growth potential.</p>
+Embraer, with over fifty years of operation, is an aerospace company that manufactures aircraft and operates in various segments. The company is active in Commercial Aviation, Executive Jets, Defense & Security, and future air mobility. Its mission is to "shape the future of air mobility," which reflects its commitment to innovation, safety, and sustainability.
 
-<p><img src="/assets/img/Articles/embraer.jpg" alt="Embraer planes going by the sky." /></p>
-<h2 id="embraers-portfolio-of-operations">Embraer’s Portfolio of Operations</h2>
+As of July 30, 2025, the question for investors concerns Embraer's growth potential.
 
-<p>To understand Embraer’s potential, it is important to analyze the variety of its operations. The company is not limited to aircraft manufacturing; it develops a range of activities spanning various sectors. The Commercial Aviation, Executive Jets, and Defense &amp; Security areas are the company’s main revenue drivers. Additionally, Agricultural Aviation, with ethanol-powered and ANAC-certified aircraft, demonstrates an attention to sustainable solutions. Embraer Equipment Division (EDE) produces and controls important components such as landing gear and hydraulic systems. In the Advanced Air Mobility segment, Eve Air Mobility, with its eVTOL (electric vertical take-off and landing vehicle) projects, positions Embraer at the forefront of urban air mobility. In the field of Technology and Defense, companies like Atech, Visiona, and Aguas Azuis, which participates in the construction of naval frigates, demonstrate Embraer’s capability in high-tech and security sectors. Finally, OGMA offers maintenance services, and Nidec Aerospace supplies electric motors for new aircraft. This diversification of operations contributes to multiple revenue streams and helps mitigate risks, increasing the company’s resilience to market fluctuations.</p>
+![Embraer planes going by the sky.](/assets/img/Articles/embraer.jpg)
+## Embraer's Portfolio of Operations
 
-<h2 id="embr3-performance-signs-of-market-optimism">EMBR3 Performance: Signs of Market Optimism</h2>
+To understand Embraer's potential, it is important to analyze the variety of its operations. The company is not limited to aircraft manufacturing; it develops a range of activities spanning various sectors. The Commercial Aviation, Executive Jets, and Defense & Security areas are the company's main revenue drivers. Additionally, Agricultural Aviation, with ethanol-powered and ANAC-certified aircraft, demonstrates an attention to sustainable solutions. Embraer Equipment Division (EDE) produces and controls important components such as landing gear and hydraulic systems. In the Advanced Air Mobility segment, Eve Air Mobility, with its eVTOL (electric vertical take-off and landing vehicle) projects, positions Embraer at the forefront of urban air mobility. In the field of Technology and Defense, companies like Atech, Visiona, and Aguas Azuis, which participates in the construction of naval frigates, demonstrate Embraer's capability in high-tech and security sectors. Finally, OGMA offers maintenance services, and Nidec Aerospace supplies electric motors for new aircraft. This diversification of operations contributes to multiple revenue streams and helps mitigate risks, increasing the company's resilience to market fluctuations.
 
-<p>The recent performance of Embraer’s shares (EMBR3) has been notable, especially in July 2025. On July 30, EMBR3’s year-to-date and last twelve-month profitability surpassed that of major technology companies such as Nvidia, Microsoft, Meta, Amazon, Alphabet, Apple, and Tesla. This is a relevant indicator for investors. On the same day, shares rose over 10%, with a 10.93% gain. The reason was the White House’s confirmation that aircraft, in addition to energy and orange juice, were excluded from an additional 50% tariff on Brazilian imports, initially announced by Donald Trump on July 9. This exclusion represents a significant benefit for Embraer’s exports to the U.S. These recent events indicate renewed market optimism regarding Embraer, driven by solid financial results and the reduction of important commercial risks.</p>
+## EMBR3 Performance: Signs of Market Optimism
 
-<h2 id="challenges-and-opportunities-in-the-supply-chain">Challenges and Opportunities in the Supply Chain</h2>
+The recent performance of Embraer's shares (EMBR3) has been notable, especially in July 2025. On July 30, EMBR3's year-to-date and last twelve-month profitability surpassed that of major technology companies such as Nvidia, Microsoft, Meta, Amazon, Alphabet, Apple, and Tesla. This is a relevant indicator for investors. On the same day, shares rose over 10%, with a 10.93% gain. The reason was the White House's confirmation that aircraft, in addition to energy and orange juice, were excluded from an additional 50% tariff on Brazilian imports, initially announced by Donald Trump on July 9. This exclusion represents a significant benefit for Embraer's exports to the U.S. These recent events indicate renewed market optimism regarding Embraer, driven by solid financial results and the reduction of important commercial risks.
 
-<p>Embraer, as a large industrial company, faces challenges in its complex supply chain. However, these challenges can also present strategic opportunities. Regarding Carbon Fiber Composites, the market is growing, driven by demand for lighter and more efficient aircraft. Innovations in low-cost materials and recycling are promising, and Embraer needs to ensure access to these materials, considering the trend of domestic supply in the U.S. to avoid tariffs.</p>
+## Challenges and Opportunities in the Supply Chain
 
-<p>As for Future Engines, the transition to electric, hybrid, and hydrogen propulsion is a reality. The next-generation propulsion market is booming, and Embraer, through Eve Air Mobility, is involved in this transition. Environmental regulations and U.S. tariffs are accelerating this shift.</p>
+Embraer, as a large industrial company, faces challenges in its complex supply chain. However, these challenges can also present strategic opportunities. Regarding Carbon Fiber Composites, the market is growing, driven by demand for lighter and more efficient aircraft. Innovations in low-cost materials and recycling are promising, and Embraer needs to ensure access to these materials, considering the trend of domestic supply in the U.S. to avoid tariffs.
 
-<p>In the Battery sector, lithium-ion batteries are essential, and the market is growing. However, there is competition from new technologies, such as sodium-ion batteries, and investments in recycling and domestic manufacturing, like LG Chem’s Tennessee factory, indicate a dynamic scenario that Embraer must monitor.</p>
+As for Future Engines, the transition to electric, hybrid, and hydrogen propulsion is a reality. The next-generation propulsion market is booming, and Embraer, through Eve Air Mobility, is involved in this transition. Environmental regulations and U.S. tariffs are accelerating this shift.
 
-<p>Regarding Avionics and Semiconductors, onboard electronics are becoming more advanced. Partnerships for maintenance and modernization, such as with CMC Electronics, are important. Demand for semiconductors increases with electrification, but the global supply chain still faces challenges like component counterfeiting and the need for “green semiconductors.”</p>
+In the Battery sector, lithium-ion batteries are essential, and the market is growing. However, there is competition from new technologies, such as sodium-ion batteries, and investments in recycling and domestic manufacturing, like LG Chem's Tennessee factory, indicate a dynamic scenario that Embraer must monitor.
 
-<p>Concerning Hydraulics and Marine Propulsion, although there is a trend towards electro-mechanical systems, innovations in hydraulics continue to seek efficiency. In the naval sector, Embraer, through Aguas Azuis, benefits from the growing adoption of hybrid and electric propulsion systems, driven by decarbonization goals.</p>
+Regarding Avionics and Semiconductors, onboard electronics are becoming more advanced. Partnerships for maintenance and modernization, such as with CMC Electronics, are important. Demand for semiconductors increases with electrification, but the global supply chain still faces challenges like component counterfeiting and the need for "green semiconductors."
 
-<p>For Radiation-Hardened Electronics, which are crucial for Visiona in space systems, demand is increasing. The shortage of testing capacity in the U.S. is a challenge, but new technologies are emerging to solve it.</p>
+Concerning Hydraulics and Marine Propulsion, although there is a trend towards electro-mechanical systems, innovations in hydraulics continue to seek efficiency. In the naval sector, Embraer, through Aguas Azuis, benefits from the growing adoption of hybrid and electric propulsion systems, driven by decarbonization goals.
 
-<p>Finally, the Rare Earths market is a point that requires attention. It faces supply restrictions, rising prices, and geopolitical tensions, such as the possible mining ban in Myanmar and China’s export restrictions. The search for heavy rare-earth-free magnets, like those developed by Proterial, and investments in recycling, like those by Apple and MP Materials, are important for supply chain stability. Embraer, which uses these materials, needs to monitor this situation.</p>
+For Radiation-Hardened Electronics, which are crucial for Visiona in space systems, demand is increasing. The shortage of testing capacity in the U.S. is a challenge, but new technologies are emerging to solve it.
 
-<p><img src="/assets/img/Articles/embraer2.jpg" alt="Embraer plane landing." /></p>
+Finally, the Rare Earths market is a point that requires attention. It faces supply restrictions, rising prices, and geopolitical tensions, such as the possible mining ban in Myanmar and China's export restrictions. The search for heavy rare-earth-free magnets, like those developed by Proterial, and investments in recycling, like those by Apple and MP Materials, are important for supply chain stability. Embraer, which uses these materials, needs to monitor this situation.
 
-<p>Embraer, as of July 30, 2025, presents a favorable scenario for investors. Its strategic diversification, which goes beyond traditional aviation, positions it in markets with potential of growth, such as advanced air mobility and defense. Recent financial performance, surpassing other large companies, and the positive resolution regarding U.S. tariffs are indicators of a favorable moment.</p>
 
-<p>However, investors should be aware of the challenges in global supply chains, especially the volatility in the rare earths market. Embraer’s ability to innovate and secure access to essential materials, while leveraging sustainability and electrification trends, will be a determining factor for its long-term success.</p>
+![Embraer plane landing.](/assets/img/Articles/embraer2.jpg)
 
-<p>In summary, Embraer appears to be in a good position for a new growth cycle. For those seeking an investment in a high-tech sector with a focus on innovation and resilience, the Brazilian company could be an interesting option. However, as with any investment, continuous research and risk analysis are always fundamental.</p>
+Embraer, as of July 30, 2025, presents a favorable scenario for investors. Its strategic diversification, which goes beyond traditional aviation, positions it in markets with potential of growth, such as advanced air mobility and defense. Recent financial performance, surpassing other large companies, and the positive resolution regarding U.S. tariffs are indicators of a favorable moment.
 
-<h1 id="kairos-insight-iii">Kairos Insight III</h1>
+However, investors should be aware of the challenges in global supply chains, especially the volatility in the rare earths market. Embraer's ability to innovate and secure access to essential materials, while leveraging sustainability and electrification trends, will be a determining factor for its long-term success.
 
-<p>This analysis of Embraer, which I conducted on July 30, 2025, leverages data collected and processed by Kairos Insight 3, a comprehensive data collection and scraping program I developed from the ground up. My work on Kairos Insight 3 involved architecting its robust backend using Python and Django, where I integrated and configured libraries such as requests for making HTTP requests, feedparser for RSS feed aggregation, BeautifulSoup for parsing HTML content, readability for extracting clean article text, dateparser for flexible date parsing, and GNews for efficient news aggregation. I designed and implemented the data collection and analysis scripts, ensuring their efficiency and reliability for web scraping and processing diverse data sources. Furthermore, I developed its integrated AI component through custom Python modules (e.g., collector/Analysis/AI.py), which I engineered to provide advanced capabilities for summarizing web pages, extracting structured data, and performing in-depth analysis of company activities, offering a deep dive into market signals and logistical dependencies. On the frontend, I built the user interface with React and TypeScript, leveraging Vite for a fast development experience and Tailwind CSS for a modern and responsive design, ensuring efficient data presentation and a seamless user experience.</p>]]></content><author><name>João Luís Almeida Santos</name></author><category term="MARKET ANALYSIS" /><summary type="html"><![CDATA[Embraer: An Investment Analysis (07/30/2025)]]></summary></entry><entry><title type="html">LYSZT - A modern and interactive portfolio</title><link href="https://lyszt.net/LYSZT/" rel="alternate" type="text/html" title="LYSZT - A modern and interactive portfolio" /><published>2025-01-07T00:00:00-03:00</published><updated>2025-01-07T00:00:00-03:00</updated><id>https://lyszt.net/LYSZT</id><content type="html" xml:base="https://lyszt.net/LYSZT/"><![CDATA[<p>LYSZT is my personal portfolio: a fast, maintainable site that highlights case studies without getting in the way.</p>
+In summary, Embraer appears to be in a good position for a new growth cycle. For those seeking an investment in a high-tech sector with a focus on innovation and resilience, the Brazilian company could be an interesting option. However, as with any investment, continuous research and risk analysis are always fundamental.
 
-<h2 id="objectives">Objectives</h2>
-<p>Navigation stays simple and consistent across posts and case studies. Performance is prioritized on desktop and mobile with lightweight assets, and content updates are straightforward—no layout surprises when adding new work.</p>
+# Kairos Insight III
 
-<h2 id="build-and-content">Build and content</h2>
-<p>The site uses a minimal grid-based layout, a restrained color palette, and generous whitespace for readability. Structured sections—hero, case summaries, CTAs—let new entries slot in cleanly, while optimized images and compressed assets keep the experience snappy.</p>
+This analysis of Embraer, which I conducted on July 30, 2025, leverages data collected and processed by Kairos Insight 3, a comprehensive data collection and scraping program I developed from the ground up. My work on Kairos Insight 3 involved architecting its robust backend using Python and Django, where I integrated and configured libraries such as requests for making HTTP requests, feedparser for RSS feed aggregation, BeautifulSoup for parsing HTML content, readability for extracting clean article text, dateparser for flexible date parsing, and GNews for efficient news aggregation. I designed and implemented the data collection and analysis scripts, ensuring their efficiency and reliability for web scraping and processing diverse data sources. Furthermore, I developed its integrated AI component through custom Python modules (e.g., collector/Analysis/AI.py), which I engineered to provide advanced capabilities for summarizing web pages, extracting structured data, and performing in-depth analysis of company activities, offering a deep dive into market signals and logistical dependencies. On the frontend, I built the user interface with React and TypeScript, leveraging Vite for a fast development experience and Tailwind CSS for a modern and responsive design, ensuring efficient data presentation and a seamless user experience.]]></content><author><name>João Luís Almeida Santos</name></author><category term="MARKET ANALYSIS" /><summary type="html"><![CDATA[Embraer: An Investment Analysis (07/30/2025)]]></summary></entry><entry><title type="html">LYSZT - A modern and interactive portfolio</title><link href="http://localhost:4000/LYSZT/" rel="alternate" type="text/html" title="LYSZT - A modern and interactive portfolio" /><published>2025-01-07T00:00:00-03:00</published><updated>2025-01-07T00:00:00-03:00</updated><id>http://localhost:4000/LYSZT</id><content type="html" xml:base="http://localhost:4000/LYSZT/"><![CDATA[# LYSZT: Building a Modern Portfolio Website
 
-<p><img src="https://github.com/user-attachments/assets/14cd34e1-e4fc-48b6-b2ca-194ded0cb6b4" alt="Page composition and imagery" /></p>
+## The Challenge of Professional Self-Presentation
 
-<p><img src="https://github.com/user-attachments/assets/b28fc10d-31eb-4e82-8b1d-e00eae7ac10e" alt="Landing and sign-in treatments" /></p>
+LYSZT represents my personal portfolio—a fast, maintainable site designed to highlight case studies and professional work without creating friction in the user experience. In an increasingly competitive digital landscape, professionals across all industries face the challenge of presenting their work effectively. A portfolio website serves as more than a resume; it functions as a first impression, a demonstration of capabilities, and often the deciding factor in whether a potential client or employer will reach out.
 
-<p><img src="https://github.com/user-attachments/assets/28b5969b-7f71-44cd-9eb7-7685fc4b7ff8" alt="Supporting visuals" /></p>
+The objective was clear: create a portfolio that showcases work quality while maintaining technical excellence in its own right. The site needed to load quickly, navigate intuitively, and allow for easy content updates without sacrificing design consistency. Additionally, the visual identity needed to communicate professionalism and attention to detail—qualities that would reflect the work itself.
 
-<hr />]]></content><author><name>João Luís Almeida Santos</name></author><category term="PORTFOLIO PIECE" /><summary type="html"><![CDATA[LYSZT is my personal portfolio: a fast, maintainable site that highlights case studies without getting in the way.]]></summary></entry><entry><title type="html">Principles for making figures for research</title><link href="https://lyszt.net/ArticleDesign/" rel="alternate" type="text/html" title="Principles for making figures for research" /><published>2024-11-14T00:00:00-03:00</published><updated>2024-11-14T00:00:00-03:00</updated><id>https://lyszt.net/ArticleDesign</id><content type="html" xml:base="https://lyszt.net/ArticleDesign/"><![CDATA[<h1 id="knowing-how-to-sell-your-research-the-importance-of-design-in-academic-papers">Knowing How to “Sell” Your Research: The Importance of Design in Academic Papers</h1>
+## Design Philosophy: Luxury, Modernism, and Simplicity
 
-<p><img src="/assets/img/3darticle.jpg" alt="Beautiful 3d render made for a research paper" /></p>
+LYSZT's design draws inspiration from luxury brands and modernist design principles. The aesthetic emphasizes restraint and intentionality—every element serves a purpose, and nothing extraneous distracts from the content. This approach creates a sense of sophistication while ensuring that the work itself remains the focal point.
 
-<p>Knowing how to sell is one particularly important aspect of anything you do, write or create. There is no better way than convincing your customer that you product is top-notch than doing so by using aesthetics and design. Research shows that 75% of a consumer’s judgment about a product is based on its appearance, with design playing a crucial role in influencing purchasing decisions (Source: Adobe). Furthermore, products with good aesthetics are often perceived as higher quality and more valuable, leading to a 30% increase in consumer engagement and a 20% higher likelihood of purchase (Source: Forbes). So, it becomes obvious: beauty doesn’t just apply to businesses and trade, it’s actually present everywhere. When you go for a job interview, when you try to convince your friend to come join your Minecraft server and build with you, or, as is the subject of this blog post, when you’re writing an article, a research paper, and you want to ** get your paper published **.
-But the principle of “design” extends beyond business. It influences how we present ideas, persuade others, and communicate messages.</p>
+The color palette stays restrained, relying on neutral tones with strategic accent colors that guide attention without overwhelming the eye. Typography choices prioritize readability and hierarchy, ensuring that visitors can quickly scan content and identify key information. Generous whitespace prevents visual clutter and creates breathing room that allows each piece of work to stand on its own.
 
-<p>In scientific writing, design also plays a pivotal role in shaping how your work is perceived. The layout of a research paper, the clarity of figures, and the use of visual elements such as graphs or tables can significantly impact how readers engage with the content. Studies have shown that beautiful scientific articles are more likely to be cited and have higher readership. A paper that is easy to navigate, with visually appealing formatting and concise, well-structured sections, encourages readers to engage more deeply. Poor design, on the other hand, can lead to misunderstandings or cause readers to disengage prematurely, undermining the impact of even the most groundbreaking research.</p>
+![Page composition and imagery](https://github.com/user-attachments/assets/14cd34e1-e4fc-48b6-b2ca-194ded0cb6b4)
 
-<h1 id="uiux-in-scientific-writing-clarifying-the-role-of-design">UI/UX in Scientific Writing: Clarifying the Role of Design</h1>
-<p>With this said, it might also be important to consider that figures are ought to pass down a message. Don’t use figures nonsensically, use them to reinforce an idea or increase understanding. It’s basically UI/UX—User Interface and User Experience—which, although primarily associated with digital products, is just as relevant when presenting academic work. UI refers to the design elements that help structure the content and make it easy to navigate, while UX focuses on ensuring a positive experience for the reader, allowing them to engage with the material efficiently and intuitively. Every figure should reinforce an idea, clarify a concept, or provide additional insight into your research. In this way, the integration of UI/UX principles in your paper’s design not only improves the presentation but also enhances the reader’s understanding and engagement with the content.”</p>
-<ul>
-  <li><strong>UI (User Interface)</strong> refers to the design elements that make content easy to navigate and interact with. In a research paper, this includes how well the text, figures, graphs, and tables are organized, the consistency of formatting, and how readable the paper is as a whole.</li>
-  <li><strong>UX (User Experience)</strong> focuses on ensuring that the reader has a positive, efficient experience when engaging with the paper. It’s about making sure that the information flows logically, the figures are intuitive, and the design helps the reader to grasp the content easily. A positive UX in a research paper means the reader can focus on understanding the research without being distracted by confusing layouts or poorly presented data.
-Another valuable way to refine the UX of your research paper is to gather feedback through user testing. Just as companies conduct A/B testing to understand how different versions of a product resonate with their audience, you can apply a similar approach to your paper by showing it to friends, colleagues, or even unfamiliar readers. This external feedback can highlight areas where the flow or design of your paper might be confusing, too dense, or difficult to follow. By making adjustments based on their input, you can improve the overall user experience of your paper, ensuring that your ideas are communicated as clearly and effectively as possible.</li>
-</ul>
+## Technical Implementation and Structure
 
-<p>I’d like to mention one good scientific article designer, <a href="https://arxiv.org/pdf/2009.09134">Colin Ophus</a>. He makes good choices of colours and remarkably interesting designs that connect well to a paper that might be considered quite complex (Multibeam Electron Diffraction). The figures help the reader understand and visualize those not so easy to comprehend ideas, and that’s what figures are all about!</p>
+The site employs a minimal grid-based layout that provides structure without rigidity. This grid system ensures visual consistency across pages while allowing flexibility for different content types. Whether presenting a web design project, a written case study, or technical work, the layout adapts appropriately while maintaining the overall design language.
 
-<p>But what to use in order to create the best possible articles? Now that we’ve established the importance of design, here are some tools to help you create high-quality visuals for your paper:</p>
+Navigation remains simple and consistent throughout the site. Visitors can move between posts and case studies without confusion, and the information architecture makes it easy to find specific types of work. This consistency reduces cognitive load, allowing visitors to focus on evaluating the work rather than figuring out how to use the site.
 
-<ul>
-  <li>For 3D modeling, Blender is an excellent open-source tool that allows you to create detailed, high-quality visual representations of complex concepts.</li>
-  <li>Python offers a range of libraries such as Matplotlib and Seaborn for creating dynamic, customizable charts and graphs that can effectively convey statistical information.</li>
-  <li>If you’re looking for something more advanced, Unity or Unreal Engine can be used for immersive 3D visualizations that could turn your research into an interactive experience. With this, your crush your competitors.</li>
-  <li>Adobe Creative Suite (Photoshop, Illustrator, InDesign) is a great tool for refining layouts, creating clean vector graphics, and designing polished figures. Am I going too far?</li>
-  <li>But you don’t need to go all-in on professionality. Canva is super easy and has tons of templates to make graphs and images look polished without much work.</li>
-  <li>Google Sheets or Excel can help you whip up some charts and graphs to show off your numbers. Automatic, mind you.
-Here’s the complete list if you’re an advanced user and want the best stuff there is. You can go look for it.</li>
-  <li>Matplotlib, Seaborn, Plotly, Bokeh, Mayavi, Dask, Pandas, TensorFlow, PyTorch, PyOpenGL, Pygame, Unity, Unreal Engine, VTK, Mayavi, Dash, Streamlit.</li>
-</ul>
+## Performance and Optimization
 
-<blockquote>
-  <p>Below I have left a documentary in case you have the interest of diving in further into the subject.</p>
-</blockquote>]]></content><author><name>João Luís Almeida Santos</name></author><category term="DISCUSSION" /><summary type="html"><![CDATA[Knowing How to “Sell” Your Research: The Importance of Design in Academic Papers]]></summary></entry><entry><title type="html">THERAPY WITH LEX</title><link href="https://lyszt.net/Lex/" rel="alternate" type="text/html" title="THERAPY WITH LEX" /><published>2024-01-01T00:00:00-03:00</published><updated>2024-01-01T00:00:00-03:00</updated><id>https://lyszt.net/Lex</id><content type="html" xml:base="https://lyszt.net/Lex/"><![CDATA[<p>This was a marketing site for therapist and coach Lex E. Santi. The brief: present services, books, and long-form writing in a fast, credible, and easy-to-maintain way.</p>
+Performance optimization was a priority from the beginning. Portfolio sites often suffer from bloated image files and unnecessary JavaScript, resulting in slow load times that drive visitors away before they see any work. To prevent this, all images are compressed and optimized for web delivery without sacrificing visual quality. Assets are lazy-loaded where appropriate, ensuring that initial page renders happen quickly even on slower connections.
 
-<p>Focus areas were clear pathways for coaching and clinical supervision, a responsive layout tuned for mobile visitors, and easy updates through structured content blocks rather than ad-hoc HTML.</p>
+The site architecture prioritizes mobile performance as well as desktop. Responsive layouts ensure that the portfolio looks professional and functions smoothly regardless of device or screen size. Touch targets are appropriately sized for mobile interaction, and navigation patterns adapt to smaller screens without losing functionality.
 
-<hr />
+![Landing and sign-in treatments](https://github.com/user-attachments/assets/b28fc10d-31eb-4e82-8b1d-e00eae7ac10e)
 
-<p><img src="/assets/img/Portfolio/Web/Lex/1.png" alt="Clinical supervision visual for Lex" /></p>
+## Content Structure and Maintainability
 
-<p>This section packages the clinical supervision offer with concise copy and iconography, keeping the message approachable for licensed professionals.</p>
+One of the key objectives was creating a system that allows for straightforward content updates. Portfolio sites need regular maintenance as new projects are completed and priorities shift. To facilitate this, the site uses structured sections—hero areas, case summaries, and call-to-action blocks—that allow new entries to slot in cleanly without requiring layout adjustments.
 
-<p>Structured sections for services, testimonials, and CTAs keep edits consistent. Optimized assets and typography help pages load quickly and stay readable on phones, and the forms/CTAs are instrumented so we can see which services attract clicks.</p>
+This structured approach means adding a new case study doesn't risk breaking existing layouts or creating visual inconsistencies. Each content type has a predefined template that maintains the design system while allowing for customization where appropriate. This balance between structure and flexibility ensures the site can grow and evolve without requiring constant redesign efforts.
 
-<hr />
+## Brand Identity and Visual Language
 
-<p><img src="/assets/img/Portfolio/Web/Lex/2.png" alt="Poetry carousel design for Lex" /></p>
+LYSZT serves as the definition of my personal brand. The visual language communicates key attributes: attention to detail, technical competence, and an appreciation for thoughtful design. The logo, shown above, uses geometric elements and clean lines that reinforce these characteristics. The floating circles suggest interconnection and systematic thinking—qualities that align with my approach to problem-solving.
 
-<p>An accessible carousel showcases poetry titles with clear navigation, generous spacing, and typography that suits the literary tone of the work.</p>
+![Supporting visuals](https://github.com/user-attachments/assets/28b5969b-7f71-44cd-9eb7-7685fc4b7ff8)
 
-<hr />
+The consistent application of this visual identity across all pages creates a cohesive experience. From typography to spacing to color choices, every element reinforces the brand positioning. This consistency helps visitors remember the work and associate it with a clear professional identity.
 
-<p><img src="/assets/img/Portfolio/Web/Lex/3.png" alt="Lex site hero and mobile treatments" /></p>
+## Results and Professional Impact
 
-<p>Additional layouts show the hero treatment and responsive mobile views used across the site. Structured content blocks and lightweight assets keep edits simple and performance high.</p>
+LYSZT successfully achieves its core objectives: showcasing work effectively, maintaining high performance standards, and providing an easy path for content updates. The clean design and intuitive navigation create a positive user experience that encourages visitors to explore multiple projects rather than bouncing after viewing a single page.
 
-<hr />]]></content><author><name>João Luís Almeida Santos</name></author><category term="PORTFOLIO PIECE" /><summary type="html"><![CDATA[This was a marketing site for therapist and coach Lex E. Santi. The brief: present services, books, and long-form writing in a fast, credible, and easy-to-maintain way.]]></summary></entry><entry><title type="html">LYGON - A Service Agency Dedicated to Design, Animation, and the Arts</title><link href="https://lyszt.net/Lygon/" rel="alternate" type="text/html" title="LYGON - A Service Agency Dedicated to Design, Animation, and the Arts" /><published>2021-12-01T00:00:00-03:00</published><updated>2021-12-01T00:00:00-03:00</updated><id>https://lyszt.net/Lygon</id><content type="html" xml:base="https://lyszt.net/Lygon/"><![CDATA[<h1 id="lygon---creative-production-and-delivery">LYGON - Creative Production and Delivery</h1>
+From a professional standpoint, the portfolio serves as both a demonstration of capabilities and a functional tool for client acquisition. Potential clients can quickly evaluate whether my skills align with their needs, and the case study format provides context and depth that simple project listings cannot offer. The technical excellence of the site itself reinforces the quality claims made about the work it contains.
 
-<p>Lygon Xin is the umbrella for my video, animation, and supporting web work. I handle branding, editing, and delivery for a range of clients—from influencers defining their voice to teams in Canada and the United States that need reliable promo and internal videos. The toolkit stays consistent: After Effects, Premiere Pro, Illustrator, and lightweight web builds that keep reels fast to load.</p>
+For professionals building their own portfolios, LYSZT demonstrates the value of focusing on fundamentals: clear hierarchy, fast performance, maintainable structure, and consistent visual language. These principles create portfolio sites that serve their purpose effectively—connecting professional capabilities with opportunities—without getting in their own way.]]></content><author><name>João Luís Almeida Santos</name></author><category term="PORTFOLIO PIECE" /><summary type="html"><![CDATA[LYSZT: Building a Modern Portfolio Website]]></summary></entry><entry><title type="html">Principles for making figures for research</title><link href="http://localhost:4000/ArticleDesign/" rel="alternate" type="text/html" title="Principles for making figures for research" /><published>2024-11-14T00:00:00-03:00</published><updated>2024-11-14T00:00:00-03:00</updated><id>http://localhost:4000/ArticleDesign</id><content type="html" xml:base="http://localhost:4000/ArticleDesign/"><![CDATA[# Knowing How to "Sell" Your Research: The Importance of Design in Academic Papers
 
-<p><img src="/assets/img/Logobackground.png" alt="Lygon Logo" /></p>
+## The Power of Aesthetics in Communication
 
-<blockquote>
-  <p>The first iterations of Lygon’s brand were created back in 2014, setting the foundation for years of creative growth.</p>
-</blockquote>
+Knowing how to sell is one particularly important aspect of anything you do, write or create. There is no better way than convincing your customer that your product is top-notch than doing so by using aesthetics and design. Research shows that 75% of a consumer's judgment about a product is based on its appearance, with design playing a crucial role in influencing purchasing decisions (Source: Adobe). Furthermore, products with good aesthetics are often perceived as higher quality and more valuable, leading to a 30% increase in consumer engagement and a 20% higher likelihood of purchase (Source: Forbes).
 
-<hr />
+So, it becomes obvious: beauty doesn't just apply to businesses and trade, it's actually present everywhere. When you go for a job interview, when you try to convince your friend to come join your Minecraft server and build with you, or, as is the subject of this blog post, when you're writing an article, a research paper, and you want to get your paper published. But the principle of "design" extends beyond business. It influences how we present ideas, persuade others, and communicate messages.
 
-<h2 id="a-visual-evolution-from-2016-to-2021">A Visual Evolution: From 2016 to 2021</h2>
+![Beautiful 3d render made for a research paper](/assets/img/3darticle.jpg)
+
+## Design's Role in Scientific Publishing
+
+In scientific writing, design also plays a pivotal role in shaping how your work is perceived. The layout of a research paper, the clarity of figures, and the use of visual elements such as graphs or tables can significantly impact how readers engage with the content. Studies have shown that beautiful scientific articles are more likely to be cited and have higher readership. A paper that is easy to navigate, with visually appealing formatting and concise, well-structured sections, encourages readers to engage more deeply. Poor design, on the other hand, can lead to misunderstandings or cause readers to disengage prematurely, undermining the impact of even the most groundbreaking research.
+
+## UI/UX in Scientific Writing: Clarifying the Role of Design
+
+With this said, it might also be important to consider that figures are meant to convey a message. Don't use figures nonsensically, use them to reinforce an idea or increase understanding. It's basically UI/UX—User Interface and User Experience—which, although primarily associated with digital products, is just as relevant when presenting academic work. UI refers to the design elements that help structure the content and make it easy to navigate, while UX focuses on ensuring a positive experience for the reader, allowing them to engage with the material efficiently and intuitively. Every figure should reinforce an idea, clarify a concept, or provide additional insight into your research. In this way, the integration of UI/UX principles in your paper's design not only improves the presentation but also enhances the reader's understanding and engagement with the content.
+
+User Interface refers to the design elements that make content easy to navigate and interact with. In a research paper, this includes how well the text, figures, graphs, and tables are organized, the consistency of formatting, and how readable the paper is as a whole. User Experience focuses on ensuring that the reader has a positive, efficient experience when engaging with the paper. It's about making sure that the information flows logically, the figures are intuitive, and the design helps the reader to grasp the content easily. A positive UX in a research paper means the reader can focus on understanding the research without being distracted by confusing layouts or poorly presented data.
+
+Another valuable way to refine the UX of your research paper is to gather feedback through user testing. Just as companies conduct A/B testing to understand how different versions of a product resonate with their audience, you can apply a similar approach to your paper by showing it to friends, colleagues, or even unfamiliar readers. This external feedback can highlight areas where the flow or design of your paper might be confusing, too dense, or difficult to follow. By making adjustments based on their input, you can improve the overall user experience of your paper, ensuring that your ideas are communicated as clearly and effectively as possible.
+
+## Examples of Excellence in Scientific Design
+
+I'd like to mention one exemplary scientific article designer, [Colin Ophus](https://arxiv.org/pdf/2009.09134). He makes good choices of colors and remarkably interesting designs that connect well to a paper that might be considered quite complex (Multibeam Electron Diffraction). The figures help the reader understand and visualize those not so easy to comprehend ideas, and that's what figures are all about.
+
+## Tools for Creating High-Quality Research Visuals
+
+Now that we've established the importance of design, what tools should you use to create the best possible articles? Here are several options to help you create high-quality visuals for your paper.
+
+For 3D modeling, Blender is an excellent open-source tool that allows you to create detailed, high-quality visual representations of complex concepts. Python offers a range of libraries such as Matplotlib and Seaborn for creating dynamic, customizable charts and graphs that can effectively convey statistical information. If you're looking for something more advanced, Unity or Unreal Engine can be used for immersive 3D visualizations that could turn your research into an interactive experience, allowing you to differentiate from competitors.
+
+Adobe Creative Suite (Photoshop, Illustrator, InDesign) is a comprehensive tool for refining layouts, creating clean vector graphics, and designing polished figures. However, you don't need to invest heavily in professional software. Canva is user-friendly and has numerous templates to make graphs and images look polished without extensive design experience. Google Sheets or Excel can help you create charts and graphs automatically to present your data effectively.
+
+For advanced users seeking specialized tools, here's a comprehensive list of professional-grade options: Matplotlib, Seaborn, Plotly, Bokeh, Mayavi, Dask, Pandas, TensorFlow, PyTorch, PyOpenGL, Pygame, Unity, Unreal Engine, VTK, Dash, and Streamlit.
+
+Below I have included a documentary for those interested in exploring this subject further.]]></content><author><name>João Luís Almeida Santos</name></author><category term="DISCUSSION" /><summary type="html"><![CDATA[Knowing How to “Sell” Your Research: The Importance of Design in Academic Papers]]></summary></entry><entry><title type="html">THERAPY WITH LEX</title><link href="http://localhost:4000/Lex/" rel="alternate" type="text/html" title="THERAPY WITH LEX" /><published>2024-01-01T00:00:00-03:00</published><updated>2024-01-01T00:00:00-03:00</updated><id>http://localhost:4000/Lex</id><content type="html" xml:base="http://localhost:4000/Lex/"><![CDATA[# THERAPY WITH LEX: A Professional Website for Therapy and Coaching Services
+
+## Lex E. Santi in Focus: A Multifaceted Professional
+
+Lex E. Santi is a therapist, coach, and writer whose career spans diverse fields including literary journals, federal government work, and international higher education. With such a rich professional background, Lex needed a digital presence that could effectively communicate the depth of their expertise while remaining accessible to potential clients seeking therapy and coaching services.
+
+The challenge was clear: how do you create a website that serves both as a credible professional platform and as an approachable entry point for individuals seeking mental health support? The site needed to balance professionalism with warmth, showcase credentials without overwhelming visitors, and provide clear pathways for different service offerings.
+
+## The Challenge of Digital Presence for Therapy Services
+
+Mental health professionals face unique challenges when establishing their online presence. Unlike many other industries, therapy and coaching require building trust before the first interaction. Potential clients must feel confident in a practitioner's expertise while also sensing genuine care and approachability. The website serves as the first impression, often determining whether someone will reach out for help.
+
+Additionally, Lex's diverse offerings—including coaching, clinical supervision, and published literary works—needed clear organization. Visitors arriving with different intentions (seeking therapy, looking for clinical supervision, or interested in Lex's writing) should find their desired information quickly without navigating through irrelevant content.
+
+![Clinical supervision visual for Lex](/assets/img/Portfolio/Web/Lex/1.png)
+
+## Building a Clear and Approachable Website
+
+I developed a marketing site that prioritizes clarity and ease of navigation. The design employs structured content blocks that organize information into digestible sections, making it simple for visitors to find what they need. Each service area—coaching, clinical supervision, and literary works—received dedicated space with appropriate visual treatment and concise explanatory copy.
+
+The clinical supervision section, shown above, packages the offering with clear iconography and approachable copy. This visual approach helps licensed professionals quickly understand the service structure without requiring extensive text reading. The layout maintains professional credibility while keeping the presentation accessible.
+
+## Responsive Design and Performance Optimization
+
+Recognizing that many potential clients would access the site via mobile devices, I ensured the responsive layout maintained functionality and aesthetics across all screen sizes. Typography choices and spacing adapt to smaller screens without sacrificing readability. Images and assets were optimized to ensure fast loading times, reducing the likelihood that impatient visitors would abandon the site before exploring the services.
+
+Forms and call-to-action elements received particular attention. Contact forms needed to feel approachable rather than formal, encouraging visitors to reach out without anxiety. Strategic placement of these elements throughout the site provides multiple conversion opportunities without feeling pushy or sales-focused.
+
+![Poetry carousel design for Lex](/assets/img/Portfolio/Web/Lex/2.png)
+
+## Showcasing Literary Works
+
+Beyond therapy and coaching services, the site needed to showcase Lex's literary accomplishments. The poetry carousel, shown above, presents published titles with clear navigation and generous spacing. The typography suits the literary tone of the work, creating a distinct aesthetic that differentiates this section from the clinical services areas.
+
+This separation of content types allows visitors with different interests to engage with relevant material. Those seeking therapy services aren't overwhelmed by literary content, while those interested in Lex's writing can explore that dimension without wading through clinical information.
+
+![Lex site hero and mobile treatments](/assets/img/Portfolio/Web/Lex/3.png)
+
+## Content Management and Maintainability
+
+The site structure employs modular content blocks that make updates straightforward. Rather than requiring HTML editing for content changes, the structured approach allows Lex to modify text, swap images, or add new services without risking layout breaks. This maintainability ensures the website can evolve alongside Lex's practice without requiring developer intervention for every small change.
+
+The hero section and mobile layouts, shown above, demonstrate how the design system maintains consistency across different contexts. Whether a visitor arrives on desktop or mobile, from the homepage or a specific service page, they encounter the same visual language and navigation patterns, reducing cognitive load and improving usability.
+
+## Results and Professional Impact
+
+The website successfully balances multiple objectives: establishing professional credibility, providing clear service information, showcasing literary work, and creating approachable pathways for potential clients to make contact. The clean design and intuitive navigation have helped Lex maintain a professional online presence that accurately represents the quality and care that characterize their practice.
+
+For therapy and coaching professionals, a website is more than a digital business card—it's often the first step in a potential therapeutic relationship. By focusing on clarity, performance, and appropriate tone, the site I created for Lex serves as an effective tool for connecting with individuals seeking mental health support while also honoring the literary and academic dimensions of their professional identity.]]></content><author><name>João Luís Almeida Santos</name></author><category term="PORTFOLIO PIECE" /><summary type="html"><![CDATA[THERAPY WITH LEX: A Professional Website for Therapy and Coaching Services]]></summary></entry><entry><title type="html">LYGON - A Service Agency Dedicated to Design, Animation, and the Arts</title><link href="http://localhost:4000/Lygon/" rel="alternate" type="text/html" title="LYGON - A Service Agency Dedicated to Design, Animation, and the Arts" /><published>2021-12-01T00:00:00-03:00</published><updated>2021-12-01T00:00:00-03:00</updated><id>http://localhost:4000/Lygon</id><content type="html" xml:base="http://localhost:4000/Lygon/"><![CDATA[# LYGON: Creative Production and Delivery
+
+## Lygon Xin in Focus: A Creative Chapter
+
+Lygon Xin was the umbrella for my video production, animation, and supporting web work. During its active years, the studio handled branding, editing, and delivery for a diverse range of clients—from influencers defining their voice in competitive markets to teams in Canada and the United States requiring reliable promotional and internal communications videos. The foundation of Lygon's work rested on a consistent technical toolkit: After Effects for motion graphics and effects, Premiere Pro for editing, Illustrator for vector graphics and branding, and lightweight web builds that ensured promotional reels loaded quickly and functioned smoothly across devices.
+
+The first iterations of Lygon's brand identity were created back in 2014, establishing a foundation that supported years of creative growth and evolution. What began as a personal passion project gradually transformed into a professional service offering as demand for video content expanded across industries.
+
+![Lygon Logo](/assets/img/Logobackground.png)
+
+## The Challenge of Professional Video Production
+
+Video production services face unique challenges in today's market. Clients need quick turnarounds without sacrificing quality, clear communication throughout the production process, and deliverables optimized for specific platforms and audiences. Unlike static design work, video projects involve multiple revision stages—script development, storyboarding, rough cuts, and final delivery—each requiring client approval and potential adjustments.
+
+Additionally, the technical landscape constantly evolves. Video formats, compression standards, platform requirements, and audience expectations shift regularly. A video optimized for YouTube requires different technical specifications than one designed for Instagram Stories or internal corporate communications. Successful video production requires not only creative skills but also technical knowledge and project management capabilities that keep productions on schedule and within budget.
+
+## A Visual Evolution: From 2016 to 2021
 
 <div class="video-embed">
-  <iframe src="https://www.youtube.com/embed/13qCYubhscI" title="Lygon intro 2016 version" allowfullscreen=""></iframe>
+  <iframe src="https://www.youtube.com/embed/13qCYubhscI" title="Lygon intro 2016 version" allowfullscreen></iframe>
 </div>
 <div class="video-embed">
-  <iframe src="https://www.youtube.com/embed/fjJKdGJ5cN8" title="Lygon intro 2021 version" allowfullscreen=""></iframe>
+  <iframe src="https://www.youtube.com/embed/fjJKdGJ5cN8" title="Lygon intro 2021 version" allowfullscreen></iframe>
 </div>
 
-<p><em>“Lygon’s opening sequences have evolved significantly. Compare the dynamic simplistic 2016 version to the polished 2021 iteration.”</em></p>
+Lygon's opening sequences evolved significantly over the years. Compare the dynamic simplistic 2016 version to the polished 2021 iteration. This evolution reflects both improvements in technical capabilities and a refinement of the brand's visual identity. The 2016 version emphasized energy and movement, establishing Lygon's creative personality. The 2021 version maintained that energy while incorporating more sophisticated composition, lighting, and post-production techniques that demonstrated professional growth and technical advancement.
 
-<hr />
+## Working with Influencers and Businesses
 
-<h2 id="working-with-influencers-and-businesses">Working with Influencers and Businesses</h2>
+My production process followed a disciplined structure designed to keep projects on track and ensure client satisfaction. Each project moved through defined stages: script development, storyboarding, initial cut (V1), revision cut (V2), and final delivery. This structured approach ensured feedback remained specific and actionable, preventing the scope creep and endless revision cycles that plague many creative projects.
 
-<p>I build promo, branding, and internal communications videos with a tight review loop—script, storyboard, V1/V2/final—so feedback is specific and turnarounds stay quick. Deliverables ship with thumbnails and captions for web and social. Work ranges from branding and promotional cuts tuned for target audiences to internal comms pieces that stay on-message and concise. Collaborations span influencers, entrepreneurial teams, and established businesses across Canada and the United States, all following the same disciplined process so clients always know what’s next.</p>
+Deliverables shipped with supporting materials—thumbnails optimized for social media platforms, captions crafted for engagement, and technical specifications documented for future reference. This comprehensive delivery ensured clients received everything they needed for successful deployment, not just a video file that required additional work before publishing.
 
-<p><img src="/assets/img/Portfolio/Design/mockup.jpg" alt="Design Mockup" /></p>
+![Design Mockup](/assets/img/Portfolio/Design/mockup.jpg)
 
-<hr />
+Work ranged from branding videos that established visual identity and tone, to promotional cuts carefully tuned for target audiences, to internal communications pieces that delivered information clearly and concisely. Collaborations spanned diverse sectors: influencers building their presence in competitive entertainment markets, entrepreneurial teams launching new products or services, and established businesses in Canada and the United States seeking reliable video production support.
 
-<h2 id="exploring-entertainment-and-wild-storytelling">Exploring Entertainment and Wild Storytelling</h2>
+## Production Discipline and Creative Process
 
-<p>Lygon Xin is also a platform for unconventional storytelling. The YouTube miniseries <em>Chodo and Deton</em> dives into immortality, clone-making, and multiverse travel—kept on track with the same production discipline (clear checkpoints, versioned cuts, and purposeful visual choices).</p>
+The disciplined process that governed client work applied equally to creative projects. Clear checkpoints, versioned cuts, and purposeful visual choices ensured that even unconventional storytelling remained focused and intentional. This structure didn't constrain creativity; rather, it provided a framework that allowed creative risks while maintaining production momentum.
+
+Technical execution received the same attention as creative vision. Color grading ensured visual consistency, audio mixing maintained professional quality standards, and compression settings optimized file sizes without introducing visible artifacts. These technical details separated amateur productions from professional work, even when the creative content itself was intentionally raw or unconventional.
+
+## Exploring Entertainment and Wild Storytelling
+
+Beyond client work, Lygon Xin also served as a platform for unconventional storytelling. The YouTube miniseries "Chodo and Deton" explored absurd comedy through narratives involving immortality, clone-making, and multiverse travel. While the tone differed dramatically from corporate communications videos, the same production discipline applied—structured checkpoints, iterative refinement, and purposeful visual choices guided the project from concept to delivery.
 
 <div class="video-embed">
-  <iframe src="https://www.youtube.com/embed/XJf9m81MkAI" title="Chodo and Deton episode 1" allowfullscreen=""></iframe>
+  <iframe src="https://www.youtube.com/embed/XJf9m81MkAI" title="Chodo and Deton episode 1" allowfullscreen></iframe>
 </div>
 <div class="video-embed">
-  <iframe src="https://www.youtube.com/embed/O5K_f5ET98M" title="Chodo and Deton episode 2" allowfullscreen=""></iframe>
+  <iframe src="https://www.youtube.com/embed/O5K_f5ET98M" title="Chodo and Deton episode 2" allowfullscreen></iframe>
 </div>
 <div class="video-embed">
-  <iframe src="https://www.youtube.com/embed/KtLxMTNSyOQ" title="Chodo and Deton episode 3" allowfullscreen=""></iframe>
+  <iframe src="https://www.youtube.com/embed/KtLxMTNSyOQ" title="Chodo and Deton episode 3" allowfullscreen></iframe>
 </div>
 
-<blockquote>
-  <p>If you have time to spare and a love for absurd comedy, this series is worth a watch. For client work, the same structured process applies—just with a different tone and purpose.</p>
-</blockquote>]]></content><author><name>João Luís Almeida Santos</name></author><category term="PORTFOLIO PIECE" /><summary type="html"><![CDATA[LYGON - Creative Production and Delivery]]></summary></entry><entry><title type="html">MACTAB - How interactive design can help your business</title><link href="https://lyszt.net/Mactab/" rel="alternate" type="text/html" title="MACTAB - How interactive design can help your business" /><published>2021-08-05T00:00:00-03:00</published><updated>2021-08-05T00:00:00-03:00</updated><id>https://lyszt.net/Mactab</id><content type="html" xml:base="https://lyszt.net/Mactab/"><![CDATA[<h1 id="mactab-interactive-configurator-for-partitions">MACTAB: Interactive Configurator for Partitions</h1>
+If you have time to spare and appreciate absurd comedy, this series offers a glimpse into Lygon's creative range. For client work, the same structured process applied—the difference lay in tone and purpose rather than production methodology. This flexibility allowed Lygon to serve diverse clients while maintaining consistent quality and reliability.
 
-<p>MACTAB manufactures industrial floor-to-ceiling partitions. I built a browser-based configurator so sales and clients could explore fabrics, panels, locks, blinds, handles, and glass options without needing custom renders for every request.</p>
+## Moving Forward: From Art to Technology
 
-<p><img src="https://mactab.com.br/wp-content/uploads/2023/11/logo-mactab-novo.png" alt="Mactab Logo" /></p>
+Lygon Xin represented an important chapter in my professional development—one that taught me project management, client communication, and the discipline required to deliver creative work reliably. However, I've since shifted my focus away from art and video production toward technology and development. The creative skills remain valuable, but my passion now lies in building things that create meaningful impact, solving real problems through software and technology rather than producing content purely for entertainment or aesthetic purposes.
 
-<p><strong>Focus</strong>
-Guided steps keep selections valid and obvious. Real-time previews reflect material and hardware choices, and exports stay clean for manufacturing handoff.</p>
+This transition reflects a maturation in my understanding of where I can contribute most effectively. While video production and creative work offered satisfaction, technology and development provide opportunities to create solutions that genuinely matter—systems that improve efficiency, tools that solve persistent problems, and software that makes a measurable difference in how people work and live. The discipline and process management skills developed during the Lygon years continue to serve me well in this new direction, but the focus has fundamentally shifted from artistic expression to technological innovation and meaningful creation.]]></content><author><name>João Luís Almeida Santos</name></author><category term="PORTFOLIO PIECE" /><summary type="html"><![CDATA[LYGON: Creative Production and Delivery]]></summary></entry><entry><title type="html">MACTAB - How interactive design can help your business</title><link href="http://localhost:4000/Mactab/" rel="alternate" type="text/html" title="MACTAB - How interactive design can help your business" /><published>2021-08-05T00:00:00-03:00</published><updated>2021-08-05T00:00:00-03:00</updated><id>http://localhost:4000/Mactab</id><content type="html" xml:base="http://localhost:4000/Mactab/"><![CDATA[# MACTAB: Web Design and Marketing for Industrial Partitions
 
-<p>Users pick fabrics, panels, locks, blinds, handles, and glass, seeing changes immediately instead of waiting on static renders. Inline validation blocks incompatible mixes while presets give sales a sensible starting point, and the flow stays fast enough to run on-site with customers.</p>
+## MACTAB in Focus: An Overview of the Company
 
-<p>That translated into fewer back-and-forth cycles for quotes—a single PDF plus snapshot covers the spec. Sales reps use the same data-driven options, keeping outputs consistent, and prospects engage longer because they can experiment safely without breaking constraints.</p>
+MACTAB is a Brazilian manufacturer specializing in industrial floor-to-ceiling partitions and corporate solutions. The company serves a diverse range of clients across commercial and corporate sectors, providing customizable partition systems that meet specific spatial and aesthetic requirements. As businesses increasingly seek tailored office solutions, MACTAB's ability to offer personalized products positions them competitively in the Brazilian market.
 
-<hr />
+As of my engagement with MACTAB, the challenge was clear: how could they present their complex product offerings online in a way that allowed potential clients to visualize and personalize their solutions before making purchase decisions?
 
-<p><img src="/assets/img/Portfolio/Web/Mactab/1.jpg" alt="Design Example 1" /></p>
+![Mactab Logo](https://mactab.com.br/wp-content/uploads/2023/11/logo-mactab-novo.png)
 
-<p>The UI guides users through options, validating combinations and updating previews immediately. Exports capture selections so the factory team can act without back-and-forth.</p>
+## My Role: Front-End Development and Design
 
-<h3 id="video-demonstration">Video Demonstration</h3>
+I worked with MACTAB as their front-end developer, responsible for implementing the website design and developing the interactive features that would differentiate MACTAB from competitors in the industrial partition space. This role encompassed building responsive layouts, creating interactive components, and developing the visual content that brought their product offerings to life online.
+
+The primary objective was to create a digital experience that reflected MACTAB's commitment to customization and quality. Rather than presenting static product catalogs, the website needed to engage potential clients and provide them with tools to explore possibilities for their specific spaces.
+
+## Building an Interactive Booth Personalization Experience
+
+The centerpiece of the website was an interactive office booth section where clients could personalize their partition configurations. This feature allowed users to explore different materials, finishes, glass options, panel styles, and hardware components while seeing their choices reflected in real-time visualizations.
+
+![Design Example 1](/assets/img/Portfolio/Web/Mactab/1.jpg)
+
+The interactive section was designed with user experience as the priority. Navigation remained intuitive, options were clearly presented, and the visual feedback helped clients understand how different combinations would appear in their actual spaces. This approach transformed the traditionally technical process of selecting industrial partitions into an engaging, exploratory experience.
+
+## Product Presentations and 3D Visualizations
+
+Beyond the interactive features, I created comprehensive product presentations and 3D visualizations that showcased MACTAB's offerings. These visual assets served multiple purposes: they provided sales teams with professional materials for client presentations, gave potential customers detailed views of product quality and construction, and elevated MACTAB's brand perception in a market where visual presentation often determines credibility.
+
+The 3D work focused on highlighting the craftsmanship and attention to detail that defined MACTAB's products. By rendering partitions in realistic office environments, potential clients could better envision how these solutions would integrate into their spaces. These visualizations also demonstrated the range of customization options available, from minimalist designs to more elaborate configurations.
+
+### Video Demonstration
 
 <div class="video-embed">
-  <iframe src="https://www.youtube.com/embed/OFG6XV8jaBE" title="MACTAB interactive configurator demo" allowfullscreen=""></iframe>
+  <iframe src="https://www.youtube.com/embed/OFG6XV8jaBE" title="MACTAB interactive configurator demo" allowfullscreen></iframe>
 </div>
 
-<p><img src="/assets/img/Portfolio/Web/Mactab/2.png" alt="Design Example 2" /></p>]]></content><author><name>João Luís Almeida Santos</name></author><category term="PORTFOLIO PIECE" /><summary type="html"><![CDATA[MACTAB: Interactive Configurator for Partitions]]></summary></entry><entry><title type="html">BLADE ZENON - A collaborative game made by its players</title><link href="https://lyszt.net/Zenon/" rel="alternate" type="text/html" title="BLADE ZENON - A collaborative game made by its players" /><published>2015-03-01T00:00:00-03:00</published><updated>2015-03-01T00:00:00-03:00</updated><id>https://lyszt.net/Zenon</id><content type="html" xml:base="https://lyszt.net/Zenon/"><![CDATA[<h1 id="blade-zenon-how-a-collaborative-project-managed-to-create-a-game-managed-by-its-users">Blade Zenon: How a Collaborative Project Managed to Create a Game Managed by Its Users</h1>
+## Design Philosophy and Visual Identity
 
-<blockquote>
-  <p><strong>Website for Blade Zenon:</strong> A website for a MMORPG project from 2015</p>
-</blockquote>
+The website's design embraced a minimalistic aesthetic that complemented MACTAB's product line. Clean layouts, generous whitespace, and high-quality imagery created a sense of professionalism and sophistication. The color palette remained neutral, allowing the products themselves to become the visual focal points.
 
-<p>This was my first experience shipping something end-to-end. At 12 I built a Unity prototype, spun up a forum, and attracted 100+ active members. It never launched commercially, but it taught me how to design community features, ship fast, and respond to user feedback.</p>
+![Design Example 2](/assets/img/Portfolio/Web/Mactab/2.png)
 
-<p><img src="https://i.imgur.com/N6e0iGa.png" alt="Blade Zenon Concept Art" /></p>
+This design approach served a strategic purpose. In the B2B space, potential clients often evaluate suppliers based on their digital presence. A polished, professional website signals organizational competence and attention to detail—qualities that directly relate to product quality. By creating a visually refined experience, the website reinforced MACTAB's positioning as a premium provider in their category.
 
-<hr />
+## Results and Business Impact
 
-<p>Research has shown that when people feel they have a stake in the outcome of a project, their level of engagement increases. This is particularly true in online communities, where members are more likely to contribute to projects they feel are shaped by their input.</p>
+The combination of interactive features, professional 3D visualizations, and clean web design transformed how MACTAB engaged with potential clients. The website became a powerful sales tool that allowed prospects to explore options independently before contacting the sales team. This self-service capability meant that incoming inquiries were more qualified, as clients had already spent time understanding the product range and considering their preferences.
 
-<p>The idea that the success of a project hinges on the contributions of its users is supported by self-determination theory in psychology. It suggests that people are motivated when they feel competent, autonomous, and connected to others. Blade Zenon’s collaborative design allowed members to experience all three. They weren’t just passive participants; they had a direct hand in how the game developed, which likely drove their continued involvement.</p>
+For MACTAB, the investment in quality web design and interactive features represented more than aesthetic improvement. It positioned the company as innovative and client-focused, differentiating them in a market where many competitors still relied on traditional catalogs and static imagery. The digital presence I created helped MACTAB communicate their value proposition effectively and engage with modern buyers who expect sophisticated online experiences.]]></content><author><name>João Luís Almeida Santos</name></author><category term="PORTFOLIO PIECE" /><summary type="html"><![CDATA[MACTAB: Web Design and Marketing for Industrial Partitions]]></summary></entry><entry><title type="html">BLADE ZENON - A collaborative game made by its players</title><link href="http://localhost:4000/Zenon/" rel="alternate" type="text/html" title="BLADE ZENON - A collaborative game made by its players" /><published>2015-03-01T00:00:00-03:00</published><updated>2015-03-01T00:00:00-03:00</updated><id>http://localhost:4000/Zenon</id><content type="html" xml:base="http://localhost:4000/Zenon/"><![CDATA[# Blade Zenon: What Happens When You Attempt the Impossible at 12
 
-<p>In game development, especially in a collaborative setting, feedback loops are crucial. These loops not only help improve the game’s mechanics but also foster a sense of ownership among users. The process I went through with Blade Zenon—the cycle of receiving feedback, adjusting the design, and implementing new ideas—mirrors the concept of continuous improvement found in agile development.</p>
+## The Value of Unrealistic Ambition
 
-<p>It’s an approach that emphasizes constant iteration, and in the context of Blade Zenon, it ensured the game adapted and evolved based on real user experiences. By staying responsive to feedback, the project could refine its design and make meaningful changes in real-time. The forum architecture itself was lightweight: themed templates, clear hierarchy, and simple moderation tooling to keep discussions productive.</p>
+At 12 years old, I decided to build an MMORPG. Anyone with game development experience knows this is absurd—MMORPGs require teams of dozens of professionals, years of development time, significant funding, and complex server infrastructure. A single kid with Unity had no realistic chance of shipping a commercial MMORPG. I knew this was impossible. I did it anyway.
 
-<p><img src="https://i.imgur.com/1ayvgvp.png" alt="Blade Zenon Forum" /></p>
+Blade Zenon never became the game I imagined. It never launched commercially. But attempting the impossible taught me more about building products, managing communities, and shipping software than any tutorial or course could have. Sometimes the value of a project isn't in its success, but in what you learn by trying.
 
-<hr />
+![Blade Zenon Concept Art](https://i.imgur.com/N6e0iGa.png)
 
-<p>Blade Zenon was an online game that featured a community-driven environment, where players could engage in various activities such as forming guilds and participating in discussions about game lore and mechanics. I moderated contributions, merged good ideas, and published changelog-style updates so everyone saw their input reflected in the build.</p>
+## The Lesson: Start Before You're Ready
 
-<p>Members provided ideas, and I executed them. It was a game made by its players, and the lesson still applies: ship quickly, listen carefully, and let users see their fingerprints on the product.</p>
+Most people wait until they're qualified before starting ambitious projects. They want to learn everything first, get the right credentials, build the perfect foundation. This caution makes sense—but it also ensures they never start at all. At 12, I didn't have the wisdom to wait. I just started building.
 
-<p><img src="https://i.imgur.com/xQnrPVI.png" alt="Blade Zenon Memories" /></p>
+What happened next surprised me. I launched a forum, posted about the project, and attracted over 100 active members who wanted to contribute. These weren't other kids playing around—many were adults who saw potential in the collaborative concept and wanted to participate. They shared ideas for character classes, proposed game mechanics, debated lore details, and created concept art. The community became self-sustaining, with members engaging each other even when I couldn't implement features quickly enough.
 
-<hr />]]></content><author><name>João Luís Almeida Santos</name></author><category term="PORTFOLIO PIECE" /><summary type="html"><![CDATA[Blade Zenon: How a Collaborative Project Managed to Create a Game Managed by Its Users]]></summary></entry></feed>
+The forum architecture was simple: themed templates, clear hierarchy, and basic moderation tools. Nothing sophisticated, but it worked. Members felt ownership because I actually implemented their suggestions, published changelog-style updates showing their contributions, and gave credit for ideas that made it into the game. This feedback loop kept people engaged even though the underlying game remained incomplete.
+
+![Blade Zenon Forum](https://i.imgur.com/1ayvgvp.png)
+
+## What You Learn When You Fail at Something Impossible
+
+Attempting an MMORPG taught me skills that translate to every project since. Project management: I learned to evaluate feature requests against technical constraints and prioritize what would deliver the most value to the community. Communication: I discovered that transparency about obstacles builds trust—when I couldn't implement something, explaining why maintained credibility rather than damaging it. Community building: I learned that people engage more deeply when they see their input reflected in the product, a lesson that applies equally to game development and software features.
+
+Technical skills came naturally because I needed them to ship features. Unity development, server basics, database concepts, forum administration—I learned these because the project demanded them, not because I studied them abstractly. This practical, need-driven learning proved far more effective than theoretical study.
+
+Perhaps most importantly, I learned that shipping something imperfect beats perfecting something that never ships. Every update, even small ones, generated excitement and feedback. The community cared more about forward momentum than polish. This lesson—that iteration beats perfection—remains fundamental to how I approach development today.
+
+![Blade Zenon Memories](https://i.imgur.com/xQnrPVI.png)
+
+## The Paradox of Impossible Projects
+
+Here's the paradox: attempting impossible projects makes you capable of completing realistic ones. If I had started with a "reasonable" first project—maybe a simple mobile game or a basic web app—I would have learned incremental lessons. By attempting an MMORPG, I encountered problems so complex that solving even a fraction of them required developing real capabilities.
+
+The project failed by conventional measures. No commercial launch, no revenue, no sustained player base. But measuring success by those metrics misses the point. The real outcome was 100+ people engaging with something I built, a working prototype that demonstrated core concepts, and skills that carried forward into every subsequent project. Most importantly, I learned that you don't need permission to attempt ambitious things. You don't need credentials or perfect preparation. You just need to start and figure it out as you go.
+
+## Why This Matters for Anyone Building Anything
+
+If you're waiting until you're "ready" to start your ambitious project, you're making a mistake. You'll never be ready. The only way to become ready is to start before you are. Pick something unreasonably ambitious, something that seems impossible with your current skills. Start building it anyway.
+
+You probably won't succeed in the way you imagine. The project might fail by conventional standards. But you'll learn more from attempting and failing at something ambitious than from succeeding at something safe. The skills you develop, the networks you build, and the confidence you gain from trying will serve you in ways that finishing a modest project never could.
+
+Blade Zenon taught me that ambitious failure beats modest success. It taught me to ship quickly, listen to users, iterate based on feedback, and maintain transparent communication even when progress stalls. These lessons now apply to software development, product design, and system architecture. The specific context changed, but the principles remain the same.
+
+So don't wait. Start the impossible project. Build the thing you're not qualified to build yet. You'll figure it out along the way, and even if the project fails, you'll emerge with capabilities you didn't have before. That's not just acceptable—that's the entire point.]]></content><author><name>João Luís Almeida Santos</name></author><category term="PORTFOLIO PIECE" /><summary type="html"><![CDATA[Blade Zenon: What Happens When You Attempt the Impossible at 12]]></summary></entry></feed>
