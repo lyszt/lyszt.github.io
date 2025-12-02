@@ -53,6 +53,23 @@ function Navigation() {
   const drawer = (
     <Box sx={{ width: 250 }}>
       <Typography variant="h6" sx={{ my: 2, px: 2 }}>
+        Navigation
+      </Typography>
+      <List>
+        {pages.map((page) => (
+          <ListItem key={page.name} disablePadding>
+            <ListItemButton
+              component="a"
+              href={page.href}
+              disabled={page.disabled}
+            >
+              <ListItemIcon>{page.icon}</ListItemIcon>
+              <ListItemText primary={page.name} />
+            </ListItemButton>
+          </ListItem>
+        ))}
+      </List>
+      <Typography variant="subtitle2" sx={{ my: 2, px: 2, fontWeight: 'bold' }}>
         Reach out to me
       </Typography>
       <List>
@@ -66,23 +83,6 @@ function Navigation() {
             >
               <ListItemIcon>{link.icon}</ListItemIcon>
               <ListItemText primary={link.name} />
-            </ListItemButton>
-          </ListItem>
-        ))}
-      </List>
-      <Typography variant="subtitle2" sx={{ my: 2, px: 2, fontWeight: 'bold' }}>
-        Navigation
-      </Typography>
-      <List>
-        {pages.map((page) => (
-          <ListItem key={page.name} disablePadding>
-            <ListItemButton
-              component="a"
-              href={page.href}
-              disabled={page.disabled}
-            >
-              <ListItemIcon>{page.icon}</ListItemIcon>
-              <ListItemText primary={page.name} />
             </ListItemButton>
           </ListItem>
         ))}
