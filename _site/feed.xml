@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2025-11-22T19:03:15-03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">LYSZT - Portfólios e Projetos Relevantes</title><subtitle>Welcome to the portfolio of João Luís Almeida Santos (Lyszt Kaldwin), a skilled Developer &amp; Designer. Explore UI/UX design, web &amp; software solutions, and video production services tailored to elevate your business. Discover recent projects and learn about João&apos;s experience in the tech industry. Powered by Lygon Xin.</subtitle><author><name>João Luís Almeida Santos</name></author><entry><title type="html">Embraer - Analysis of the Supply Chain</title><link href="http://localhost:4000/Embraer-Analysis/" rel="alternate" type="text/html" title="Embraer - Analysis of the Supply Chain" /><published>2025-07-30T00:00:00-03:00</published><updated>2025-07-30T00:00:00-03:00</updated><id>http://localhost:4000/Embraer-Analysis</id><content type="html" xml:base="http://localhost:4000/Embraer-Analysis/"><![CDATA[<h1 id="embraer-an-investment-analysis-07302025">Embraer: An Investment Analysis (07/30/2025)</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2025-12-02T16:10:59-03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">LYSZT - Portfólios e Projetos Relevantes</title><subtitle>Welcome to the portfolio of João Luís Almeida Santos (Lyszt Kaldwin), a skilled Developer &amp; Designer. Explore UI/UX design, web &amp; software solutions, and video production services tailored to elevate your business. Discover recent projects and learn about João&apos;s experience in the tech industry. Powered by Lygon Xin.</subtitle><author><name>João Luís Almeida Santos</name></author><entry><title type="html">Embraer - Analysis of the Supply Chain</title><link href="http://localhost:4000/Embraer-Analysis/" rel="alternate" type="text/html" title="Embraer - Analysis of the Supply Chain" /><published>2025-07-30T00:00:00-03:00</published><updated>2025-07-30T00:00:00-03:00</updated><id>http://localhost:4000/Embraer-Analysis</id><content type="html" xml:base="http://localhost:4000/Embraer-Analysis/"><![CDATA[<h1 id="embraer-an-investment-analysis-07302025">Embraer: An Investment Analysis (07/30/2025)</h1>
 
 <h2 id="embraer-in-focus-an-overview-of-the-brazilian-aerospace-company">Embraer in Focus: An Overview of the Brazilian Aerospace Company</h2>
 
@@ -41,33 +41,21 @@
 
 <h1 id="kairos-insight-iii">Kairos Insight III</h1>
 
-<p>This analysis of Embraer, which I conducted on July 30, 2025, leverages data collected and processed by Kairos Insight 3, a comprehensive data collection and scraping program I developed from the ground up. My work on Kairos Insight 3 involved architecting its robust backend using Python and Django, where I integrated and configured libraries such as requests for making HTTP requests, feedparser for RSS feed aggregation, BeautifulSoup for parsing HTML content, readability for extracting clean article text, dateparser for flexible date parsing, and GNews for efficient news aggregation. I designed and implemented the data collection and analysis scripts, ensuring their efficiency and reliability for web scraping and processing diverse data sources. Furthermore, I developed its integrated AI component through custom Python modules (e.g., collector/Analysis/AI.py), which I engineered to provide advanced capabilities for summarizing web pages, extracting structured data, and performing in-depth analysis of company activities, offering a deep dive into market signals and logistical dependencies. On the frontend, I built the user interface with React and TypeScript, leveraging Vite for a fast development experience and Tailwind CSS for a modern and responsive design, ensuring efficient data presentation and a seamless user experience.</p>]]></content><author><name>João Luís Almeida Santos</name></author><category term="MARKET ANALYSIS" /><summary type="html"><![CDATA[Embraer: An Investment Analysis (07/30/2025)]]></summary></entry><entry><title type="html">LYSZT - A modern and interactive portfolio</title><link href="http://localhost:4000/LYSZT/" rel="alternate" type="text/html" title="LYSZT - A modern and interactive portfolio" /><published>2025-01-07T00:00:00-03:00</published><updated>2025-01-07T00:00:00-03:00</updated><id>http://localhost:4000/LYSZT</id><content type="html" xml:base="http://localhost:4000/LYSZT/"><![CDATA[<p>The past few years have sparked my interest in modern luxury brands like Porsche, Bugatti, and Lamborghini, and the psychology that drives their appeal. The allure of the unattainable often makes these brands more desirable. Interestingly, adopting an opposite approach—making products more expensive, exclusive, and catering to an elite audience—can enhance a brand’s success.
-<img src="https://github.com/user-attachments/assets/ac05c867-bd52-45fe-925a-c7dbe0e44854" alt="image" /></p>
+<p>This analysis of Embraer, which I conducted on July 30, 2025, leverages data collected and processed by Kairos Insight 3, a comprehensive data collection and scraping program I developed from the ground up. My work on Kairos Insight 3 involved architecting its robust backend using Python and Django, where I integrated and configured libraries such as requests for making HTTP requests, feedparser for RSS feed aggregation, BeautifulSoup for parsing HTML content, readability for extracting clean article text, dateparser for flexible date parsing, and GNews for efficient news aggregation. I designed and implemented the data collection and analysis scripts, ensuring their efficiency and reliability for web scraping and processing diverse data sources. Furthermore, I developed its integrated AI component through custom Python modules (e.g., collector/Analysis/AI.py), which I engineered to provide advanced capabilities for summarizing web pages, extracting structured data, and performing in-depth analysis of company activities, offering a deep dive into market signals and logistical dependencies. On the frontend, I built the user interface with React and TypeScript, leveraging Vite for a fast development experience and Tailwind CSS for a modern and responsive design, ensuring efficient data presentation and a seamless user experience.</p>]]></content><author><name>João Luís Almeida Santos</name></author><category term="MARKET ANALYSIS" /><summary type="html"><![CDATA[Embraer: An Investment Analysis (07/30/2025)]]></summary></entry><entry><title type="html">LYSZT - A modern and interactive portfolio</title><link href="http://localhost:4000/LYSZT/" rel="alternate" type="text/html" title="LYSZT - A modern and interactive portfolio" /><published>2025-01-07T00:00:00-03:00</published><updated>2025-01-07T00:00:00-03:00</updated><id>http://localhost:4000/LYSZT</id><content type="html" xml:base="http://localhost:4000/LYSZT/"><![CDATA[<p>LYSZT is my personal portfolio: a fast, maintainable site that highlights case studies without getting in the way.</p>
 
-<p>Scientific studies support this phenomenon. Research in consumer psychology, such as the Veblen Effect, highlights how higher prices and exclusivity increase perceived value and social status. Additionally, scarcity, as outlined by Cialdini’s principles of persuasion, heightens desirability by making products feel unique and limited.</p>
+<h2 id="objectives">Objectives</h2>
+<p>Navigation stays simple and consistent across posts and case studies. Performance is prioritized on desktop and mobile with lightweight assets, and content updates are straightforward—no layout surprises when adding new work.</p>
 
-<p>Over time, as I designed the website you are now using to explore my work, I began delving into the psychology of luxury branding and applying it to my own brand. I started asking myself: What if I transformed my brand into a luxury one? In my freelance endeavors, I’ve adopted higher pricing and focused on delivering top-tier services, even prioritizing client satisfaction over short-term financial gain.</p>
+<h2 id="build-and-content">Build and content</h2>
+<p>The site uses a minimal grid-based layout, a restrained color palette, and generous whitespace for readability. Structured sections—hero, case summaries, CTAs—let new entries slot in cleanly, while optimized images and compressed assets keep the experience snappy.</p>
 
-<p>More importantly, I’ve come to realize that achieving what may seem small or unattainable requires aiming for something far greater. To reach the moon, you must set your sights on the center of the galaxy. This mindset led to the creation of LYSZT—a brand rooted in self-respect, ambition, and a vision of my role in the world. This website now embodies how I choose to perceive myself and my aspirations.
-<img src="https://github.com/user-attachments/assets/f1332faa-a256-4313-bc64-fdb4a59c1526" alt="image" /></p>
+<p><img src="https://github.com/user-attachments/assets/14cd34e1-e4fc-48b6-b2ca-194ded0cb6b4" alt="Page composition and imagery" /></p>
 
-<p>Research supports the psychological and strategic benefits of this approach. The concept of self-concept clarity, as noted in consumer and branding studies, highlights how aligning personal values with brand identity creates a more authentic and impactful brand. Additionally, theories like Maslow’s hierarchy of needs suggest that targeting self-actualization and esteem needs aligns with the aspirational qualities of luxury branding. By embracing ambition and exclusivity, the LYSZT concept reflects both personal growth and strategic positioning.</p>
+<p><img src="https://github.com/user-attachments/assets/b28fc10d-31eb-4e82-8b1d-e00eae7ac10e" alt="Landing and sign-in treatments" /></p>
 
-<h1 id="the-aesthetic-basis-of-lyszt">THE AESTHETIC BASIS OF LYSZT</h1>
+<p><img src="https://github.com/user-attachments/assets/28b5969b-7f71-44cd-9eb7-7685fc4b7ff8" alt="Supporting visuals" /></p>
 
-<p>The name, as can be observed, comes as an hommage to french musician, Franz Liszt. The website embodies a modern, minimalistic design inspired by luxury brands and the timeless principles of Swiss design. Clean lines, grid-based layouts, and a focus on whitespace create a sense of sophistication and elegance. The brand’s core colors are white, gray, black, with touches of medium aquamarine.
-<img src="https://github.com/user-attachments/assets/14cd34e1-e4fc-48b6-b2ca-194ded0cb6b4" alt="image" /></p>
-
-<p>Initially, the website’s aesthetic was dominated by crimson tones. However, the introduction of a project, “Scarlett Gateway,” reshaped my personal vision of beauty and art. This shift ushered in a design language characterized by understated elegance and a commitment to a serene, modern art style, eschewing bold contrasts for subtlety and harmony.
-<img src="https://github.com/user-attachments/assets/b28fc10d-31eb-4e82-8b1d-e00eae7ac10e" alt="login" /></p>
-
-<p>Speaking of Serene, I was particularly pushed by a modern musician that has also inspired me to build the website in this manner, and the name of that musician is SERENE. She is, according to her profile, a concert pianist &amp; ex-Hacker. Bösendorfer Artist. I have discovered her watching a Sillicon Valley concert from a nuclear fusion startup called FUSE, where she played piano with a robot, thanks to a modern music brand called FINIS MUSICAE. The scenery in that concert was a great inspirator of the current design of my website. I don’’t know why, but the idea of mixing classicism with modernism is beautifully inspiring to me, and it motivates me right now on every project I work in. Is there a reason why the old cannot be mixed with the nouveau?
-<img src="https://github.com/user-attachments/assets/586ff5cc-2dc7-4ddb-918b-f4fe1588d749" alt="394830328-061ea4e2-8e23-4437-9a5f-54b06ddcfb67" /></p>
-
-<p>Typography choices further align with the Swiss design ethos, using clean sans-serif fonts for clarity and professionalism. Subtle animations and interactions add a sense of fluidity.
-<img src="https://github.com/user-attachments/assets/28b5969b-7f71-44cd-9eb7-7685fc4b7ff8" alt="image" /></p>
-
-<hr />]]></content><author><name>João Luís Almeida Santos</name></author><category term="PORTFOLIO PIECE" /><summary type="html"><![CDATA[The past few years have sparked my interest in modern luxury brands like Porsche, Bugatti, and Lamborghini, and the psychology that drives their appeal. The allure of the unattainable often makes these brands more desirable. Interestingly, adopting an opposite approach—making products more expensive, exclusive, and catering to an elite audience—can enhance a brand’s success.]]></summary></entry><entry><title type="html">Principles for making figures for research</title><link href="http://localhost:4000/ArticleDesign/" rel="alternate" type="text/html" title="Principles for making figures for research" /><published>2024-11-14T00:00:00-03:00</published><updated>2024-11-14T00:00:00-03:00</updated><id>http://localhost:4000/ArticleDesign</id><content type="html" xml:base="http://localhost:4000/ArticleDesign/"><![CDATA[<h1 id="knowing-how-to-sell-your-research-the-importance-of-design-in-academic-papers">Knowing How to “Sell” Your Research: The Importance of Design in Academic Papers</h1>
+<hr />]]></content><author><name>João Luís Almeida Santos</name></author><category term="PORTFOLIO PIECE" /><summary type="html"><![CDATA[LYSZT is my personal portfolio: a fast, maintainable site that highlights case studies without getting in the way.]]></summary></entry><entry><title type="html">Principles for making figures for research</title><link href="http://localhost:4000/ArticleDesign/" rel="alternate" type="text/html" title="Principles for making figures for research" /><published>2024-11-14T00:00:00-03:00</published><updated>2024-11-14T00:00:00-03:00</updated><id>http://localhost:4000/ArticleDesign</id><content type="html" xml:base="http://localhost:4000/ArticleDesign/"><![CDATA[<h1 id="knowing-how-to-sell-your-research-the-importance-of-design-in-academic-papers">Knowing How to “Sell” Your Research: The Importance of Design in Academic Papers</h1>
 
 <p><img src="/assets/img/3darticle.jpg" alt="Beautiful 3d render made for a research paper" /></p>
 
@@ -101,42 +89,35 @@ Here’s the complete list if you’re an advanced user and want the best stuff 
 
 <blockquote>
   <p>Below I have left a documentary in case you have the interest of diving in further into the subject.</p>
-</blockquote>]]></content><author><name>João Luís Almeida Santos</name></author><category term="DISCUSSION" /><summary type="html"><![CDATA[Knowing How to “Sell” Your Research: The Importance of Design in Academic Papers]]></summary></entry><entry><title type="html">THERAPY WITH LEX</title><link href="http://localhost:4000/Lex/" rel="alternate" type="text/html" title="THERAPY WITH LEX" /><published>2024-01-01T00:00:00-03:00</published><updated>2024-01-01T00:00:00-03:00</updated><id>http://localhost:4000/Lex</id><content type="html" xml:base="http://localhost:4000/Lex/"><![CDATA[<style>.post-parallax {
-	width: 100%;
-	height: 60vh;
-	overflow: hidden;
-  	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-position: center;
-    background-size: 60%;
-}
-</style>
+</blockquote>]]></content><author><name>João Luís Almeida Santos</name></author><category term="DISCUSSION" /><summary type="html"><![CDATA[Knowing How to “Sell” Your Research: The Importance of Design in Academic Papers]]></summary></entry><entry><title type="html">THERAPY WITH LEX</title><link href="http://localhost:4000/Lex/" rel="alternate" type="text/html" title="THERAPY WITH LEX" /><published>2024-01-01T00:00:00-03:00</published><updated>2024-01-01T00:00:00-03:00</updated><id>http://localhost:4000/Lex</id><content type="html" xml:base="http://localhost:4000/Lex/"><![CDATA[<p>This was a marketing site for therapist and coach Lex E. Santi. The brief: present services, books, and long-form writing in a fast, credible, and easy-to-maintain way.</p>
 
-<p>Lex was one of my favourite clients I’ve worked with. In order to promote his services, he asked that I built him an engaging website with a modern, engaging design. You can see some examples of this work right here in this post.</p>
+<p>Focus areas were clear pathways for coaching and clinical supervision, a responsive layout tuned for mobile visitors, and easy updates through structured content blocks rather than ad-hoc HTML.</p>
 
 <hr />
 
-<div class="post-parallax" style="background-image: url('/assets/img/Portfolio/Web/Lex/1.png');"> </div>
+<p><img src="/assets/img/Portfolio/Web/Lex/1.png" alt="Clinical supervision visual for Lex" /></p>
 
-<p>I designed this visual to communicate the key elements of Clinical Supervision in a clear and engaging manner. The title “Clinical Supervision” is prominently displayed in a bold font, immediately informing the viewer of the subject matter. Each of the three main points is accompanied by a simple, orange icon that visually represents the concept, helping in quick recognition and understanding. Below each icon, there is concise text that succinctly explains the associated concept, ensuring the message is conveyed without overwhelming the viewer. The use of orange for the icons draws attention, and the black background for the icons contrasts well with the white background, ensuring readability and visual appeal. The balanced layout, with evenly spaced and aligned points, creates an organized and aesthetically pleasing design. This professional and clean style is appropriate for the context of clinical supervision, balancing professionalism with approachability for the intended audience of licensed professionals.</p>
+<p>This section packages the clinical supervision offer with concise copy and iconography, keeping the message approachable for licensed professionals.</p>
+
+<p>Structured sections for services, testimonials, and CTAs keep edits consistent. Optimized assets and typography help pages load quickly and stay readable on phones, and the forms/CTAs are instrumented so we can see which services attract clicks.</p>
 
 <hr />
 
-<div class="post-parallax" style="
-	background-image: url('/assets/img/Portfolio/Web/Lex/2.png');"></div>
-<p>This design effectively showcases a collection of poetry books with an elegant and clean layout. The prominent “Poetry” title clearly indicates the section, while each book is displayed with its cover art, title, and artist credit, providing a visually appealing and informative presentation. The navigation arrows and pagination dots allow for easy browsing, enhancing the user experience. For more details and to explore the entire collection, please see more by clicking the button below, directing you to the full page.</p>
+<p><img src="/assets/img/Portfolio/Web/Lex/2.png" alt="Poetry carousel design for Lex" /></p>
 
-<div class="post-parallax" style="background-image: url('../img/Portfolio/Web/Lex/3.png');"> </div>
-<hr />]]></content><author><name>João Luís Almeida Santos</name></author><category term="PORTFOLIO PIECE" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">LYGON - A Service Agency Dedicated to Design, Animation, and the Arts</title><link href="http://localhost:4000/Lygon/" rel="alternate" type="text/html" title="LYGON - A Service Agency Dedicated to Design, Animation, and the Arts" /><published>2021-12-01T00:00:00-03:00</published><updated>2021-12-01T00:00:00-03:00</updated><id>http://localhost:4000/Lygon</id><content type="html" xml:base="http://localhost:4000/Lygon/"><![CDATA[<h1 id="lygon---a-creative-journey-through-design-and-videography">LYGON - A Creative Journey Through Design and Videography</h1>
+<p>An accessible carousel showcases poetry titles with clear navigation, generous spacing, and typography that suits the literary tone of the work.</p>
 
-<p>Lygon Xin is dedicated to my videography and design projects,
-and all the portfolio related to it was created to suit a variety of clients.
-I’ve worked on various projects, including branding, video editing, web design and development. All design elements
-are built using modern tools like After Effects, Premiere Pro, and Adobe Illustrator.
-Through Lygon, I’ve built a portfolio that caters to a wide range of clients—from influencers carving out their niche in the entertainment
-industry to established companies in Canada and the United States.</p>
+<hr />
 
-<p><img src="../assets/img/Logobackground.png" alt="Lygon Logo" /></p>
+<p><img src="/assets/img/Portfolio/Web/Lex/3.png" alt="Lex site hero and mobile treatments" /></p>
+
+<p>Additional layouts show the hero treatment and responsive mobile views used across the site. Structured content blocks and lightweight assets keep edits simple and performance high.</p>
+
+<hr />]]></content><author><name>João Luís Almeida Santos</name></author><category term="PORTFOLIO PIECE" /><summary type="html"><![CDATA[This was a marketing site for therapist and coach Lex E. Santi. The brief: present services, books, and long-form writing in a fast, credible, and easy-to-maintain way.]]></summary></entry><entry><title type="html">LYGON - A Service Agency Dedicated to Design, Animation, and the Arts</title><link href="http://localhost:4000/Lygon/" rel="alternate" type="text/html" title="LYGON - A Service Agency Dedicated to Design, Animation, and the Arts" /><published>2021-12-01T00:00:00-03:00</published><updated>2021-12-01T00:00:00-03:00</updated><id>http://localhost:4000/Lygon</id><content type="html" xml:base="http://localhost:4000/Lygon/"><![CDATA[<h1 id="lygon---creative-production-and-delivery">LYGON - Creative Production and Delivery</h1>
+
+<p>Lygon Xin is the umbrella for my video, animation, and supporting web work. I handle branding, editing, and delivery for a range of clients—from influencers defining their voice to teams in Canada and the United States that need reliable promo and internal videos. The toolkit stays consistent: After Effects, Premiere Pro, Illustrator, and lightweight web builds that keep reels fast to load.</p>
+
+<p><img src="/assets/img/Logobackground.png" alt="Lygon Logo" /></p>
 
 <blockquote>
   <p>The first iterations of Lygon’s brand were created back in 2014, setting the foundation for years of creative growth.</p>
@@ -146,8 +127,12 @@ industry to established companies in Canada and the United States.</p>
 
 <h2 id="a-visual-evolution-from-2016-to-2021">A Visual Evolution: From 2016 to 2021</h2>
 
-<iframe width="420" height="315" src="https://www.youtube.com/embed/13qCYubhscI"></iframe>
-<iframe width="420" height="315" src="https://www.youtube.com/embed/fjJKdGJ5cN8"></iframe>
+<div class="video-embed">
+  <iframe src="https://www.youtube.com/embed/13qCYubhscI" title="Lygon intro 2016 version" allowfullscreen=""></iframe>
+</div>
+<div class="video-embed">
+  <iframe src="https://www.youtube.com/embed/fjJKdGJ5cN8" title="Lygon intro 2021 version" allowfullscreen=""></iframe>
+</div>
 
 <p><em>“Lygon’s opening sequences have evolved significantly. Compare the dynamic simplistic 2016 version to the polished 2021 iteration.”</em></p>
 
@@ -155,99 +140,60 @@ industry to established companies in Canada and the United States.</p>
 
 <h2 id="working-with-influencers-and-businesses">Working with Influencers and Businesses</h2>
 
-<p>One of Lygon Xin’s core specialties is crafting visual content that empowers influencers in the competitive entertainment industry. Promotional videos, vlogs, and engaging visual branding - It has it all.
-’ve helped influencers find their voice and stand out. That’s the power of Lygon.</p>
+<p>I build promo, branding, and internal communications videos with a tight review loop—script, storyboard, V1/V2/final—so feedback is specific and turnarounds stay quick. Deliverables ship with thumbnails and captions for web and social. Work ranges from branding and promotional cuts tuned for target audiences to internal comms pieces that stay on-message and concise. Collaborations span influencers, entrepreneurial teams, and established businesses across Canada and the United States, all following the same disciplined process so clients always know what’s next.</p>
 
-<p>Beyond influencer collaborations, Lygon has partnered with companies across Canada and the United States to produce impactful corporate videos. These projects include:</p>
-<ul>
-  <li><strong>Branding videos</strong> to establish a unique company identity.</li>
-  <li><strong>Promotional content</strong> designed to captivate target audiences.</li>
-  <li><strong>Internal communications videos</strong> that ensure consistency and professionalism.</li>
-</ul>
-
-<p>So far Lygon has worked with companies related to Microsoft, enterpreneurish individuals and startups.</p>
-<blockquote>
-  <p>Check out more examples of these works in the portfolio—click the ~see more~ button to explore.</p>
-</blockquote>
-
-<p><img src="../assets/img/Portfolio/Design/mockup.jpg" alt="Design Mockup" /></p>
+<p><img src="/assets/img/Portfolio/Design/mockup.jpg" alt="Design Mockup" /></p>
 
 <hr />
 
 <h2 id="exploring-entertainment-and-wild-storytelling">Exploring Entertainment and Wild Storytelling</h2>
 
-<p>Lygon Xin is also a platform for creative projects that push the boundaries of conventional storytelling. One such project is the YouTube miniseries <em>Chodo and Deton</em>. This absurd, nonsensical story dives into immortality, clone-making, and multiverse travel—offering viewers an unpredictable and hilarious ride.</p>
+<p>Lygon Xin is also a platform for unconventional storytelling. The YouTube miniseries <em>Chodo and Deton</em> dives into immortality, clone-making, and multiverse travel—kept on track with the same production discipline (clear checkpoints, versioned cuts, and purposeful visual choices).</p>
 
-<iframe width="420" height="315" src="https://www.youtube.com/embed/XJf9m81MkAI"></iframe>
-<iframe width="420" height="315" src="https://www.youtube.com/embed/O5K_f5ET98M"></iframe>
-<iframe width="420" height="315" src="https://www.youtube.com/embed/KtLxMTNSyOQ"></iframe>
-
-<blockquote>
-  <p>If you have time to spare and a love for absurd comedy, this series is worth a watch!</p>
-</blockquote>
-
-<hr />
-
-<p>Are you looking for a partner to elevate your corporate identity? Lygon Xin has something to offer you. So reach out.</p>
+<div class="video-embed">
+  <iframe src="https://www.youtube.com/embed/XJf9m81MkAI" title="Chodo and Deton episode 1" allowfullscreen=""></iframe>
+</div>
+<div class="video-embed">
+  <iframe src="https://www.youtube.com/embed/O5K_f5ET98M" title="Chodo and Deton episode 2" allowfullscreen=""></iframe>
+</div>
+<div class="video-embed">
+  <iframe src="https://www.youtube.com/embed/KtLxMTNSyOQ" title="Chodo and Deton episode 3" allowfullscreen=""></iframe>
+</div>
 
 <blockquote>
-  <p>Ready to dive in? Check out the portfolio and see how creative design and storytelling can transform your vision into reality.</p>
-</blockquote>]]></content><author><name>João Luís Almeida Santos</name></author><category term="PORTFOLIO PIECE" /><summary type="html"><![CDATA[LYGON - A Creative Journey Through Design and Videography]]></summary></entry><entry><title type="html">MACTAB - How interactive design can help your business</title><link href="http://localhost:4000/Mactab/" rel="alternate" type="text/html" title="MACTAB - How interactive design can help your business" /><published>2021-08-05T00:00:00-03:00</published><updated>2021-08-05T00:00:00-03:00</updated><id>http://localhost:4000/Mactab</id><content type="html" xml:base="http://localhost:4000/Mactab/"><![CDATA[<h1 id="mactab-industrial-partition-solutions">MACTAB: Industrial Partition Solutions</h1>
+  <p>If you have time to spare and a love for absurd comedy, this series is worth a watch. For client work, the same structured process applies—just with a different tone and purpose.</p>
+</blockquote>]]></content><author><name>João Luís Almeida Santos</name></author><category term="PORTFOLIO PIECE" /><summary type="html"><![CDATA[LYGON - Creative Production and Delivery]]></summary></entry><entry><title type="html">MACTAB - How interactive design can help your business</title><link href="http://localhost:4000/Mactab/" rel="alternate" type="text/html" title="MACTAB - How interactive design can help your business" /><published>2021-08-05T00:00:00-03:00</published><updated>2021-08-05T00:00:00-03:00</updated><id>http://localhost:4000/Mactab</id><content type="html" xml:base="http://localhost:4000/Mactab/"><![CDATA[<h1 id="mactab-interactive-configurator-for-partitions">MACTAB: Interactive Configurator for Partitions</h1>
 
-<p>In the digital age, businesses face a critical challenge: how to stand out in a crowded marketplace. One of the most effective tools for achieving this is interactive design—the art of creating user interfaces that don’t just look good but actively engage users, enhance functionality, and deliver memorable experiences.</p>
+<p>MACTAB manufactures industrial floor-to-ceiling partitions. I built a browser-based configurator so sales and clients could explore fabrics, panels, locks, blinds, handles, and glass options without needing custom renders for every request.</p>
 
 <p><img src="https://mactab.com.br/wp-content/uploads/2023/11/logo-mactab-novo.png" alt="Mactab Logo" /></p>
 
-<p>MACTAB specializes in manufacturing industrial partitions for floors and ceilings, offering corporate solutions that optimize space with a blend of technology, aesthetics, acoustics, and innovation. The logo and brand design were created using pure JavaScript, HTML, and CSS.
-While working there, I witnessed firsthand how interactive design could transform a brand. Through a blend of technology, aesthetics, and innovation, we developed solutions that not only optimized space but also provided users with a seamless and intuitive experience.</p>
-<blockquote>
-  <p>I designed this logo, which is now used across MACTAB’s branding.</p>
-</blockquote>
+<p><strong>Focus</strong>
+Guided steps keep selections valid and obvious. Real-time previews reflect material and hardware choices, and exports stay clean for manufacturing handoff.</p>
+
+<p>Users pick fabrics, panels, locks, blinds, handles, and glass, seeing changes immediately instead of waiting on static renders. Inline validation blocks incompatible mixes while presets give sales a sensible starting point, and the flow stays fast enough to run on-site with customers.</p>
+
+<p>That translated into fewer back-and-forth cycles for quotes—a single PDF plus snapshot covers the spec. Sales reps use the same data-driven options, keeping outputs consistent, and prospects engage longer because they can experiment safely without breaking constraints.</p>
 
 <hr />
 
-<p><img src="../assets/img/Portfolio/Web/Mactab/1.jpg" alt="Design Example 1" /></p>
+<p><img src="/assets/img/Portfolio/Web/Mactab/1.jpg" alt="Design Example 1" /></p>
 
-<p>The user interface I developed for MACTAB allows for intuitive customization of partitions, offering a range of fabric options, panels, and finishes to match any style or requirement. Users can effortlessly select textures and customize features such as locks, blinds, handles, and glass details. This clean, user-friendly design not only enhances functionality but also emphasizes aesthetics, making it a key piece in my portfolio.</p>
-
-<hr />
-
-<h1 id="why-interactive-design-matters">Why Interactive Design Matters</h1>
-<blockquote>
-  <p>“Design is not just what it looks like and feels like. Design is how it works.”
-— Steve Jobs</p>
-</blockquote>
-
-<p>Interactive design bridges the gap between users and functionality, enabling businesses to:</p>
-
-<ul>
-  <li>Improve User Engagement: Dynamic interfaces encourage users to explore, interact, and spend more time with the product.</li>
-  <li>Increase Efficiency: Clear, intuitive navigation reduces the learning curve and speeds up task completion.</li>
-  <li>Strengthen Branding: A well-designed interface reinforces brand identity, creating a consistent and professional image.</li>
-  <li>Drive Sales and Conversions: Customization options and interactive previews can directly influence purchasing decisions.</li>
-</ul>
+<p>The UI guides users through options, validating combinations and updating previews immediately. Exports capture selections so the factory team can act without back-and-forth.</p>
 
 <h3 id="video-demonstration">Video Demonstration</h3>
 
-<iframe width="420" height="315" src="https://www.youtube.com/embed/OFG6XV8jaBE">
-</iframe>
+<div class="video-embed">
+  <iframe src="https://www.youtube.com/embed/OFG6XV8jaBE" title="MACTAB interactive configurator demo" allowfullscreen=""></iframe>
+</div>
 
-<p><img src="../assets/img/Portfolio/Web/Mactab/2.png" alt="Design Example 2" /></p>
-
-<blockquote>
-  <p>You can see some more designs down below.</p>
-</blockquote>
-
-<hr />]]></content><author><name>João Luís Almeida Santos</name></author><category term="PORTFOLIO PIECE" /><summary type="html"><![CDATA[MACTAB: Industrial Partition Solutions]]></summary></entry><entry><title type="html">BLADE ZENON - A collaborative game made by its players</title><link href="http://localhost:4000/Zenon/" rel="alternate" type="text/html" title="BLADE ZENON - A collaborative game made by its players" /><published>2015-03-01T00:00:00-03:00</published><updated>2015-03-01T00:00:00-03:00</updated><id>http://localhost:4000/Zenon</id><content type="html" xml:base="http://localhost:4000/Zenon/"><![CDATA[<h1 id="blade-zenon-how-a-collaborative-project-managed-to-create-a-game-managed-by-its-users">Blade Zenon: How a Collaborative Project Managed to Create a Game Managed by Its Users</h1>
+<p><img src="/assets/img/Portfolio/Web/Mactab/2.png" alt="Design Example 2" /></p>]]></content><author><name>João Luís Almeida Santos</name></author><category term="PORTFOLIO PIECE" /><summary type="html"><![CDATA[MACTAB: Interactive Configurator for Partitions]]></summary></entry><entry><title type="html">BLADE ZENON - A collaborative game made by its players</title><link href="http://localhost:4000/Zenon/" rel="alternate" type="text/html" title="BLADE ZENON - A collaborative game made by its players" /><published>2015-03-01T00:00:00-03:00</published><updated>2015-03-01T00:00:00-03:00</updated><id>http://localhost:4000/Zenon</id><content type="html" xml:base="http://localhost:4000/Zenon/"><![CDATA[<h1 id="blade-zenon-how-a-collaborative-project-managed-to-create-a-game-managed-by-its-users">Blade Zenon: How a Collaborative Project Managed to Create a Game Managed by Its Users</h1>
 
 <blockquote>
   <p><strong>Website for Blade Zenon:</strong> A website for a MMORPG project from 2015</p>
 </blockquote>
 
-<p>This entry is as much an addition to my portfolio as an homage to the period when it was developed. As a 12-year-old aspiring game developer, I launched an online forum for a game I was passionately working on using Unity.
-This forum became a community hub for over 100 active members. Back then, I had only begun programming, I had started doing 3D modeling, and I had hardly any experience as a developer.</p>
-
-<p>Although the game itself never reached publication, the experience of developing this project and managing the community was invaluable. Several skills I have today were developed during that period, not to mention it was my first experience leading a big project with lots of expectations and hype.</p>
+<p>This was my first experience shipping something end-to-end. At 12 I built a Unity prototype, spun up a forum, and attracted 100+ active members. It never launched commercially, but it taught me how to design community features, ship fast, and respond to user feedback.</p>
 
 <p><img src="https://i.imgur.com/N6e0iGa.png" alt="Blade Zenon Concept Art" /></p>
 
@@ -259,19 +205,15 @@ This forum became a community hub for over 100 active members. Back then, I had 
 
 <p>In game development, especially in a collaborative setting, feedback loops are crucial. These loops not only help improve the game’s mechanics but also foster a sense of ownership among users. The process I went through with Blade Zenon—the cycle of receiving feedback, adjusting the design, and implementing new ideas—mirrors the concept of continuous improvement found in agile development.</p>
 
-<p>It’s an approach that emphasizes constant iteration, and in the context of Blade Zenon, it ensured the game adapted and evolved based on real user experiences. By staying responsive to feedback, the project could refine its design and make meaningful changes in real-time.</p>
+<p>It’s an approach that emphasizes constant iteration, and in the context of Blade Zenon, it ensured the game adapted and evolved based on real user experiences. By staying responsive to feedback, the project could refine its design and make meaningful changes in real-time. The forum architecture itself was lightweight: themed templates, clear hierarchy, and simple moderation tooling to keep discussions productive.</p>
 
 <p><img src="https://i.imgur.com/1ayvgvp.png" alt="Blade Zenon Forum" /></p>
 
 <hr />
 
-<p>Blade Zenon was an online game that featured a community-driven environment, where players could engage in various activities such as forming guilds and participating in discussions about game lore and mechanics.
-The community, the friends I made in that place—they’re all very important memories to me today, and I hope that wherever they stand, wherever they are, they still remember this project and that it has been as positive for them as it was for me.</p>
+<p>Blade Zenon was an online game that featured a community-driven environment, where players could engage in various activities such as forming guilds and participating in discussions about game lore and mechanics. I moderated contributions, merged good ideas, and published changelog-style updates so everyone saw their input reflected in the build.</p>
 
-<p>The forum served as a central platform where players could discuss game mechanics, share feedback, and collaborate on ideas.
-Players were encouraged to contribute ideas for game development and lore through public boards. This collaborative approach allowed players to feel a sense of ownership over the game’s evolution.</p>
-
-<p>Members provided ideas, and I executed them. It was a game made by its players. And I think that’s an awesome idea, you know? A game or project where the business decisions, the design, the very structure, is made based on user experience. This is very much what UX Design is, to the core.</p>
+<p>Members provided ideas, and I executed them. It was a game made by its players, and the lesson still applies: ship quickly, listen carefully, and let users see their fingerprints on the product.</p>
 
 <p><img src="https://i.imgur.com/xQnrPVI.png" alt="Blade Zenon Memories" /></p>
 

@@ -7,7 +7,9 @@ layout: default
   Additional blog JSON-LD is inserted here for article pages.
 {%- endcomment -%}
 
-<link rel="stylesheet" href="/assets/css/blogs/enhancements.css">
+{% assign cover_image = page.cover | default: '/assets/img/Logo.png' %}
+{% assign word_count = content | strip_html | split: ' ' | size %}
+{% assign reading_minutes = word_count | divided_by: 200 | plus: 1 %}
 
 <script type="application/ld+json">
   {
@@ -38,42 +40,53 @@ layout: default
     "articleBody": "{{ content | strip_html | truncatewords: 150 }}"
   }
 </script>
-<div class="top-banner">
-  <h1>{{page.title}}</h1>
-  <span class="subtitle">
-    <h2>{{page.subtitle}}</h2>
-  </span>
-  <div class="header">
-    {% if page.author %}<div class="author">{{page.author}}</div>{% endif %}
-
-    <div class="date">
-      Built around {{ page.date | date: "%B %e, %Y" }}
+<section class="post-shell">
+  <header class="post-hero" style="--post-cover: url('{{ cover_image | escape }}');">
+    <div class="post-hero__texture" aria-hidden="true"></div>
+    <div class="post-hero__content">
+      <p class="post-kicker">{{ page.category | default: 'Article' }}</p>
+      <h1 class="post-title">{{ page.title }}</h1>
+      {% if page.subtitle %}
+      <p class="post-subtitle">{{ page.subtitle }}</p>
+      {% endif %}
+      <div class="post-meta">
+        {% if page.author %}<span class="post-meta__item">{{ page.author }}</span>{% endif %}
+        <span class="post-meta__item">Built around {{ page.date | date: "%B %e, %Y" }}</span>
+        <span class="post-meta__item">{{ reading_minutes }} min read</span>
+      </div>
     </div>
-  </div>
-</div>
-<article class="post">
-  <div class="entry">
+  </header>
 
-    {{ content }}
-    <a href="{{page.refer}}"><button class="btn btn-secondary">See more</button></a>
+  <article class="post-body">
+    {% if page.intro %}
+    <p class="post-intro">{{ page.intro }}</p>
+    {% endif %}
 
-  </div>
+    <div class="post-content markdown-body">
+      {{ content }}
+    </div>
 
-  <script async type="application/javascript"
-          src="https://news.google.com/swg/js/v1/swg-basic.js"></script>
-  <script>
-    (self.SWG_BASIC = self.SWG_BASIC || []).push( basicSubscriptions => {
-      basicSubscriptions.init({
-        type: "NewsArticle",
-        isPartOfType: ["Product"],
-        isPartOfProductId: "CAowwObcCw:openaccess",
-        clientOptions: { theme: "light", lang: "en" },
-      });
+    {% if page.refer %}
+    <a class="post-cta" href="{{page.refer}}">See more</a>
+    {% endif %}
+
+    <div class="post-comments">
+      {% include disqus.html %}
+    </div>
+  </article>
+</section>
+
+<script async type="application/javascript"
+        src="https://news.google.com/swg/js/v1/swg-basic.js"></script>
+<script>
+  (self.SWG_BASIC = self.SWG_BASIC || []).push( basicSubscriptions => {
+    basicSubscriptions.init({
+      type: "NewsArticle",
+      isPartOfType: ["Product"],
+      isPartOfProductId: "CAowwObcCw:openaccess",
+      clientOptions: { theme: "light", lang: "en" },
     });
-  </script>
-
-  {% include disqus.html %}
-</article>
+  });
+</script>
 
 <script src="/assets/js/blog-enhancements.js" type="module"></script>
-</main>
