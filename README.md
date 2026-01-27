@@ -1,6 +1,6 @@
 # Legacy Portfolio Project
 
-**⚠️ This project has been abandoned.**
+**⚠️ This project has been completed and is considered deprecated.**
 
 ## History
 
