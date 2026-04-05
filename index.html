@@ -70,59 +70,64 @@ layout: default
   <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "Person",
-      "name": "João Luís Almeida Santos",
-      "url": "https://www.lyszt.net/",
-      "image": "https://i.imgur.com/XE0vWOA.png",
-      "description": "Full-stack developer and software engineer specializing in modern web applications, minimalist design, computational graphics, and machine learning. Experienced in React, Node.js, Python, C++, and modern web technologies.",
-      "sameAs": [
-        "https://github.com/lyszt",
-        "https://www.linkedin.com/in/lyszt/",
-        "mailto:jluis.kaldwin@gmail.com"
-      ],
-      "jobTitle": "Full-Stack Developer & Software Engineer",
-      "worksFor": {
-        "@type": "Organization",
-        "name": "Litessera"
-      },
-      "alumniOf": {
-        "@type": "EducationalOrganization",
-        "name": "Universidade Federal da Fronteira Sul (UFFS)"
-      },
-      "knowsAbout": [
-        "Full-Stack Development",
-        "Web Development",
-        "Software Engineering",
-        "Python Programming",
-        "C++ Programming",
-        "React",
-        "Node.js",
-        "Machine Learning",
-        "Data Science",
-        "Computational Graphics",
-        "Minimalist Design",
-        "SEO Optimization",
-        "Web Performance"
-      ],
-      "knowsLanguage": [
+      "@graph": [
         {
-          "@type": "Language",
-          "name": "English"
+          "@type": "Person",
+          "@id": "https://litessera.com/profile/lyszt#person",
+          "name": "João Luís Almeida Santos",
+          "url": "https://www.lyszt.net/",
+          "image": "https://i.imgur.com/XE0vWOA.png",
+          "description": "Full-stack developer and software engineer specializing in modern web applications, minimalist design, computational graphics, and machine learning. Experienced in React, Node.js, Python, C++, and modern web technologies.",
+          "sameAs": [
+            "https://lyszt.net/",
+            "https://github.com/lyszt",
+            "https://www.linkedin.com/in/lyszt/",
+            "https://kaldwin.escavador.com/",
+            "https://lattes.cnpq.br/5937880423160686",
+            "https://orcid.org/0009-0005-5334-5429",
+            "https://www.webofscience.com/wos/author/record/PTE-4812-2026"
+          ],
+          "jobTitle": "Founder",
+          "worksFor": { "@id": "https://litessera.com/#organization" },
+          "alumniOf": {
+            "@type": "CollegeOrUniversity",
+            "name": "Universidade Federal da Fronteira Sul",
+            "url": "https://www.uffs.edu.br"
+          },
+          "knowsAbout": [
+            "Full-Stack Development",
+            "Web Development",
+            "Software Engineering",
+            "Python Programming",
+            "C++ Programming",
+            "React",
+            "Node.js",
+            "Machine Learning",
+            "Data Science",
+            "Computational Graphics",
+            "Minimalist Design",
+            "SEO Optimization",
+            "Web Performance"
+          ],
+          "knowsLanguage": [
+            { "@type": "Language", "name": "English" },
+            { "@type": "Language", "name": "French" },
+            { "@type": "Language", "name": "Portuguese" }
+          ],
+          "hasOccupation": {
+            "@type": "Occupation",
+            "name": "Software Developer",
+            "skills": "React, Node.js, Python, C++, JavaScript, HTML, CSS, SQL, Django, Express.js, Machine Learning, Data Science"
+          }
         },
         {
-          "@type": "Language",
-          "name": "French"
-        },
-        {
-          "@type": "Language",
-          "name": "Portuguese"
+          "@type": "Organization",
+          "@id": "https://litessera.com/#organization",
+          "name": "Litessera",
+          "url": "https://litessera.com",
+          "founder": { "@id": "https://litessera.com/profile/lyszt#person" }
         }
-      ],
-      "hasOccupation": {
-        "@type": "Occupation",
-        "name": "Software Developer",
-        "skills": "React, Node.js, Python, C++, JavaScript, HTML, CSS, SQL, Django, Express.js, Machine Learning, Data Science"
-      }
+      ]
     }
   </script>
 
